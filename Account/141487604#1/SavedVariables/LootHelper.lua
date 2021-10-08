@@ -1,0 +1,30 @@
+
+LootHelperDB = {
+	["profileKeys"] = {
+		["Чепотестить - Гордунни"] = {
+			"Default", -- [1]
+		},
+		["Зёбмва - Ревущий фьорд"] = {
+			"Default", -- [1]
+		},
+		["Царева - Ревущий фьорд"] = {
+			"Default", -- [1]
+		},
+	},
+	["AleaGUI_enablePerSpecProfile"] = false,
+	["profiles"] = {
+		["Чепотестить - Гордунни"] = {
+		},
+		["Зёбмва - Ревущий фьорд"] = {
+		},
+		["Default"] = {
+			["enable"] = false,
+			["canTradeFrame"] = false,
+			["minimap"] = {
+				["minimapPos"] = 126.6997373335729,
+			},
+		},
+		["Царева - Ревущий фьорд"] = {
+		},
+	},
+}
