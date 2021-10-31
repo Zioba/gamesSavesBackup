@@ -153,9 +153,9 @@ MADB = {
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
+	["playSound"] = false,
 	["tooltips"] = true,
 	["noBags"] = false,
 	["disableErrorMessages"] = true,
-	["playSound"] = false,
+	["closeGUIOnEscape"] = false,
 }
