@@ -2,6 +2,9 @@ VER 3 000000000000000F "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click ExtraActionButton1
 END
+VER 3 0000000000000015 "ask BoP" "135964"
+/с BoP
+END
 VER 3 0000000000000011 "cancel 2" "INV_MISC_QUESTIONMARK"
 /cancelaura благословение защиты
 END
