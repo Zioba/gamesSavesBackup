@@ -19,13 +19,13 @@ PlaterDBChr = {
 		[102] = "Солнечный огонь",
 		[105] = "Солнечный гнев",
 	},
-	["spellRangeCheckRangeEnemy"] = {
+	["spellRangeCheckRangeFriendly"] = {
 		[103] = 40,
 		[104] = 30,
 		[102] = 45,
 		[105] = 40,
 	},
-	["spellRangeCheckRangeFriendly"] = {
+	["spellRangeCheckRangeEnemy"] = {
 		[103] = 40,
 		[104] = 30,
 		[102] = 45,
