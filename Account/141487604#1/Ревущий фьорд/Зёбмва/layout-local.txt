@@ -27,13 +27,6 @@ X: -145
 Y: 36
 W: 498
 H: 38
-Frame: TalkingHeadFrame
-FrameLevel: 1
-Anchor: LEFT
-X: 29
-Y: -216
-W: 570
-H: 155
 Frame: BossBanner
 FrameLevel: 1
 Anchor: TOP
@@ -48,3 +41,10 @@ X: -6
 Y: -232
 W: 306
 H: 30
+Frame: TalkingHeadFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 29
+Y: -216
+W: 570
+H: 155
