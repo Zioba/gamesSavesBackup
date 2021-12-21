@@ -41,6 +41,13 @@ X: 0
 Y: -120
 W: 128
 H: 156
+Frame: DefaultRCLootFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 470
+H: 87
 Frame: Quartz3CastBarPlayer
 FrameLevel: 1
 Anchor: CENTER
