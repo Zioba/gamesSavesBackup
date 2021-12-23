@@ -1,7 +1,16 @@
 
 PlaterDBChr = {
-	["first_run2"] = {
-		["Player-1615-075E99D1"] = true,
+	["debuffsBanned"] = {
+	},
+	["spellRangeCheckRangeEnemy"] = {
+		[252] = 30,
+		[251] = 30,
+		[250] = 30,
+	},
+	["spellRangeCheckRangeFriendly"] = {
+		[252] = 30,
+		[251] = 30,
+		[250] = 30,
 	},
 	["buffsBanned"] = {
 	},
@@ -13,16 +22,9 @@ PlaterDBChr = {
 		[251] = "Темная власть",
 		[250] = "Темная власть",
 	},
-	["spellRangeCheckRangeFriendly"] = {
-		[252] = 30,
-		[251] = 30,
-		[250] = 30,
+	["first_run2"] = {
+		["Player-1615-075E99D1"] = true,
 	},
-	["debuffsBanned"] = {
-	},
-	["spellRangeCheckRangeEnemy"] = {
-		[252] = 30,
-		[251] = 30,
-		[250] = 30,
+	["minimap"] = {
 	},
 }

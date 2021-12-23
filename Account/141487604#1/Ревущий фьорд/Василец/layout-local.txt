@@ -27,13 +27,6 @@ X: -145
 Y: 36
 W: 498
 H: 38
-Frame: ExtraActionBarFrame
-FrameLevel: 2
-Anchor: BOTTOMRIGHT
-X: -265
-Y: -24
-W: 256
-H: 128
 Frame: BossBanner
 FrameLevel: 1
 Anchor: TOP
