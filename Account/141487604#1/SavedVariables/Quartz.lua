@@ -19,8 +19,6 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -31,6 +29,8 @@ Quartz3DB = {
 					["point"] = "CENTER",
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},

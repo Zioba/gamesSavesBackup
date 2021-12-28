@@ -10,6 +10,7 @@ HandyNotes_ShadowlandsDB = {
 		["Зёба - Ревущий фьорд"] = "Default",
 		["Зёбмва - Ревущий фьорд"] = "Default",
 		["Царева - Ревущий фьорд"] = "Default",
+		["Василец - Ревущий фьорд"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -254,8 +254,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -483,8 +483,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -817,8 +817,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		["uniqueKey"] = "Ппробник:Ревущий фьорд:1",
 	},
@@ -1011,8 +1011,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1223,8 +1223,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1417,8 +1417,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1617,8 +1617,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		["uniqueKey"] = "Зёбинфейл:Ревущий фьорд:1",
 	},
@@ -1818,8 +1818,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -2137,8 +2137,8 @@ DCS_ClassSpecDB = {
 		}, -- [56]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -2403,8 +2403,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -2574,8 +2574,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [38]
 		{
 			["statKey"] = "RatingCategory",
@@ -2860,8 +2860,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 		}, -- [38]
 		{
 			["statKey"] = "RatingCategory",
@@ -3190,8 +3190,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -3370,8 +3370,8 @@ DCS_ClassSpecDB = {
 		}, -- [41]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -3591,8 +3591,8 @@ DCS_ClassSpecDB = {
 		}, -- [37]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -3873,8 +3873,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -4067,8 +4067,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -4211,8 +4211,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 		}, -- [38]
 		{
 			["statKey"] = "RatingCategory",
@@ -4472,8 +4472,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -4739,8 +4739,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [61]
 		["uniqueKey"] = "Зёбинмонк:Ревущий фьорд:3",
 	},
@@ -4938,8 +4938,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -5193,8 +5193,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -5403,8 +5403,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Дебустерчмо:Ревущий фьорд:1",
 	},
@@ -5551,8 +5551,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 		}, -- [38]
 		{
 			["statKey"] = "RatingCategory",
@@ -5854,8 +5854,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -6056,8 +6056,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "DCS_MOVESPEED",
@@ -6256,8 +6256,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -6465,8 +6465,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -6684,8 +6684,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -6985,8 +6985,8 @@ DCS_ClassSpecDB = {
 		}, -- [52]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -7183,8 +7183,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "CR_CORRUPTION_RESISTANCE",
@@ -7487,8 +7487,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [68]
 		["uniqueKey"] = "Зёбмва:Ревущий фьорд:1",
 	},
