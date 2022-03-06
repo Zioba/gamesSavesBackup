@@ -1,66 +1,273 @@
 
 PlaterDB = {
 	["captured_spells"] = {
-		[340357] = {
-			["type"] = "BUFF",
-			["source"] = "Моровая слизь",
+		[332643] = {
+			["source"] = "Госпожа Диракс",
+			["type"] = "DEBUFF",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164705,
+			["npcID"] = 162880,
 		},
-		[327594] = {
+		[336859] = {
+			["source"] = "Азмогал",
 			["type"] = "BUFF",
-			["source"] = "Изрыгатель чумы",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168396,
+			["npcID"] = 162873,
+		},
+		[323446] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Усыхающий арденвельдский мотылек",
+			["npcID"] = 170769,
+		},
+		[338904] = {
+			["source"] = "Яростраж из дома Избранных",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164884,
+		},
+		[328429] = {
+			["source"] = "Склизкое щупальце",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168022,
+		},
+		[319998] = {
+			["source"] = "Костекрыл-шкуродер",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 172390,
+		},
+		[332646] = {
+			["source"] = "Ксантут Чумная",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162872,
+		},
+		[328175] = {
+			["source"] = "Заклинатель чумы",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168627,
 		},
 		[342739] = {
-			["type"] = "BUFF",
 			["source"] = "Чумной громадень",
+			["type"] = "BUFF",
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 171596,
 		},
-		[332865] = {
+		[365351] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Покопок",
+			["npcID"] = 181059,
+		},
+		[368034] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Сорранос",
+			["npcID"] = 183722,
+		},
+		[328432] = {
+			["source"] = "Склизкое щупальце",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168022,
+		},
+		[320512] = {
+			["source"] = "Гниющий слизнекоготь",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 163892,
+		},
+		[310037] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Боггарт",
+			["npcID"] = 166071,
+		},
+		[356666] = {
+			["source"] = "Орос Бессердечный",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179892,
+		},
+		[344658] = {
+			["source"] = "Подчинитель разума",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 62982,
+		},
+		[356667] = {
+			["source"] = "Орос Бессердечный",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 179892,
+		},
+		[356923] = {
+			["source"] = "Палач Варрут",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179890,
+		},
+		[359734] = {
+			["source"] = "Кустос",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 185755,
+		},
+		[328180] = {
+			["source"] = "Заклинатель чумы",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168627,
+		},
+		[356924] = {
+			["source"] = "Палач Варрут",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179890,
+		},
+		[322304] = {
+			["encounterName"] = "Маркграфиня Страдама",
+			["source"] = "Маркграфиня Страдама",
+			["encounterID"] = 2386,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164267,
+		},
+		[336868] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Чудовищный крушитель разломов",
+			["npcID"] = 184606,
+		},
+		[356414] = {
+			["source"] = "Орос Бессердечный",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179892,
+		},
+		[310041] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Боггарт",
+			["npcID"] = 166071,
+		},
+		[320517] = {
+			["source"] = "Чумной спинолом",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 163894,
+		},
+		[115804] = {
+			["source"] = "Дух земли",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[340702] = {
+			["source"] = "Чумная прислужница",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 173840,
+		},
+		[63619] = {
+			["source"] = "Подчинитель разума",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 62982,
+		},
+		[358971] = {
+			["source"] = "Палач Варрут",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179890,
+		},
+		[282449] = {
+			["source"] = "Душа Акаари",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 144961,
+		},
+		[49966] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Тушкан",
+			["npcID"] = 165189,
+		},
+		[318221] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Туманокрыл-часовой",
+			["npcID"] = 163615,
+		},
+		[273892] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Рунический хищник",
+			["npcID"] = 169915,
+		},
+		[318223] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Туманокрыл-часовой",
+			["npcID"] = 163615,
+		},
+		[30213] = {
+			["source"] = "Икзилфаран",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 17252,
+		},
+		[337131] = {
+			["source"] = "Ксантут Чумная",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 162872,
+		},
+		[360382] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Верный Утробе преобразователь",
+			["npcID"] = 181782,
+		},
+		[257161] = {
+			["source"] = "Рыцарь Черного Клинка",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 185845,
+		},
+		[338410] = {
+			["source"] = "Госпожа Диракс",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162880,
+		},
+		[270831] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Боггарт",
+			["npcID"] = 166071,
+		},
+		[361023] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Диверсант из картеля Зи",
+			["npcID"] = 181005,
+		},
+		[361024] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Расхититель из картеля Зи",
+			["npcID"] = 181007,
+		},
+		[351699] = {
+			["source"] = "Мнемоническое снаряжение",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 178268,
+		},
+		[339052] = {
+			["source"] = "Крутящийся клинок",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 173245,
+		},
+		[3110] = {
+			["source"] = "Истасиллин",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 58959,
+		},
+		[344546] = {
+			["source"] = "Госпожа Диракс",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162880,
+		},
+		[118905] = {
+			["source"] = "Тотем конденсации",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 61245,
+		},
+		[324490] = {
 			["encounterName"] = "Склизгл",
 			["source"] = "Склизгл",
 			["encounterID"] = 2382,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 164255,
-		},
-		[339184] = {
-			["type"] = "BUFF",
-			["source"] = "Домина Отравленный Клинок",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164266,
-		},
-		[320103] = {
-			["type"] = "BUFF",
-			["source"] = "Ползучая слизь",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164550,
-		},
-		[327882] = {
-			["source"] = "Чумной рух",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168153,
-		},
-		[320040] = {
-			["type"] = "BUFF",
-			["source"] = "Разлагающийся великан",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 163882,
-		},
-		[322358] = {
-			["encounterName"] = "Доктор Икус",
-			["source"] = "Доктор Икус",
-			["encounterID"] = 2384,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164967,
-		},
-		[330423] = {
-			["type"] = "BUFF",
-			["source"] = "Гриб-штурмовик",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168572,
 		},
 		[329217] = {
 			["encounterName"] = "Доктор Икус",
@@ -69,29 +276,124 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 164967,
 		},
-		[339155] = {
-			["type"] = "BUFF",
-			["source"] = "Стрелок-отравитель",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 167493,
-		},
-		[356694] = {
-			["source"] = "Та'хсап",
+		[361027] = {
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 180214,
+			["source"] = "Исследователь из картеля Зи",
+			["npcID"] = 181093,
 		},
-		[348160] = {
-			["encounterName"] = "Доктор Икус",
-			["source"] = "Доктор Икус",
-			["encounterID"] = 2384,
+		[360644] = {
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164967,
+			["source"] = "Защитный узел Кузни",
+			["npcID"] = 181339,
 		},
-		[332581] = {
+		[288210] = {
+			["source"] = "Претендент арены",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 163032,
+		},
+		[344549] = {
+			["source"] = "Крутящийся клинок",
 			["type"] = "BUFF",
-			["source"] = "Чумной спинолом",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 163894,
+			["npcID"] = 175117,
+		},
+		[319127] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Дух-защитник",
+			["npcID"] = 164007,
+		},
+		[339184] = {
+			["source"] = "Домина Отравленный Клинок",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164266,
+		},
+		[355792] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Верный Утробе агрессор",
+			["npcID"] = 184670,
+		},
+		[356431] = {
+			["source"] = "Гремящий маг",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 180113,
+		},
+		[360775] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Песчаный змей",
+			["npcID"] = 185511,
+		},
+		[340975] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Молниеносец из племени Серпошипов",
+			["npcID"] = 163363,
+		},
+		[356306] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Верный Утробе аннигилятор",
+			["npcID"] = 182214,
+		},
+		[338038] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Валфир Непреклонный",
+			["npcID"] = 168647,
+		},
+		[364355] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Рассекатель из племени Серпошипов",
+			["npcID"] = 161878,
+		},
+		[329224] = {
+			["source"] = "Склизкое щупальце",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168022,
+		},
+		[359629] = {
+			["source"] = "Луговая вомбата",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 178913,
+		},
+		[196742] = {
+			["source"] = "Дух земли",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[359374] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Дремлющий архитектор",
+			["npcID"] = 181028,
+		},
+		[19483] = {
+			["source"] = "Инфернал",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 89,
+		},
+		[329226] = {
+			["source"] = "Склизкое щупальце",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168022,
+		},
+		[141427] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Веспоид-рабочий",
+			["npcID"] = 183258,
+		},
+		[330632] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Боггарт",
+			["npcID"] = 166071,
+		},
+		[338936] = {
+			["source"] = "Костекрыл-шкуродер",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172390,
 		},
 		[331399] = {
 			["encounterName"] = "Маркграфиня Страдама",
@@ -101,151 +403,57 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 164267,
 		},
-		[322232] = {
-			["encounterName"] = "Маркграфиня Страдама",
-			["source"] = "Маркграфиня Страдама",
-			["encounterID"] = 2386,
+		[325395] = {
+			["encounterName"] = "Домина Отравленный Клинок",
+			["source"] = "Shadowclone Stalker",
+			["encounterID"] = 2385,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164267,
+			["npcID"] = 166813,
 		},
-		[338077] = {
-			["source"] = "Таящийся паук",
+		[342897] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Багум",
+			["npcID"] = 174131,
+		},
+		[336893] = {
+			["source"] = "Азмогал",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164737,
+			["npcID"] = 162873,
 		},
-		[320529] = {
+		[2649] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Тушкан",
+			["npcID"] = 165189,
+		},
+		[266120] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Пожирающая гидра",
+			["npcID"] = 169206,
+		},
+		[320542] = {
 			["source"] = "Вирулакс Заклинатель Чумы",
-			["event"] = "SPELL_CAST_SUCCESS",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 168886,
 		},
-		[341443] = {
-			["encounterName"] = "Доктор Икус",
+		[198533] = {
+			["source"] = "Статуя Нефритовой Змеи",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 60849,
+		},
+		[112042] = {
+			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
-			["source"] = "Извергающаяся слизь",
-			["encounterID"] = 2384,
+			["source"] = "Чардоко",
+			["npcID"] = 1860,
+		},
+		[343028] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 170927,
-		},
-		[322304] = {
-			["encounterName"] = "Маркграфиня Страдама",
-			["source"] = "Маркграфиня Страдама",
-			["encounterID"] = 2386,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164267,
-		},
-		[330816] = {
-			["source"] = "Икор Желчная Плоть",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 169861,
-		},
-		[351699] = {
 			["type"] = "BUFF",
-			["source"] = "Мнемоническое снаряжение",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 178268,
-		},
-		[358970] = {
-			["source"] = "Соггодон Ломатель",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179891,
-		},
-		[355711] = {
-			["type"] = "DEBUFF",
-			["source"] = "Орос Бессердечный",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 179892,
-		},
-		[324490] = {
-			["encounterName"] = "Склизгл",
-			["source"] = "Склизгл",
-			["encounterID"] = 2382,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164255,
-		},
-		[322236] = {
-			["encounterName"] = "Маркграфиня Страдама",
-			["source"] = "Тлетворное порождение",
-			["encounterID"] = 2386,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 165430,
-		},
-		[358971] = {
-			["source"] = "Палач Варрут",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179890,
-		},
-		[324459] = {
-			["encounterName"] = "Склизгл",
-			["source"] = "Склизгл",
-			["encounterID"] = 2382,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164255,
-		},
-		[341022] = {
-			["type"] = "BUFF",
-			["source"] = "Чумная прислужница",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 173840,
-		},
-		[322491] = {
-			["encounterName"] = "Маркграфиня Страдама",
-			["source"] = "Маркграфиня Страдама",
-			["encounterID"] = 2386,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164267,
-		},
-		[328365] = {
-			["type"] = "BUFF",
-			["source"] = "Стрелок-отравитель",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 167493,
-		},
-		[328651] = {
-			["source"] = "Стрелок-отравитель",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 167493,
-		},
-		[328429] = {
-			["source"] = "Склизкое щупальце",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168022,
-		},
-		[322492] = {
-			["encounterName"] = "Маркграфиня Страдама",
-			["type"] = "DEBUFF",
-			["source"] = "Маркграфиня Страдама",
-			["encounterID"] = 2386,
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164267,
-		},
-		[332313] = {
-			["encounterName"] = "Домина Отравленный Клинок",
-			["source"] = "Домина Отравленный Клинок",
-			["encounterID"] = 2385,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164266,
-		},
-		[331818] = {
-			["encounterName"] = "Домина Отравленный Клинок",
-			["type"] = "DEBUFF",
-			["source"] = "Домина Отравленный Клинок",
-			["encounterID"] = 2385,
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164266,
-		},
-		[325552] = {
-			["encounterName"] = "Домина Отравленный Клинок",
-			["source"] = "Домина Отравленный Клинок",
-			["encounterID"] = 2385,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164266,
-		},
-		[324652] = {
-			["encounterName"] = "Склизгл",
-			["source"] = "Склизгл",
-			["encounterID"] = 2382,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164255,
+			["source"] = "Луноцвет",
+			["npcID"] = 170360,
 		},
 		[336258] = {
 			["encounterName"] = "Домина Отравленный Клинок",
@@ -255,25 +463,488 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 164266,
 		},
-		[333353] = {
-			["encounterName"] = "Домина Отравленный Клинок",
-			["type"] = "DEBUFF",
-			["source"] = "Домина Отравленный Клинок",
-			["encounterID"] = 2385,
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164266,
+		[328338] = {
+			["source"] = "Стрелок-отравитель",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 167493,
 		},
-		[358784] = {
+		[340858] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Острохвойный костолом",
+			["npcID"] = 167385,
+		},
+		[323229] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Обезумевший страж",
+			["npcID"] = 166735,
+		},
+		[355806] = {
 			["source"] = "Соггодон Ломатель",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 179891,
 		},
-		[325245] = {
+		[17735] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Чардоко",
+			["npcID"] = 1860,
+		},
+		[149416] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Веспоид-дрон",
+			["npcID"] = 183257,
+		},
+		[86603] = {
+			["type"] = "BUFF",
+			["source"] = "Похититель рун Зи'лора",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 181295,
+		},
+		[362326] = {
+			["type"] = "BUFF",
+			["source"] = "Рек Тииро",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 185064,
+		},
+		[89751] = {
+			["source"] = "Икзилфаран",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 17252,
+		},
+		[320072] = {
+			["source"] = "Разлагающийся великан",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 163882,
+		},
+		[138130] = {
+			["source"] = "Дух земли",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[330770] = {
+			["source"] = "Филактерия лича",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 169863,
+		},
+		[328343] = {
+			["source"] = "Ядовитый паук",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168747,
+		},
+		[331537] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Тотем хватки смерти",
+			["npcID"] = 170190,
+		},
+		[329110] = {
+			["encounterName"] = "Доктор Икус",
+			["source"] = "Доктор Икус",
+			["encounterID"] = 2384,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164967,
+		},
+		[211887] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Элисанда",
+			["npcID"] = 106643,
+		},
+		[320679] = {
+			["source"] = "Рунический жнец",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172397,
+		},
+		[336958] = {
+			["source"] = "Несокрушимый Урц",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162853,
+		},
+		[332177] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Молниеносец из племени Серпошипов",
+			["npcID"] = 163363,
+		},
+		[362308] = {
+			["type"] = "BUFF",
+			["source"] = "Кустос",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 185755,
+		},
+		[334988] = {
+			["source"] = "Чумной громадень",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 171596,
+		},
+		[3716] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Чардоко",
+			["npcID"] = 1860,
+		},
+		[30151] = {
+			["source"] = "Икзилфаран",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 17252,
+		},
+		[343037] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Дух-защитник",
+			["npcID"] = 164007,
+		},
+		[368715] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Страж генезиса",
+			["npcID"] = 184058,
+		},
+		[367222] = {
+			["source"] = "Фирим",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 180169,
+		},
+		[322470] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Нетерпеливый претендент",
+			["npcID"] = 170035,
+		},
+		[364831] = {
+			["type"] = "BUFF",
+			["source"] = "Таинственный автом",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 183226,
+		},
+		[347254] = {
+			["source"] = "Ти'ор",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 166534,
+		},
+		[328475] = {
+			["source"] = "Таящийся паук",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164737,
+		},
+		[327581] = {
+			["source"] = "Изрыгатель чумы",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168396,
+		},
+		[333737] = {
+			["source"] = "Сгусток слизи",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164707,
+		},
+		[355541] = {
+			["source"] = "Снующий кусака",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 182319,
+		},
+		[339673] = {
+			["source"] = "Зловещий охотник",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 98035,
+		},
+		[340357] = {
+			["source"] = "Моровая слизь",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164705,
+		},
+		[333931] = {
+			["source"] = "Бойцовский пес дома Избранных",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172388,
+		},
+		[359733] = {
+			["source"] = "Шифроносец",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 181349,
+		},
+		[362409] = {
+			["source"] = "Шифроносец",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 181349,
+		},
+		[328094] = {
+			["source"] = "Заклинатель чумы",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168627,
+		},
+		[345085] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Молодая пикси",
+			["npcID"] = 170029,
+		},
+		[89753] = {
+			["source"] = "Икзилфаран",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 17252,
+		},
+		[356412] = {
+			["source"] = "Орос Бессердечный",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179892,
+		},
+		[327584] = {
+			["source"] = "Изрыгатель чумы",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168393,
+		},
+		[353773] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Молниеносец из племени Серпошипов",
+			["npcID"] = 163363,
+		},
+		[323720] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Мал'Ганис",
+			["npcID"] = 181203,
+		},
+		[332314] = {
+			["encounterName"] = "Домина Отравленный Клинок",
+			["source"] = "Скрывающийся ассасин",
+			["encounterID"] = 2385,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 170478,
+		},
+		[89766] = {
+			["source"] = "Страж Скверны",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 17252,
+		},
+		[338955] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Опустошитель из Темного лабиринта",
+			["npcID"] = 166179,
+		},
+		[55078] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Руническое оружие",
+			["npcID"] = 27893,
+		},
+		[267999] = {
+			["source"] = "Мерзотень",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 135816,
+		},
+		[158939] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Веспоид-надсмотрщик",
+			["npcID"] = 183268,
+		},
+		[332313] = {
 			["encounterName"] = "Домина Отравленный Клинок",
 			["source"] = "Домина Отравленный Клинок",
 			["encounterID"] = 2385,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 164266,
+		},
+		[368295] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Оскверненный архитектор",
+			["npcID"] = 183953,
+		},
+		[336803] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Искатель анимы",
+			["npcID"] = 183651,
+		},
+		[341895] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Валфир Непреклонный",
+			["npcID"] = 168647,
+		},
+		[338957] = {
+			["source"] = "Капитан Хокен",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 165998,
+		},
+		[333975] = {
+			["source"] = "Капитан Хокен",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 165998,
+		},
+		[339155] = {
+			["source"] = "Стрелок-отравитель",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 167493,
+		},
+		[158940] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Веспоид-надсмотрщик",
+			["npcID"] = 183268,
+		},
+		[199373] = {
+			["source"] = "Войско мертвых",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 24207,
+		},
+		[359794] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Насыщенный сердечник",
+			["npcID"] = 181520,
+		},
+		[368294] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Заряженная турель",
+			["npcID"] = 185752,
+		},
+		[365831] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Обращенный страж",
+			["npcID"] = 182357,
+		},
+		[58867] = {
+			["source"] = "Дух волка",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 29264,
+		},
+		[104318] = {
+			["source"] = "Дикий бес",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 55659,
+		},
+		[323885] = {
+			["source"] = "Костекрыл-шкуродер",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 172390,
+		},
+		[341898] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Валфир Непреклонный",
+			["npcID"] = 168647,
+		},
+		[324652] = {
+			["encounterName"] = "Склизгл",
+			["source"] = "Склизгл",
+			["encounterID"] = 2382,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164255,
+		},
+		[328831] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Неумирающий мастер клинка",
+			["npcID"] = 182268,
+		},
+		[322232] = {
+			["encounterName"] = "Маркграфиня Страдама",
+			["source"] = "Маркграфиня Страдама",
+			["encounterID"] = 2386,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164267,
+		},
+		[359265] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Локрийский страж",
+			["npcID"] = 185415,
+		},
+		[310026] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Изменчивый боггарт",
+			["npcID"] = 172047,
+		},
+		[338846] = {
+			["source"] = "Мортанис",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 167525,
+		},
+		[224126] = {
+			["source"] = "Дух волка",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 100820,
+		},
+		[365897] = {
+			["source"] = "Верный Утробе стражник",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 184882,
+		},
+		[348160] = {
+			["encounterName"] = "Доктор Икус",
+			["source"] = "Доктор Икус",
+			["encounterID"] = 2384,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164967,
+		},
+		[330403] = {
+			["source"] = "Чумной рух",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168153,
+		},
+		[1604] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Дубосердка - ночная крикунья",
+			["npcID"] = 172079,
+		},
+		[324527] = {
+			["encounterName"] = "Склизгл",
+			["source"] = "Склизгл",
+			["encounterID"] = 2382,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164255,
+		},
+		[345095] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Вентир-ученик",
+			["npcID"] = 170044,
+		},
+		[270481] = {
+			["source"] = "Демонический тиран",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 135002,
+		},
+		[338848] = {
+			["source"] = "Мортанис",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 167525,
+		},
+		[327594] = {
+			["source"] = "Изрыгатель чумы",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168396,
+		},
+		[326298] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Перерожденный-рыцарь",
+			["npcID"] = 182256,
+		},
+		[260249] = {
+			["source"] = "Ньеми",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 165189,
+		},
+		[328986] = {
+			["source"] = "Нестабильная канистра",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 169159,
 		},
 		[325551] = {
 			["encounterName"] = "Домина Отравленный Клинок",
@@ -283,405 +954,588 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 164266,
 		},
-		[342751] = {
-			["source"] = "Чумной громадень",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 171596,
-		},
-		[355737] = {
-			["source"] = "Испепелитель Арколат",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179446,
-		},
-		[324527] = {
-			["encounterName"] = "Склизгл",
-			["source"] = "Склизгл",
-			["encounterID"] = 2382,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164255,
-		},
-		[328409] = {
-			["type"] = "DEBUFF",
-			["source"] = "Таящийся паук",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164737,
-		},
-		[328475] = {
-			["type"] = "BUFF",
-			["source"] = "Таящийся паук",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164737,
-		},
-		[328400] = {
-			["source"] = "Таящийся паук",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164737,
-		},
-		[328338] = {
-			["source"] = "Стрелок-отравитель",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 167493,
-		},
-		[338079] = {
-			["source"] = "Таящийся паук",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164737,
-		},
-		[355707] = {
-			["type"] = "BUFF",
-			["source"] = "Испепелитель Арколат",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 179446,
-		},
-		[328180] = {
-			["source"] = "Заклинатель чумы",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168627,
-		},
 		[358894] = {
-			["type"] = "BUFF",
 			["source"] = "Орос Бессердечный",
+			["type"] = "BUFF",
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 179892,
 		},
-		[330403] = {
-			["source"] = "Чумной рух",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168153,
-		},
-		[333737] = {
-			["type"] = "BUFF",
-			["source"] = "Сгусток слизи",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164707,
-		},
-		[356414] = {
-			["source"] = "Орос Бессердечный",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179892,
-		},
-		[356412] = {
-			["source"] = "Орос Бессердечный",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179892,
-		},
-		[356667] = {
+		[91800] = {
+			["source"] = "Молотоцап",
 			["type"] = "DEBUFF",
-			["source"] = "Орос Бессердечный",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 179892,
+			["npcID"] = 26125,
 		},
-		[355709] = {
-			["type"] = "DEBUFF",
-			["source"] = "Испепелитель Арколат",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 179446,
-		},
-		[334899] = {
-			["type"] = "BUFF",
-			["source"] = "Стрелок-отравитель",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 174802,
-		},
-		[319070] = {
-			["source"] = "Костномозговая слизь",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 163891,
-		},
-		[330786] = {
-			["source"] = "Икор Желчная Плоть",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 169861,
-		},
-		[355710] = {
-			["type"] = "BUFF",
-			["source"] = "Орос Бессердечный",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 179892,
-		},
-		[63619] = {
-			["source"] = "Подчинитель разума",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 62982,
-		},
-		[320072] = {
-			["type"] = "DEBUFF",
-			["source"] = "Разлагающийся великан",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 163882,
-		},
-		[355806] = {
-			["source"] = "Соггодон Ломатель",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179891,
-		},
-		[328533] = {
-			["source"] = "Защитник из многоокой рати",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 163862,
-		},
-		[328539] = {
-			["type"] = "BUFF",
-			["source"] = "Домина Отравленный Клинок",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 164266,
-		},
-		[327581] = {
-			["source"] = "Изрыгатель чумы",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168396,
-		},
-		[328432] = {
-			["source"] = "Склизкое щупальце",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168022,
-		},
-		[328661] = {
-			["type"] = "BUFF",
-			["source"] = "Хлещущая слизь",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168969,
-		},
-		[328501] = {
-			["type"] = "DEBUFF",
-			["source"] = "Взрывоопасный чумной бурильщик",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168891,
-		},
-		[329226] = {
-			["source"] = "Склизкое щупальце",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168022,
-		},
-		[327233] = {
-			["source"] = "Изрыгатель чумы",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168396,
-		},
-		[328662] = {
-			["type"] = "BUFF",
-			["source"] = "Хлещущая слизь",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168969,
-		},
-		[329224] = {
-			["type"] = "BUFF",
-			["source"] = "Склизкое щупальце",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168022,
-		},
-		[356666] = {
-			["source"] = "Орос Бессердечный",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179892,
-		},
-		[332314] = {
-			["encounterName"] = "Домина Отравленный Клинок",
-			["source"] = "Скрывающийся ассасин",
-			["encounterID"] = 2385,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 170478,
-		},
-		[355714] = {
-			["type"] = "DEBUFF",
-			["source"] = "Палач Варрут",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 179890,
-		},
-		[329110] = {
+		[322358] = {
 			["encounterName"] = "Доктор Икус",
 			["source"] = "Доктор Икус",
 			["encounterID"] = 2384,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 164967,
 		},
-		[327584] = {
-			["source"] = "Изрыгатель чумы",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168393,
-		},
-		[355732] = {
-			["source"] = "Испепелитель Арколат",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179446,
-		},
-		[328029] = {
-			["source"] = "Чумной рух",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168310,
-		},
-		[328343] = {
-			["type"] = "BUFF",
-			["source"] = "Ядовитый паук",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168747,
-		},
-		[318949] = {
-			["source"] = "Чумной спинолом",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 163894,
-		},
-		[322410] = {
-			["source"] = "Сгусток слизи",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164707,
-		},
-		[355716] = {
-			["type"] = "BUFF",
-			["source"] = "Соггодон Ломатель",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 179891,
-		},
-		[325395] = {
+		[325552] = {
 			["encounterName"] = "Домина Отравленный Клинок",
-			["source"] = "Shadowclone Stalker",
+			["source"] = "Домина Отравленный Клинок",
 			["encounterID"] = 2385,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 166813,
+			["npcID"] = 164266,
 		},
-		[356923] = {
-			["source"] = "Палач Варрут",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179890,
-		},
-		[336451] = {
-			["type"] = "BUFF",
-			["source"] = "Защитник из многоокой рати",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 163862,
-		},
-		[321935] = {
-			["source"] = "Сгусток слизи",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 164707,
-		},
-		[320512] = {
-			["source"] = "Гниющий слизнекоготь",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 163892,
-		},
-		[356924] = {
-			["source"] = "Палач Варрут",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179890,
-		},
-		[358773] = {
-			["source"] = "Соггодон Ломатель",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 179891,
-		},
-		[328175] = {
+		[355709] = {
+			["source"] = "Испепелитель Арколат",
 			["type"] = "DEBUFF",
-			["source"] = "Заклинатель чумы",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168627,
+			["npcID"] = 179446,
 		},
-		[331874] = {
-			["type"] = "BUFF",
-			["source"] = "Чумная падшая воительница",
+		[339848] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168968,
+			["type"] = "BUFF",
+			["source"] = "Неизвестно",
+			["npcID"] = 17252,
+		},
+		[324667] = {
+			["encounterName"] = "Склизгл",
+			["source"] = "Склизгл",
+			["encounterID"] = 2382,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164255,
+		},
+		[368477] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Сорранос",
+			["npcID"] = 183722,
+		},
+		[368614] = {
+			["source"] = "Крылатый пожиратель душ",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 185842,
+		},
+		[322743] = {
+			["source"] = "Гниющий прислужник",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 176686,
+		},
+		[329395] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Вентир-ученик",
+			["npcID"] = 170044,
+		},
+		[363124] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Зи'каз",
+			["npcID"] = 181027,
+		},
+		[333929] = {
+			["source"] = "Бойцовский пес дома Избранных",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 172388,
+		},
+		[315079] = {
+			["source"] = "Некрочистильщик",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 161388,
+		},
+		[332581] = {
+			["source"] = "Чумной спинолом",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 163894,
+		},
+		[328929] = {
+			["source"] = "Яростный наездник - боевой рог",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 170969,
+		},
+		[330782] = {
+			["source"] = "Мастер-рунодел",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172395,
+		},
+		[322745] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Обезумевший страж",
+			["npcID"] = 166735,
+		},
+		[329516] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Крадущийся спригган",
+			["npcID"] = 169136,
+		},
+		[359282] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Локрийский страж",
+			["npcID"] = 185415,
+		},
+		[198837] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Восставший тихоступ",
+			["npcID"] = 99541,
+		},
+		[359538] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Страж генезиса",
+			["npcID"] = 184058,
+		},
+		[332650] = {
+			["source"] = "Рунодел-ритуалист",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164886,
+		},
+		[81262] = {
+			["source"] = "Период цветения",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 47649,
+		},
+		[338742] = {
+			["source"] = "Рунический жнец",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172397,
+		},
+		[322236] = {
+			["encounterName"] = "Маркграфиня Страдама",
+			["source"] = "Тлетворное порождение",
+			["encounterID"] = 2386,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 165430,
+		},
+		[355710] = {
+			["source"] = "Орос Бессердечный",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 179892,
+		},
+		[322492] = {
+			["encounterName"] = "Маркграфиня Страдама",
+			["type"] = "DEBUFF",
+			["source"] = "Маркграфиня Страдама",
+			["encounterID"] = 2386,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164267,
+		},
+		[320576] = {
+			["source"] = "Вирулакс Заклинатель Чумы",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168886,
+		},
+		[360048] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Покопок",
+			["npcID"] = 181059,
+		},
+		[359668] = {
+			["source"] = "Оживленный люпин",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 180051,
+		},
+		[345429] = {
+			["source"] = "Склизкое щупальце",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168022,
+		},
+		[361968] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Покопок",
+			["npcID"] = 181059,
+		},
+		[338079] = {
+			["source"] = "Таящийся паук",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164737,
+		},
+		[359587] = {
+			["source"] = "Луговая раптора",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 180052,
+		},
+		[364396] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Истребитель",
+			["npcID"] = 184272,
+		},
+		[333353] = {
+			["encounterName"] = "Домина Отравленный Клинок",
+			["type"] = "DEBUFF",
+			["source"] = "Домина Отравленный Клинок",
+			["encounterID"] = 2385,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164266,
+		},
+		[330926] = {
+			["source"] = "Мастер-рунодел",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172395,
+		},
+		[328799] = {
+			["source"] = "Рунический жнец",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172397,
+		},
+		[338847] = {
+			["source"] = "Мортанис",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 167525,
+		},
+		[263858] = {
+			["source"] = "Beehegoth",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 165189,
+		},
+		[320707] = {
+			["source"] = "Зловещий боевой штандарт",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164751,
+		},
+		[354050] = {
+			["source"] = "Госпожа Диракс",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 162880,
+		},
+		[355711] = {
+			["source"] = "Орос Бессердечный",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 179892,
+		},
+		[360949] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Диссонирующий часовой",
+			["npcID"] = 184268,
+		},
+		[337060] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Зилрото",
+			["npcID"] = 416,
+		},
+		[328501] = {
+			["source"] = "Взрывоопасный чумной бурильщик",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168891,
+		},
+		[338849] = {
+			["source"] = "Мортанис",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 167525,
+		},
+		[362410] = {
+			["source"] = "Шифроносец",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 181349,
+		},
+		[320709] = {
+			["source"] = "Зловещий боевой штандарт",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164751,
+		},
+		[113746] = {
+			["source"] = "Дух земли",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[336806] = {
+			["source"] = "Азмогал",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 162873,
+		},
+		[341022] = {
+			["source"] = "Чумная прислужница",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 173840,
 		},
 		[356925] = {
 			["source"] = "Палач Варрут",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 179890,
 		},
-		[340358] = {
-			["type"] = "DEBUFF",
-			["source"] = "Заклинатель чумы",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168627,
+		[352520] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Слизнюченыш Кевина",
+			["npcID"] = 178601,
 		},
-		[355719] = {
+		[355714] = {
+			["source"] = "Палач Варрут",
 			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 179890,
+		},
+		[258915] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Веспоид-надсмотрщик",
+			["npcID"] = 183268,
+		},
+		[122719] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Локрийский страж",
+			["npcID"] = 185415,
+		},
+		[330037] = {
+			["source"] = "Болотный шершень",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168361,
+		},
+		[345495] = {
+			["source"] = "Вспененная пустула",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 175519,
+		},
+		[263863] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Гидра",
+			["npcID"] = 165189,
+		},
+		[327942] = {
+			["source"] = "Тотем неистовства ветра",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 6112,
+		},
+		[205644] = {
+			["source"] = "Древень",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 103822,
+		},
+		[355716] = {
 			["source"] = "Соггодон Ломатель",
+			["type"] = "BUFF",
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 179891,
 		},
-		[345429] = {
-			["type"] = "DEBUFF",
-			["source"] = "Склизкое щупальце",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168022,
-		},
-		[328986] = {
-			["type"] = "DEBUFF",
-			["source"] = "Нестабильная канистра",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 169159,
-		},
-		[340702] = {
-			["type"] = "BUFF",
-			["source"] = "Чумная прислужница",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 173840,
-		},
-		[342443] = {
-			["source"] = "Чумной рух",
+		[336910] = {
+			["source"] = "Ксантут Чумная",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168310,
+			["npcID"] = 162872,
 		},
-		[346989] = {
+		[363126] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Зи'каз",
+			["npcID"] = 181027,
+		},
+		[368712] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Страж генезиса",
+			["npcID"] = 184058,
+		},
+		[360066] = {
+			["source"] = "Тронутый Утробой люпин",
 			["type"] = "BUFF",
-			["source"] = "Хлещущая слизь",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168969,
+			["npcID"] = 181484,
 		},
-		[327590] = {
+		[325696] = {
+			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
+			["source"] = "Дубовый крушитель",
+			["npcID"] = 172080,
+		},
+		[330423] = {
+			["source"] = "Гриб-штурмовик",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168572,
+		},
+		[317284] = {
+			["source"] = "Госпожа Диракс",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162880,
+		},
+		[358784] = {
+			["source"] = "Соггодон Ломатель",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179891,
+		},
+		[368621] = {
+			["source"] = "Крылатый пожиратель душ",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 185842,
+		},
+		[16827] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Локе'нахак",
+			["npcID"] = 165189,
+		},
+		[334640] = {
+			["source"] = "Пикантные пальчики",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 171474,
+		},
+		[355719] = {
+			["source"] = "Соггодон Ломатель",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 179891,
+		},
+		[342050] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Ми'кай в роли Аргуса Порабощенного",
+			["npcID"] = 166138,
+		},
+		[320716] = {
+			["source"] = "Бугай фон Дейст",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 170778,
+		},
+		[134477] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Неизвестно",
+			["npcID"] = 17252,
+		},
+		[320067] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Молодая пикси",
+			["npcID"] = 170029,
+		},
+		[5672] = {
+			["source"] = "Тотем исцеляющего потока",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 3527,
+		},
+		[342054] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Ми'кай в роли Аргуса Порабощенного",
+			["npcID"] = 166138,
+		},
+		[101546] = {
+			["source"] = "Дух земли",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 69792,
+		},
+		[325245] = {
+			["encounterName"] = "Домина Отравленный Клинок",
+			["source"] = "Домина Отравленный Клинок",
+			["encounterID"] = 2385,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164266,
+		},
+		[327233] = {
 			["source"] = "Изрыгатель чумы",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168393,
-		},
-		[334988] = {
-			["source"] = "Чумной громадень",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 171596,
+			["npcID"] = 168396,
 		},
-		[320542] = {
-			["type"] = "DEBUFF",
-			["source"] = "Вирулакс Заклинатель Чумы",
+		[261616] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 168886,
+			["type"] = "BUFF",
+			["source"] = "Кэти Штемпельпупс",
+			["npcID"] = 132969,
 		},
-		[336449] = {
-			["type"] = "DEBUFF",
-			["source"] = "Разлагающийся великан",
+		[356134] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 163882,
+			["type"] = "BUFF",
+			["source"] = "Призрачная кошка",
+			["npcID"] = 180016,
 		},
-		[320517] = {
-			["source"] = "Чумной спинолом",
+		[340392] = {
+			["source"] = "Дролонмет",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168148,
+		},
+		[334899] = {
+			["source"] = "Стрелок-отравитель",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 174802,
+		},
+		[361088] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Зи'каз",
+			["npcID"] = 181027,
+		},
+		[100780] = {
+			["source"] = "Дух земли",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 163894,
+			["npcID"] = 69792,
+		},
+		[358970] = {
+			["source"] = "Соггодон Ломатель",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179891,
+		},
+		[320081] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Молодая пикси",
+			["npcID"] = 170029,
+		},
+		[227291] = {
+			["source"] = "Нюцзао",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 73967,
+		},
+		[215056] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Боггарт",
+			["npcID"] = 166071,
+		},
+		[340358] = {
+			["source"] = "Заклинатель чумы",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168627,
+		},
+		[159786] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Гончая недр",
+			["npcID"] = 165189,
+		},
+		[322765] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Обезумевший страж",
+			["npcID"] = 166735,
+		},
+		[315454] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Пелагий",
+			["npcID"] = 184003,
 		},
 		[321999] = {
 			["source"] = "Моровая слизь",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 164705,
 		},
-		[334640] = {
-			["type"] = "BUFF",
-			["source"] = "Пикантные пальчики",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 171474,
-		},
-		[334926] = {
-			["source"] = "Жалкий чумной бурильщик",
+		[17253] = {
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168878,
+			["source"] = "Гончая недр",
+			["npcID"] = 165189,
 		},
-		[81262] = {
+		[176458] = {
+			["source"] = "Соратник-кузнец - Орда",
 			["type"] = "BUFF",
-			["source"] = "Период цветения",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 47649,
+			["npcID"] = 88402,
 		},
-		[330037] = {
-			["source"] = "Болотный шершень",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168361,
+		[338850] = {
+			["source"] = "Мортанис",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 167525,
 		},
 		[340356] = {
 			["encounterName"] = "Склизгл",
@@ -690,28 +1544,874 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 164705,
 		},
-		[320576] = {
-			["source"] = "Вирулакс Заклинатель Чумы",
+		[336947] = {
+			["source"] = "Несокрушимый Урц",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168886,
+			["npcID"] = 162853,
 		},
-		[344658] = {
-			["type"] = "DEBUFF",
-			["source"] = "Подчинитель разума",
+		[341163] = {
+			["source"] = "Кирийский голиаф",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 171396,
+		},
+		[108446] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 62982,
+			["type"] = "BUFF",
+			["source"] = "Неизвестно",
+			["npcID"] = 17252,
 		},
-		[328094] = {
-			["source"] = "Заклинатель чумы",
+		[319957] = {
+			["source"] = "Капитан Хокен",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 168627,
+			["npcID"] = 165998,
 		},
-		[324667] = {
+		[330816] = {
+			["source"] = "Икор Желчная Плоть",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 169861,
+		},
+		[337587] = {
+			["source"] = "Госпожа Диракс",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162880,
+		},
+		[363525] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Верный Утробе стиратель",
+			["npcID"] = 183652,
+		},
+		[317791] = {
+			["source"] = "Чародей из войска мертвых",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 163366,
+		},
+		[356694] = {
+			["source"] = "Та'хсап",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 180214,
+		},
+		[201754] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Гончая недр",
+			["npcID"] = 165189,
+		},
+		[319831] = {
+			["source"] = "Костекрыл-шкуродер",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172390,
+		},
+		[342443] = {
+			["source"] = "Чумной рух",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168310,
+		},
+		[90328] = {
+			["source"] = "Неизвестно",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 165189,
+		},
+		[340655] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Мстительная сущность",
+			["npcID"] = 172077,
+		},
+		[352536] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Слизнюченыш Кевина",
+			["npcID"] = 178601,
+		},
+		[332526] = {
+			["source"] = "Кирийский голиаф",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 171396,
+		},
+		[343594] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Чардоко",
+			["npcID"] = 1860,
+		},
+		[333600] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Прожорливый вредитель",
+			["npcID"] = 164622,
+		},
+		[342317] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Диверсант из картеля Зи",
+			["npcID"] = 181005,
+		},
+		[330786] = {
+			["source"] = "Икор Желчная Плоть",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 169861,
+		},
+		[321216] = {
+			["source"] = "Рунодел-ритуалист",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164886,
+		},
+		[327882] = {
+			["source"] = "Чумной рух",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168153,
+		},
+		[339252] = {
+			["source"] = "Мортанис",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 167525,
+		},
+		[355732] = {
+			["source"] = "Испепелитель Арколат",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179446,
+		},
+		[355349] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Разрушитель реальности",
+			["npcID"] = 184185,
+		},
+		[360076] = {
+			["type"] = "BUFF",
+			["source"] = "Дефективный колосс",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 181839,
+		},
+		[365825] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Повелитель ужаса - диверсант",
+			["npcID"] = 182649,
+		},
+		[321935] = {
+			["source"] = "Сгусток слизи",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164707,
+		},
+		[190329] = {
+			["source"] = "Сервид-защитник",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 180050,
+		},
+		[258222] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Обожравшийся гнилячок",
+			["npcID"] = 170768,
+		},
+		[317792] = {
+			["source"] = "Чародей из войска мертвых",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 163366,
+		},
+		[328651] = {
+			["source"] = "Стрелок-отравитель",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 167493,
+		},
+		[319070] = {
+			["source"] = "Костномозговая слизь",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 163891,
+		},
+		[346989] = {
+			["source"] = "Хлещущая слизь",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168969,
+		},
+		[328400] = {
+			["source"] = "Таящийся паук",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164737,
+		},
+		[363400] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Веспоид-рабочий",
+			["npcID"] = 178158,
+		},
+		[100784] = {
+			["source"] = "Дух земли",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 69792,
+		},
+		[336449] = {
+			["source"] = "Разлагающийся великан",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 163882,
+		},
+		[330569] = {
+			["source"] = "Мастер-рунодел",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172395,
+		},
+		[359313] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Локрийский смотритель",
+			["npcID"] = 183824,
+		},
+		[336957] = {
+			["source"] = "Несокрушимый Урц",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162853,
+		},
+		[340662] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Дубосерд - пожиратель душ",
+			["npcID"] = 172078,
+		},
+		[125056] = {
+			["source"] = "Пуфик",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 165189,
+		},
+		[355737] = {
+			["source"] = "Испепелитель Арколат",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179446,
+		},
+		[363530] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Просветленный брокер",
+			["npcID"] = 183659,
+		},
+		[328910] = {
+			["source"] = "Яростный наездник - боевой рог",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 170969,
+		},
+		[328940] = {
+			["source"] = "Яростный наездник - боевой рог",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 170969,
+		},
+		[358773] = {
+			["source"] = "Соггодон Ломатель",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 179891,
+		},
+		[325272] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Нетерпеливый претендент",
+			["npcID"] = 170035,
+		},
+		[59638] = {
+			["source"] = "Зеркальное изображение",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 31216,
+		},
+		[360721] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Истребитель",
+			["npcID"] = 184272,
+		},
+		[364426] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Зи'анат",
+			["npcID"] = 180088,
+		},
+		[337982] = {
+			["source"] = "Ксантут Чумная",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162872,
+		},
+		[365193] = {
+			["source"] = "Оживленный люпин",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 180051,
+		},
+		[294165] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Боец авангарда Утробы",
+			["npcID"] = 183649,
+		},
+		[330574] = {
+			["source"] = "Стойкий элементаль смерти",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 161395,
+		},
+		[331818] = {
+			["encounterName"] = "Домина Отравленный Клинок",
+			["type"] = "DEBUFF",
+			["source"] = "Домина Отравленный Клинок",
+			["encounterID"] = 2385,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164266,
+		},
+		[364683] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Оживленный люпин",
+			["npcID"] = 180051,
+		},
+		[365833] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Мал'Ганис",
+			["npcID"] = 181203,
+		},
+		[336834] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Чудовищный крушитель разломов",
+			["npcID"] = 184606,
+		},
+		[336451] = {
+			["source"] = "Защитник из многоокой рати",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 163862,
+		},
+		[330958] = {
+			["source"] = "Мастер-рунодел",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172395,
+		},
+		[360213] = {
+			["source"] = "Дефективный колосс",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 181839,
+		},
+		[364429] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Зи'варек",
+			["npcID"] = 180085,
+		},
+		[152175] = {
+			["source"] = "Дух земли",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[345267] = {
+			["source"] = "Госпожа Диракс",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 162937,
+		},
+		[107428] = {
+			["source"] = "Дух земли",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 69792,
+		},
+		[327590] = {
+			["source"] = "Изрыгатель чумы",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168393,
+		},
+		[318949] = {
+			["source"] = "Чумной спинолом",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 163894,
+		},
+		[113656] = {
+			["source"] = "Дух земли",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 69792,
+		},
+		[328533] = {
+			["source"] = "Защитник из многоокой рати",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 163862,
+		},
+		[328661] = {
+			["source"] = "Хлещущая слизь",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168969,
+		},
+		[259277] = {
+			["source"] = "Самбас",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 165189,
+		},
+		[6660] = {
+			["source"] = "Претендент арены",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 161757,
+		},
+		[353573] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Мал'Ганис",
+			["npcID"] = 181203,
+		},
+		[328662] = {
+			["source"] = "Хлещущая слизь",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168969,
+		},
+		[320103] = {
+			["source"] = "Ползучая слизь",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164550,
+		},
+		[338085] = {
+			["source"] = "Ксантут Чумная",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 162872,
+		},
+		[324447] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Охотник из рощи",
+			["npcID"] = 182267,
+		},
+		[338077] = {
+			["source"] = "Таящийся паук",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164737,
+		},
+		[359451] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Подозрительный несмин",
+			["npcID"] = 181293,
+		},
+		[335680] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Иггдрет Разоритель",
+			["npcID"] = 184860,
+		},
+		[212423] = {
+			["source"] = "Восставший тихоступ",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 99541,
+		},
+		[322491] = {
+			["encounterName"] = "Маркграфиня Страдама",
+			["source"] = "Маркграфиня Страдама",
+			["encounterID"] = 2386,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164267,
+		},
+		[359452] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Сдерживающая ловушка",
+			["npcID"] = 181206,
+		},
+		[328409] = {
+			["source"] = "Таящийся паук",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164737,
+		},
+		[36213] = {
+			["source"] = "Большой элементаль земли",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 95072,
+		},
+		[321000] = {
+			["source"] = "Костяной щитоносец - ветеран",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164834,
+		},
+		[58729] = {
+			["source"] = "Дворфийский хранитель душ",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 31842,
+		},
+		[54680] = {
+			["source"] = "Кусачка",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 165189,
+		},
+		[368396] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Сорранос",
+			["npcID"] = 183722,
+		},
+		[367502] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Покопок",
+			["npcID"] = 181059,
+		},
+		[334926] = {
+			["source"] = "Жалкий чумной бурильщик",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168878,
+		},
+		[339122] = {
+			["source"] = "Мортанис",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 167525,
+		},
+		[328539] = {
+			["source"] = "Домина Отравленный Клинок",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 164266,
+		},
+		[335821] = {
+			["source"] = "Колокол Ясности",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 172020,
+		},
+		[355707] = {
+			["source"] = "Испепелитель Арколат",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 179446,
+		},
+		[342751] = {
+			["source"] = "Чумной громадень",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 171596,
+		},
+		[328029] = {
+			["source"] = "Чумной рух",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168310,
+		},
+		[341443] = {
+			["encounterName"] = "Доктор Икус",
+			["type"] = "BUFF",
+			["source"] = "Извергающаяся слизь",
+			["encounterID"] = 2384,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 170927,
+		},
+		[328285] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Вентир-ученик",
+			["npcID"] = 170044,
+		},
+		[338851] = {
+			["source"] = "Мортанис",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 167525,
+		},
+		[332865] = {
 			["encounterName"] = "Склизгл",
 			["source"] = "Склизгл",
 			["encounterID"] = 2382,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 164255,
+		},
+		[160067] = {
+			["source"] = "Spider",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 165189,
+		},
+		[331874] = {
+			["source"] = "Чумная падшая воительница",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 168968,
+		},
+		[340678] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Дубосердка - ночная крикунья",
+			["npcID"] = 172079,
+		},
+		[322410] = {
+			["source"] = "Сгусток слизи",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164707,
+		},
+		[368613] = {
+			["source"] = "Крылатый пожиратель душ",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 185842,
+		},
+		[261947] = {
+			["source"] = "Дух земли",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 69792,
+		},
+		[329706] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Верный Утробе снайпер",
+			["npcID"] = 183645,
+		},
+		[359203] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Встревоженный сервитор",
+			["npcID"] = 184059,
+		},
+		[325605] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Валфир Непреклонный",
+			["npcID"] = 168647,
+		},
+		[359459] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Встревоженный страж генезиса",
+			["npcID"] = 184060,
+		},
+		[61684] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Падальщик",
+			["npcID"] = 165189,
+		},
+		[335187] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Бешеный проглот",
+			["npcID"] = 182282,
+		},
+		[335826] = {
+			["source"] = "Колокол Ясности",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172020,
+		},
+		[342932] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Пелагий",
+			["npcID"] = 184003,
+		},
+		[340642] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Дубосерд - пожиратель душ",
+			["npcID"] = 172078,
+		},
+		[359525] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Расхититель из картеля Зи",
+			["npcID"] = 181007,
+		},
+		[336809] = {
+			["source"] = "Азмогал",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 162873,
+		},
+		[263840] = {
+			["source"] = "Wolf",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 165189,
+		},
+		[124007] = {
+			["source"] = "Сюэнь",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 63508,
+		},
+		[360228] = {
+			["source"] = "Дефективный колосс",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 181839,
+		},
+		[359334] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Дремлющий архитектор",
+			["npcID"] = 181028,
+		},
+		[160058] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Копытень",
+			["npcID"] = 165189,
+		},
+		[368277] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Оскверненный архитектор",
+			["npcID"] = 183953,
+		},
+		[324459] = {
+			["encounterName"] = "Склизгл",
+			["source"] = "Склизгл",
+			["encounterID"] = 2382,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 164255,
+		},
+		[364445] = {
+			["source"] = "Зи'бок",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 180089,
+		},
+		[340045] = {
+			["source"] = "Инфернал",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 89,
+		},
+		[346605] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Скованный голем",
+			["npcID"] = 182296,
+		},
+		[364318] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Истребитель",
+			["npcID"] = 184272,
+		},
+		[365477] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Повелитель ужаса - командир",
+			["npcID"] = 181797,
+		},
+		[355558] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Повелитель ужаса - командир",
+			["npcID"] = 181797,
+		},
+		[166766] = {
+			["source"] = "Верный Утробе диверсант",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 185855,
+		},
+		[364319] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Истребитель",
+			["npcID"] = 184272,
+		},
+		[362403] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Злобоклюй",
+			["npcID"] = 181352,
+		},
+		[328365] = {
+			["source"] = "Стрелок-отравитель",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 167493,
+		},
+		[368280] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Оскверненный архитектор",
+			["npcID"] = 183953,
+		},
+		[335193] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Жаждущий душ поглотитель",
+			["npcID"] = 184198,
+		},
+		[325101] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Распорядитель",
+			["npcID"] = 166663,
+		},
+		[267997] = {
+			["source"] = "Мерзотень",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 135816,
+		},
+		[360876] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Обращенный страж",
+			["npcID"] = 182357,
+		},
+		[364321] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Истребитель",
+			["npcID"] = 184272,
+		},
+		[224127] = {
+			["source"] = "Дух волка",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 100820,
+		},
+		[205231] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Созерцатель тьмы",
+			["npcID"] = 103673,
+		},
+		[368282] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Оскверненный архитектор",
+			["npcID"] = 183953,
+		},
+		[360294] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Тронутый Утробой люпин",
+			["npcID"] = 181484,
+		},
+		[292910] = {
+			["source"] = "Верный Утробе диверсант",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 185855,
+		},
+		[355380] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Разрушитель реальности",
+			["npcID"] = 184185,
+		},
+		[368283] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Оскверненный архитектор",
+			["npcID"] = 183953,
+		},
+		[321399] = {
+			["source"] = "Некротический ритуалист",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 173414,
+		},
+		[319994] = {
+			["source"] = "Костекрыл-шкуродер",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 172390,
+		},
+		[355381] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Разрушитель реальности",
+			["npcID"] = 184185,
+		},
+		[124009] = {
+			["source"] = "Сюэнь",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 63508,
+		},
+		[150877] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Ледяное торнадо",
+			["npcID"] = 184302,
+		},
+		[355392] = {
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Ненасытный падальщик",
+			["npcID"] = 182281,
+		},
+		[320529] = {
+			["source"] = "Вирулакс Заклинатель Чумы",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 168886,
+		},
+		[332525] = {
+			["source"] = "Кирийский голиаф",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 171396,
+		},
+		[320040] = {
+			["source"] = "Разлагающийся великан",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 163882,
 		},
 	},
 	["profiles"] = {
@@ -3763,9 +5463,9 @@ PlaterDB = {
 					["semver"] = "",
 					["HooksTemp"] = {
 					},
-					["Name"] = "Cast Bar Icon Settings [P]",
-					["Author"] = "Ditador-Azralon",
 					["Time"] = 1597097268,
+					["Author"] = "Ditador-Azralon",
+					["Name"] = "Cast Bar Icon Settings [P]",
 					["Desc"] = "Move the icon of the spell cast to the left or right side of the nameplate.",
 					["Hooks"] = {
 						["Cast Start"] = "function (self, unitId, unitFrame, envTable)\n    \n    unitFrame.castBar.BorderShield:SetDrawLayer(\"artwork\")\n    envTable.UpdateIconPosition (unitFrame)\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
@@ -3976,17 +5676,17 @@ PlaterDB = {
 				["nameplatePersonalHideDelaySeconds"] = "0.2",
 				["nameplateResourceOnTarget"] = "0",
 				["nameplateMotion"] = "1",
-				["nameplateMinScale"] = "1",
 				["nameplateShowAll"] = "1",
+				["nameplateMinScale"] = "1",
 				["nameplateMaxDistance"] = "40",
-				["nameplateOtherTopInset"] = "0.085",
+				["nameplateShowFriendlyMinions"] = "0",
 				["nameplateSelfScale"] = "1",
 				["nameplateSelfBottomInset"] = "0.2",
 				["nameplateOccludedAlphaMult"] = "0.4",
 				["nameplateShowFriendlyGuardians"] = "0",
-				["nameplateSelfAlpha"] = "1",
 				["NamePlateHorizontalScale"] = "1",
-				["nameplateShowFriendlyMinions"] = "0",
+				["nameplateSelfAlpha"] = "1",
+				["nameplateOtherTopInset"] = "0.085",
 				["nameplateShowSelf"] = "0",
 				["NamePlateVerticalScale"] = "1",
 			},
@@ -4076,8 +5776,8 @@ PlaterDB = {
 				["Bwonsamdi Reaping"] = 1,
 				["Jaina Encounter"] = 6,
 				["Aura Reorder"] = 2,
-				["Extra Border"] = 2,
 				["Combo Points"] = 4,
+				["Extra Border"] = 2,
 				["Reorder Nameplate"] = 4,
 				["Target Color"] = 3,
 				["Players Targetting Amount"] = 4,
@@ -10222,17 +11922,17 @@ PlaterDB = {
 					"Живое торнадо", -- [1]
 					"", -- [2]
 				},
-				[161088] = {
-					"Rénfri-Sylvanas", -- [1]
-					"Храм Котмогу", -- [2]
+				[152898] = {
+					"Угасший хор", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[136006] = {
 					"Буйная гуляка", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[152898] = {
-					"Угасший хор", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[161088] = {
+					"Rénfri-Sylvanas", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[80816] = {
 					"Ахри'ок Дугру", -- [1]
@@ -10254,9 +11954,9 @@ PlaterDB = {
 					"Нерубский копатель", -- [1]
 					"Пещеры Времени: годовщина", -- [2]
 				},
-				[78001] = {
-					"Тотем разразившегося ливня", -- [1]
-					"Вечный дворец", -- [2]
+				[5135] = {
+					"Свальбрад Дальногор", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[151681] = {
 					"Куцехвост Фыркающий", -- [1]
@@ -10382,12 +12082,12 @@ PlaterDB = {
 					"Опытный часовой", -- [1]
 					"Месть Коррака", -- [2]
 				},
-				[140106] = {
-					"Смертежал - страж кладки", -- [1]
-					"", -- [2]
-				},
 				[136011] = {
 					"Камнекров", -- [1]
+					"", -- [2]
+				},
+				[140106] = {
+					"Смертежал - страж кладки", -- [1]
 					"", -- [2]
 				},
 				[140345] = {
@@ -10414,17 +12114,17 @@ PlaterDB = {
 					"Жестокий мако", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[165189] = {
-					"Kendrick", -- [1]
-					"Битва за Гилнеас", -- [2]
-				},
-				[140107] = {
-					"Разящий смертежал", -- [1]
-					"", -- [2]
-				},
 				[140619] = {
 					"Береговой ярдозуб", -- [1]
 					"", -- [2]
+				},
+				[136012] = {
+					"Горус Несдвигаемый", -- [1]
+					"SarasIsland", -- [2]
+				},
+				[165189] = {
+					"Kendrick", -- [1]
+					"Битва за Гилнеас", -- [2]
 				},
 				[13324] = {
 					"Опытный охранник", -- [1]
@@ -10454,9 +12154,9 @@ PlaterDB = {
 					"Скорпид-смертежал", -- [1]
 					"", -- [2]
 				},
-				[140620] = {
-					"Харибдида Южного моря", -- [1]
-					"", -- [2]
+				[152905] = {
+					"Часовой Башни", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[140087] = {
 					"Молодая елениха", -- [1]
@@ -10582,9 +12282,9 @@ PlaterDB = {
 					"Томас Вестмилл", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[83893] = {
-					"Демиург Телу", -- [1]
-					"Вечное Цветение", -- [2]
+				[134994] = {
+					"Призрачный охотник за головами", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[119724] = {
 					"Приливный волноплеск", -- [1]
@@ -10602,9 +12302,9 @@ PlaterDB = {
 					"Сокрушающее щупальце", -- [1]
 					"", -- [2]
 				},
-				[134994] = {
-					"Призрачный охотник за головами", -- [1]
-					"Гробница королей", -- [2]
+				[83893] = {
+					"Демиург Телу", -- [1]
+					"Вечное Цветение", -- [2]
 				},
 				[151886] = {
 					"Отстраненная мысль", -- [1]
@@ -11130,9 +12830,9 @@ PlaterDB = {
 					"Чумная прислужница", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[137058] = {
-					"Проклинательница Магода", -- [1]
-					"", -- [2]
+				[149343] = {
+					"Одержимый буйством азерит", -- [1]
+					"Un'gol Ruins (Islands 1)", -- [2]
 				},
 				[140292] = {
 					"Снегошкур-альфа", -- [1]
@@ -11166,13 +12866,13 @@ PlaterDB = {
 					"Одержимый яростью азерит", -- [1]
 					"", -- [2]
 				},
-				[128435] = {
-					"Ядовитый саурид", -- [1]
-					"Атал'Дазар", -- [2]
-				},
 				[83390] = {
 					"Укротительница из клана Громоборцев", -- [1]
 					"Железные доки", -- [2]
+				},
+				[128435] = {
+					"Ядовитый саурид", -- [1]
+					"Атал'Дазар", -- [2]
 				},
 				[162040] = {
 					"Старший смотритель", -- [1]
@@ -11246,9 +12946,9 @@ PlaterDB = {
 					"Подчинитель костей из клана Призрачной Луны", -- [1]
 					"Некрополь Призрачной Луны", -- [2]
 				},
-				[131431] = {
-					"Автоматический инспектор по безопасности", -- [1]
-					"", -- [2]
+				[164191] = {
+					"Придворная аристократка", -- [1]
+					"Revendreth Scenario", -- [2]
 				},
 				[37799] = {
 					"Злой дух", -- [1]
@@ -11410,25 +13110,25 @@ PlaterDB = {
 					"Избранная кровавая матрона", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[149352] = {
-					"Яркий азерцветовый кристалльник", -- [1]
-					"", -- [2]
+				[137067] = {
+					"Защитница дороги Храброгласа", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[158158] = {
 					"Страж кузни Хуррул", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[137067] = {
-					"Защитница дороги Храброгласа", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[149352] = {
+					"Яркий азерцветовый кристалльник", -- [1]
+					"", -- [2]
 				},
 				[135160] = {
 					"Пехотинец из Стальгорна", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[150376] = {
-					"Коралловый скат", -- [1]
-					"Храм Котмогу", -- [2]
+				[170851] = {
+					"Нестабильная чумная бомба", -- [1]
+					"Чумные каскады", -- [2]
 				},
 				[144849] = {
 					"Разведчик из клана Темной Чешуи", -- [1]
@@ -11446,9 +13146,9 @@ PlaterDB = {
 					"Ядозыбь", -- [1]
 					"", -- [2]
 				},
-				[165222] = {
-					"Костоправ с \"Золрамуса\"", -- [1]
-					"Смертельная тризна", -- [2]
+				[144747] = {
+					"Воплощение Па'ку", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[137068] = {
 					"Кавалеристка с дороги Храброгласа", -- [1]
@@ -11474,13 +13174,13 @@ PlaterDB = {
 					"Шаманка из клана Северного Волка", -- [1]
 					"Альтеракская долина", -- [2]
 				},
-				[11838] = {
-					"Мистик из стаи Дикой Лапы", -- [1]
-					"Месть Коррака", -- [2]
+				[136045] = {
+					"Волнокрут", -- [1]
+					"The Rotting Mire (Islands 9)", -- [2]
 				},
-				[144747] = {
-					"Воплощение Па'ку", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[165222] = {
+					"Костоправ с \"Золрамуса\"", -- [1]
+					"Смертельная тризна", -- [2]
 				},
 				[162764] = {
 					"Искаженный отросток", -- [1]
@@ -11686,17 +13386,17 @@ PlaterDB = {
 					"Когтекрыл-ветеран", -- [1]
 					"Небесный Путь", -- [2]
 				},
-				[131445] = {
-					"Надзиратель блока", -- [1]
-					"Тол Дагор", -- [2]
-				},
-				[156015] = {
-					"Ползучая духоплазма", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[147825] = {
+					"Медик 7-го легиона", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[75976] = {
 					"Низкорожденный араккоа", -- [1]
 					"Небесный Путь", -- [2]
+				},
+				[156015] = {
+					"Ползучая духоплазма", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[140147] = {
 					"Большой Урсу", -- [1]
@@ -11746,9 +13446,9 @@ PlaterDB = {
 					"Склизкое щупальце", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[75209] = {
-					"Лавовый элементаль земли", -- [1]
-					"Шлаковые шахты Кровавого Молота", -- [2]
+				[138101] = {
+					"Стромгардская чародейка", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[77935] = {
 					"Саргерайский страж", -- [1]
@@ -11774,17 +13474,17 @@ PlaterDB = {
 					"Сестра Солена", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[144757] = {
-					"Эдгард Темный Коготь", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[140662] = {
+					"Старый длинномех", -- [1]
+					"", -- [2]
 				},
 				[138102] = {
 					"Стромгардская жрица", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[75210] = {
-					"Страж из клана Кровавого Молота", -- [1]
-					"Шлаковые шахты Кровавого Молота", -- [2]
+				[138103] = {
+					"Стромгардская арбалетчица", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[81864] = {
 					"Страхоцвет", -- [1]
@@ -11798,9 +13498,9 @@ PlaterDB = {
 					"Манта Южных морей", -- [1]
 					"Un'gol Ruins (Islands 1)", -- [2]
 				},
-				[140662] = {
-					"Старый длинномех", -- [1]
-					"", -- [2]
+				[144757] = {
+					"Эдгард Темный Коготь", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[10367] = {
 					"Шри Десница Гнева", -- [1]
@@ -11810,9 +13510,9 @@ PlaterDB = {
 					"Тотем целительного прилива", -- [1]
 					"Гробница королей", -- [2]
 				},
-				[138103] = {
-					"Стромгардская арбалетчица", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[75210] = {
+					"Страж из клана Кровавого Молота", -- [1]
+					"Шлаковые шахты Кровавого Молота", -- [2]
 				},
 				[134894] = {
 					"Железнопут-ткач", -- [1]
@@ -12022,9 +13722,9 @@ PlaterDB = {
 					"Призыватель из Глубинного улья", -- [1]
 					"Сценарий Могу'шан", -- [2]
 				},
-				[12127] = {
-					"Охранник клана Грозовой Вершины", -- [1]
-					"Альтеракская долина", -- [2]
+				[140669] = {
+					"Камнегривый ревун", -- [1]
+					"", -- [2]
 				},
 				[12159] = {
 					"Коррак Кровопуск", -- [1]
@@ -12090,9 +13790,9 @@ PlaterDB = {
 					"Кул-тирасский боец авангарда", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[144767] = {
-					"Воплощение Гонка", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[55659] = {
+					"Дикий бес", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[77006] = {
 					"Трупный паучонок", -- [1]
@@ -12114,13 +13814,13 @@ PlaterDB = {
 					"Лорд-камергер", -- [1]
 					"Чертоги Покаяния", -- [2]
 				},
-				[2225] = {
-					"Зора Гутрек", -- [1]
-					"Альтеракская долина", -- [2]
+				[158588] = {
+					"Гамон", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
-				[55659] = {
-					"Дикий бес", -- [1]
-					"Альтеракская долина", -- [2]
+				[144767] = {
+					"Воплощение Гонка", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[134600] = {
 					"Песчаный стрелок", -- [1]
@@ -12130,9 +13830,9 @@ PlaterDB = {
 					"Запасные части", -- [1]
 					"Смертельная тризна", -- [2]
 				},
-				[158588] = {
-					"Гамон", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[2225] = {
+					"Зора Гутрек", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[138625] = {
 					"Аматет-каратель", -- [1]
@@ -12378,9 +14078,9 @@ PlaterDB = {
 					"Пульсирующая тыква", -- [1]
 					"Монастырь Алого ордена", -- [2]
 				},
-				[157572] = {
-					"Верный Утробе призыватель огня", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[137097] = {
+					"Заклинатель с дороги Храброгласа", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[140542] = {
 					"Паук-пеплоткач", -- [1]
@@ -12526,9 +14226,9 @@ PlaterDB = {
 					"Горний Яроков", -- [1]
 					"Crestfall (Islands 11)", -- [2]
 				},
-				[168326] = {
-					"Расколотое видение", -- [1]
-					"Та Сторона", -- [2]
+				[139661] = {
+					"Добытчик из племени Гнилой Чешуи", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[12096] = {
 					"Интендант клана Грозовой Вершины", -- [1]
@@ -12646,9 +14346,9 @@ PlaterDB = {
 					"Землепроходец из племени Острогривов", -- [1]
 					"", -- [2]
 				},
-				[138641] = {
-					"Квалдир-ужасень", -- [1]
-					"SarasIsland", -- [2]
+				[146831] = {
+					"Кул-тирасский вестник шторма", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[153532] = {
 					"Акир - подчинитель разума", -- [1]
@@ -12714,9 +14414,9 @@ PlaterDB = {
 					"Некромантка-заклинательница", -- [1]
 					"", -- [2]
 				},
-				[145298] = {
-					"Дикий пожиратель", -- [1]
-					"", -- [2]
+				[157583] = {
+					"Хранитель кузни", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[129227] = {
 					"Азерокк", -- [1]
@@ -12730,9 +14430,9 @@ PlaterDB = {
 					"Гигантский лютоклык", -- [1]
 					"", -- [2]
 				},
-				[157583] = {
-					"Хранитель кузни", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[145298] = {
+					"Дикий пожиратель", -- [1]
+					"", -- [2]
 				},
 				[134283] = {
 					"Анахорет Ланна", -- [1]
@@ -12742,29 +14442,29 @@ PlaterDB = {
 					"Стенолом Рокка", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[146834] = {
-					"Некромант-магистр", -- [1]
+				[138644] = {
+					"Квалдир-проклинатель", -- [1]
+					"SarasIsland", -- [2]
+				},
+				[140180] = {
+					"Издиратель", -- [1]
+					"Snowblossom Village (Islands 3)", -- [2]
+				},
+				[146835] = {
+					"Вурдалак", -- [1]
 					"", -- [2]
 				},
 				[168845] = {
 					"Астрон", -- [1]
 					"Шпили Перерождения", -- [2]
 				},
-				[146835] = {
-					"Вурдалак", -- [1]
-					"", -- [2]
-				},
-				[140180] = {
-					"Издиратель", -- [1]
-					"Snowblossom Village (Islands 3)", -- [2]
-				},
 				[35189] = {
 					"Skoll", -- [1]
 					"Сверкающие копи", -- [2]
 				},
-				[123853] = {
-					"Волшебница Альянса", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[157584] = {
+					"Мастер плавильной печи", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[12259] = {
 					"Гееннас", -- [1]
@@ -12962,9 +14662,9 @@ PlaterDB = {
 					"Сжимающий ужас", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[139675] = {
-					"Искатель Глубин", -- [1]
-					"", -- [2]
+				[151960] = {
+					"Светозарный-послушник", -- [1]
+					"Чертоги Созидания", -- [2]
 				},
 				[138651] = {
 					"Сильверия Заклинательница Рифов", -- [1]
@@ -12974,9 +14674,9 @@ PlaterDB = {
 					"Убийственная буря", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[151960] = {
-					"Светозарный-послушник", -- [1]
-					"Чертоги Созидания", -- [2]
+				[139675] = {
+					"Искатель Глубин", -- [1]
+					"", -- [2]
 				},
 				[148262] = {
 					"Приливный элементаль", -- [1]
@@ -13222,8 +14922,8 @@ PlaterDB = {
 					"Зловещая резчица душ", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[138659] = {
-					"Оживленная гончая", -- [1]
+				[146849] = {
+					"Владычица духов Ровена", -- [1]
 					"", -- [2]
 				},
 				[145927] = {
@@ -13234,9 +14934,9 @@ PlaterDB = {
 					"Костелапый паук", -- [1]
 					"Ашран", -- [2]
 				},
-				[136100] = {
-					"Утонувший обитатель глубин", -- [1]
-					"Святилище Штормов", -- [2]
+				[132005] = {
+					"Грейсон Белл", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[138660] = {
 					"Туманная гончая", -- [1]
@@ -13338,9 +15038,9 @@ PlaterDB = {
 					"Бобби Хаулис", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[14465] = {
-					"Боевой штандарт Альянса", -- [1]
-					"Каньон Суровых Ветров", -- [2]
+				[157602] = {
+					"Дест'агат", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[166304] = {
 					"Туманный острожал", -- [1]
@@ -13630,8 +15330,8 @@ PlaterDB = {
 					"Ками Шестерикс", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[168361] = {
-					"Болотный шершень", -- [1]
+				[164266] = {
+					"Домина Отравленный Клинок", -- [1]
 					"Чумные каскады", -- [2]
 				},
 				[130521] = {
@@ -13646,8 +15346,8 @@ PlaterDB = {
 					"Попечительница сирот Батлвейл", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[164266] = {
-					"Домина Отравленный Клинок", -- [1]
+				[168361] = {
+					"Болотный шершень", -- [1]
 					"Чумные каскады", -- [2]
 				},
 				[144303] = {
@@ -13786,9 +15486,9 @@ PlaterDB = {
 					"Гончая из Новоземья", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[157602] = {
-					"Дест'агат", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[14465] = {
+					"Боевой штандарт Альянса", -- [1]
+					"Каньон Суровых Ветров", -- [2]
 				},
 				[171422] = {
 					"Верховный подавитель Лагвас", -- [1]
@@ -13842,12 +15542,12 @@ PlaterDB = {
 					"Защитник дома Праудмуров", -- [1]
 					"Сценарий Тол Дагора", -- [2]
 				},
-				[132005] = {
-					"Грейсон Белл", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[136100] = {
+					"Утонувший обитатель глубин", -- [1]
+					"Святилище Штормов", -- [2]
 				},
-				[146849] = {
-					"Владычица духов Ровена", -- [1]
+				[138659] = {
+					"Оживленная гончая", -- [1]
 					"", -- [2]
 				},
 				[14466] = {
@@ -14094,13 +15794,13 @@ PlaterDB = {
 					"Квалдир - раздирательница душ", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[157584] = {
-					"Мастер плавильной печи", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[123853] = {
+					"Волшебница Альянса", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
-				[138644] = {
-					"Квалдир-проклинатель", -- [1]
-					"SarasIsland", -- [2]
+				[146834] = {
+					"Некромант-магистр", -- [1]
+					"", -- [2]
 				},
 				[161217] = {
 					"Акир-быстроног", -- [1]
@@ -14142,9 +15842,9 @@ PlaterDB = {
 					"Яростная маска", -- [1]
 					"Та Сторона", -- [2]
 				},
-				[146831] = {
-					"Кул-тирасский вестник шторма", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[138641] = {
+					"Квалдир-ужасень", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[146366] = {
 					"Раскаленная гончая", -- [1]
@@ -14194,9 +15894,9 @@ PlaterDB = {
 					"Фальк", -- [1]
 					"Око Бури", -- [2]
 				},
-				[139661] = {
-					"Добытчик из племени Гнилой Чешуи", -- [1]
-					"SarasIsland", -- [2]
+				[168326] = {
+					"Расколотое видение", -- [1]
+					"Та Сторона", -- [2]
 				},
 				[153022] = {
 					"Снанг", -- [1]
@@ -14254,9 +15954,9 @@ PlaterDB = {
 					"Зеленый древень", -- [1]
 					"Verdant Wilds (Islands 8)", -- [2]
 				},
-				[137097] = {
-					"Заклинатель с дороги Храброгласа", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[157572] = {
+					"Верный Утробе призыватель огня", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[152512] = {
 					"Штормовой дух", -- [1]
@@ -14414,9 +16114,9 @@ PlaterDB = {
 					"Добрый копытень", -- [1]
 					"FW Horde Garrison Level 3", -- [2]
 				},
-				[140669] = {
-					"Камнегривый ревун", -- [1]
-					"", -- [2]
+				[12127] = {
+					"Охранник клана Грозовой Вершины", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[83790] = {
 					"Пламевержец из клана Молота Ашрана", -- [1]
@@ -14574,9 +16274,9 @@ PlaterDB = {
 					"Задира из братства Южных Морей", -- [1]
 					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[138101] = {
-					"Стромгардская чародейка", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[75209] = {
+					"Лавовый элементаль земли", -- [1]
+					"Шлаковые шахты Кровавого Молота", -- [2]
 				},
 				[155685] = {
 					"Солдат из Глубинного улья", -- [1]
@@ -14606,9 +16306,9 @@ PlaterDB = {
 					"Грибомаг", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[147825] = {
-					"Медик 7-го легиона", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[131445] = {
+					"Надзиратель блока", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[152523] = {
 					"Мукута", -- [1]
@@ -14730,9 +16430,9 @@ PlaterDB = {
 					"Солнечный усилитель", -- [1]
 					"Небесный Путь", -- [2]
 				},
-				[136045] = {
-					"Волнокрут", -- [1]
-					"The Rotting Mire (Islands 9)", -- [2]
+				[11838] = {
+					"Мистик из стаи Дикой Лапы", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[77080] = {
 					"Саргерайская вершительница", -- [1]
@@ -14746,9 +16446,9 @@ PlaterDB = {
 					"Акир - повелитель ядов", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[170851] = {
-					"Нестабильная чумная бомба", -- [1]
-					"Чумные каскады", -- [2]
+				[150376] = {
+					"Коралловый скат", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[133588] = {
 					"Автоматический взрывчаткострел", -- [1]
@@ -14842,13 +16542,13 @@ PlaterDB = {
 					"Щупальце ужаса", -- [1]
 					"Чертоги Созидания", -- [2]
 				},
-				[84983] = {
-					"Споровый образ", -- [1]
-					"Вечное Цветение", -- [2]
-				},
 				[133079] = {
 					"Работник фермы Новоземья", -- [1]
 					"Фронт Арати (Орда)", -- [2]
+				},
+				[84983] = {
+					"Споровый образ", -- [1]
+					"Вечное Цветение", -- [2]
 				},
 				[21362] = {
 					"Феникс", -- [1]
@@ -14862,9 +16562,9 @@ PlaterDB = {
 					"Гюрзис", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[164191] = {
-					"Придворная аристократка", -- [1]
-					"Revendreth Scenario", -- [2]
+				[131431] = {
+					"Автоматический инспектор по безопасности", -- [1]
+					"", -- [2]
 				},
 				[132056] = {
 					"Огнелетчица Торговой компании", -- [1]
@@ -14930,9 +16630,9 @@ PlaterDB = {
 					"JeanJacques", -- [1]
 					"Ашран", -- [2]
 				},
-				[149343] = {
-					"Одержимый буйством азерит", -- [1]
-					"Un'gol Ruins (Islands 1)", -- [2]
+				[137058] = {
+					"Проклинательница Магода", -- [1]
+					"", -- [2]
 				},
 				[140760] = {
 					"Земляной великан", -- [1]
@@ -15326,9 +17026,9 @@ PlaterDB = {
 					"Кул-тирасский смотритель приливов", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[152905] = {
-					"Часовой Башни", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[140620] = {
+					"Харибдида Южного моря", -- [1]
+					"", -- [2]
 				},
 				[137012] = {
 					"Охотник из Новоземья", -- [1]
@@ -15342,9 +17042,9 @@ PlaterDB = {
 					"Многозуб", -- [1]
 					"Crestfall (Islands 11)", -- [2]
 				},
-				[136012] = {
-					"Горус Несдвигаемый", -- [1]
-					"SarasIsland", -- [2]
+				[140107] = {
+					"Разящий смертежал", -- [1]
+					"", -- [2]
 				},
 				[156641] = {
 					"Порабощенный оружейник", -- [1]
@@ -15426,9 +17126,9 @@ PlaterDB = {
 					"Противопехотная белка", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[5135] = {
-					"Свальбрад Дальногор", -- [1]
-					"Альтеракская долина", -- [2]
+				[78001] = {
+					"Тотем разразившегося ливня", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[138820] = {
 					"Врайкул из дружины Кровавого Киля", -- [1]
@@ -15924,12 +17624,12 @@ PlaterDB = {
 				["Unit - Show Energy"] = 11,
 				["Aura - Invalidate Unit"] = 1,
 				["Color Change"] = 1,
-				["Unit - Health Markers"] = 12,
+				["Unit Power"] = 1,
 				["Unit - Main Target"] = 11,
 				["Aura - Blink Time Left"] = 11,
 				["Aura Border Color"] = 1,
 				["Countdown"] = 11,
-				["Unit Power"] = 1,
+				["Unit - Health Markers"] = 12,
 				["Cast - Frontal Cone"] = 11,
 				["Fixate"] = 11,
 				["Cast - Tank Interrupt"] = 11,
@@ -20019,9 +21719,9 @@ PlaterDB = {
 				["nameplateMinScale"] = "1",
 				["nameplateOtherTopInset"] = "0.085",
 				["nameplateSelfBottomInset"] = "0.2",
-				["nameplateSelfAlpha"] = "0.75",
-				["nameplateShowFriendlyGuardians"] = "0",
 				["nameplateOccludedAlphaMult"] = "1",
+				["nameplateShowFriendlyGuardians"] = "0",
+				["nameplateSelfAlpha"] = "0.75",
 				["NamePlateHorizontalScale"] = "1",
 				["nameplatePersonalShowAlways"] = "0",
 				["nameplateLargeTopInset"] = "0.085",
@@ -21168,12 +22868,12 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["NpcNames"] = {
 					},
-					["Name"] = "Cast - Alert + Timer [P]",
 					["SpellIds"] = {
 						350421, -- [1]
 						355787, -- [2]
 						348513, -- [3]
 					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["PlaterCore"] = 1,
 					["version"] = -1,
 					["Options"] = {
@@ -21552,8 +23252,8 @@ PlaterDB = {
 					},
 					["big_actortitle_text_size"] = 15,
 					["percent_show_percent"] = false,
-					["actorname_text_size"] = 11,
 					["quest_enabled"] = false,
+					["actorname_text_size"] = 11,
 					["percent_text_enabled"] = true,
 				},
 				["enemyplayer"] = {
@@ -21792,13 +23492,13 @@ PlaterDB = {
 				["Explosion Affix M+"] = 11,
 				["Aura - Debuff Alert"] = 11,
 				["Unit - Show Energy"] = 11,
-				["Blink by Time Left"] = 1,
-				["Cast - Castbar is Timer [P]"] = 2,
 				["Cast - Ultra Important"] = 11,
+				["Cast - Castbar is Timer [P]"] = 2,
+				["Blink by Time Left"] = 1,
 				["Cast - Big Alert"] = 12,
-				["Spiteful Affix"] = 3,
-				["Cast - Small Alert"] = 11,
 				["Color Change"] = 1,
+				["Cast - Small Alert"] = 11,
+				["Spiteful Affix"] = 3,
 				["Aura - Invalidate Unit"] = 1,
 				["Auto Set Skull"] = 11,
 				["Unit - Health Markers"] = 12,
@@ -21909,13 +23609,13 @@ PlaterDB = {
 					"Ург'рот Сокрушитель Героев", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[140792] = {
-					"Стервятник-ломоклюв", -- [1]
-					"", -- [2]
+				[131585] = {
+					"Порабощенная стражница", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
-				[153196] = {
-					"Ворчун из племени Хламоедов", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[120651] = {
+					"Взрывчатка", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[154347] = {
 					"Искаженный Бездной осквернитель", -- [1]
@@ -21957,9 +23657,9 @@ PlaterDB = {
 					"КУ-ДЖ0", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[134144] = {
-					"Живой поток", -- [1]
-					"Святилище Штормов", -- [2]
+				[136190] = {
+					"Темный разлом", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[148716] = {
 					"Восставшая душа", -- [1]
@@ -22189,9 +23889,9 @@ PlaterDB = {
 					"Дикий бес", -- [1]
 					"Храм Котмогу", -- [2]
 				},
-				[133384] = {
-					"Меректа", -- [1]
-					"Храм Сетралисс", -- [2]
+				[151798] = {
+					"Вексиона", -- [1]
+					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
 				},
 				[144765] = {
 					"Аситра Жуткая Песнь", -- [1]
@@ -22249,13 +23949,13 @@ PlaterDB = {
 					"Око хаоса", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[158452] = {
-					"Искажающее разум щупальце", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[140038] = {
+					"Глубинный угорь", -- [1]
+					"Святилище Штормов", -- [2]
 				},
-				[162030] = {
-					"Ведомый голосами ритуалист", -- [1]
-					"Твердыня Крыла Тьмы – сценарий", -- [2]
+				[137478] = {
+					"Королева Уаси", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[132491] = {
 					"Кул-тирасский стрелок", -- [1]
@@ -22265,13 +23965,13 @@ PlaterDB = {
 					"Королевская грозная стражница", -- [1]
 					"Лордерон", -- [2]
 				},
+				[177889] = {
+					"Кованная в Утробе судья душ", -- [1]
+					"Святилище Господства", -- [2]
+				},
 				[156406] = {
 					"Слуга Бездны - почетная стражница", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
-				},
-				[140038] = {
-					"Глубинный угорь", -- [1]
-					"Святилище Штормов", -- [2]
 				},
 				[135049] = {
 					"Грознокрылый ворон", -- [1]
@@ -22289,9 +23989,9 @@ PlaterDB = {
 					"Сержант Бейнбридж", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[157813] = {
-					"Спрайт Прыгозубчик", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[136330] = {
+					"Шипы души", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[147965] = {
 					"Нестабильный азерит", -- [1]
@@ -22305,9 +24005,9 @@ PlaterDB = {
 					"Фузилер из братства Стальных Волн", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[128969] = {
-					"Командир из корпорации Эшвейнов", -- [1]
-					"Осада Боралуса", -- [2]
+				[62982] = {
+					"Подчинитель разума", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[138247] = {
 					"Мародер из братства Стальных Волн", -- [1]
@@ -22333,9 +24033,9 @@ PlaterDB = {
 					"Гуннольф Яростный", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[177889] = {
-					"Кованная в Утробе судья душ", -- [1]
-					"Святилище Господства", -- [2]
+				[158452] = {
+					"Искажающее разум щупальце", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[177891] = {
 					"Кованный в Утробе призыватель", -- [1]
@@ -22345,9 +24045,9 @@ PlaterDB = {
 					"Выточенный из кристалла великан", -- [1]
 					"Каменные Недра", -- [2]
 				},
-				[136330] = {
-					"Шипы души", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[157813] = {
+					"Спрайт Прыгозубчик", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[128650] = {
 					"Головорез Краснокрюк", -- [1]
@@ -22365,9 +24065,9 @@ PlaterDB = {
 					"Гигантский иглохват", -- [1]
 					"", -- [2]
 				},
-				[147202] = {
-					"Оживший азеритовый осколыш", -- [1]
-					"SarasIsland", -- [2]
+				[177892] = {
+					"Кованный в Утробе голиаф", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[135052] = {
 					"Чумная жаба", -- [1]
@@ -22397,9 +24097,9 @@ PlaterDB = {
 					"Рауль Стойкий", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[54511] = {
-					"Искаженный временем упырь", -- [1]
-					"Конец Времен", -- [2]
+				[132879] = {
+					"Кристальный великан", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[136076] = {
 					"Беспокойное облако", -- [1]
@@ -22425,25 +24125,25 @@ PlaterDB = {
 					"Земляной яростень", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[150143] = {
-					"Перемалыватель из племени Хламоедов", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[131729] = {
+					"Лико", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[177892] = {
-					"Кованный в Утробе голиаф", -- [1]
-					"Святилище Господства", -- [2]
+				[147202] = {
+					"Оживший азеритовый осколыш", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[138635] = {
 					"Командир Хусан", -- [1]
 					"", -- [2]
 				},
-				[45912] = {
-					"Дикое завихрение", -- [1]
-					"Вершина Смерча", -- [2]
+				[156794] = {
+					"Поглощенный Тьмой агент ШРУ", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[137485] = {
-					"Одержимый кровью шпион", -- [1]
-					"Гробница королей", -- [2]
+				[128652] = {
+					"Вик'Гот", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[137484] = {
 					"Король А'акул", -- [1]
@@ -22457,9 +24157,9 @@ PlaterDB = {
 					"Помешанный аптекарь", -- [1]
 					"8.1 Darkshore Scenario", -- [2]
 				},
-				[138481] = {
-					"Хромит", -- [1]
-					"SarasIsland", -- [2]
+				[134389] = {
+					"Ядовитый змей", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[131858] = {
 					"Шипастый страж", -- [1]
@@ -22469,17 +24169,17 @@ PlaterDB = {
 					"Падальщик-ломоклюв", -- [1]
 					"", -- [2]
 				},
-				[40765] = {
-					"Командир Улток", -- [1]
-					"Трон Приливов", -- [2]
+				[129547] = {
+					"Кастетник из братства Чернозубых", -- [1]
+					"Вольная Гавань", -- [2]
 				},
-				[156794] = {
-					"Поглощенный Тьмой агент ШРУ", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[45912] = {
+					"Дикое завихрение", -- [1]
+					"Вершина Смерча", -- [2]
 				},
-				[128652] = {
-					"Вик'Гот", -- [1]
-					"Осада Боралуса", -- [2]
+				[137485] = {
+					"Одержимый кровью шпион", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[49045] = {
 					"Ауг", -- [1]
@@ -22493,25 +24193,25 @@ PlaterDB = {
 					"Опороченный часовой", -- [1]
 					"Трон Приливов", -- [2]
 				},
-				[134389] = {
-					"Ядовитый змей", -- [1]
-					"Храм Сетралисс", -- [2]
+				[138481] = {
+					"Хромит", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[137487] = {
-					"Охотничий ящер", -- [1]
-					"Гробница королей", -- [2]
+				[134418] = {
+					"Утонувший вестник глубин", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[54320] = {
 					"Совушка", -- [1]
 					"Сверкающие копи", -- [2]
 				},
-				[156795] = {
-					"Осведомитель ШРУ", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[162933] = {
+					"Пожинатель мыслей", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[134417] = {
-					"Глубоководная ритуалистка", -- [1]
-					"Святилище Штормов", -- [2]
+				[137486] = {
+					"Королева Патлаа", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[137614] = {
 					"Крушащий ужас", -- [1]
@@ -22533,25 +24233,25 @@ PlaterDB = {
 					"Кровавый образ", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[138254] = {
-					"Фузилер из братства Стальных Волн", -- [1]
-					"Осада Боралуса", -- [2]
+				[129548] = {
+					"Громила из братства Чернозубых", -- [1]
+					"Вольная Гавань", -- [2]
 				},
 				[152704] = {
 					"Ползучая порча", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[134418] = {
-					"Утонувший вестник глубин", -- [1]
-					"Святилище Штормов", -- [2]
+				[137487] = {
+					"Охотничий ящер", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[135169] = {
 					"Тотем поглощения духа", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[42428] = {
-					"Верный последователь", -- [1]
-					"Каменные Недра", -- [2]
+				[160249] = {
+					"Шипастое щупальце", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[134015] = {
 					"Гоблинский крошшер", -- [1]
@@ -22681,13 +24381,13 @@ PlaterDB = {
 					"Инквизитор Гншал", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[146827] = {
-					"Дикая собака", -- [1]
-					"", -- [2]
+				[129231] = {
+					"Рикса Огневерт", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[39616] = {
-					"Захватчик Леди Наз'жар", -- [1]
-					"Трон Приливов", -- [2]
+				[170484] = {
+					"Ледяной костеглод", -- [1]
+					"8.0 Boost Experience - Horde", -- [2]
 				},
 				[157441] = {
 					"Дух Бездны", -- [1]
@@ -22705,13 +24405,13 @@ PlaterDB = {
 					"Обитатель глубин", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[129231] = {
-					"Рикса Огневерт", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[146827] = {
+					"Дикая собака", -- [1]
+					"", -- [2]
 				},
-				[170484] = {
-					"Ледяной костеглод", -- [1]
-					"8.0 Boost Experience - Horde", -- [2]
+				[39616] = {
+					"Захватчик Леди Наз'жар", -- [1]
+					"Трон Приливов", -- [2]
 				},
 				[134807] = {
 					"Древняя твердопанцирная черепаха", -- [1]
@@ -22765,49 +24465,49 @@ PlaterDB = {
 					"Надзиратель блока", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[122263] = {
-					"Твердопанцирный хрустогрыз", -- [1]
-					"", -- [2]
+				[176880] = {
+					"Истязатель кричащих душ", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[129232] = {
 					"Шеф Разданк", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[162303] = {
-					"Акир - хранитель роя", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[170487] = {
+					"Камнестраж-дозорная", -- [1]
+					"8.0 Boost Experience - Horde", -- [2]
 				},
-				[150154] = {
-					"Завролиск-костеглод", -- [1]
-					"Операция \"Мехагон\"", -- [2]
-				},
-				[176880] = {
-					"Истязатель кричащих душ", -- [1]
+				[175729] = {
+					"Душа Нер'зула", -- [1]
 					"Святилище Господства", -- [2]
+				},
+				[122263] = {
+					"Твердопанцирный хрустогрыз", -- [1]
+					"", -- [2]
 				},
 				[136984] = {
 					"Ребан", -- [1]
 					"Гробница королей", -- [2]
 				},
-				[139799] = {
-					"Ученик Айронхалла", -- [1]
-					"Святилище Штормов", -- [2]
+				[162305] = {
+					"Акир-сердцекол", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[130639] = {
 					"Злобнокус-пожиратель", -- [1]
 					"", -- [2]
 				},
-				[45915] = {
-					"Бронированный мистраль", -- [1]
-					"Вершина Смерча", -- [2]
+				[130640] = {
+					"Злобнокус-хвататель", -- [1]
+					"", -- [2]
 				},
 				[134939] = {
 					"Щетинистый людоед", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[170487] = {
-					"Камнестраж-дозорная", -- [1]
-					"8.0 Boost Experience - Horde", -- [2]
+				[162303] = {
+					"Акир - хранитель роя", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[161408] = {
 					"Злокачественный нарост", -- [1]
@@ -22817,9 +24517,9 @@ PlaterDB = {
 					"Глубинный крушитель", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[155656] = {
-					"Миша", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[134173] = {
+					"Оживленная капля", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[157700] = {
 					"Огюст Мулен", -- [1]
@@ -22829,41 +24529,41 @@ PlaterDB = {
 					"Золотой Змей", -- [1]
 					"Гробница королей", -- [2]
 				},
-				[145554] = {
-					"Шеф базы Кривошпур", -- [1]
-					"Фронты на Темных берегах (Альянс)", -- [2]
+				[136347] = {
+					"Ученица жрецов моря", -- [1]
+					"Святилище Штормов", -- [2]
 				},
-				[162306] = {
-					"Акир-трутень", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[139800] = {
+					"Ученик призывательницы штормов", -- [1]
+					"Святилище Штормов", -- [2]
 				},
-				[135706] = {
-					"Мародер из братства Трюмных Крыс", -- [1]
-					"Тол Дагор", -- [2]
+				[153097] = {
+					"Слуга Бездны - шаман", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[157447] = {
 					"Фанатичная сектантка", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[135962] = {
-					"Скальный яростень", -- [1]
-					"SarasIsland", -- [2]
+				[122264] = {
+					"Старая твердопанцирная черепаха", -- [1]
+					"", -- [2]
 				},
-				[134686] = {
-					"Взрослый кролуск", -- [1]
-					"Храм Сетралисс", -- [2]
+				[133663] = {
+					"Фанатичный охотник за головами", -- [1]
+					"Подгнилье", -- [2]
 				},
 				[144231] = {
 					"Буйный гуляка", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[130640] = {
-					"Злобнокус-хвататель", -- [1]
-					"", -- [2]
+				[45915] = {
+					"Бронированный мистраль", -- [1]
+					"Вершина Смерча", -- [2]
 				},
-				[44924] = {
-					"Присягнувший мирмидон", -- [1]
-					"Затерянный город Тол'вир", -- [2]
+				[126612] = {
+					"Искатель ветра Дурджа", -- [1]
+					"Лордерон", -- [2]
 				},
 				[146832] = {
 					"Некромант-послушник", -- [1]
@@ -22885,13 +24585,13 @@ PlaterDB = {
 					"Дикий пожиратель", -- [1]
 					"", -- [2]
 				},
-				[134173] = {
-					"Оживленная капля", -- [1]
-					"Святилище Штормов", -- [2]
+				[155656] = {
+					"Миша", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
-				[136347] = {
-					"Ученица жрецов моря", -- [1]
-					"Святилище Штормов", -- [2]
+				[145554] = {
+					"Шеф базы Кривошпур", -- [1]
+					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
 				[127124] = {
 					"Официантка из Вольной Гавани", -- [1]
@@ -22901,13 +24601,13 @@ PlaterDB = {
 					"Некромантка-заклинательница", -- [1]
 					"", -- [2]
 				},
-				[139800] = {
-					"Ученик призывательницы штормов", -- [1]
-					"Святилище Штормов", -- [2]
+				[162306] = {
+					"Акир-трутень", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140441] = {
-					"Молодой мускусный як", -- [1]
-					"", -- [2]
+				[43614] = {
+					"Зубохлоп", -- [1]
+					"Затерянный город Тол'вир", -- [2]
 				},
 				[134941] = {
 					"Щетинистый паук", -- [1]
@@ -22933,17 +24633,17 @@ PlaterDB = {
 					"Матерый мускусный як", -- [1]
 					"", -- [2]
 				},
-				[133663] = {
-					"Фанатичный охотник за головами", -- [1]
-					"Подгнилье", -- [2]
+				[134686] = {
+					"Взрослый кролуск", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[150159] = {
 					"Король Гоббамак", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[129370] = {
-					"Заклинатель моря из братства Стальных Волн", -- [1]
-					"Осада Боралуса", -- [2]
+				[180864] = {
+					"Верховный истязатель", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[139422] = {
 					"Бронированный укротитель кролусков", -- [1]
@@ -22953,9 +24653,9 @@ PlaterDB = {
 					"Падшая пронзательница сердец", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[43614] = {
-					"Зубохлоп", -- [1]
-					"Затерянный город Тол'вир", -- [2]
+				[140441] = {
+					"Молодой мускусный як", -- [1]
+					"", -- [2]
 				},
 				[40577] = {
 					"Часовой Леди Наз'жар", -- [1]
@@ -22977,13 +24677,13 @@ PlaterDB = {
 					"Твердопанцирная черепаха", -- [1]
 					"", -- [2]
 				},
-				[145305] = {
-					"Дикий громила", -- [1]
-					"", -- [2]
+				[126424] = {
+					"Коралловый приливный краб", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[45917] = {
-					"Принц облаков", -- [1]
-					"Вершина Смерча", -- [2]
+				[152722] = {
+					"Падшая вестница Бездны", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[152718] = {
 					"Аллерия Ветрокрылая", -- [1]
@@ -22997,9 +24697,9 @@ PlaterDB = {
 					"Фрагмент души", -- [1]
 					"Затерянный город Тол'вир", -- [2]
 				},
-				[180865] = {
-					"Оскверненный часовой", -- [1]
-					"Святилище Господства", -- [2]
+				[160405] = {
+					"Рассерженный дух кресла из древня", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[2630] = {
 					"Тотем оков земли", -- [1]
@@ -23029,9 +24729,9 @@ PlaterDB = {
 					"Преданная жрица крови", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[136735] = {
-					"Морпех корпорации Эшвейнов", -- [1]
-					"Тол Дагор", -- [2]
+				[140827] = {
+					"Хихикающий чертополошник", -- [1]
+					"", -- [2]
 				},
 				[145047] = {
 					"Чумомет Отрекшихся", -- [1]
@@ -23041,9 +24741,9 @@ PlaterDB = {
 					"Блестопанцирный трещот", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[180864] = {
-					"Верховный истязатель", -- [1]
-					"Святилище Господства", -- [2]
+				[160404] = {
+					"Рассерженный дух медвежьей шкуры", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[134056] = {
 					"Аква'сирр", -- [1]
@@ -23105,17 +24805,17 @@ PlaterDB = {
 					"Блестопанцирный краб", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[126424] = {
-					"Коралловый приливный краб", -- [1]
-					"SarasIsland", -- [2]
+				[145305] = {
+					"Дикий громила", -- [1]
+					"", -- [2]
 				},
 				[157709] = {
 					"Дрилиана", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[152722] = {
-					"Падшая вестница Бездны", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[45917] = {
+					"Принц облаков", -- [1]
+					"Вершина Смерча", -- [2]
 				},
 				[44926] = {
 					"Присягнувший странник", -- [1]
@@ -23137,13 +24837,13 @@ PlaterDB = {
 					"Отступник-новобранец", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[140968] = {
-					"Гранатовый кусатель", -- [1]
-					"SarasIsland", -- [2]
+				[145060] = {
+					"Чудовищный тенеперый ворон", -- [1]
+					"", -- [2]
 				},
-				[135204] = {
-					"Призрачный жрец-проклинатель", -- [1]
-					"Гробница королей", -- [2]
+				[131112] = {
+					"Боец из братства Волнорезов", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[140447] = {
 					"Крушащий ужас", -- [1]
@@ -23161,21 +24861,21 @@ PlaterDB = {
 					"Глубоководный шустрый краб", -- [1]
 					"", -- [2]
 				},
-				[177787] = {
-					"Верный Утробе сокрушитель надежды", -- [1]
-					"Святилище Господства", -- [2]
+				[129366] = {
+					"Буканьер из братства Трюмных Крыс", -- [1]
+					"Осада Боралуса", -- [2]
 				},
-				[123292] = {
-					"Блестопанцирный хвататель", -- [1]
-					"SarasIsland", -- [2]
+				[54517] = {
+					"Искаженный временем коготь Тени", -- [1]
+					"Конец Времен", -- [2]
 				},
 				[145307] = {
 					"Отрекшийся-работник", -- [1]
 					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
-				[159633] = {
-					"Сектантка-палач", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[134058] = {
+					"Призывательница штормов Фэй", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[139425] = {
 					"Бешеная наседка", -- [1]
@@ -23185,9 +24885,9 @@ PlaterDB = {
 					"Ведомая голосами сектантка", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[145185] = {
-					"\"Гномогедд-0Н\"", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[157461] = {
+					"Мицелиальная киста", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[131824] = {
 					"Сестра Солена", -- [1]
@@ -23229,9 +24929,9 @@ PlaterDB = {
 					"Песочная змея", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[139694] = {
-					"Едкий Панцирь", -- [1]
-					"SarasIsland", -- [2]
+				[152993] = {
+					"Гарона Полуорчиха", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[144286] = {
 					"Управляющая активами", -- [1]
@@ -23241,21 +24941,21 @@ PlaterDB = {
 					"Дуэлянт из братства Волнорезов", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[152987] = {
-					"Безликий сокрушитель воли", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[146849] = {
+					"Владычица духов Ровена", -- [1]
+					"", -- [2]
 				},
-				[160404] = {
-					"Рассерженный дух медвежьей шкуры", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[89] = {
+					"Инфернал", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[132079] = {
 					"Азеритовая боевая машина", -- [1]
 					"Лордерон", -- [2]
 				},
-				[153244] = {
-					"Элементаль забвения", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[180865] = {
+					"Оскверненный часовой", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[129879] = {
 					"Рассекатель из братства Стальных Волн", -- [1]
@@ -23297,9 +24997,9 @@ PlaterDB = {
 					"Головорез Краснокрюк", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[134058] = {
-					"Призывательница штормов Фэй", -- [1]
-					"Святилище Штормов", -- [2]
+				[159633] = {
+					"Сектантка-палач", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[144294] = {
 					"Мехагонский боевой механик", -- [1]
@@ -23325,9 +25025,9 @@ PlaterDB = {
 					"Мирмидон из клана Темной Чешуи", -- [1]
 					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
-				[139691] = {
-					"Океанский заклинатель штормов", -- [1]
-					"SarasIsland", -- [2]
+				[132530] = {
+					"Кул-тирасский боец авангарда", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[44752] = {
 					"Безликий подавитель", -- [1]
@@ -23337,29 +25037,29 @@ PlaterDB = {
 					"Искаженный Бездной дракончик", -- [1]
 					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
 				},
-				[157467] = {
-					"Перерожденный служитель Бездны", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[24207] = {
+					"Войско мертвых", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[156949] = {
 					"Мастер клинка Теренсон", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[148893] = {
-					"Замученная душа", -- [1]
-					"Осада Боралуса", -- [2]
+				[44704] = {
+					"Прислужник Сиамата", -- [1]
+					"Затерянный город Тол'вир", -- [2]
 				},
-				[136884] = {
-					"Щетинистый боевой страж", -- [1]
+				[140976] = {
+					"Червь-бурильщик", -- [1]
 					"", -- [2]
 				},
 				[129369] = {
 					"Налетчик из братства Стальных Волн", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[157461] = {
-					"Мицелиальная киста", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[145185] = {
+					"\"Гномогедд-0Н\"", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[134060] = {
 					"Лорд Штормсонг", -- [1]
@@ -23385,9 +25085,9 @@ PlaterDB = {
 					"Вестник духов Тоган", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[145058] = {
-					"Тенеперый ворон", -- [1]
-					"", -- [2]
+				[134828] = {
+					"Воденыш", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[139110] = {
 					"Искротворец", -- [1]
@@ -23401,33 +25101,33 @@ PlaterDB = {
 					"Безликий осквернитель", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[152993] = {
-					"Гарона Полуорчиха", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[139694] = {
+					"Едкий Панцирь", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[151836] = {
 					"Ужас Бездны", -- [1]
 					"Изумрудный Сон – сценарий Сердца Азерот", -- [2]
 				},
-				[146849] = {
-					"Владычица духов Ровена", -- [1]
-					"", -- [2]
+				[152987] = {
+					"Безликий сокрушитель воли", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[140839] = {
 					"Дух воды", -- [1]
 					"", -- [2]
 				},
-				[147105] = {
-					"Плотный лед", -- [1]
-					"Фронты на Темных берегах (Альянс)", -- [2]
+				[129370] = {
+					"Заклинатель моря из братства Стальных Волн", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[151325] = {
 					"Тревогобот", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[130521] = {
-					"Палубный матрос из Вольной Гавани", -- [1]
-					"Вольная Гавань", -- [2]
+				[126429] = {
+					"Твердопанцирный коралловый краб", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[157268] = {
 					"Ползучая порча", -- [1]
@@ -23449,17 +25149,17 @@ PlaterDB = {
 					"Сущность жизненной силы", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[160405] = {
-					"Рассерженный дух кресла из древня", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[140968] = {
+					"Гранатовый кусатель", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[159510] = {
-					"Око глубин", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[133935] = {
+					"Оживший страж", -- [1]
+					"Гробница королей", -- [2]
 				},
-				[144293] = {
-					"Переработчик отходов", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[134063] = {
+					"Брат Айронхалл", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[161812] = {
 					"Безликий уничтожитель", -- [1]
@@ -23505,9 +25205,9 @@ PlaterDB = {
 					"Разрушитель из дома Эшвейнов", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[132530] = {
-					"Кул-тирасский боец авангарда", -- [1]
-					"Осада Боралуса", -- [2]
+				[139691] = {
+					"Океанский заклинатель штормов", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[141283] = {
 					"Кул-тирасский стражник", -- [1]
@@ -23529,8 +25229,8 @@ PlaterDB = {
 					"Дереш из Пустоты", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140974] = {
-					"Старозоб", -- [1]
+				[136882] = {
+					"Защитник из племени Острогривов", -- [1]
 					"", -- [2]
 				},
 				[135472] = {
@@ -23549,17 +25249,17 @@ PlaterDB = {
 					"Метатель черной смолы", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[24207] = {
-					"Войско мертвых", -- [1]
-					"Храм Котмогу", -- [2]
+				[157467] = {
+					"Перерожденный служитель Бездны", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140335] = {
-					"Темночешуйчатый крикун", -- [1]
-					"", -- [2]
-				},
-				[45377] = {
-					"Ауг", -- [1]
+				[45122] = {
+					"Присягнувший капитан", -- [1]
 					"Затерянный город Тол'вир", -- [2]
+				},
+				[161815] = {
+					"К'тир - призыватель Бездны", -- [1]
+					"Зал Сердца – сценарий", -- [2]
 				},
 				[59764] = {
 					"Тотем целительного прилива", -- [1]
@@ -23577,12 +25277,12 @@ PlaterDB = {
 					"Избранная кровавая матрона", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[136880] = {
-					"Свинобраз из племени Острогривов", -- [1]
-					"", -- [2]
+				[139949] = {
+					"Чумная знахарка", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
-				[140976] = {
-					"Червь-бурильщик", -- [1]
+				[136884] = {
+					"Щетинистый боевой страж", -- [1]
 					"", -- [2]
 				},
 				[130012] = {
@@ -23641,25 +25341,25 @@ PlaterDB = {
 					"Оскверненный дух", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[136882] = {
-					"Защитник из племени Острогривов", -- [1]
+				[140974] = {
+					"Старозоб", -- [1]
 					"", -- [2]
 				},
 				[161562] = {
 					"Генерал Шар'аз", -- [1]
 					"Чертоги Созидания", -- [2]
 				},
-				[102392] = {
-					"Тотем резонанса", -- [1]
-					"Храм Котмогу", -- [2]
+				[134069] = {
+					"Вол'зит Шепчущая", -- [1]
+					"Святилище Штормов", -- [2]
 				},
-				[45122] = {
-					"Присягнувший капитан", -- [1]
-					"Затерянный город Тол'вир", -- [2]
+				[140335] = {
+					"Темночешуйчатый крикун", -- [1]
+					"", -- [2]
 				},
-				[161437] = {
-					"Взрывоопасный скарабей", -- [1]
-					"Тол Дагор", -- [2]
+				[136885] = {
+					"Шипомант из племени Острогривов", -- [1]
+					"", -- [2]
 				},
 				[133430] = {
 					"Гений Торговой компании", -- [1]
@@ -23737,9 +25437,9 @@ PlaterDB = {
 					"Пластинчатый взорень", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[136885] = {
-					"Шипомант из племени Острогривов", -- [1]
-					"", -- [2]
+				[161437] = {
+					"Взрывоопасный скарабей", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[133944] = {
 					"Аспидис", -- [1]
@@ -23749,17 +25449,17 @@ PlaterDB = {
 					"Повелитель магмы Каменных Недр", -- [1]
 					"Каменные Недра", -- [2]
 				},
-				[160416] = {
-					"Рассерженный дух бочки эля", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[44260] = {
+					"Ядоклыкий кроколиск", -- [1]
+					"Затерянный город Тол'вир", -- [2]
 				},
 				[45922] = {
 					"Небесный убийца", -- [1]
 					"Вершина Смерча", -- [2]
 				},
-				[158371] = {
-					"Зардет Черный Коготь", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[140980] = {
+					"Нефритовый червь", -- [1]
+					"", -- [2]
 				},
 				[146652] = {
 					"Усиленный страж смерти", -- [1]
@@ -23793,17 +25493,17 @@ PlaterDB = {
 					"Остроклювый орел", -- [1]
 					"Затерянный город Тол'вир", -- [2]
 				},
-				[103673] = {
-					"Созерцатель Тьмы", -- [1]
-					"Сверкающие копи", -- [2]
+				[139700] = {
+					"Океанский шаман", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[130335] = {
 					"Пластинчатый кристалиск", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[44260] = {
-					"Ядоклыкий кроколиск", -- [1]
-					"Затерянный город Тол'вир", -- [2]
+				[160416] = {
+					"Рассерженный дух бочки эля", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[157475] = {
 					"Анаболический нарост", -- [1]
@@ -23833,9 +25533,9 @@ PlaterDB = {
 					"Повелитель порталов", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[140980] = {
-					"Нефритовый червь", -- [1]
-					"", -- [2]
+				[158371] = {
+					"Зардет Черный Коготь", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[161229] = {
 					"Акир - повелитель ядов", -- [1]
@@ -23897,9 +25597,9 @@ PlaterDB = {
 					"Большой элементаль Бездны", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[136890] = {
-					"Железный Оркас", -- [1]
-					"", -- [2]
+				[158373] = {
+					"Роберто Пуплливербос", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[43014] = {
 					"Бес", -- [1]
@@ -23929,9 +25629,9 @@ PlaterDB = {
 					"Страж Подгорода", -- [1]
 					"Лордерон", -- [2]
 				},
-				[160420] = {
-					"Рассерженный дух книги", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[136891] = {
+					"Клыколом Бывалый", -- [1]
+					"", -- [2]
 				},
 				[148272] = {
 					"Огнеметная турель Кривошпура", -- [1]
@@ -23961,9 +25661,9 @@ PlaterDB = {
 					"Океанский клешнехват", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[140984] = {
-					"Червь-хладобур", -- [1]
-					"SarasIsland", -- [2]
+				[158375] = {
+					"Щупальце Заразителя", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[45572] = {
 					"Воющая буря", -- [1]
@@ -24013,9 +25713,9 @@ PlaterDB = {
 					"Цепкий ужас", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[146740] = {
-					"Маг'хар - владыка зверей", -- [1]
-					"8.1 Darkshore Scenario", -- [2]
+				[129699] = {
+					"Людвиг фон Тортоллен", -- [1]
+					"Вольная Гавань", -- [2]
 				},
 				[133990] = {
 					"Кишкодерка из банды Резчиков", -- [1]
@@ -24081,9 +25781,9 @@ PlaterDB = {
 					"Аннигилятор Лак'хал", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[146870] = {
-					"Чародейка Оназаи", -- [1]
-					"SarasIsland", -- [2]
+				[45477] = {
+					"Клубящийся солдат", -- [1]
+					"Вершина Смерча", -- [2]
 				},
 				[129828] = {
 					"Океанский щелкун", -- [1]
@@ -24153,13 +25853,13 @@ PlaterDB = {
 					"Исполинский твердошкурый лось", -- [1]
 					"", -- [2]
 				},
-				[157486] = {
-					"Кровавая опухоль", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
-				},
 				[45062] = {
 					"Присягнувший хранитель скорпидов", -- [1]
 					"Затерянный город Тол'вир", -- [2]
+				},
+				[157486] = {
+					"Кровавая опухоль", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[134701] = {
 					"Кровавый образ", -- [1]
@@ -24189,14 +25889,6 @@ PlaterDB = {
 					"Океанский призыватель волн", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[128551] = {
-					"Мастиф братства Стальных Волн", -- [1]
-					"Вольная Гавань", -- [2]
-				},
-				[135365] = {
-					"Матрона Альма", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
-				},
 				[134214] = {
 					"Клинок Бездны Келейн", -- [1]
 					"", -- [2]
@@ -24205,9 +25897,17 @@ PlaterDB = {
 					"Геомант Торговой компании", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[155953] = {
-					"К'Таффер", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[128551] = {
+					"Мастиф братства Стальных Волн", -- [1]
+					"Вольная Гавань", -- [2]
+				},
+				[135365] = {
+					"Матрона Альма", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
+				},
+				[146746] = {
+					"Завоеватель из Армии Чести", -- [1]
+					"8.1 Darkshore Scenario", -- [2]
 				},
 				[98035] = {
 					"Зловещий охотник", -- [1]
@@ -24237,9 +25937,9 @@ PlaterDB = {
 					"Поджигательница из братства Чернозубых", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[140609] = {
-					"Жестокий мако", -- [1]
-					"SarasIsland", -- [2]
+				[131402] = {
+					"Клещ из Подгнилья", -- [1]
+					"Подгнилье", -- [2]
 				},
 				[134599] = {
 					"Усиленный призыватель шторма", -- [1]
@@ -24253,8 +25953,8 @@ PlaterDB = {
 					"Хранитель портала", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[136006] = {
-					"Буйная гуляка", -- [1]
+				[137029] = {
+					"Артиллерист", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[135239] = {
@@ -24377,9 +26077,9 @@ PlaterDB = {
 					"Землерез Каменных Недр", -- [1]
 					"Каменные Недра", -- [2]
 				},
-				[133836] = {
-					"Оживленный страж", -- [1]
-					"Подгнилье", -- [2]
+				[146112] = {
+					"Чернильная Шкура", -- [1]
+					"", -- [2]
 				},
 				[153401] = {
 					"К'тир-поработитель", -- [1]
@@ -24397,9 +26097,9 @@ PlaterDB = {
 					"Ма'хаат Упорный", -- [1]
 					"Логово Нелтариона – сценарий Сердца Азерот", -- [2]
 				},
-				[135245] = {
-					"Крушитель из братства Трюмных Крыс", -- [1]
-					"Осада Боралуса", -- [2]
+				[158774] = {
+					"Сломленная горожанка", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[417] = {
 					"Droophom", -- [1]
@@ -24409,13 +26109,13 @@ PlaterDB = {
 					"Механомиротворец", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[139337] = {
-					"Кровопийца из племени Ледоклыков", -- [1]
-					"SarasIsland", -- [2]
+				[135245] = {
+					"Крушитель из братства Трюмных Крыс", -- [1]
+					"Осада Боралуса", -- [2]
 				},
-				[180385] = {
-					"Останки приговоренной души", -- [1]
-					"Святилище Господства", -- [2]
+				[145603] = {
+					"Гоблинский лесной комбайн", -- [1]
+					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
 				[130025] = {
 					"Громила из братства Стальных Волн", -- [1]
@@ -24441,9 +26141,9 @@ PlaterDB = {
 					"Олень c Темных берегов", -- [1]
 					"8.1 Darkshore Scenario", -- [2]
 				},
-				[125231] = {
-					"Таурен-землетряс", -- [1]
-					"Лордерон", -- [2]
+				[131666] = {
+					"Заклинательница шипов из ковена", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[136012] = {
 					"Горус Несдвигаемый", -- [1]
@@ -24453,13 +26153,13 @@ PlaterDB = {
 					"Акир-костекрушитель", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[151613] = {
-					"Противопехотная белка", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[139337] = {
+					"Кровопийца из племени Ледоклыков", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[145603] = {
-					"Гоблинский лесной комбайн", -- [1]
-					"Фронты на Темных берегах (Альянс)", -- [2]
+				[180385] = {
+					"Останки приговоренной души", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[45932] = {
 					"Упавшая звезда", -- [1]
@@ -24481,9 +26181,9 @@ PlaterDB = {
 					"Заряженная песчаная дьяволица", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[153532] = {
-					"Акир - подчинитель разума", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[130026] = {
+					"Морской колдун из братства Трюмных Крыс", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[131667] = {
 					"Оживленный голиаф", -- [1]
@@ -24493,25 +26193,25 @@ PlaterDB = {
 					"Искаженный Бездной захватчик", -- [1]
 					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
 				},
-				[45704] = {
-					"Затаившаяся буря", -- [1]
-					"Вершина Смерча", -- [2]
+				[146755] = {
+					"Оскалившийся черепокол", -- [1]
+					"8.1 Darkshore Scenario", -- [2]
 				},
 				[158136] = {
 					"Инквизитор Темнослов", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[131666] = {
-					"Заклинательница шипов из ковена", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[125231] = {
+					"Таурен-землетряс", -- [1]
+					"Лордерон", -- [2]
 				},
 				[45065] = {
 					"Тол'вирский торговец", -- [1]
 					"Затерянный город Тол'вир", -- [2]
 				},
-				[134991] = {
-					"Крушитель из племени Песчаной Бури", -- [1]
-					"Храм Сетралисс", -- [2]
+				[148290] = {
+					"Безумный инженер Кривошпура", -- [1]
+					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
 				[44841] = {
 					"Гнилевый монстр", -- [1]
@@ -24553,9 +26253,9 @@ PlaterDB = {
 					"Некромант из племени Ледоклыков", -- [1]
 					"", -- [2]
 				},
-				[44234] = {
-					"Нечестивая пиявка", -- [1]
-					"Затерянный город Тол'вир", -- [2]
+				[42188] = {
+					"Озрук", -- [1]
+					"Каменные Недра", -- [2]
 				},
 				[146757] = {
 					"Темный палач", -- [1]
@@ -24565,9 +26265,9 @@ PlaterDB = {
 					"Белохвостая олениха", -- [1]
 					"8.1 Darkshore Scenario", -- [2]
 				},
-				[42188] = {
-					"Озрук", -- [1]
-					"Каменные Недра", -- [2]
+				[44234] = {
+					"Нечестивая пиявка", -- [1]
+					"Затерянный город Тол'вир", -- [2]
 				},
 				[148164] = {
 					"Стрелок-специалист", -- [1]
@@ -24589,17 +26289,17 @@ PlaterDB = {
 					"Желчный слизнюченыш", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[131669] = {
-					"Шипастая гончая", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[135761] = {
+					"Громовой тотем", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[54688] = {
 					"Искаженный временем ночной саблезуб", -- [1]
 					"Конец Времен", -- [2]
 				},
-				[135761] = {
-					"Громовой тотем", -- [1]
-					"Гробница королей", -- [2]
+				[131669] = {
+					"Шипастая гончая", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[151872] = {
 					"Ужасное щупальце", -- [1]
@@ -24629,9 +26329,9 @@ PlaterDB = {
 					"Бешеная крыса", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[131670] = {
-					"Прядильщица лоз из ковена Мертвых Сердец", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[134739] = {
+					"Голем-чистильщик", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[111998] = {
 					"Рубака Орды", -- [1]
@@ -24693,17 +26393,17 @@ PlaterDB = {
 					"Крушащий ужас", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[135764] = {
-					"Взрывной тотем", -- [1]
-					"Гробница королей", -- [2]
+				[5925] = {
+					"Тотем заземления", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[126449] = {
 					"Илоплюй", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[160061] = {
-					"Ползучая порча", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[133463] = {
+					"Боевая машина Торговой компании", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[132056] = {
 					"Огнелетчица Торговой компании", -- [1]
@@ -24717,9 +26417,9 @@ PlaterDB = {
 					"Акир-трутень", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[133463] = {
-					"Боевая машина Торговой компании", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[160061] = {
+					"Ползучая порча", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[131545] = {
 					"Леди Уэйкрест", -- [1]
@@ -24757,9 +26457,9 @@ PlaterDB = {
 					"Злобный бичеватель разума", -- [1]
 					"Трон Приливов", -- [2]
 				},
-				[145485] = {
-					"Чумной страж - пехотинец", -- [1]
-					"Фронты на Темных берегах (Альянс)", -- [2]
+				[134232] = {
+					"Наемный убийца", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[137940] = {
 					"Сторожевая акула", -- [1]
@@ -24773,17 +26473,17 @@ PlaterDB = {
 					"Надсмотрщик Ул'рок", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[134232] = {
-					"Наемный убийца", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
-				},
-				[45930] = {
-					"Служитель воздуха", -- [1]
-					"Вершина Смерча", -- [2]
-				},
-				[144976] = {
-					"Отрекшийся - страж смерти", -- [1]
+				[145485] = {
+					"Чумной страж - пехотинец", -- [1]
 					"Фронты на Темных берегах (Альянс)", -- [2]
+				},
+				[156866] = {
+					"Ра-ден", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
+				},
+				[71529] = {
+					"tiktac", -- [1]
+					"Сверкающие копи", -- [2]
 				},
 				[133593] = {
 					"Техник-эксперт", -- [1]
@@ -24801,9 +26501,9 @@ PlaterDB = {
 					"Ведомая голосами сектантка", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[180780] = {
-					"Жуткая пасть", -- [1]
-					"Святилище Господства", -- [2]
+				[144975] = {
+					"Отрекшийся-кавалерист", -- [1]
+					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
 				[139348] = {
 					"Бага Ледяной Щит", -- [1]
@@ -24813,17 +26513,17 @@ PlaterDB = {
 					"Мелкое порождение Бездны", -- [1]
 					"Изумрудный Сон – сценарий Сердца Азерот", -- [2]
 				},
-				[131677] = {
-					"Плетельщица рун из ковена Мертвых Сердец", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[144976] = {
+					"Отрекшийся - страж смерти", -- [1]
+					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
 				[134617] = {
 					"Детеныш кролуска", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[144975] = {
-					"Отрекшийся-кавалерист", -- [1]
-					"Фронты на Темных берегах (Альянс)", -- [2]
+				[180780] = {
+					"Жуткая пасть", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[161218] = {
 					"Акир-крушитель", -- [1]
@@ -24845,17 +26545,17 @@ PlaterDB = {
 					"Оргриммарская налетчица", -- [1]
 					"Лордерон", -- [2]
 				},
-				[71529] = {
-					"tiktac", -- [1]
-					"Сверкающие копи", -- [2]
+				[138838] = {
+					"Зара'тик-богомол", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[152009] = {
 					"Неисправный хламобот", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[138838] = {
-					"Зара'тик-богомол", -- [1]
-					"SarasIsland", -- [2]
+				[131677] = {
+					"Плетельщица рун из ковена Мертвых Сердец", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[151755] = {
 					"Темная гончая", -- [1]
@@ -24865,25 +26565,25 @@ PlaterDB = {
 					"Демонический тиран", -- [1]
 					"Храм Котмогу", -- [2]
 				},
-				[161217] = {
-					"Акир-быстроног", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[136665] = {
+					"Наблюдатель корпорации Эшвейнов", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[135258] = {
 					"Мародер из братства Стальных Волн", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[138455] = {
-					"Таурен-землетряс", -- [1]
-					"Лордерон", -- [2]
+				[151754] = {
+					"Блуждающее порождение Бездны", -- [1]
+					"Изумрудный Сон – сценарий Сердца Азерот", -- [2]
 				},
 				[157253] = {
 					"Ка'зир", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[136665] = {
-					"Наблюдатель корпорации Эшвейнов", -- [1]
-					"Тол Дагор", -- [2]
+				[161217] = {
+					"Акир-быстроног", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[180782] = {
 					"Поглощенная душа", -- [1]
@@ -24901,9 +26601,9 @@ PlaterDB = {
 					"Отрекшийся-стрелок", -- [1]
 					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
-				[151754] = {
-					"Блуждающее порождение Бездны", -- [1]
-					"Изумрудный Сон – сценарий Сердца Азерот", -- [2]
+				[138455] = {
+					"Таурен-землетряс", -- [1]
+					"Лордерон", -- [2]
 				},
 				[134364] = {
 					"Отступник - хранитель яиц", -- [1]
@@ -24933,9 +26633,9 @@ PlaterDB = {
 					"Терроспин", -- [1]
 					"Святилище Господства", -- [2]
 				},
-				[156866] = {
-					"Ра-ден", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[45930] = {
+					"Служитель воздуха", -- [1]
+					"Вершина Смерча", -- [2]
 				},
 				[100943] = {
 					"Тотем земляной стены", -- [1]
@@ -24949,21 +26649,21 @@ PlaterDB = {
 					"Бихирыч", -- [1]
 					"Конец Времен", -- [2]
 				},
-				[43214] = {
-					"Камнешкур", -- [1]
-					"Каменные Недра", -- [2]
-				},
 				[138841] = {
 					"Зара'тик - певец войны", -- [1]
 					"SarasIsland", -- [2]
+				},
+				[43214] = {
+					"Камнешкур", -- [1]
+					"Каменные Недра", -- [2]
 				},
 				[139097] = {
 					"Песчаный стрелок", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[5925] = {
-					"Тотем заземления", -- [1]
-					"Храм Котмогу", -- [2]
+				[135764] = {
+					"Взрывной тотем", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[139353] = {
 					"Неживой герой", -- [1]
@@ -24993,9 +26693,9 @@ PlaterDB = {
 					"Солдат чумного отряда", -- [1]
 					"Лордерон", -- [2]
 				},
-				[134739] = {
-					"Голем-чистильщик", -- [1]
-					"Гробница королей", -- [2]
+				[131670] = {
+					"Прядильщица лоз из ковена Мертвых Сердец", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[147225] = {
 					"Экстрактор азерита", -- [1]
@@ -25037,9 +26737,9 @@ PlaterDB = {
 					"Ленивый лаборант", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[148290] = {
-					"Безумный инженер Кривошпура", -- [1]
-					"Фронты на Темных берегах (Альянс)", -- [2]
+				[134991] = {
+					"Крушитель из племени Песчаной Бури", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[146900] = {
 					"Ковыляющий стрелок", -- [1]
@@ -25057,17 +26757,17 @@ PlaterDB = {
 					"Поднятый скелет", -- [1]
 					"Лордерон", -- [2]
 				},
-				[158774] = {
-					"Сломленная горожанка", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[151613] = {
+					"Противопехотная белка", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
-				[146755] = {
-					"Оскалившийся черепокол", -- [1]
-					"8.1 Darkshore Scenario", -- [2]
+				[45704] = {
+					"Затаившаяся буря", -- [1]
+					"Вершина Смерча", -- [2]
 				},
-				[130026] = {
-					"Морской колдун из братства Трюмных Крыс", -- [1]
-					"Тол Дагор", -- [2]
+				[153532] = {
+					"Акир - подчинитель разума", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[45096] = {
 					"Прирученный тол'вирский хищник", -- [1]
@@ -25077,9 +26777,9 @@ PlaterDB = {
 					"Помешанный аптекарь", -- [1]
 					"8.1 Darkshore Scenario", -- [2]
 				},
-				[146112] = {
-					"Чернильная Шкура", -- [1]
-					"", -- [2]
+				[133836] = {
+					"Оживленный страж", -- [1]
+					"Подгнилье", -- [2]
 				},
 				[131812] = {
 					"Исказительница душ из ковена Мертвых Сердец", -- [1]
@@ -25117,21 +26817,21 @@ PlaterDB = {
 					"Нестабильный слуга", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[137029] = {
-					"Артиллерист", -- [1]
+				[136006] = {
+					"Буйная гуляка", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[131402] = {
-					"Клещ из Подгнилья", -- [1]
-					"Подгнилье", -- [2]
+				[140609] = {
+					"Жестокий мако", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[77927] = {
 					"Гончая недр", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[146746] = {
-					"Завоеватель из Армии Чести", -- [1]
-					"8.1 Darkshore Scenario", -- [2]
+				[155953] = {
+					"К'Таффер", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[137626] = {
 					"Крушащий ужас", -- [1]
@@ -25185,9 +26885,9 @@ PlaterDB = {
 					"Проклинательница Магода", -- [1]
 					"", -- [2]
 				},
-				[45477] = {
-					"Клубящийся солдат", -- [1]
-					"Вершина Смерча", -- [2]
+				[146870] = {
+					"Чародейка Оназаи", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[139360] = {
 					"Оживленный громила из племени Ледоклыков", -- [1]
@@ -25229,9 +26929,9 @@ PlaterDB = {
 					"Обсидиановый дракончик", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[129699] = {
-					"Людвиг фон Тортоллен", -- [1]
-					"Вольная Гавань", -- [2]
+				[146740] = {
+					"Маг'хар - владыка зверей", -- [1]
+					"8.1 Darkshore Scenario", -- [2]
 				},
 				[140768] = {
 					"Гууру Разбиватель Гор", -- [1]
@@ -25245,9 +26945,9 @@ PlaterDB = {
 					"Кроглот Зараженный", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[158375] = {
-					"Щупальце Заразителя", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[140984] = {
+					"Червь-хладобур", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[145372] = {
 					"Дикая призывательница луны", -- [1]
@@ -25293,13 +26993,13 @@ PlaterDB = {
 					"Обсидиановый заклинатель пламени", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[139700] = {
-					"Океанский шаман", -- [1]
-					"SarasIsland", -- [2]
+				[103673] = {
+					"Созерцатель Тьмы", -- [1]
+					"Сверкающие копи", -- [2]
 				},
-				[136891] = {
-					"Клыколом Бывалый", -- [1]
-					"", -- [2]
+				[160420] = {
+					"Рассерженный дух книги", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[45007] = {
 					"Порабощенный бандит", -- [1]
@@ -25309,9 +27009,9 @@ PlaterDB = {
 					"Испытатель экспериментального оружия", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[158373] = {
-					"Роберто Пуплливербос", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[136890] = {
+					"Железный Оркас", -- [1]
+					"", -- [2]
 				},
 				[141282] = {
 					"Кул-тирасский пехотинец", -- [1]
@@ -25341,9 +27041,9 @@ PlaterDB = {
 					"Вышибала из банды Резчиков", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[134069] = {
-					"Вол'зит Шепчущая", -- [1]
-					"Святилище Штормов", -- [2]
+				[102392] = {
+					"Тотем резонанса", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[127482] = {
 					"Сточный злобнокус", -- [1]
@@ -25385,13 +27085,13 @@ PlaterDB = {
 					"Забытый обитатель глубин", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[139949] = {
-					"Чумная знахарка", -- [1]
-					"Храм Сетралисс", -- [2]
+				[136880] = {
+					"Свинобраз из племени Острогривов", -- [1]
+					"", -- [2]
 				},
-				[161815] = {
-					"К'тир - призыватель Бездны", -- [1]
-					"Зал Сердца – сценарий", -- [2]
+				[45377] = {
+					"Ауг", -- [1]
+					"Затерянный город Тол'вир", -- [2]
 				},
 				[145067] = {
 					"Тенеперый вороненок", -- [1]
@@ -25437,33 +27137,33 @@ PlaterDB = {
 					"Сестра Маладия", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[133935] = {
-					"Оживший страж", -- [1]
-					"Гробница королей", -- [2]
+				[159510] = {
+					"Око глубин", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[146401] = {
 					"Раб клана Темной Чешуи", -- [1]
 					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
-				[145060] = {
-					"Чудовищный тенеперый ворон", -- [1]
-					"", -- [2]
+				[153244] = {
+					"Элементаль забвения", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
-				[126429] = {
-					"Твердопанцирный коралловый краб", -- [1]
-					"SarasIsland", -- [2]
+				[130521] = {
+					"Палубный матрос из Вольной Гавани", -- [1]
+					"Вольная Гавань", -- [2]
 				},
-				[89] = {
-					"Инфернал", -- [1]
-					"Храм Котмогу", -- [2]
+				[147105] = {
+					"Плотный лед", -- [1]
+					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
 				[147936] = {
 					"Азерцветовый камнеспин", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[134828] = {
-					"Воденыш", -- [1]
-					"Святилище Штормов", -- [2]
+				[145058] = {
+					"Тенеперый ворон", -- [1]
+					"", -- [2]
 				},
 				[133870] = {
 					"Больной плеточник", -- [1]
@@ -25477,17 +27177,17 @@ PlaterDB = {
 					"Джес Хаулис", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[44704] = {
-					"Прислужник Сиамата", -- [1]
-					"Затерянный город Тол'вир", -- [2]
+				[148893] = {
+					"Замученная душа", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[151773] = {
 					"Сторожевой бот модели \"ПЕС\"", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[134063] = {
-					"Брат Айронхалл", -- [1]
-					"Святилище Штормов", -- [2]
+				[144293] = {
+					"Переработчик отходов", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[155098] = {
 					"Рексар", -- [1]
@@ -25525,17 +27225,17 @@ PlaterDB = {
 					"Азерцветовый кристалльник", -- [1]
 					"", -- [2]
 				},
-				[54517] = {
-					"Искаженный временем коготь Тени", -- [1]
-					"Конец Времен", -- [2]
+				[123292] = {
+					"Блестопанцирный хвататель", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[129366] = {
-					"Буканьер из братства Трюмных Крыс", -- [1]
-					"Осада Боралуса", -- [2]
+				[177787] = {
+					"Верный Утробе сокрушитель надежды", -- [1]
+					"Святилище Господства", -- [2]
 				},
-				[131112] = {
-					"Боец из братства Волнорезов", -- [1]
-					"Тол Дагор", -- [2]
+				[135204] = {
+					"Призрачный жрец-проклинатель", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[127485] = {
 					"Мародер из братства Трюмных Крыс", -- [1]
@@ -25557,9 +27257,9 @@ PlaterDB = {
 					"Мучитель из Неферсета", -- [1]
 					"Затерянный город Тол'вир", -- [2]
 				},
-				[140827] = {
-					"Хихикающий чертополошник", -- [1]
-					"", -- [2]
+				[136735] = {
+					"Морпех корпорации Эшвейнов", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[123289] = {
 					"Блестопанцирный смертохват", -- [1]
@@ -25577,13 +27277,13 @@ PlaterDB = {
 					"Морпех флота \"Землеройки\"", -- [1]
 					"Фронты на Темных берегах (Альянс)", -- [2]
 				},
-				[162305] = {
-					"Акир-сердцекол", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[139799] = {
+					"Ученик Айронхалла", -- [1]
+					"Святилище Штормов", -- [2]
 				},
-				[126612] = {
-					"Искатель ветра Дурджа", -- [1]
-					"Лордерон", -- [2]
+				[44924] = {
+					"Присягнувший мирмидон", -- [1]
+					"Затерянный город Тол'вир", -- [2]
 				},
 				[134174] = {
 					"Тенеликий колдун", -- [1]
@@ -25593,9 +27293,9 @@ PlaterDB = {
 					"Ведомый голосами послушник", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[153097] = {
-					"Слуга Бездны - шаман", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[135706] = {
+					"Мародер из братства Трюмных Крыс", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[144232] = {
 					"Буйная гуляка", -- [1]
@@ -25605,13 +27305,13 @@ PlaterDB = {
 					"Офицер корпорации Эшвейнов", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[122264] = {
-					"Старая твердопанцирная черепаха", -- [1]
-					"", -- [2]
+				[135962] = {
+					"Скальный яростень", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[175729] = {
-					"Душа Нер'зула", -- [1]
-					"Святилище Господства", -- [2]
+				[150154] = {
+					"Завролиск-костеглод", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[134514] = {
 					"Глубинная сектантка", -- [1]
@@ -25697,13 +27397,13 @@ PlaterDB = {
 					"Сланцеед", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[160249] = {
-					"Шипастое щупальце", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[42428] = {
+					"Верный последователь", -- [1]
+					"Каменные Недра", -- [2]
 				},
-				[129548] = {
-					"Громила из братства Чернозубых", -- [1]
-					"Вольная Гавань", -- [2]
+				[138254] = {
+					"Фузилер из братства Стальных Волн", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[137458] = {
 					"Гниющая спора", -- [1]
@@ -25717,17 +27417,17 @@ PlaterDB = {
 					"Сам'рек Призыватель Хаоса", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[137486] = {
-					"Королева Патлаа", -- [1]
-					"Гробница королей", -- [2]
+				[134417] = {
+					"Глубоководная ритуалистка", -- [1]
+					"Святилище Штормов", -- [2]
 				},
-				[162933] = {
-					"Пожинатель мыслей", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[156795] = {
+					"Осведомитель ШРУ", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[129547] = {
-					"Кастетник из братства Чернозубых", -- [1]
-					"Вольная Гавань", -- [2]
+				[40765] = {
+					"Командир Улток", -- [1]
+					"Трон Приливов", -- [2]
 				},
 				[127488] = {
 					"Маг огня корпорации Эшвейнов", -- [1]
@@ -25741,9 +27441,9 @@ PlaterDB = {
 					"Песочная змея", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[131729] = {
-					"Лико", -- [1]
-					"SarasIsland", -- [2]
+				[150143] = {
+					"Перемалыватель из племени Хламоедов", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[161244] = {
 					"Кровь Заразителя", -- [1]
@@ -25765,25 +27465,25 @@ PlaterDB = {
 					"Порабощенная оружейница", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[132879] = {
-					"Кристальный великан", -- [1]
-					"SarasIsland", -- [2]
+				[54511] = {
+					"Искаженный временем упырь", -- [1]
+					"Конец Времен", -- [2]
 				},
 				[78001] = {
 					"Тотем разразившегося ливня", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[62982] = {
-					"Подчинитель разума", -- [1]
-					"Храм Котмогу", -- [2]
+				[128969] = {
+					"Командир из корпорации Эшвейнов", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[137716] = {
 					"Донный краб", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[137478] = {
-					"Королева Уаси", -- [1]
-					"Гробница королей", -- [2]
+				[162030] = {
+					"Ведомый голосами ритуалист", -- [1]
+					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
 				[137474] = {
 					"Король Тималджи", -- [1]
@@ -25805,9 +27505,9 @@ PlaterDB = {
 					"Крыса", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[151798] = {
-					"Вексиона", -- [1]
-					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
+				[133384] = {
+					"Меректа", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[157158] = {
 					"Сектант - погонщик рабов", -- [1]
@@ -25873,21 +27573,21 @@ PlaterDB = {
 					"Плод ужаса", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[136190] = {
-					"Темный разлом", -- [1]
-					"SarasIsland", -- [2]
+				[134144] = {
+					"Живой поток", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[141939] = {
 					"Наводчица корпорации Эшвейнов", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[120651] = {
-					"Взрывчатка", -- [1]
-					"Святилище Штормов", -- [2]
+				[153196] = {
+					"Ворчун из племени Хламоедов", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
-				[131585] = {
-					"Порабощенная стражница", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[140792] = {
+					"Стервятник-ломоклюв", -- [1]
+					"", -- [2]
 				},
 			},
 			["OptionsPanelDB"] = {
@@ -25918,10 +27618,10 @@ PlaterDB = {
 				["Jaina Encounter"] = 6,
 				["Aura Reorder"] = 3,
 				["Reorder Nameplate"] = 4,
-				["Extra Border"] = 2,
+				["Combo Points"] = 6,
 				["Monk Statue"] = 2,
 				["Target Color"] = 3,
-				["Combo Points"] = 6,
+				["Extra Border"] = 2,
 				["Attacking Specific Unit"] = 2,
 			},
 			["aura_x_offset"] = 0,
@@ -29909,8 +31609,8 @@ PlaterDB = {
 				["nameplateShowEnemyMinus"] = "1",
 				["nameplatePersonalShowAlways"] = "0",
 				["nameplateMotionSpeed"] = "0.05",
-				["nameplateShowFriendlyTotems"] = "0",
 				["nameplateGlobalScale"] = "1.0",
+				["nameplateShowFriendlyTotems"] = "0",
 				["nameplateShowEnemyMinions"] = "1",
 				["nameplateShowFriendlyPets"] = "0",
 				["nameplateShowFriendlyNPCs"] = "1",
@@ -29918,19 +31618,19 @@ PlaterDB = {
 				["nameplatePersonalShowInCombat"] = "1",
 				["nameplatePersonalShowWithTarget"] = "0",
 				["nameplateShowSelf"] = "0",
-				["nameplateOtherTopInset"] = "0.085",
+				["nameplateShowFriendlyMinions"] = "0",
 				["nameplateResourceOnTarget"] = "0",
 				["nameplateMotion"] = "1",
 				["NamePlateHorizontalScale"] = "1",
-				["nameplateShowAll"] = "1",
+				["nameplateMinScale"] = "1",
 				["nameplateMaxDistance"] = "100",
-				["nameplateShowFriendlyMinions"] = "0",
+				["nameplateOtherTopInset"] = "0.085",
 				["nameplateSelfScale"] = "1.0",
 				["nameplateSelfBottomInset"] = "0.2",
 				["nameplateSelfAlpha"] = "0.75",
 				["nameplateShowFriendlyGuardians"] = "0",
 				["nameplateOccludedAlphaMult"] = "1",
-				["nameplateMinScale"] = "1",
+				["nameplateShowAll"] = "1",
 				["nameplatePersonalHideDelaySeconds"] = "0.2",
 				["nameplateSelfTopInset"] = "0.5",
 				["NamePlateVerticalScale"] = "1",
@@ -30128,7 +31828,11 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["__TrashAt"] = 1640216643,
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --play flash animations\n    envTable.FullBarFlash:Play()\n    \n    --envTable.currentHeight = unitFrame.castBar:GetHeight()\n    \n    --restoring the default size (not required since it already restore in the hide script)\n    if (envTable.OriginalHeight) then\n        self:SetHeight (envTable.OriginalHeight)\n    end\n    \n    --increase the cast bar size\n    local height = self:GetHeight()\n    envTable.OriginalHeight = height\n    \n    self:SetHeight (height + envTable.CastBarHeightAdd)\n    \n    Plater.SetCastBarBorderColor (self, 1, .2, .2, 0.4)\n    \n    unitFrame:PlayFrameShake (envTable.FrameShake)\n    \n    --set the color of the cast bar to dark orange (only if can be interrupted)\n    --Plater auto set this color to default when a new cast starts, no need to reset this value at OnHide.    \n    if (envTable._CanInterrupt) then\n        if (scriptTable.config.useCastbarColor) then\n            self:SetStatusBarColor (Plater:ParseColors (envTable.CastbarColor))\n        end\n    end\n    \n    envTable.BackgroundFlash:Play()\n    \n    unitFrame.castBar.Spark:SetHeight(unitFrame.castBar:GetHeight())\n    \nend\n\n\n\n\n\n\n\n\n\n\n",
-					["Name"] = "Cast - Alert + Timer [P]",
+					["SpellIds"] = {
+						350421, -- [1]
+						355787, -- [2]
+						348513, -- [3]
+					},
 					["PlaterCore"] = 1,
 					["Options"] = {
 						{
@@ -30266,11 +31970,7 @@ PlaterDB = {
 						}, -- [12]
 					},
 					["version"] = -1,
-					["SpellIds"] = {
-						350421, -- [1]
-						355787, -- [2]
-						348513, -- [3]
-					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["NpcNames"] = {
 					},
 				}, -- [7]
@@ -30487,20 +32187,20 @@ PlaterDB = {
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["friendlyplayer"] = {
-					["actorname_text_spacing"] = 14,
 					["health_incombat"] = {
 						nil, -- [1]
 						1, -- [2]
 					},
-					["health"] = {
-						nil, -- [1]
-						1, -- [2]
-					},
+					["actorname_text_spacing"] = 14,
+					["only_damaged"] = false,
 					["only_thename"] = true,
 					["percent_text_ooc"] = true,
 					["actorname_text_size"] = 15,
 					["actorname_use_class_color"] = true,
-					["only_damaged"] = false,
+					["health"] = {
+						nil, -- [1]
+						1, -- [2]
+					},
 				},
 				["enemynpc"] = {
 					["power_percent_text_anchor"] = {
@@ -30754,10 +32454,10 @@ PlaterDB = {
 				["Jaina Encounter"] = 6,
 				["Reorder Nameplate"] = 4,
 				["Monk Statue"] = 2,
-				["Combo Points"] = 6,
+				["Extra Border"] = 2,
 				["Execute Range"] = 1,
 				["Target Color"] = 3,
-				["Extra Border"] = 2,
+				["Combo Points"] = 6,
 				["Attacking Specific Unit"] = 2,
 			},
 			["cast_statusbar_color_nointerrupt"] = {
@@ -31495,29 +33195,29 @@ PlaterDB = {
 					"Шаман из племени Дикой Глуши", -- [1]
 					"", -- [2]
 				},
-				[127490] = {
-					"Рыцарь-капитан Валири", -- [1]
-					"Тол Дагор", -- [2]
+				[136190] = {
+					"Темный разлом", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[151798] = {
-					"Вексиона", -- [1]
-					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
+				[127106] = {
+					"Офицер из братства Стальных Волн", -- [1]
+					"Вольная Гавань", -- [2]
 				},
-				[142587] = {
-					"Прожорливая личинка", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[138493] = {
+					"Прислужник Зула", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[132864] = {
 					"Молодой крепкорук", -- [1]
 					"", -- [2]
 				},
-				[136190] = {
-					"Темный разлом", -- [1]
-					"SarasIsland", -- [2]
+				[127490] = {
+					"Рыцарь-капитан Валири", -- [1]
+					"Тол Дагор", -- [2]
 				},
-				[138493] = {
-					"Прислужник Зула", -- [1]
-					"Гробница королей", -- [2]
+				[142587] = {
+					"Прожорливая личинка", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[159219] = {
 					"Мрачный провидец", -- [1]
@@ -31635,8 +33335,8 @@ PlaterDB = {
 					"Искажающее разум щупальце", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[132868] = {
-					"Сгусток азерита", -- [1]
+				[139009] = {
+					"Дикий охотник", -- [1]
 					"", -- [2]
 				},
 				[78364] = {
@@ -31651,8 +33351,8 @@ PlaterDB = {
 					"Облачнокрыл Падальщик", -- [1]
 					"", -- [2]
 				},
-				[139009] = {
-					"Дикий охотник", -- [1]
+				[132868] = {
+					"Сгусток азерита", -- [1]
 					"", -- [2]
 				},
 				[24690] = {
@@ -31671,20 +33371,20 @@ PlaterDB = {
 					"Одурманенный вышибала", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[142336] = {
-					"Осьминожек", -- [1]
-					"SarasIsland", -- [2]
+				[17816] = {
+					"Крабстер", -- [1]
+					"Кривой Клык: Узилище", -- [2]
 				},
 				[138498] = {
 					"Сумеречный дракон", -- [1]
 					"", -- [2]
 				},
-				[17880] = {
-					"Темпорус", -- [1]
-					"Открытие Темного портала", -- [2]
+				[159224] = {
+					"Грит'акс Палач", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[139010] = {
-					"Свирепый острокоготь", -- [1]
+				[134916] = {
+					"Подвальный охотник", -- [1]
 					"", -- [2]
 				},
 				[138465] = {
@@ -31699,9 +33399,9 @@ PlaterDB = {
 					"Мал'тир - маг Бездны", -- [1]
 					"Гробница королей", -- [2]
 				},
-				[139011] = {
-					"Дикий защитник", -- [1]
-					"", -- [2]
+				[136964] = {
+					"Арбалетчица из Гнезда", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[133593] = {
 					"Техник-эксперт", -- [1]
@@ -31715,9 +33415,9 @@ PlaterDB = {
 					"Новообращенный Шадо-Пан", -- [1]
 					"Монастырь Шадо-Пан", -- [2]
 				},
-				[136964] = {
-					"Арбалетчица из Гнезда", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[139011] = {
+					"Дикий защитник", -- [1]
+					"", -- [2]
 				},
 				[141283] = {
 					"Кул-тирасский стражник", -- [1]
@@ -31727,13 +33427,13 @@ PlaterDB = {
 					"Сак'джа", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[160249] = {
-					"Шипастое щупальце", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[147967] = {
+					"Морпех 7-го легиона", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
-				[130436] = {
-					"Отдыхающий работник", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[131847] = {
+					"Гуляка из дома Уэйкрестов", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[134150] = {
 					"Резчик рун Сорн", -- [1]
@@ -31823,17 +33523,17 @@ PlaterDB = {
 					"Боец на веслах из братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[138247] = {
-					"Мародер из братства Стальных Волн", -- [1]
-					"Осада Боралуса", -- [2]
+				[140294] = {
+					"Волк-снегошкур", -- [1]
+					"", -- [2]
 				},
 				[131850] = {
 					"Обезумевший мастер выживания", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[140294] = {
-					"Волк-снегошкур", -- [1]
-					"", -- [2]
+				[138247] = {
+					"Мародер из братства Стальных Волн", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[21138] = {
 					"Палач из рода Бесконечности", -- [1]
@@ -31847,21 +33547,21 @@ PlaterDB = {
 					"Щитоносец из армии Зула", -- [1]
 					"Атал'Дазар", -- [2]
 				},
-				[24687] = {
-					"Врач Солнечного Клинка", -- [1]
-					"Терраса Магистров", -- [2]
+				[82308] = {
+					"Бим", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[63508] = {
-					"Сюэнь", -- [1]
+				[163836] = {
+					"Психофаг", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[50842] = {
 					"Фохэд", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[158411] = {
-					"Нестабильный слуга", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[24687] = {
+					"Врач Солнечного Клинка", -- [1]
+					"Терраса Магистров", -- [2]
 				},
 				[140295] = {
 					"Волчонок-снегошкур", -- [1]
@@ -31879,13 +33579,13 @@ PlaterDB = {
 					"Ярость Н'Зота", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[163836] = {
-					"Психофаг", -- [1]
+				[63508] = {
+					"Сюэнь", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[17465] = {
-					"Центурион клана Изувеченной Длани", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
+				[143622] = {
+					"Дикий бес", -- [1]
+					"Сверкающие копи", -- [2]
 				},
 				[123146] = {
 					"Истерзанный дух", -- [1]
@@ -31927,9 +33627,9 @@ PlaterDB = {
 					"Тяжелый хламобот", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[17817] = {
-					"Большой крабстер", -- [1]
-					"Кривой Клык: Узилище", -- [2]
+				[140297] = {
+					"Нок-арак", -- [1]
+					"", -- [2]
 				},
 				[152835] = {
 					"Кристаллизированный азерит", -- [1]
@@ -31943,9 +33643,9 @@ PlaterDB = {
 					"Илошкур", -- [1]
 					"", -- [2]
 				},
-				[82308] = {
-					"Бим", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[135894] = {
+					"Элементаль огня", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[151812] = {
 					"Детектобот", -- [1]
@@ -31971,9 +33671,9 @@ PlaterDB = {
 					"Кобольд-рудокоп", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[157442] = {
-					"Взор безумия", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[139019] = {
+					"Иглогрив", -- [1]
+					"", -- [2]
 				},
 				[101398] = {
 					"Ментальный демон", -- [1]
@@ -32007,9 +33707,9 @@ PlaterDB = {
 					"Кристальный великан", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[146185] = {
-					"Огнежал-трутень", -- [1]
-					"", -- [2]
+				[152326] = {
+					"Кайра Буше", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[137485] = {
 					"Одержимый кровью шпион", -- [1]
@@ -32019,9 +33719,9 @@ PlaterDB = {
 					"Акир-сердцекол", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[152326] = {
-					"Кайра Буше", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[146185] = {
+					"Огнежал-трутень", -- [1]
+					"", -- [2]
 				},
 				[148488] = {
 					"Неживой авгур", -- [1]
@@ -32035,13 +33735,13 @@ PlaterDB = {
 					"Разведчик из клана Темной Чешуи", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[157700] = {
-					"Огюст Мулен", -- [1]
-					"Жуткое видение Штормграда", -- [2]
-				},
 				[163841] = {
 					"Слияние плоти", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
+				},
+				[157700] = {
+					"Огюст Мулен", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[137486] = {
 					"Королева Патлаа", -- [1]
@@ -32059,9 +33759,9 @@ PlaterDB = {
 					"Фузилер из братства Стальных Волн", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[138255] = {
-					"Наводчик корпорации Эшвейнов", -- [1]
-					"Осада Боралуса", -- [2]
+				[136208] = {
+					"Стромгардский арбалетчик", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[62358] = {
 					"Оскверненная капля", -- [1]
@@ -32087,9 +33787,9 @@ PlaterDB = {
 					"Огнежал-покоритель", -- [1]
 					"", -- [2]
 				},
-				[136208] = {
-					"Стромгардский арбалетчик", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[138255] = {
+					"Наводчик корпорации Эшвейнов", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[134417] = {
 					"Глубоководный ритуалист", -- [1]
@@ -32099,9 +33799,9 @@ PlaterDB = {
 					"Земляной яростень", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[139023] = {
-					"Яростный Кровозев", -- [1]
-					"", -- [2]
+				[136976] = {
+					"Т'зала", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[135893] = {
 					"Пылающий страж", -- [1]
@@ -32131,9 +33831,9 @@ PlaterDB = {
 					"Слуга Бездны - шаманка", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[157447] = {
-					"Фанатичный сектант", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[61399] = {
+					"Глинтрок-разведчик", -- [1]
+					"Дворец Могу'шан", -- [2]
 				},
 				[137233] = {
 					"Чумная жаба", -- [1]
@@ -32155,9 +33855,9 @@ PlaterDB = {
 					"Кастетник из братства Чернозубых", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[145934] = {
-					"Безумный Иван", -- [1]
-					"Havenswood (Islands 2)", -- [2]
+				[135699] = {
+					"Тюремщик корпорации Эшвейнов", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[161286] = {
 					"Темная ритуалистка", -- [1]
@@ -32167,17 +33867,17 @@ PlaterDB = {
 					"Лунная Песнь", -- [1]
 					"", -- [2]
 				},
-				[155657] = {
-					"Хаффер", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[149516] = {
+					"Чернолап", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[139537] = {
 					"Зара'тик-куньчун", -- [1]
 					"", -- [2]
 				},
-				[135699] = {
-					"Тюремщик корпорации Эшвейнов", -- [1]
-					"Тол Дагор", -- [2]
+				[145934] = {
+					"Безумный Иван", -- [1]
+					"Havenswood (Islands 2)", -- [2]
 				},
 				[152331] = {
 					"Капитан Ленси Ревшон", -- [1]
@@ -32195,9 +33895,9 @@ PlaterDB = {
 					"Дух Бездны", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[157449] = {
-					"Зловещая резчица душ", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[139026] = {
+					"Призыватель Затмения", -- [1]
+					"", -- [2]
 				},
 				[131858] = {
 					"Шипастый страж", -- [1]
@@ -32239,9 +33939,9 @@ PlaterDB = {
 					"Волногон из клана Скользящего Плавника", -- [1]
 					"", -- [2]
 				},
-				[131864] = {
-					"Горак Тул", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[16507] = {
+					"Караульный из клана Изувеченной Длани", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
 				[131863] = {
 					"Раал Прожорливый", -- [1]
@@ -32267,33 +33967,33 @@ PlaterDB = {
 					"Чумной знахарь", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[151056] = {
-					"Варанк'ул Могучий", -- [1]
-					"Горнило Штормов", -- [2]
+				[62360] = {
+					"Оскверненная капля", -- [1]
+					"Храм Нефритовой Змеи", -- [2]
 				},
 				[59545] = {
 					"Золотой жук", -- [1]
 					"Храм Нефритовой Змеи", -- [2]
 				},
-				[16507] = {
-					"Караульный из клана Изувеченной Длани", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
+				[131864] = {
+					"Горак Тул", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[136214] = {
 					"Говорящая с ветрами Хелдис", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[134423] = {
-					"Обитатель глубин", -- [1]
-					"Святилище Штормов", -- [2]
+				[136470] = {
+					"Продавщица закусок", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[59801] = {
 					"Крик'тик - направитель ветров", -- [1]
 					"Врата Заходящего Солнца", -- [2]
 				},
-				[157452] = {
-					"Кошмарный антиген", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[134935] = {
+					"Мать Вишис", -- [1]
+					"", -- [2]
 				},
 				[137238] = {
 					"Арбалетчик Альянса", -- [1]
@@ -32303,9 +34003,9 @@ PlaterDB = {
 					"Азш'ари-буревестница", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[157709] = {
-					"Дрилиана", -- [1]
-					"Твердыня Крыла Тьмы – сценарий", -- [2]
+				[135192] = {
+					"Почитаемый ящер", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[133912] = {
 					"Кровавый осквернитель", -- [1]
@@ -32319,17 +34019,17 @@ PlaterDB = {
 					"Каменный машинист Ну-Синь", -- [1]
 					"", -- [2]
 				},
-				[62360] = {
-					"Оскверненная капля", -- [1]
-					"Храм Нефритовой Змеи", -- [2]
+				[151056] = {
+					"Варанк'ул Могучий", -- [1]
+					"Горнило Штормов", -- [2]
 				},
 				[147218] = {
 					"Дух золота", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[135192] = {
-					"Почитаемый ящер", -- [1]
-					"Гробница королей", -- [2]
+				[157709] = {
+					"Дрилиана", -- [1]
+					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
 				[127119] = {
 					"Палубный матрос из Вольной Гавани", -- [1]
@@ -32399,9 +34099,9 @@ PlaterDB = {
 					"Азш'ари - штормовой клинок", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[59546] = {
-					"Говорящая рыба", -- [1]
-					"Храм Нефритовой Змеи", -- [2]
+				[139800] = {
+					"Ученик призывательницы штормов", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[135962] = {
 					"Скальный яростень", -- [1]
@@ -32423,18 +34123,6 @@ PlaterDB = {
 					"Щетинистый людоед", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[150292] = {
-					"Мехагонский кавалерист", -- [1]
-					"Операция \"Мехагон\"", -- [2]
-				},
-				[59464] = {
-					"Прыгун", -- [1]
-					"Хмелеварня Буйных Портеров", -- [2]
-				},
-				[133660] = {
-					"\"Бом-бот 9000\"", -- [1]
-					"", -- [2]
-				},
 				[135963] = {
 					"Элементаль земли", -- [1]
 					"", -- [2]
@@ -32442,6 +34130,18 @@ PlaterDB = {
 				[139472] = {
 					"Каменный лорд Циньшо", -- [1]
 					"The Dread Chain (Islands 4)", -- [2]
+				},
+				[133660] = {
+					"\"Бом-бот 9000\"", -- [1]
+					"", -- [2]
+				},
+				[150292] = {
+					"Мехагонский кавалерист", -- [1]
+					"Операция \"Мехагон\"", -- [2]
+				},
+				[59464] = {
+					"Прыгун", -- [1]
+					"Хмелеварня Буйных Портеров", -- [2]
 				},
 				[132855] = {
 					"Железнопут-быстролап", -- [1]
@@ -32495,41 +34195,41 @@ PlaterDB = {
 					"Рассвирепевший хозен-буян", -- [1]
 					"Хмелеварня Буйных Портеров", -- [2]
 				},
-				[134174] = {
-					"Тенеликий колдун", -- [1]
-					"Гробница королей", -- [2]
+				[18331] = {
+					"Эфириал-черный маг", -- [1]
+					"Аукиндон: Гробницы Маны", -- [2]
 				},
 				[61146] = {
 					"Статуя Черного Быка", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[18331] = {
-					"Эфириал-черный маг", -- [1]
-					"Аукиндон: Гробницы Маны", -- [2]
+				[134174] = {
+					"Тенеликий колдун", -- [1]
+					"Гробница королей", -- [2]
 				},
-				[139804] = {
-					"Инспектор Торговой компании", -- [1]
+				[59547] = {
+					"Цзян", -- [1]
+					"Храм Нефритовой Змеи", -- [2]
+				},
+				[140827] = {
+					"Хихикающий чертополошник", -- [1]
 					"", -- [2]
-				},
-				[61338] = {
-					"Глинтрок-тихоступ", -- [1]
-					"Дворец Могу'шан", -- [2]
 				},
 				[134942] = {
 					"Щетинистый паучок", -- [1]
 					"", -- [2]
 				},
-				[24664] = {
-					"Кель'тас Солнечный Скиталец", -- [1]
-					"Терраса Магистров", -- [2]
+				[133663] = {
+					"Фанатичный охотник за головами", -- [1]
+					"Подгнилье", -- [2]
 				},
 				[150295] = {
 					"\"Танкоборец-1\"", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[133663] = {
-					"Фанатичный охотник за головами", -- [1]
-					"Подгнилье", -- [2]
+				[24664] = {
+					"Кель'тас Солнечный Скиталец", -- [1]
+					"Терраса Магистров", -- [2]
 				},
 				[24696] = {
 					"Ведьма из клана Змеиных Колец", -- [1]
@@ -32623,17 +34323,17 @@ PlaterDB = {
 					"Геодезист Торговой компании", -- [1]
 					"", -- [2]
 				},
-				[133666] = {
-					"Отвлекатор Головокружилки", -- [1]
-					"", -- [2]
-				},
-				[153881] = {
-					"Тотем обращения", -- [1]
+				[152089] = {
+					"Тралл", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[59804] = {
-					"Хваткая ненависть", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
+				[127124] = {
+					"Официантка из Вольной Гавани", -- [1]
+					"Вольная Гавань", -- [2]
+				},
+				[134691] = {
+					"Наэлектризованный дервиш", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[159768] = {
 					"Дереш из Пустоты", -- [1]
@@ -32651,9 +34351,9 @@ PlaterDB = {
 					"К'тир-ассасин", -- [1]
 					"Зал Сердца – сценарий", -- [2]
 				},
-				[127124] = {
-					"Официантка из Вольной Гавани", -- [1]
-					"Вольная Гавань", -- [2]
+				[153881] = {
+					"Тотем обращения", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[139808] = {
 					"Дуболом из Торговой компании", -- [1]
@@ -32671,13 +34371,13 @@ PlaterDB = {
 					"Рыжешкур-альфа", -- [1]
 					"", -- [2]
 				},
-				[134691] = {
-					"Наэлектризованный дервиш", -- [1]
-					"Храм Сетралисс", -- [2]
+				[59804] = {
+					"Хваткая ненависть", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
-				[157467] = {
-					"Перерожденный служитель Бездны", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[161561] = {
+					"Пта Зараженный", -- [1]
+					"Чертоги Созидания", -- [2]
 				},
 				[151579] = {
 					"Генератор защитного поля", -- [1]
@@ -32747,9 +34447,9 @@ PlaterDB = {
 					"Пьяный хозен-буян", -- [1]
 					"Хмелеварня Буйных Портеров", -- [2]
 				},
-				[140835] = {
-					"Хитрый огонек", -- [1]
-					"", -- [2]
+				[61340] = {
+					"Глинтрок-проклинатель", -- [1]
+					"Дворец Могу'шан", -- [2]
 				},
 				[139811] = {
 					"Помощник менеджера", -- [1]
@@ -32759,25 +34459,25 @@ PlaterDB = {
 					"Старая твердопанцирная черепаха", -- [1]
 					"", -- [2]
 				},
-				[134950] = {
-					"Ужасный паук", -- [1]
-					"", -- [2]
+				[145185] = {
+					"\"Гномогедд-0Н\"", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[132904] = {
 					"Тролль из племени Песчаного Черепа", -- [1]
 					"", -- [2]
 				},
-				[61340] = {
-					"Глинтрок-проклинатель", -- [1]
-					"Дворец Могу'шан", -- [2]
+				[140835] = {
+					"Хитрый огонек", -- [1]
+					"", -- [2]
 				},
-				[159514] = {
-					"Кровь Ниалоты", -- [1]
+				[157467] = {
+					"Перерожденный служитель Бездны", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[149535] = {
-					"Ледяной образ", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[131112] = {
+					"Боец из братства Волнорезов", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[139813] = {
 					"Старший продюсер Гикси", -- [1]
@@ -32787,9 +34487,9 @@ PlaterDB = {
 					"Продюсер Торговой компании", -- [1]
 					"", -- [2]
 				},
-				[24697] = {
-					"Сестра Мучений", -- [1]
-					"Терраса Магистров", -- [2]
+				[140068] = {
+					"Рыжешкур-рычун", -- [1]
+					"", -- [2]
 				},
 				[140324] = {
 					"Камнепанцирный собиратель", -- [1]
@@ -32859,9 +34559,9 @@ PlaterDB = {
 					"Сонный хозен-буян", -- [1]
 					"Хмелеварня Буйных Портеров", -- [2]
 				},
-				[61213] = {
-					"Крик'тик-новобранец", -- [1]
-					"Врата Заходящего Солнца", -- [2]
+				[130582] = {
+					"Отчаявшийся негодяй", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[140838] = {
 					"Злонамеренный поток", -- [1]
@@ -32887,9 +34587,9 @@ PlaterDB = {
 					"Твердопанцирная черепаха", -- [1]
 					"", -- [2]
 				},
-				[130582] = {
-					"Отчаявшийся негодяй", -- [1]
-					"Тол Дагор", -- [2]
+				[61213] = {
+					"Крик'тик-новобранец", -- [1]
+					"Врата Заходящего Солнца", -- [2]
 				},
 				[150818] = {
 					"Потревоженный сгусток крови", -- [1]
@@ -32899,9 +34599,9 @@ PlaterDB = {
 					"Дух воды", -- [1]
 					"", -- [2]
 				},
-				[163612] = {
-					"Порожденный Бездной аннигилятор", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[153377] = {
+					"Жижа", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[138481] = {
 					"Хромит", -- [1]
@@ -32983,9 +34683,9 @@ PlaterDB = {
 					"Блестопанцирный краб", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[140076] = {
-					"Крепкорук-вожак", -- [1]
-					"", -- [2]
+				[133935] = {
+					"Оживший страж", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[144680] = {
 					"Фрида Сталемуфель", -- [1]
@@ -33011,17 +34711,17 @@ PlaterDB = {
 					"Повелитель порталов", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[141867] = {
-					"Матрос", -- [1]
-					"", -- [2]
+				[59551] = {
+					"Попрыгун", -- [1]
+					"Хмелеварня Буйных Портеров", -- [2]
 				},
 				[130584] = {
 					"Кровошип", -- [1]
 					"", -- [2]
 				},
-				[133935] = {
-					"Оживший страж", -- [1]
-					"Гробница королей", -- [2]
+				[140076] = {
+					"Крепкорук-вожак", -- [1]
+					"", -- [2]
 				},
 				[140843] = {
 					"Дух воздуха", -- [1]
@@ -33039,9 +34739,9 @@ PlaterDB = {
 					"Разрушительница из дома Эшвейнов", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[59551] = {
-					"Попрыгун", -- [1]
-					"Хмелеварня Буйных Портеров", -- [2]
+				[141867] = {
+					"Матрос", -- [1]
+					"", -- [2]
 				},
 				[24698] = {
 					"Контрабандист Эфириума", -- [1]
@@ -33055,17 +34755,17 @@ PlaterDB = {
 					"Темный чародей из клана Цзыань-Ти", -- [1]
 					"", -- [2]
 				},
-				[21148] = {
-					"Хранительница временного разлома", -- [1]
-					"Открытие Темного портала", -- [2]
+				[140334] = {
+					"Темночешуйчатый зубач", -- [1]
+					"", -- [2]
 				},
 				[132913] = {
 					"Островной эттин", -- [1]
 					"", -- [2]
 				},
-				[155686] = {
-					"Азш'ари-отравительница ", -- [1]
-					"Вечный дворец", -- [2]
+				[60447] = {
+					"Крик'тик-саботажник", -- [1]
+					"Врата Заходящего Солнца", -- [2]
 				},
 				[131377] = {
 					"Оса", -- [1]
@@ -33087,17 +34787,17 @@ PlaterDB = {
 					"Горилла-крепкорук", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[140334] = {
-					"Темночешуйчатый зубач", -- [1]
-					"", -- [2]
+				[21148] = {
+					"Хранительница временного разлома", -- [1]
+					"Открытие Темного портала", -- [2]
 				},
 				[137007] = {
 					"Защитник Гнезда", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[60447] = {
-					"Крик'тик-саботажник", -- [1]
-					"Врата Заходящего Солнца", -- [2]
+				[155686] = {
+					"Азш'ари-отравительница ", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[135472] = {
 					"Заназал Мудрый", -- [1]
@@ -33111,9 +34811,9 @@ PlaterDB = {
 					"Королевский песчаный краб", -- [1]
 					"", -- [2]
 				},
-				[148522] = {
-					"Ледяная глыба", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[154663] = {
+					"Поглощающая гномов капля", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[146731] = {
 					"Тотем зомбирующего порошка", -- [1]
@@ -33191,9 +34891,9 @@ PlaterDB = {
 					"Меченная Бездной посланница", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[155689] = {
-					"Занш'ир-гладиатор", -- [1]
-					"Вечный дворец", -- [2]
+				[17694] = {
+					"Темный маг из клана Призрачной Луны", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
 				[135475] = {
 					"Кула Живодерка", -- [1]
@@ -33271,9 +34971,9 @@ PlaterDB = {
 					"Щитоносец из армии Зула", -- [1]
 					"Атал'Дазар", -- [2]
 				},
-				[61216] = {
-					"Глинтрок-проклинатель", -- [1]
-					"Дворец Могу'шан", -- [2]
+				[65310] = {
+					"Тренировочная репа", -- [1]
+					"Око Бури", -- [2]
 				},
 				[136688] = {
 					"Фанатичный бурильщик", -- [1]
@@ -33291,13 +34991,13 @@ PlaterDB = {
 					"Штормовой дух", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[69946] = {
-					"Зелёнка", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
-				},
 				[59553] = {
 					"Королева певчих птиц", -- [1]
 					"Храм Нефритовой Змеи", -- [2]
+				},
+				[69946] = {
+					"Зелёнка", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[133943] = {
 					"Прислужник Зула", -- [1]
@@ -33315,9 +35015,9 @@ PlaterDB = {
 					"Хранительница портала", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[132920] = {
-					"Темный змей", -- [1]
-					"", -- [2]
+				[59873] = {
+					"Оскверненная живая вода", -- [1]
+					"Храм Нефритовой Змеи", -- [2]
 				},
 				[155693] = {
 					"Подчиненный громила", -- [1]
@@ -33431,9 +35131,9 @@ PlaterDB = {
 					"Оракул из клана Скользящего Плавника", -- [1]
 					"", -- [2]
 				},
-				[136250] = {
-					"Проклинатель худу", -- [1]
-					"Храм Сетралисс", -- [2]
+				[146485] = {
+					"Невара Ночная Тень", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[135470] = {
 					"Ака'али Завоевательница", -- [1]
@@ -33447,13 +35147,13 @@ PlaterDB = {
 					"Элементаль бури", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[149556] = {
-					"Вечный каратель", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[17695] = {
+					"Убийца из клана Изувеченной Длани", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[155953] = {
-					"К'Таффер", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[133436] = {
+					"Огнелетчица Торговой компании", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[130335] = {
 					"Пластинчатый кристалиск", -- [1]
@@ -33483,17 +35183,17 @@ PlaterDB = {
 					"Кровожвал", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[151742] = {
-					"Искаженный Бездной захватчик", -- [1]
-					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
+				[135366] = {
+					"Поджигатель из братства Чернозубых", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[145975] = {
 					"Молодой твердошкурый лось", -- [1]
 					"", -- [2]
 				},
-				[135366] = {
-					"Поджигатель из братства Чернозубых", -- [1]
-					"Тол Дагор", -- [2]
+				[151742] = {
+					"Искаженный Бездной захватчик", -- [1]
+					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
 				},
 				[145402] = {
 					"Одичавшая безумица", -- [1]
@@ -33583,16 +35283,16 @@ PlaterDB = {
 					"Меткий стрелок из клана Изувеченной Длани", -- [1]
 					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[151096] = {
-					"Хати", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
-				},
 				[144955] = {
 					"Зал'зи Кровоглот", -- [1]
 					"", -- [2]
 				},
-				[136000] = {
-					"Бериллус", -- [1]
+				[151096] = {
+					"Хати", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
+				},
+				[140094] = {
+					"Шипастый грязнорыл", -- [1]
 					"", -- [2]
 				},
 				[138558] = {
@@ -33607,20 +35307,20 @@ PlaterDB = {
 					"Дракончик из стаи Громовой Чешуи", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[157238] = {
-					"Пророк Скитра", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[129826] = {
+					"Океанский клешнехват", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[56198] = {
-					"Смелый", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[98035] = {
+					"Зловещий охотник", -- [1]
+					"Сверкающие копи", -- [2]
 				},
 				[59684] = {
 					"Озверевший хозен-тусовщик", -- [1]
 					"Хмелеварня Буйных Портеров", -- [2]
 				},
-				[140094] = {
-					"Шипастый грязнорыл", -- [1]
+				[136000] = {
+					"Бериллус", -- [1]
 					"", -- [2]
 				},
 				[146491] = {
@@ -33631,17 +35331,17 @@ PlaterDB = {
 					"Позабытый", -- [1]
 					"", -- [2]
 				},
-				[129826] = {
-					"Океанский клешнехват", -- [1]
-					"SarasIsland", -- [2]
+				[157238] = {
+					"Пророк Скитра", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[159416] = {
 					"Шипастое щупальце", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[98035] = {
-					"Зловещий охотник", -- [1]
-					"Сверкающие копи", -- [2]
+				[56198] = {
+					"Смелый", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[138561] = {
 					"Безликий бичеватель разума", -- [1]
@@ -33659,13 +35359,13 @@ PlaterDB = {
 					"Дух ярости", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[124581] = {
-					"Твердопанцирный крепкохват", -- [1]
+				[138560] = {
+					"Безликий ужас", -- [1]
 					"", -- [2]
 				},
-				[144957] = {
-					"Шали'и", -- [1]
-					"", -- [2]
+				[151098] = {
+					"Темный отросток", -- [1]
+					"Горнило Штормов", -- [2]
 				},
 				[153401] = {
 					"К'тир-поработитель", -- [1]
@@ -33679,9 +35379,9 @@ PlaterDB = {
 					"Океанский крошитель", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[138562] = {
-					"Личинка из Бездны", -- [1]
-					"", -- [2]
+				[140609] = {
+					"Жестокий мако", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[140096] = {
 					"Вепрь-грязнорыл", -- [1]
@@ -33711,8 +35411,8 @@ PlaterDB = {
 					"Ма'хаат Упорный", -- [1]
 					"Логово Нелтариона – сценарий Сердца Азерот", -- [2]
 				},
-				[124582] = {
-					"Ущельник", -- [1]
+				[138562] = {
+					"Личинка из Бездны", -- [1]
 					"", -- [2]
 				},
 				[161335] = {
@@ -33723,9 +35423,9 @@ PlaterDB = {
 					"Яркочешуйчатый зубач", -- [1]
 					"", -- [2]
 				},
-				[148797] = {
-					"Чародей войска мертвых", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[124582] = {
+					"Ущельник", -- [1]
+					"", -- [2]
 				},
 				[138818] = {
 					"Вестник войны из дружины Кровавого Киля", -- [1]
@@ -33747,17 +35447,17 @@ PlaterDB = {
 					"Древний мститель", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[138563] = {
-					"Вудакс", -- [1]
-					"", -- [2]
+				[56678] = {
+					"Нефритовый Посох", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
 				[140354] = {
 					"Яркочешуйчатый крылатый змей", -- [1]
 					"", -- [2]
 				},
-				[56678] = {
-					"Нефритовый Посох", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
+				[138563] = {
+					"Вудакс", -- [1]
+					"", -- [2]
 				},
 				[129828] = {
 					"Океанский щелкун", -- [1]
@@ -33775,13 +35475,13 @@ PlaterDB = {
 					"Кшуун", -- [1]
 					"", -- [2]
 				},
-				[149311] = {
-					"Шандриса Оперенная Луна", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
-				},
-				[136005] = {
-					"Буйный гуляка", -- [1]
+				[137029] = {
+					"Артиллерист", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				},
+				[107951] = {
+					"Пискля", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[134214] = {
 					"Клинок Бездны Келейн", -- [1]
@@ -33795,9 +35495,9 @@ PlaterDB = {
 					"Врайкул из дружины Кровавого Киля", -- [1]
 					"", -- [2]
 				},
-				[137029] = {
-					"Артиллерист", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[149311] = {
+					"Шандриса Оперенная Луна", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[132803] = {
 					"Камнегривый вендиго", -- [1]
@@ -33839,57 +35539,57 @@ PlaterDB = {
 					"Фрагмент сомнения", -- [1]
 					"Храм Нефритовой Змеи", -- [2]
 				},
-				[135240] = {
-					"Субстанция души", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[149569] = {
+					"Атал'дазарская почитательница", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[151872] = {
 					"Ужасное щупальце", -- [1]
 					"Изумрудный Сон – сценарий Сердца Азерот", -- [2]
 				},
-				[140357] = {
-					"Ядовитый разоритель", -- [1]
+				[134216] = {
+					"Темная заклинательница Зарра", -- [1]
 					"", -- [2]
 				},
 				[138566] = {
 					"Нил'созз", -- [1]
 					"", -- [2]
 				},
-				[144963] = {
-					"Воплощение Кимбула", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[138822] = {
+					"Гарпунщица из дружины Кровавого Киля", -- [1]
+					"", -- [2]
 				},
-				[158781] = {
-					"Иссеченная душа", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[140358] = {
+					"Зов Скорби", -- [1]
+					"", -- [2]
 				},
-				[149569] = {
-					"Атал'дазарская почитательница", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[135240] = {
+					"Субстанция души", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[135496] = {
 					"Ками Шестерикс", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[129830] = {
-					"Чудовищный Клац-Клац", -- [1]
-					"SarasIsland", -- [2]
+				[138823] = {
+					"Следопыт из дружины Кровавого Киля", -- [1]
+					"", -- [2]
 				},
 				[157366] = {
 					"Охотник Бездны", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[136264] = {
-					"Недоделанная мумия", -- [1]
-					"Гробница королей", -- [2]
+				[158781] = {
+					"Иссеченная душа", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[138567] = {
 					"Шаттот Каратель", -- [1]
 					"", -- [2]
 				},
-				[138823] = {
-					"Следопыт из дружины Кровавого Киля", -- [1]
-					"", -- [2]
+				[129830] = {
+					"Чудовищный Клац-Клац", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[133870] = {
 					"Больной плеточник", -- [1]
@@ -33915,29 +35615,29 @@ PlaterDB = {
 					"Мастиф братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[138568] = {
-					"Шак'шугун Поработитель", -- [1]
-					"", -- [2]
+				[146756] = {
+					"Усиленная буря", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[129832] = {
 					"Хрустяк", -- [1]
 					"", -- [2]
 				},
-				[144971] = {
-					"Друид-древо", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[12259] = {
+					"Гееннас", -- [1]
+					"Огненные Недра", -- [2]
 				},
-				[138572] = {
-					"Генерал Увош", -- [1]
+				[140619] = {
+					"Береговой ярдозуб", -- [1]
 					"", -- [2]
 				},
 				[59494] = {
 					"Пузыристый бражный хмелементаль", -- [1]
 					"Хмелеварня Буйных Портеров", -- [2]
 				},
-				[138061] = {
-					"Докер Торговой компании", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[138829] = {
+					"Ингель Проворная", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[133963] = {
 					"Подопытная крыса", -- [1]
@@ -33995,13 +35695,13 @@ PlaterDB = {
 					"Растарский почетный страж", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[127019] = {
-					"Тренировочный манекен", -- [1]
-					"Вольная Гавань", -- [2]
+				[139342] = {
+					"Воин из племени Ледоклыков", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[140620] = {
-					"Харибдида Южного моря", -- [1]
-					"", -- [2]
+				[59751] = {
+					"Страж Шадо-Пан", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
 				[136012] = {
 					"Горус Несдвигаемый", -- [1]
@@ -34031,20 +35731,20 @@ PlaterDB = {
 					"Громила Торговой компании", -- [1]
 					"", -- [2]
 				},
-				[152135] = {
-					"Искаженный Бездной чародей", -- [1]
-					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
+				[138831] = {
+					"Хорвульд Бич Морей", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[140107] = {
 					"Разящий смертежал", -- [1]
 					"", -- [2]
 				},
-				[135248] = {
-					"Бриона Кровожадная", -- [1]
+				[138830] = {
+					"Троваст Ведомый Звездами", -- [1]
 					"", -- [2]
 				},
-				[140619] = {
-					"Береговой ярдозуб", -- [1]
+				[138572] = {
+					"Генерал Увош", -- [1]
 					"", -- [2]
 				},
 				[138828] = {
@@ -34067,29 +35767,29 @@ PlaterDB = {
 					"Пророк Скитра", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140108] = {
-					"Скорпид-смертежал", -- [1]
+				[138061] = {
+					"Докер Торговой компании", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				},
+				[127019] = {
+					"Тренировочный манекен", -- [1]
+					"Вольная Гавань", -- [2]
+				},
+				[140620] = {
+					"Харибдида Южного моря", -- [1]
 					"", -- [2]
 				},
-				[138830] = {
-					"Троваст Ведомый Звездами", -- [1]
-					"", -- [2]
-				},
-				[59751] = {
-					"Страж Шадо-Пан", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
-				},
-				[138829] = {
-					"Ингель Проворная", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[144970] = {
+					"Калдорай-лучница", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[134991] = {
 					"Крушитель из племени Песчаной Бури", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[139341] = {
-					"Темный чародей из племени Ледоклыков", -- [1]
-					"SarasIsland", -- [2]
+				[135247] = {
+					"Варигг", -- [1]
+					"", -- [2]
 				},
 				[131666] = {
 					"Заклинательница шипов из ковена", -- [1]
@@ -34103,25 +35803,25 @@ PlaterDB = {
 					"Сестра Кэтрин", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[145228] = {
-					"Валья", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[134993] = {
+					"Мчимба Бальзамировщик", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[151881] = {
 					"Командир глубин Сивара", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[157253] = {
-					"Ка'зир", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[144971] = {
+					"Друид-древо", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[157255] = {
-					"Акир-трутень", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[144973] = {
+					"Калдорай-часовой", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[139342] = {
-					"Воин из племени Ледоклыков", -- [1]
-					"SarasIsland", -- [2]
+				[135248] = {
+					"Бриона Кровожадная", -- [1]
+					"", -- [2]
 				},
 				[59459] = {
 					"Прыгунок", -- [1]
@@ -34147,9 +35847,9 @@ PlaterDB = {
 					"Тек'рис", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[134993] = {
-					"Мчимба Бальзамировщик", -- [1]
-					"Гробница королей", -- [2]
+				[145228] = {
+					"Валья", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[139343] = {
 					"Рабочий из племени Ледоклыков", -- [1]
@@ -34159,9 +35859,9 @@ PlaterDB = {
 					"Ядовитый змей", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[135761] = {
-					"Громовой тотем", -- [1]
-					"Гробница королей", -- [2]
+				[131667] = {
+					"Оживленный голиаф", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[138064] = {
 					"Пафосная курортница", -- [1]
@@ -34175,21 +35875,21 @@ PlaterDB = {
 					"Безликое щупальце", -- [1]
 					"", -- [2]
 				},
-				[144973] = {
-					"Калдорай-часовой", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[157255] = {
+					"Акир-трутень", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[134994] = {
 					"Призрачный охотник за головами", -- [1]
 					"Гробница королей", -- [2]
 				},
-				[138577] = {
-					"Сокрушающее щупальце", -- [1]
-					"", -- [2]
+				[59752] = {
+					"Душитель Шадо-Пан", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
-				[157256] = {
-					"Акир-шершень", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[134739] = {
+					"Голем-чистильщик", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[158279] = {
 					"Взломанный заводной ракетобот", -- [1]
@@ -34203,9 +35903,9 @@ PlaterDB = {
 					"Шипастая гончая", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[59752] = {
-					"Душитель Шадо-Пан", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
+				[138577] = {
+					"Сокрушающее щупальце", -- [1]
+					"", -- [2]
 				},
 				[159303] = {
 					"Ужасное чудище", -- [1]
@@ -34255,9 +35955,9 @@ PlaterDB = {
 					"Жрец Альянса", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[131670] = {
-					"Прядильщица лоз из ковена Мертвых Сердец", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[135764] = {
+					"Взрывной тотем", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[152396] = {
 					"Защитник Азерот", -- [1]
@@ -34495,9 +36195,9 @@ PlaterDB = {
 					"Гюрзис", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[138842] = {
-					"Та'кил Усилитель", -- [1]
-					"", -- [2]
+				[159312] = {
+					"Живая кровь", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[60197] = {
 					"Тренировочный манекен", -- [1]
@@ -34535,9 +36235,9 @@ PlaterDB = {
 					"Шупальце Дест'агат", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[56876] = {
-					"Крик'тик-сапер", -- [1]
-					"Врата Заходящего Солнца", -- [2]
+				[139355] = {
+					"Гуран Инеистый Клинок", -- [1]
+					"", -- [2]
 				},
 				[159405] = {
 					"Акир-скарабей", -- [1]
@@ -34567,9 +36267,9 @@ PlaterDB = {
 					"Беспокойный азерит", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[149591] = {
-					"Растарский стрелок", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[151638] = {
+					"Обезумевший земляной яростень", -- [1]
+					"Логово Нелтариона – сценарий Сердца Азерот", -- [2]
 				},
 				[158035] = {
 					"Магистр Умбрий", -- [1]
@@ -34587,25 +36287,25 @@ PlaterDB = {
 					"Обезумевший червинт", -- [1]
 					"Логово Нелтариона – сценарий Сердца Азерот", -- [2]
 				},
-				[153942] = {
-					"Аннигилятор Лак'хал", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[119990] = {
+					"Фенрир", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[157268] = {
 					"Ползучая порча", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[135007] = {
-					"Страж сферы", -- [1]
-					"Храм Сетралисс", -- [2]
+				[145242] = {
+					"Нагазавр", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[135263] = {
 					"Наводчица корпорации Эшвейнов", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[119990] = {
-					"Фенрир", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[153942] = {
+					"Аннигилятор Лак'хал", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[136990] = {
 					"Анкали Проклятая", -- [1]
@@ -34639,29 +36339,29 @@ PlaterDB = {
 					"Дециматор Шик'вот", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[17252] = {
-					"AkraAshak", -- [1]
-					"Сверкающие копи", -- [2]
+				[160341] = {
+					"Мелкая тварь из Стоков", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[157354] = {
-					"Вексиона", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
-				},
-				[129471] = {
-					"Глубоководный пескорыск", -- [1]
+				[140978] = {
+					"Страхотун", -- [1]
 					"", -- [2]
 				},
 				[136804] = {
 					"Щебнеспин", -- [1]
 					"", -- [2]
 				},
+				[144293] = {
+					"Переработчик отходов", -- [1]
+					"Операция \"Мехагон\"", -- [2]
+				},
 				[138847] = {
 					"Управляющий Боем Ка'ваз", -- [1]
 					"", -- [2]
 				},
-				[134769] = {
-					"Зазубренная клешня", -- [1]
-					"", -- [2]
+				[136549] = {
+					"Канонир дома Эшвейнов", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[56877] = {
 					"Райгонн", -- [1]
@@ -34671,21 +36371,21 @@ PlaterDB = {
 					"Нефритовый червь", -- [1]
 					"", -- [2]
 				},
-				[160341] = {
-					"Мелкая тварь из Стоков", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[17252] = {
+					"AkraAshak", -- [1]
+					"Сверкающие копи", -- [2]
 				},
 				[128435] = {
 					"Ядовитый саурид", -- [1]
 					"Атал'Дазар", -- [2]
 				},
-				[164188] = {
-					"Плод ужаса", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[136807] = {
+					"Разведчик из племени Галечников", -- [1]
+					"", -- [2]
 				},
-				[136043] = {
-					"Бракиш", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[149356] = {
+					"Разъяренный азерцветовый кристалльник", -- [1]
+					"", -- [2]
 				},
 				[138848] = {
 					"Танцующий с клинками Зорлак", -- [1]
@@ -34699,17 +36399,17 @@ PlaterDB = {
 					"Оживленный громила из племени Ледоклыков", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[132713] = {
-					"Шеф Разданк", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[164188] = {
+					"Плод ужаса", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[129373] = {
 					"Портовая заводчица", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[162718] = {
-					"Непреклонная карательница", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[136043] = {
+					"Бракиш", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[137067] = {
 					"Защитница дороги Храброгласа", -- [1]
@@ -34719,8 +36419,8 @@ PlaterDB = {
 					"Барьер", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[136802] = {
-					"Углекус", -- [1]
+				[138849] = {
+					"Повелитель улья Викс'ик", -- [1]
 					"", -- [2]
 				},
 				[137058] = {
@@ -34747,29 +36447,29 @@ PlaterDB = {
 					"Оживленный страж", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[18309] = {
-					"Эфириал-падальщик", -- [1]
-					"Аукиндон: Гробницы Маны", -- [2]
+				[144295] = {
+					"Мехагонский механик", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[159320] = {
 					"Аматет", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[136044] = {
-					"Ядозыбь", -- [1]
-					"", -- [2]
+				[18309] = {
+					"Эфириал-падальщик", -- [1]
+					"Аукиндон: Гробницы Маны", -- [2]
 				},
-				[158373] = {
-					"Роберто Пуплливербос", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[144246] = {
+					"КУ-ДЖ0", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[158041] = {
 					"Н'Зот Заразитель", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[138349] = {
-					"Мстительный дух", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[158373] = {
+					"Роберто Пуплливербос", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[162647] = {
 					"Добровольная жертва", -- [1]
@@ -34779,9 +36479,9 @@ PlaterDB = {
 					"К'тир-поработитель", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[140978] = {
-					"Страхотун", -- [1]
-					"", -- [2]
+				[157354] = {
+					"Вексиона", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[159321] = {
 					"Кхатеп", -- [1]
@@ -34791,61 +36491,61 @@ PlaterDB = {
 					"Опустошитель из племени Злых Туманов", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[134768] = {
-					"Неутомимый песочный бегун", -- [1]
-					"SarasIsland", -- [2]
+				[157349] = {
+					"Вепрь Бездны", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[131431] = {
 					"Автоматический инспектор по безопасности", -- [1]
 					"", -- [2]
 				},
-				[156575] = {
-					"Темный инквизитор Занеш", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[134768] = {
+					"Неутомимый песочный бегун", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[144293] = {
-					"Переработчик отходов", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[134769] = {
+					"Зазубренная клешня", -- [1]
+					"", -- [2]
 				},
 				[152669] = {
 					"Капля Бездны", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[136549] = {
-					"Канонир дома Эшвейнов", -- [1]
-					"Осада Боралуса", -- [2]
+				[140643] = {
+					"Лютый йети-крепкорог", -- [1]
+					"", -- [2]
 				},
-				[157275] = {
-					"Ведомый голосами послушник", -- [1]
-					"Твердыня Крыла Тьмы – сценарий", -- [2]
+				[144993] = {
+					"Бешеный чертополоховый медведь", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[159578] = {
 					"Открытый синапс", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[100943] = {
-					"Тотем земляной стены", -- [1]
-					"Два Пика", -- [2]
+				[151657] = {
+					"Бомботанк", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[137395] = {
 					"Опытный пехотинец", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[149098] = {
-					"Майев Песнь Теней", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[138623] = {
+					"Аматет-лучник", -- [1]
+					"", -- [2]
 				},
 				[136883] = {
 					"Заклинатель шипов из племени Острогривов", -- [1]
 					"", -- [2]
 				},
-				[151657] = {
-					"Бомботанк", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[149611] = {
+					"\"Макакомучитель-3000\"", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
-				[17670] = {
-					"Псарь из клана Изувеченной Длани", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
+				[145261] = {
+					"Роскошь", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[136806] = {
 					"Камнемаг Баргг", -- [1]
@@ -34879,9 +36579,9 @@ PlaterDB = {
 					"Зловещее щупальце", -- [1]
 					"", -- [2]
 				},
-				[136807] = {
-					"Разведчик из племени Галечников", -- [1]
-					"", -- [2]
+				[132713] = {
+					"Шеф Разданк", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[139110] = {
 					"Искротворец", -- [1]
@@ -34895,9 +36595,9 @@ PlaterDB = {
 					"Верховный шаман Клаксикар", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[160871] = {
-					"Одержимая посылка", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[132740] = {
+					"Ядовитая гидра", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[157608] = {
 					"Безликий сокрушитель воли", -- [1]
@@ -34907,17 +36607,17 @@ PlaterDB = {
 					"Защитник из племени Острогривов", -- [1]
 					"", -- [2]
 				},
-				[161140] = {
-					"Бвемба", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[158056] = {
+					"Крыса", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[127799] = {
 					"Дазар'айский почетный страж", -- [1]
 					"Атал'Дазар", -- [2]
 				},
-				[146813] = {
-					"Гюнтер Серый", -- [1]
-					"", -- [2]
+				[161895] = {
+					"Потусторонняя тварь", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[151649] = {
 					"\"Оборонобот I\"", -- [1]
@@ -34927,9 +36627,9 @@ PlaterDB = {
 					"Ползучая мина", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[56754] = {
-					"Лазурный змей", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
+				[153196] = {
+					"Ворчун из племени Хламоедов", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[129371] = {
 					"Мастер клинков прилива", -- [1]
@@ -34939,21 +36639,21 @@ PlaterDB = {
 					"Забытый обитатель глубин", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[141938] = {
-					"Снайпер дома Эшвейнов", -- [1]
-					"Осада Боралуса", -- [2]
+				[143985] = {
+					"Поглощатор", -- [1]
+					"Сверкающие копи", -- [2]
 				},
 				[136809] = {
 					"Камнеклык Пожиратель Гор", -- [1]
 					"", -- [2]
 				},
-				[156523] = {
-					"Маут", -- [1]
+				[162664] = {
+					"Акир-роевик", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[161895] = {
-					"Потусторонняя тварь", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[144755] = {
+					"Глашатай Заъксаш", -- [1]
+					"Горнило Штормов", -- [2]
 				},
 				[131436] = {
 					"Избранная кровавая матрона", -- [1]
@@ -34983,9 +36683,9 @@ PlaterDB = {
 					"Бешеный бойцовый пес", -- [1]
 					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[158315] = {
-					"Око хаоса", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[137591] = {
+					"Тотем целительного прилива", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[164189] = {
 					"Плод ужаса", -- [1]
@@ -34999,13 +36699,13 @@ PlaterDB = {
 					"Буйный гуляка", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[144244] = {
-					"\"Платиновый лупцеватор\"", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[16807] = {
+					"Главный чернокнижник Пустоклят", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[144755] = {
-					"Глашатай Заъксаш", -- [1]
-					"Горнило Штормов", -- [2]
+				[136838] = {
+					"Згордо Живодер", -- [1]
+					"", -- [2]
 				},
 				[136811] = {
 					"Метатель из племени Галечников", -- [1]
@@ -35023,21 +36723,21 @@ PlaterDB = {
 					"Утопший матрос", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[137591] = {
-					"Тотем целительного прилива", -- [1]
-					"Гробница королей", -- [2]
+				[5925] = {
+					"Тотем заземления", -- [1]
+					"Храм Котмогу", -- [2]
 				},
-				[144232] = {
-					"Буйная гуляка", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[136044] = {
+					"Ядозыбь", -- [1]
+					"", -- [2]
 				},
 				[148582] = {
 					"Штормовой страж", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[144246] = {
-					"КУ-ДЖ0", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[134060] = {
+					"Лорд Штормсонг", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[136812] = {
 					"Геомант из племени Галечников", -- [1]
@@ -35067,17 +36767,17 @@ PlaterDB = {
 					"Пандемоний", -- [1]
 					"Аукиндон: Гробницы Маны", -- [2]
 				},
-				[144772] = {
-					"Леди Тамакин", -- [1]
+				[129471] = {
+					"Глубоководный пескорыск", -- [1]
 					"", -- [2]
 				},
 				[145001] = {
 					"Ланара Лунный Сумрак", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[148610] = {
-					"Друид-древо", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[58803] = {
+					"Остатки Ненависти", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
 				[151654] = {
 					"Дьюс Мехалоск", -- [1]
@@ -35091,9 +36791,9 @@ PlaterDB = {
 					"Феникс", -- [1]
 					"Терраса Магистров", -- [2]
 				},
-				[134793] = {
-					"Хребтосвет", -- [1]
-					"", -- [2]
+				[146596] = {
+					"Мирмидон из клана Темной Чешуи", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[148584] = {
 					"Верховный маг Мордент Вечерняя Тень", -- [1]
@@ -35115,13 +36815,13 @@ PlaterDB = {
 					"Туннельный бурильщик", -- [1]
 					"", -- [2]
 				},
-				[56884] = {
-					"Оскверненный Тажань Чжу", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
-				},
-				[140455] = {
-					"Колючешкурый бычок", -- [1]
+				[138887] = {
+					"Мистик из дружины Кровавого Киля", -- [1]
 					"", -- [2]
+				},
+				[162716] = {
+					"Зачарованная ритуалистка", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[136047] = {
 					"Ледосерд", -- [1]
@@ -35139,17 +36839,17 @@ PlaterDB = {
 					"Hati", -- [1]
 					"Сверкающие копи", -- [2]
 				},
+				[144249] = {
+					"\"Омега-крушитель\"", -- [1]
+					"Операция \"Мехагон\"", -- [2]
+				},
 				[134058] = {
 					"Призывательница штормов Фэй", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[146552] = {
-					"Кул-тирасская заклинательница волн", -- [1]
-					"Битва за Дазар'алор", -- [2]
-				},
-				[163708] = {
-					"Темный хранитель врат", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[18343] = {
+					"Таварок", -- [1]
+					"Аукиндон: Гробницы Маны", -- [2]
 				},
 				[119103] = {
 					"Черный головорез", -- [1]
@@ -35167,25 +36867,25 @@ PlaterDB = {
 					"Ург'рот Сокрушитель Героев", -- [1]
 					"Гробница королей", -- [2]
 				},
-				[151145] = {
-					"Хати", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[149098] = {
+					"Майев Песнь Теней", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[157812] = {
-					"Билибуб Шестеренок", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[100943] = {
+					"Тотем земляной стены", -- [1]
+					"Два Пика", -- [2]
 				},
 				[137328] = {
 					"Элитный боец озаренных", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[140669] = {
-					"Камнегривый ревун", -- [1]
+				[139389] = {
+					"Волшасис Стальная Чешуя", -- [1]
 					"", -- [2]
 				},
-				[157813] = {
-					"Спрайт Прыгозубчик", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[132481] = {
+					"Кул-тирасский боец авангарда", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[136049] = {
 					"Саргассий", -- [1]
@@ -35203,13 +36903,13 @@ PlaterDB = {
 					"Налетчик из братства Стальных Волн", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[145261] = {
-					"Роскошь", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[149355] = {
+					"Искаженный азерцветовый кристалльник", -- [1]
+					"", -- [2]
 				},
-				[149611] = {
-					"\"Макакомучитель-3000\"", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[151658] = {
+					"Танк-долгоног", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[137585] = {
 					"Тотем хватки земли", -- [1]
@@ -35223,9 +36923,9 @@ PlaterDB = {
 					"Измученный кор'кронский уничтожитель", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[138369] = {
-					"Футбомбная хулиганка", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[138625] = {
+					"Аматет-каратель", -- [1]
+					"", -- [2]
 				},
 				[136834] = {
 					"Охотник за скальпами Базуулу", -- [1]
@@ -35235,17 +36935,17 @@ PlaterDB = {
 					"Хати", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[143215] = {
-					"Косатка", -- [1]
-					"", -- [2]
+				[17670] = {
+					"Псарь из клана Изувеченной Длани", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
 				[151659] = {
 					"Ракетный танк", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[158056] = {
-					"Крыса", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[131445] = {
+					"Надзиратель блока", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[145065] = {
 					"Оперившийся темнокрыл", -- [1]
@@ -35259,29 +36959,29 @@ PlaterDB = {
 					"Прыгунок", -- [1]
 					"Хмелеварня Буйных Портеров", -- [2]
 				},
-				[152939] = {
-					"Безграничная порча", -- [1]
-					"Жуткое видение Штормграда", -- [2]
-				},
-				[138625] = {
-					"Аматет-каратель", -- [1]
+				[140657] = {
+					"Гигантский йети-крепкорог", -- [1]
 					"", -- [2]
 				},
-				[17960] = {
-					"Ворожея резервуара Кривого Клыка", -- [1]
-					"Кривой Клык: Узилище", -- [2]
+				[162933] = {
+					"Пожинатель мыслей", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
+				},
+				[152479] = {
+					"Искаженный Бездной дракончик", -- [1]
+					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
 				},
 				[17958] = {
 					"Защитник резервуара Кривого Клыка", -- [1]
 					"Кривой Клык: Узилище", -- [2]
 				},
-				[148615] = {
-					"Див'иан", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[134286] = {
+					"Верховный маг Тамуура", -- [1]
+					"", -- [2]
 				},
-				[134788] = {
-					"Иглохват-твердопанцирник", -- [1]
-					"SarasIsland", -- [2]
+				[136835] = {
+					"Кин'тога Зверобой", -- [1]
+					"", -- [2]
 				},
 				[134005] = {
 					"Сланцеед", -- [1]
@@ -35295,28 +36995,28 @@ PlaterDB = {
 					"Жесткая Шкура", -- [1]
 					"", -- [2]
 				},
-				[153196] = {
-					"Ворчун из племени Хламоедов", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[56754] = {
+					"Лазурный змей", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
 				[149358] = {
 					"Гигантский азерцветовый кристалльник", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[152479] = {
-					"Искаженный Бездной дракончик", -- [1]
-					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
+				[139394] = {
+					"Жрец топи из клана Болотных Теней", -- [1]
+					"", -- [2]
 				},
 				[95061] = {
 					"Большой элементаль огня", -- [1]
 					"Храм Котмогу", -- [2]
 				},
-				[143985] = {
-					"Поглощатор", -- [1]
-					"Сверкающие копи", -- [2]
+				[141938] = {
+					"Снайпер дома Эшвейнов", -- [1]
+					"Осада Боралуса", -- [2]
 				},
-				[162664] = {
-					"Акир-роевик", -- [1]
+				[156523] = {
+					"Маут", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[130620] = {
@@ -35379,9 +37079,9 @@ PlaterDB = {
 					"Аланаа", -- [1]
 					"", -- [2]
 				},
-				[156795] = {
-					"Осведомительница ШРУ", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[18344] = {
+					"Принц Шаффар", -- [1]
+					"Аукиндон: Гробницы Маны", -- [2]
 				},
 				[130621] = {
 					"Заклинатель штормов Брайсон", -- [1]
@@ -35391,9 +37091,9 @@ PlaterDB = {
 					"Долинный Гром", -- [1]
 					"", -- [2]
 				},
-				[146847] = {
-					"Призывательница Ланиелла", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[152988] = {
+					"Безликий призыватель теней", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[163690] = {
 					"Начертатель шат'яр", -- [1]
@@ -35427,9 +37127,9 @@ PlaterDB = {
 					"Викарий Джоса", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[144295] = {
-					"Мехагонский механик", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[162718] = {
+					"Непреклонная карательница", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[163947] = {
 					"Психофаг", -- [1]
@@ -35439,8 +37139,8 @@ PlaterDB = {
 					"Морпех 7-го легиона", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[134791] = {
-					"Сияющий ползун", -- [1]
+				[132744] = {
+					"Ледяная гидра", -- [1]
 					"", -- [2]
 				},
 				[144245] = {
@@ -35455,8 +37155,8 @@ PlaterDB = {
 					"Эдгард Темный Коготь", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[136839] = {
-					"Мроган", -- [1]
+				[132745] = {
+					"Ледочешуйчатый странник", -- [1]
 					"", -- [2]
 				},
 				[147621] = {
@@ -35471,21 +37171,21 @@ PlaterDB = {
 					"Кавалеристка 7-го легиона", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[126919] = {
-					"Призывательница шторма из братства Стальных Волн", -- [1]
-					"Вольная Гавань", -- [2]
+				[135048] = {
+					"Запачканный кровью поросенок", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
-				[5925] = {
-					"Тотем заземления", -- [1]
-					"Храм Котмогу", -- [2]
+				[140152] = {
+					"Гнилокоготь-терзатель", -- [1]
+					"", -- [2]
 				},
 				[129599] = {
 					"Метатель ножей из братства Волнорезов", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[152704] = {
-					"Ползучая порча", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[148610] = {
+					"Друид-древо", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[138631] = {
 					"Землепроходец Квадим", -- [1]
@@ -35551,37 +37251,37 @@ PlaterDB = {
 					"Ползучий слизнюченыш", -- [1]
 					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[58803] = {
-					"Остатки Ненависти", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
+				[136828] = {
+					"Воин из племени Сухой Ветви", -- [1]
+					"", -- [2]
 				},
-				[61245] = {
-					"Тотем конденсации", -- [1]
-					"Горнило Штормов", -- [2]
+				[140455] = {
+					"Колючешкурый бычок", -- [1]
+					"", -- [2]
 				},
 				[139387] = {
 					"Насса Хладнокровный", -- [1]
 					"", -- [2]
 				},
-				[162716] = {
-					"Зачарованная ритуалистка", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[126424] = {
+					"Коралловый приливный краб", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[138888] = {
 					"Ворожей из дружины Кровавого Киля", -- [1]
 					"", -- [2]
 				},
-				[144249] = {
-					"\"Омега-крушитель\"", -- [1]
-					"Операция \"Мехагон\"", -- [2]
-				},
-				[18343] = {
-					"Таварок", -- [1]
+				[18311] = {
+					"Эфириал - осквернитель гробниц", -- [1]
 					"Аукиндон: Гробницы Маны", -- [2]
 				},
-				[137097] = {
-					"Заклинатель с дороги Храброгласа", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[146552] = {
+					"Кул-тирасская заклинательница волн", -- [1]
+					"Битва за Дазар'алор", -- [2]
+				},
+				[163708] = {
+					"Темный хранитель врат", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[136829] = {
 					"Метательница топоров из племени Сухой Ветви", -- [1]
@@ -35623,29 +37323,29 @@ PlaterDB = {
 					"Защитник Ялата", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[139389] = {
-					"Волшасис Стальная Чешуя", -- [1]
-					"", -- [2]
+				[157812] = {
+					"Билибуб Шестеренок", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[17964] = {
-					"Рабочий-бродяга пустошей", -- [1]
-					"Кривой Клык: Узилище", -- [2]
+				[138889] = {
+					"Увульд Провидец", -- [1]
+					"", -- [2]
 				},
 				[150136] = {
 					"Безликий терзатель", -- [1]
 					"Сценарий в Ульдире", -- [2]
 				},
-				[134795] = {
-					"Скрытый отшельник", -- [1]
-					"", -- [2]
+				[17964] = {
+					"Рабочий-бродяга пустошей", -- [1]
+					"Кривой Клык: Узилище", -- [2]
 				},
 				[16808] = {
 					"Вождь Каргат Острорук", -- [1]
 					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[132481] = {
-					"Кул-тирасский боец авангарда", -- [1]
-					"Осада Боралуса", -- [2]
+				[140669] = {
+					"Камнегривый ревун", -- [1]
+					"", -- [2]
 				},
 				[136831] = {
 					"Знахарь из племени Сухой Ветви", -- [1]
@@ -35675,17 +37375,17 @@ PlaterDB = {
 					"Головорез из братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[138623] = {
-					"Аматет-лучник", -- [1]
+				[140670] = {
+					"Камнегривый силач", -- [1]
 					"", -- [2]
 				},
 				[136832] = {
 					"Берсерк из племени Сухой Ветви", -- [1]
 					"", -- [2]
 				},
-				[148613] = {
-					"Командир Броудсайд", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[61239] = {
+					"Глинтрок-оракул", -- [1]
+					"Дворец Могу'шан", -- [2]
 				},
 				[129366] = {
 					"Буканьер из братства Трюмных Крыс", -- [1]
@@ -35711,13 +37411,13 @@ PlaterDB = {
 					"Аситра Жуткая Песнь", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[134786] = {
-					"Песчаный иглохват", -- [1]
-					"SarasIsland", -- [2]
+				[136833] = {
+					"Жрец яда из племени Сухой Ветви", -- [1]
+					"", -- [2]
 				},
-				[139659] = {
-					"Оракул из племени Гнилой Чешуи", -- [1]
-					"SarasIsland", -- [2]
+				[143753] = {
+					"Вазун Говорящий со звездами", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[139392] = {
 					"Саурок из клана Болотных Теней", -- [1]
@@ -35731,20 +37431,20 @@ PlaterDB = {
 					"К'ткс, охотник из Бездны", -- [1]
 					"Сценарий в Ульдире", -- [2]
 				},
-				[162432] = {
-					"Пробудившийся ужас", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[146829] = {
+					"Несмертный страж", -- [1]
+					"Горнило Штормов", -- [2]
 				},
-				[162933] = {
-					"Пожинатель мыслей", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[138369] = {
+					"Футбомбная хулиганка", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[59764] = {
 					"Тотем целительного прилива", -- [1]
 					"Горнило Штормов", -- [2]
 				},
-				[132740] = {
-					"Ядовитая гидра", -- [1]
+				[134787] = {
+					"Краб-иглохват", -- [1]
 					"SarasIsland", -- [2]
 				},
 				[59892] = {
@@ -35755,8 +37455,8 @@ PlaterDB = {
 					"Cтраж гнезда из клана Болотных Теней", -- [1]
 					"", -- [2]
 				},
-				[136845] = {
-					"Метательница топоров из племени Песчаного Черепа", -- [1]
+				[145033] = {
+					"Полярный охотник", -- [1]
 					"", -- [2]
 				},
 				[158328] = {
@@ -35771,21 +37471,21 @@ PlaterDB = {
 					"Слуга Бездны - берсерк", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[144767] = {
-					"Воплощение Гонка", -- [1]
-					"Битва за Дазар'алор", -- [2]
-				},
-				[136835] = {
-					"Кин'тога Зверобой", -- [1]
+				[138626] = {
+					"Аматет-приверженец", -- [1]
 					"", -- [2]
+				},
+				[134788] = {
+					"Иглохват-твердопанцирник", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[137091] = {
 					"Послушница из Гнезда", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[139394] = {
-					"Жрец топи из клана Болотных Теней", -- [1]
-					"", -- [2]
+				[17960] = {
+					"Ворожея резервуара Кривого Клыка", -- [1]
+					"Кривой Клык: Узилище", -- [2]
 				},
 				[126423] = {
 					"Коралловый краб", -- [1]
@@ -35795,25 +37495,25 @@ PlaterDB = {
 					"Умирающее порождение Бездны", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[150397] = {
-					"Король Мехагон", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[131974] = {
+					"Лейтенант Вален", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[156794] = {
 					"Поглощенная Тьмой агент ШРУ", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[138627] = {
-					"Аматет-иерофант", -- [1]
-					"", -- [2]
+				[140674] = {
+					"Гулковой", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[134789] = {
 					"Огромный иглохват", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[139661] = {
-					"Добытчик из племени Гнилой Чешуи", -- [1]
-					"SarasIsland", -- [2]
+				[137614] = {
+					"Крушащий ужас", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[139395] = {
 					"Хранитель топи из клана Болотных Теней", -- [1]
@@ -35831,12 +37531,12 @@ PlaterDB = {
 					"Эфириал-чароплет", -- [1]
 					"Аукиндон: Гробницы Маны", -- [2]
 				},
-				[18344] = {
-					"Принц Шаффар", -- [1]
-					"Аукиндон: Гробницы Маны", -- [2]
+				[156795] = {
+					"Осведомительница ШРУ", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[140675] = {
-					"Мать стаи Муго", -- [1]
+				[138628] = {
+					"Аматет-жрец", -- [1]
 					"", -- [2]
 				},
 				[136837] = {
@@ -35863,16 +37563,16 @@ PlaterDB = {
 					"Освобожденное чудовище", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[145035] = {
-					"Проворный лис", -- [1]
-					"", -- [2]
+				[148622] = {
+					"Проекция Кимбула", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[140676] = {
 					"Большой камнеспин", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[136838] = {
-					"Згордо Живодер", -- [1]
+				[134791] = {
+					"Сияющий ползун", -- [1]
 					"", -- [2]
 				},
 				[145058] = {
@@ -35891,25 +37591,25 @@ PlaterDB = {
 					"Чистая энергия", -- [1]
 					"Терраса Магистров", -- [2]
 				},
-				[158588] = {
-					"Гамон", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
-				},
-				[16809] = {
-					"О'мрогг Завоеватель", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
-				},
-				[138643] = {
-					"Квалдир-берсерк", -- [1]
-					"", -- [2]
-				},
-				[132745] = {
-					"Ледочешуйчатый странник", -- [1]
-					"", -- [2]
-				},
-				[135048] = {
-					"Запачканный кровью поросенок", -- [1]
+				[134024] = {
+					"Прожорливая личинка", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
+				},
+				[134280] = {
+					"Воздаятель Баатун", -- [1]
+					"", -- [2]
+				},
+				[136847] = {
+					"Темный охотник из племени Песчаного Черепа", -- [1]
+					"", -- [2]
+				},
+				[136839] = {
+					"Мроган", -- [1]
+					"", -- [2]
+				},
+				[126919] = {
+					"Призывательница шторма из братства Стальных Волн", -- [1]
+					"Вольная Гавань", -- [2]
 				},
 				[139398] = {
 					"Убийца из клана Болотных Теней", -- [1]
@@ -35927,16 +37627,16 @@ PlaterDB = {
 					"Шквальник резервуара Кривого Клыка", -- [1]
 					"Кривой Клык: Узилище", -- [2]
 				},
-				[56631] = {
-					"Прыгунок", -- [1]
-					"Хмелеварня Буйных Портеров", -- [2]
+				[152704] = {
+					"Ползучая порча", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[140678] = {
 					"Снегобородый ревун", -- [1]
 					"", -- [2]
 				},
-				[138887] = {
-					"Мистик из дружины Кровавого Киля", -- [1]
+				[134793] = {
+					"Хребтосвет", -- [1]
 					"", -- [2]
 				},
 				[135049] = {
@@ -35971,9 +37671,9 @@ PlaterDB = {
 					"Взрывчатка", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[128967] = {
-					"Снайпер дома Эшвейнов", -- [1]
-					"Осада Боралуса", -- [2]
+				[135050] = {
+					"Жуткий капитан Вандегрим", -- [1]
+					"Вольная Гавань", -- [2]
 				},
 				[139400] = {
 					"Речной заклинатель из клана Болотных Теней", -- [1]
@@ -35987,25 +37687,25 @@ PlaterDB = {
 					"Клубящийся солдат", -- [1]
 					"", -- [2]
 				},
+				[140690] = {
+					"Гадюка-лютоклык", -- [1]
+					"", -- [2]
+				},
+				[134283] = {
+					"Анахорет Ланна", -- [1]
+					"", -- [2]
+				},
 				[140430] = {
 					"Скальный козлик", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[136330] = {
-					"Шипы души", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
-				},
-				[146832] = {
-					"Некромант-послушник", -- [1]
+				[134795] = {
+					"Скрытый отшельник", -- [1]
 					"", -- [2]
 				},
-				[138889] = {
-					"Увульд Провидец", -- [1]
+				[136592] = {
+					"Флинн Фэйрвинд", -- [1]
 					"", -- [2]
-				},
-				[150154] = {
-					"Завролиск-костеглод", -- [1]
-					"Операция \"Мехагон\"", -- [2]
 				},
 				[62005] = {
 					"Зверь", -- [1]
@@ -36027,12 +37727,12 @@ PlaterDB = {
 					"Падший вестник смерти", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[138641] = {
-					"Квалдир-ужасень", -- [1]
-					"SarasIsland", -- [2]
+				[140431] = {
+					"Скальный козел", -- [1]
+					"", -- [2]
 				},
-				[134796] = {
-					"Гигантский иглохват", -- [1]
+				[138890] = {
+					"Даргульф Искатель Духов", -- [1]
 					"", -- [2]
 				},
 				[135052] = {
@@ -36059,8 +37759,8 @@ PlaterDB = {
 					"Кул-тирасский канонир", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[144776] = {
-					"Айрин Быстроногая", -- [1]
+				[138635] = {
+					"Командир Хусан", -- [1]
 					"", -- [2]
 				},
 				[161408] = {
@@ -36071,32 +37771,32 @@ PlaterDB = {
 					"Молниеносный клинок клана Гуртан", -- [1]
 					"Дворец Могу'шан", -- [2]
 				},
-				[129227] = {
-					"Азерокк", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[138644] = {
+					"Квалдир-проклинатель", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[143753] = {
-					"Вазун Говорящий со звездами", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[139659] = {
+					"Оракул из племени Гнилой Чешуи", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[131727] = {
 					"Фенра Коварная", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[18313] = {
-					"Эфириал-колдун", -- [1]
-					"Аукиндон: Гробницы Маны", -- [2]
+				[57080] = {
+					"Проклятый свиток", -- [1]
+					"Храм Нефритовой Змеи", -- [2]
 				},
 				[140427] = {
 					"Скальный козел - вожак стада", -- [1]
 					"", -- [2]
 				},
-				[140694] = {
-					"Жадная Пасть", -- [1]
-					"", -- [2]
+				[138641] = {
+					"Квалдир-ужасень", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[145033] = {
-					"Полярный охотник", -- [1]
+				[136845] = {
+					"Метательница топоров из племени Песчаного Черепа", -- [1]
 					"", -- [2]
 				},
 				[128969] = {
@@ -36115,13 +37815,13 @@ PlaterDB = {
 					"Рауль Стойкий", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[148621] = {
-					"Джек'ква", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[130635] = {
+					"Каменный яростень", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[56763] = {
-					"Набирающий силы ша", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
+				[140694] = {
+					"Жадная Пасть", -- [1]
+					"", -- [2]
 				},
 				[157594] = {
 					"Малый элементаль Бездны", -- [1]
@@ -36139,45 +37839,45 @@ PlaterDB = {
 					"Заклинатель волн Сеззес'ан", -- [1]
 					"", -- [2]
 				},
-				[137614] = {
-					"Крушащий ужас", -- [1]
-					"Осада Боралуса", -- [2]
+				[139661] = {
+					"Добытчик из племени Гнилой Чешуи", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[131729] = {
 					"Лико", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[152988] = {
-					"Безликий призыватель теней", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[146847] = {
+					"Призывательница Ланиелла", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
-				[154758] = {
-					"Токсичное чудище", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[148617] = {
+					"Акунда Ревностная", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
-				[160904] = {
-					"Образ отпущения", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[140434] = {
+					"Скальный камнерог", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[136847] = {
-					"Темный охотник из племени Песчаного Черепа", -- [1]
+				[145035] = {
+					"Проворный лис", -- [1]
 					"", -- [2]
 				},
 				[137103] = {
 					"Кровавый образ", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[161416] = {
-					"Акир - творец теней", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[146831] = {
+					"Кул-тирасский вестник шторма", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[139662] = {
 					"Заклинатель дождя из племени Гнилой Чешуи", -- [1]
 					"", -- [2]
 				},
-				[155275] = {
-					"Заклинательница волн Корвесс", -- [1]
-					"Вечный дворец", -- [2]
+				[129231] = {
+					"Рикса Огневерт", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[21128] = {
 					"Скат резервуара Кривого Клыка", -- [1]
@@ -36191,9 +37891,9 @@ PlaterDB = {
 					"Дикая собака", -- [1]
 					"", -- [2]
 				},
-				[148623] = {
-					"Проекция Гонка", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[61240] = {
+					"Глинтрок-тихоступ", -- [1]
+					"Дворец Могу'шан", -- [2]
 				},
 				[123853] = {
 					"Волшебница Альянса", -- [1]
@@ -36211,9 +37911,9 @@ PlaterDB = {
 					"Охотница за головами из племени Черного Копья", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[122967] = {
-					"Жрица Алун'за", -- [1]
-					"Атал'Дазар", -- [2]
+				[147614] = {
+					"Шаман стихий из клана Черного Железа", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[148619] = {
 					"Проекция Акунды", -- [1]
@@ -36227,17 +37927,17 @@ PlaterDB = {
 					"Падальщик-ломоклюв", -- [1]
 					"", -- [2]
 				},
-				[138644] = {
-					"Квалдир-проклинатель", -- [1]
-					"SarasIsland", -- [2]
+				[140691] = {
+					"Гигантский лютоклык", -- [1]
+					"", -- [2]
 				},
-				[17835] = {
-					"Убийца из рода Бесконечности", -- [1]
-					"Открытие Темного портала", -- [2]
+				[146320] = {
+					"Прелат За'лан", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
-				[139664] = {
-					"Злобноплав из племени Гнилой Чешуи", -- [1]
-					"SarasIsland", -- [2]
+				[129227] = {
+					"Азерокк", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[158343] = {
 					"Орган порчи", -- [1]
@@ -36251,25 +37951,25 @@ PlaterDB = {
 					"Скальный прыгун", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[146829] = {
-					"Несмертный страж", -- [1]
-					"Горнило Штормов", -- [2]
+				[144782] = {
+					"Брат Брюн", -- [1]
+					"", -- [2]
+				},
+				[135830] = {
+					"Ярость штормов", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[140436] = {
 					"Фыркопыт", -- [1]
 					"The Dread Chain (Islands 4)", -- [2]
 				},
-				[150159] = {
-					"Король Гоббамак", -- [1]
-					"Операция \"Мехагон\"", -- [2]
-				},
-				[146844] = {
-					"Ольфкриг Подчиненный", -- [1]
+				[146834] = {
+					"Некромант-магистр", -- [1]
 					"", -- [2]
 				},
-				[61243] = {
-					"Геккан", -- [1]
-					"Дворец Могу'шан", -- [2]
+				[161173] = {
+					"Глубинный дозорный", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[8889] = {
 					"Надзиратель из клана Ярости Горна", -- [1]
@@ -36279,97 +37979,97 @@ PlaterDB = {
 					"Забытый обитатель глубин", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[130635] = {
-					"Каменный яростень", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[148621] = {
+					"Джек'ква", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
-				[138642] = {
-					"Квалдир-разоритель", -- [1]
-					"Jorundall (Islands 7)", -- [2]
-				},
-				[138646] = {
-					"Квалдир - призывательница туманов", -- [1]
+				[140689] = {
+					"Ползун-лютоклык", -- [1]
 					"", -- [2]
+				},
+				[61243] = {
+					"Геккан", -- [1]
+					"Дворец Могу'шан", -- [2]
 				},
 				[163978] = {
 					"Ведомый голосами сектант", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[139410] = {
-					"Вис Бесшумный Клинок", -- [1]
-					"", -- [2]
-				},
-				[58810] = {
-					"Фрагмент Ненависти", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
+				[17962] = {
+					"Работяга резервуара Кривого Клыка", -- [1]
+					"Кривой Клык: Узилище", -- [2]
 				},
 				[146835] = {
 					"Вурдалак", -- [1]
 					"", -- [2]
 				},
-				[140442] = {
-					"Мускусный як", -- [1]
+				[17963] = {
+					"Раб-бродяга пустошей", -- [1]
+					"Кривой Клык: Узилище", -- [2]
+				},
+				[137880] = {
+					"Защитница Северного удела", -- [1]
+					"Фронт Арати (Орда)", -- [2]
+				},
+				[160904] = {
+					"Образ отпущения", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
+				},
+				[138643] = {
+					"Квалдир-берсерк", -- [1]
 					"", -- [2]
 				},
-				[140434] = {
-					"Скальный камнерог", -- [1]
+				[155275] = {
+					"Заклинательница волн Корвесс", -- [1]
+					"Вечный дворец", -- [2]
+				},
+				[135322] = {
+					"Золотой Змей", -- [1]
+					"Гробница королей", -- [2]
+				},
+				[139411] = {
+					"Многозуб", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[146831] = {
-					"Кул-тирасский вестник шторма", -- [1]
-					"Битва за Дазар'алор", -- [2]
-				},
-				[56762] = {
-					"Юй-лун", -- [1]
-					"Храм Нефритовой Змеи", -- [2]
-				},
-				[19306] = {
-					"Маносос", -- [1]
-					"Аукиндон: Гробницы Маны", -- [2]
-				},
-				[56890] = {
-					"Крик'тик-разведчик", -- [1]
-					"Врата Заходящего Солнца", -- [2]
-				},
-				[139416] = {
-					"Волшас", -- [1]
-					"SarasIsland", -- [2]
+				[137625] = {
+					"Крушащий ужас", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[139680] = {
 					"Ловец из темных глубин", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[146320] = {
-					"Прелат За'лан", -- [1]
+				[18314] = {
+					"Ловчий нексуса", -- [1]
+					"Аукиндон: Гробницы Маны", -- [2]
+				},
+				[148623] = {
+					"Проекция Гонка", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[61240] = {
-					"Глинтрок-тихоступ", -- [1]
-					"Дворец Могу'шан", -- [2]
-				},
-				[140691] = {
-					"Гигантский лютоклык", -- [1]
+				[146832] = {
+					"Некромант-послушник", -- [1]
 					"", -- [2]
 				},
-				[137881] = {
-					"Рыцарь из Северного удела", -- [1]
-					"Фронт Арати (Орда)", -- [2]
-				},
-				[130639] = {
-					"Злобнокус-пожиратель", -- [1]
+				[135834] = {
+					"Пагубное облако", -- [1]
 					"", -- [2]
+				},
+				[122963] = {
+					"Резан", -- [1]
+					"Атал'Дазар", -- [2]
 				},
 				[139412] = {
 					"Гашас", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[138650] = {
-					"Затерявшийся среди волн защитник", -- [1]
-					"SarasIsland", -- [2]
+				[136347] = {
+					"Ученица жрецов моря", -- [1]
+					"Святилище Штормов", -- [2]
 				},
-				[135830] = {
-					"Ярость штормов", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[150159] = {
+					"Король Гоббамак", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[16523] = {
 					"Дикарь из клана Изувеченной Длани", -- [1]
@@ -36379,13 +38079,13 @@ PlaterDB = {
 					"Проекция Па'ку", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[138645] = {
-					"Квалдир - раздирательница душ", -- [1]
-					"SarasIsland", -- [2]
+				[146833] = {
+					"Некромантка-заклинательница", -- [1]
+					"", -- [2]
 				},
-				[132760] = {
-					"Равнинный ползун", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[134807] = {
+					"Древняя твердопанцирная черепаха", -- [1]
+					"", -- [2]
 				},
 				[145298] = {
 					"Дикий пожиратель", -- [1]
@@ -36411,13 +38111,13 @@ PlaterDB = {
 					"Проекция Краг'вы", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[146834] = {
-					"Некромант-магистр", -- [1]
+				[138646] = {
+					"Квалдир - призывательница туманов", -- [1]
 					"", -- [2]
 				},
-				[161173] = {
-					"Глубинный дозорный", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[146844] = {
+					"Ольфкриг Подчиненный", -- [1]
+					"", -- [2]
 				},
 				[140447] = {
 					"Крушащий ужас", -- [1]
@@ -36431,9 +38131,9 @@ PlaterDB = {
 					"Моргок", -- [1]
 					"", -- [2]
 				},
-				[61242] = {
-					"Глинтрок-крепкошкур", -- [1]
-					"Дворец Могу'шан", -- [2]
+				[146838] = {
+					"Крошащийся скелет", -- [1]
+					"", -- [2]
 				},
 				[134041] = {
 					"Зараженный крестьянин", -- [1]
@@ -36447,13 +38147,13 @@ PlaterDB = {
 					"Хъяна Вестница Туманов", -- [1]
 					"", -- [2]
 				},
-				[66413] = {
-					"Пузыристый бражный хмелементаль", -- [1]
-					"Хмелеварня Буйных Портеров", -- [2]
+				[58810] = {
+					"Фрагмент Ненависти", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
-				[145303] = {
-					"Калдорайский глефомет", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[148631] = {
+					"Неразорвавшийся заряд", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[139415] = {
 					"Слизешкур", -- [1]
@@ -36463,13 +38163,13 @@ PlaterDB = {
 					"Дикий душитель", -- [1]
 					"", -- [2]
 				},
-				[137880] = {
-					"Защитница Северного удела", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[19306] = {
+					"Маносос", -- [1]
+					"Аукиндон: Гробницы Маны", -- [2]
 				},
-				[56636] = {
-					"Командир Ри'мок", -- [1]
-					"Врата Заходящего Солнца", -- [2]
+				[140442] = {
+					"Мускусный як", -- [1]
+					"", -- [2]
 				},
 				[130638] = {
 					"Кроколиск-злобнокус", -- [1]
@@ -36487,17 +38187,17 @@ PlaterDB = {
 					"Корсар из братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[135322] = {
-					"Золотой Змей", -- [1]
-					"Гробница королей", -- [2]
+				[139416] = {
+					"Волшас", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[139672] = {
 					"Бармашлеп", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[135834] = {
-					"Пагубное облако", -- [1]
-					"", -- [2]
+				[137881] = {
+					"Рыцарь из Северного удела", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[144796] = {
 					"Главный механик Меггакрут", -- [1]
@@ -36519,9 +38219,9 @@ PlaterDB = {
 					"Стальная пасть клана Гуртан", -- [1]
 					"Дворец Могу'шан", -- [2]
 				},
-				[148631] = {
-					"Неразорвавшийся заряд", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[140443] = {
+					"Агрессивный мускусный як", -- [1]
+					"", -- [2]
 				},
 				[137626] = {
 					"Крушащий ужас", -- [1]
@@ -36535,17 +38235,17 @@ PlaterDB = {
 					"Охотник за головами Гал'вана", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[136347] = {
-					"Ученица жрецов моря", -- [1]
-					"Святилище Штормов", -- [2]
+				[17835] = {
+					"Убийца из рода Бесконечности", -- [1]
+					"Открытие Темного портала", -- [2]
 				},
-				[146838] = {
-					"Крошащийся скелет", -- [1]
-					"", -- [2]
+				[138650] = {
+					"Затерявшийся среди волн защитник", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[130640] = {
-					"Злобнокус-хвататель", -- [1]
-					"", -- [2]
+				[61242] = {
+					"Глинтрок-крепкошкур", -- [1]
+					"Дворец Могу'шан", -- [2]
 				},
 				[159632] = {
 					"Сектантка - теневой клинок", -- [1]
@@ -36555,9 +38255,9 @@ PlaterDB = {
 					"Недвижный", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[129232] = {
-					"Шеф Разданк", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[139674] = {
+					"Глубинный ходок", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[150165] = {
 					"Жижементаль", -- [1]
@@ -36599,8 +38299,8 @@ PlaterDB = {
 					"Эфириал-чудесник", -- [1]
 					"Аукиндон: Гробницы Маны", -- [2]
 				},
-				[140443] = {
-					"Агрессивный мускусный як", -- [1]
+				[130640] = {
+					"Злобнокус-хвататель", -- [1]
 					"", -- [2]
 				},
 				[146840] = {
@@ -36615,25 +38315,25 @@ PlaterDB = {
 					"Дикий громила", -- [1]
 					"", -- [2]
 				},
-				[156820] = {
-					"Дод", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[24744] = {
+					"Вексалиус", -- [1]
+					"Терраса Магистров", -- [2]
 				},
 				[139676] = {
 					"Говорящий с волнами Ормрг", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[135838] = {
-					"Пепловей", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[148120] = {
+					"Кул-тирасский морпех", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[147098] = {
 					"Дух Сюэня", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[24744] = {
-					"Вексалиус", -- [1]
-					"Терраса Магистров", -- [2]
+				[156820] = {
+					"Дод", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[138653] = {
 					"Хосвир Гниющий Остов", -- [1]
@@ -36655,9 +38355,9 @@ PlaterDB = {
 					"Глашатай пучины", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[135839] = {
-					"Болотный газовик", -- [1]
-					"", -- [2]
+				[150168] = {
+					"Токсичное чудище", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[58108] = {
 					"Крик'тик-разведчик", -- [1]
@@ -36675,25 +38375,25 @@ PlaterDB = {
 					"Ведомая голосами сектантка", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[150168] = {
-					"Токсичное чудище", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[135839] = {
+					"Болотный газовик", -- [1]
+					"", -- [2]
 				},
-				[122965] = {
-					"Вол'каал", -- [1]
-					"Атал'Дазар", -- [2]
+				[139422] = {
+					"Бронированный укротитель кролусков", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[139678] = {
 					"Брегоступ", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[127315] = {
-					"Тотем воскрешения", -- [1]
-					"Атал'Дазар", -- [2]
+				[160404] = {
+					"Рассерженный дух медвежьей шкуры", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[148120] = {
-					"Кул-тирасский морпех", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[135838] = {
+					"Пепловей", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
 				[56637] = {
 					"Ук-Ук", -- [1]
@@ -36703,29 +38403,29 @@ PlaterDB = {
 					"Шипастый вурдалак", -- [1]
 					"", -- [2]
 				},
-				[58812] = {
-					"Злобная сущность", -- [1]
-					"Монастырь Шадо-Пан", -- [2]
+				[136864] = {
+					"Угуу Устрашающий", -- [1]
+					"", -- [2]
 				},
-				[139422] = {
-					"Бронированный укротитель кролусков", -- [1]
-					"Храм Сетралисс", -- [2]
+				[122965] = {
+					"Вол'каал", -- [1]
+					"Атал'Дазар", -- [2]
 				},
 				[135329] = {
 					"Матрона Бриндл", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[160404] = {
-					"Рассерженный дух медвежьей шкуры", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[56636] = {
+					"Командир Ри'мок", -- [1]
+					"Врата Заходящего Солнца", -- [2]
 				},
 				[160405] = {
 					"Рассерженный дух кресла из древня", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[139674] = {
-					"Глубинный ходок", -- [1]
-					"SarasIsland", -- [2]
+				[127315] = {
+					"Тотем воскрешения", -- [1]
+					"Атал'Дазар", -- [2]
 				},
 				[136353] = {
 					"Огромное щупальце", -- [1]
@@ -36735,41 +38435,41 @@ PlaterDB = {
 					"Ползучий слизнюк", -- [1]
 					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[17963] = {
-					"Раб-бродяга пустошей", -- [1]
-					"Кривой Клык: Узилище", -- [2]
+				[131486] = {
+					"Верховный экзарх Туралион", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[17420] = {
 					"Язычник из клана Изувеченной Длани", -- [1]
 					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[137625] = {
-					"Крушащий ужас", -- [1]
-					"Осада Боралуса", -- [2]
+				[145303] = {
+					"Калдорайский глефомет", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[131492] = {
 					"Преданная жрица крови", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[136864] = {
-					"Угуу Устрашающий", -- [1]
+				[130639] = {
+					"Злобнокус-пожиратель", -- [1]
 					"", -- [2]
 				},
 				[144286] = {
 					"Управляющая активами", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[122963] = {
-					"Резан", -- [1]
-					"Атал'Дазар", -- [2]
+				[58812] = {
+					"Злобная сущность", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
 				[146845] = {
 					"Рваный Джаред", -- [1]
 					"", -- [2]
 				},
-				[131486] = {
-					"Верховный экзарх Туралион", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[56763] = {
+					"Набирающий силы ша", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
 				},
 				[61947] = {
 					"Крушитель ребер клана Каргеш", -- [1]
@@ -36779,21 +38479,21 @@ PlaterDB = {
 					"Бешеная наседка", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[134807] = {
-					"Древняя твердопанцирная черепаха", -- [1]
-					"", -- [2]
+				[132760] = {
+					"Равнинный ползун", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
-				[146833] = {
-					"Некромантка-заклинательница", -- [1]
-					"", -- [2]
+				[138645] = {
+					"Квалдир - раздирательница душ", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[160663] = {
 					"Сущность кошмара", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140441] = {
-					"Молодой мускусный як", -- [1]
-					"", -- [2]
+				[137627] = {
+					"Сжимающий ужас", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[148893] = {
 					"Замученная душа", -- [1]
@@ -36803,33 +38503,33 @@ PlaterDB = {
 					"Детеныш Шад'хара", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[18314] = {
-					"Ловчий нексуса", -- [1]
-					"Аукиндон: Гробницы Маны", -- [2]
+				[140441] = {
+					"Молодой мускусный як", -- [1]
+					"", -- [2]
 				},
-				[147614] = {
-					"Шаман стихий из клана Черного Железа", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[122967] = {
+					"Жрица Алун'за", -- [1]
+					"Атал'Дазар", -- [2]
 				},
-				[129231] = {
-					"Рикса Огневерт", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[56890] = {
+					"Крик'тик-разведчик", -- [1]
+					"Врата Заходящего Солнца", -- [2]
 				},
-				[139411] = {
-					"Многозуб", -- [1]
-					"SarasIsland", -- [2]
+				[161416] = {
+					"Акир - творец теней", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[136100] = {
 					"Утонувший обитатель глубин", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[140690] = {
-					"Гадюка-лютоклык", -- [1]
-					"", -- [2]
+				[66413] = {
+					"Пузыристый бражный хмелементаль", -- [1]
+					"Хмелеварня Буйных Портеров", -- [2]
 				},
-				[138659] = {
-					"Оживленная гончая", -- [1]
-					"", -- [2]
+				[148894] = {
+					"Заблудшая душа", -- [1]
+					"Подгнилье", -- [2]
 				},
 				[153244] = {
 					"Элементаль забвения", -- [1]
@@ -36839,25 +38539,25 @@ PlaterDB = {
 					"Гдемоясасис", -- [1]
 					"Горнило Штормов", -- [2]
 				},
-				[148622] = {
-					"Проекция Кимбула", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[139410] = {
+					"Вис Бесшумный Клинок", -- [1]
+					"", -- [2]
 				},
-				[137627] = {
-					"Сжимающий ужас", -- [1]
-					"Осада Боралуса", -- [2]
+				[138642] = {
+					"Квалдир-разоритель", -- [1]
+					"Jorundall (Islands 7)", -- [2]
 				},
-				[17962] = {
-					"Работяга резервуара Кривого Клыка", -- [1]
-					"Кривой Клык: Узилище", -- [2]
+				[129232] = {
+					"Шеф Разданк", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[154524] = {
 					"К'тир резчик разума", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[140689] = {
-					"Ползун-лютоклык", -- [1]
-					"", -- [2]
+				[139664] = {
+					"Злобноплав из племени Гнилой Чешуи", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[138660] = {
 					"Туманная гончая", -- [1]
@@ -36867,25 +38567,25 @@ PlaterDB = {
 					"Матриарх пластинчатых василисков", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[61239] = {
-					"Глинтрок-оракул", -- [1]
-					"Дворец Могу'шан", -- [2]
+				[150154] = {
+					"Завролиск-костеглод", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[122968] = {
 					"Язма", -- [1]
 					"Атал'Дазар", -- [2]
 				},
-				[136592] = {
-					"Флинн Фэйрвинд", -- [1]
-					"", -- [2]
+				[56762] = {
+					"Юй-лун", -- [1]
+					"Храм Нефритовой Змеи", -- [2]
 				},
 				[135846] = {
 					"Песочная змея", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[148617] = {
-					"Акунда Ревностная", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[154758] = {
+					"Токсичное чудище", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[140452] = {
 					"Остророг Дремлющий", -- [1]
@@ -36899,29 +38599,29 @@ PlaterDB = {
 					"Песочный окунь", -- [1]
 					"", -- [2]
 				},
-				[148894] = {
-					"Заблудшая душа", -- [1]
-					"Подгнилье", -- [2]
+				[138659] = {
+					"Оживленная гончая", -- [1]
+					"", -- [2]
 				},
 				[139429] = {
 					"Каменный воин", -- [1]
 					"", -- [2]
 				},
-				[144782] = {
-					"Брат Брюн", -- [1]
-					"", -- [2]
+				[148615] = {
+					"Див'иан", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
-				[134286] = {
-					"Верховный маг Тамуура", -- [1]
-					"", -- [2]
+				[18313] = {
+					"Эфириал-колдун", -- [1]
+					"Аукиндон: Гробницы Маны", -- [2]
 				},
 				[134056] = {
 					"Аква'сирр", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[57080] = {
-					"Проклятый свиток", -- [1]
-					"Храм Нефритовой Змеи", -- [2]
+				[162432] = {
+					"Пробудившийся ужас", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[146850] = {
 					"Великий магистр Ульрих", -- [1]
@@ -36931,16 +38631,16 @@ PlaterDB = {
 					"Хитрый темнокрыл", -- [1]
 					"", -- [2]
 				},
-				[138635] = {
-					"Командир Хусан", -- [1]
+				[144776] = {
+					"Айрин Быстроногая", -- [1]
 					"", -- [2]
 				},
 				[122969] = {
 					"Занчульская знахарка", -- [1]
 					"Атал'Дазар", -- [2]
 				},
-				[138890] = {
-					"Даргульф Искатель Духов", -- [1]
+				[134796] = {
+					"Гигантский иглохват", -- [1]
 					"", -- [2]
 				},
 				[56511] = {
@@ -36951,13 +38651,13 @@ PlaterDB = {
 					"Фанатичный сектант", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140431] = {
-					"Скальный козел", -- [1]
-					"", -- [2]
+				[148613] = {
+					"Командир Броудсайд", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
-				[134283] = {
-					"Анахорет Ланна", -- [1]
-					"", -- [2]
+				[136330] = {
+					"Шипы души", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[145060] = {
 					"Чудовищный тенеперый ворон", -- [1]
@@ -36967,25 +38667,25 @@ PlaterDB = {
 					"Цветущий защитник", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[11673] = {
-					"Древняя гончая недр", -- [1]
-					"Огненные Недра", -- [2]
+				[153760] = {
+					"Порабощенная пехотинец", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[135050] = {
-					"Жуткий капитан Вандегрим", -- [1]
-					"Вольная Гавань", -- [2]
+				[128967] = {
+					"Снайпер дома Эшвейнов", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[134794] = {
 					"Темный ползун", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[126424] = {
-					"Коралловый приливный краб", -- [1]
-					"SarasIsland", -- [2]
+				[156575] = {
+					"Темный инквизитор Занеш", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[146596] = {
-					"Мирмидон из клана Темной Чешуи", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[61245] = {
+					"Тотем конденсации", -- [1]
+					"Горнило Штормов", -- [2]
 				},
 				[146852] = {
 					"Конрад Поработитель", -- [1]
@@ -37027,20 +38727,20 @@ PlaterDB = {
 					"Гранатовый кусатель", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[134280] = {
-					"Воздаятель Баатун", -- [1]
-					"", -- [2]
+				[16809] = {
+					"О'мрогг Завоеватель", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
 				[139433] = {
 					"Сестра страдания", -- [1]
 					"", -- [2]
 				},
-				[134024] = {
-					"Прожорливая личинка", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[158588] = {
+					"Гамон", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
-				[132744] = {
-					"Ледяная гидра", -- [1]
+				[145026] = {
+					"Проворный падальщик", -- [1]
 					"", -- [2]
 				},
 				[156577] = {
@@ -37059,8 +38759,8 @@ PlaterDB = {
 					"Воденыш", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[138628] = {
-					"Аматет-жрец", -- [1]
+				[140675] = {
+					"Мать стаи Муго", -- [1]
 					"", -- [2]
 				},
 				[122971] = {
@@ -37095,17 +38795,17 @@ PlaterDB = {
 					"Дест'агат", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140674] = {
-					"Гулковой", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[138627] = {
+					"Аматет-иерофант", -- [1]
+					"", -- [2]
 				},
 				[139691] = {
 					"Океанский заклинатель штормов", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[131974] = {
-					"Лейтенант Вален", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[150397] = {
+					"Король Мехагон", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[18317] = {
 					"Эфириал-жрец", -- [1]
@@ -37115,9 +38815,9 @@ PlaterDB = {
 					"Глинтрок-погромщик", -- [1]
 					"Дворец Могу'шан", -- [2]
 				},
-				[138626] = {
-					"Аматет-приверженец", -- [1]
-					"", -- [2]
+				[144767] = {
+					"Воплощение Гонка", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[24554] = {
 					"Эрамас Сияющее Пламя", -- [1]
@@ -37143,13 +38843,13 @@ PlaterDB = {
 					"\"Оборонобот II\"", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[136833] = {
-					"Жрец яда из племени Сухой Ветви", -- [1]
-					"", -- [2]
+				[134786] = {
+					"Песчаный иглохват", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[140670] = {
-					"Камнегривый силач", -- [1]
-					"", -- [2]
+				[161140] = {
+					"Бвемба", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[139390] = {
 					"Чешуйчатый страж Саррис", -- [1]
@@ -37159,13 +38859,13 @@ PlaterDB = {
 					"Ползучая порча", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[153760] = {
-					"Порабощенная пехотинец", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[11673] = {
+					"Древняя гончая недр", -- [1]
+					"Огненные Недра", -- [2]
 				},
-				[18311] = {
-					"Эфириал - осквернитель гробниц", -- [1]
-					"Аукиндон: Гробницы Маны", -- [2]
+				[137097] = {
+					"Заклинатель с дороги Храброгласа", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[139949] = {
 					"Чумная знахарка", -- [1]
@@ -37179,17 +38879,17 @@ PlaterDB = {
 					"Валира Сангвинар", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[136828] = {
-					"Воин из племени Сухой Ветви", -- [1]
+				[56884] = {
+					"Оскверненный Тажань Чжу", -- [1]
+					"Монастырь Шадо-Пан", -- [2]
+				},
+				[145067] = {
+					"Тенеперый вороненок", -- [1]
 					"", -- [2]
 				},
-				[157349] = {
-					"Вепрь Бездны", -- [1]
+				[157605] = {
+					"Подземное щупальце", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
-				},
-				[147370] = {
-					"Мастер клинка Каджа", -- [1]
-					"Битва за Дазар'алор", -- [2]
 				},
 				[122973] = {
 					"Дазар'айский духовник", -- [1]
@@ -37207,8 +38907,8 @@ PlaterDB = {
 					"Житель Мехагона", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[140152] = {
-					"Гнилокоготь-терзатель", -- [1]
+				[144772] = {
+					"Леди Тамакин", -- [1]
 					"", -- [2]
 				},
 				[132530] = {
@@ -37219,9 +38919,9 @@ PlaterDB = {
 					"Старозоб", -- [1]
 					"", -- [2]
 				},
-				[134060] = {
-					"Лорд Штормсонг", -- [1]
-					"Святилище Штормов", -- [2]
+				[56631] = {
+					"Прыгунок", -- [1]
+					"Хмелеварня Буйных Портеров", -- [2]
 				},
 				[139439] = {
 					"Закатный чародей Дзуун", -- [1]
@@ -37231,9 +38931,9 @@ PlaterDB = {
 					"Шустроклешень", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[16807] = {
-					"Главный чернокнижник Пустоклят", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
+				[144244] = {
+					"\"Платиновый лупцеватор\"", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[144301] = {
 					"Живые отходы", -- [1]
@@ -37255,25 +38955,25 @@ PlaterDB = {
 					"Безликий призыватель теней", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[134787] = {
-					"Краб-иглохват", -- [1]
-					"SarasIsland", -- [2]
+				[158315] = {
+					"Око хаоса", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[140657] = {
-					"Гигантский йети-крепкорог", -- [1]
+				[146813] = {
+					"Гюнтер Серый", -- [1]
 					"", -- [2]
 				},
 				[158375] = {
 					"Щупальце Заразителя", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[131445] = {
-					"Надзиратель блока", -- [1]
-					"Тол Дагор", -- [2]
+				[152939] = {
+					"Безграничная порча", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[149356] = {
-					"Разъяренный азерцветовый кристалльник", -- [1]
-					"", -- [2]
+				[160871] = {
+					"Одержимая посылка", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[132532] = {
 					"Кул-тирасский стрелок", -- [1]
@@ -37287,9 +38987,9 @@ PlaterDB = {
 					"Буканьер из братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[151658] = {
-					"Танк-долгоног", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[143215] = {
+					"Косатка", -- [1]
+					"", -- [2]
 				},
 				[133556] = {
 					"Разак Сковородкер", -- [1]
@@ -37303,9 +39003,9 @@ PlaterDB = {
 					"Твердопанцирный коралловый краб", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[149355] = {
-					"Искаженный азерцветовый кристалльник", -- [1]
-					"", -- [2]
+				[157813] = {
+					"Спрайт Прыгозубчик", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[146862] = {
 					"Поработительница из племени Злых Туманов", -- [1]
@@ -37335,9 +39035,9 @@ PlaterDB = {
 					"Вол'зит Шепчущая", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[145067] = {
-					"Тенеперый вороненок", -- [1]
-					"", -- [2]
+				[147370] = {
+					"Мастер клинка Каджа", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[56706] = {
 					"Крик'тик-бомбардир", -- [1]
@@ -37351,9 +39051,9 @@ PlaterDB = {
 					"Опустошительница из братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[157605] = {
-					"Подземное щупальце", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[138349] = {
+					"Мстительный дух", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[61056] = {
 					"Изначальный элементаль земли", -- [1]
@@ -37363,9 +39063,9 @@ PlaterDB = {
 					"Воздушный подавитель ОУ-8", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[145026] = {
-					"Проворный падальщик", -- [1]
-					"", -- [2]
+				[144232] = {
+					"Буйная гуляка", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[160937] = {
 					"Ночной кошмар", -- [1]
@@ -37399,13 +39099,13 @@ PlaterDB = {
 					"Крайне взрывоопасная овца", -- [1]
 					"Терраса Магистров", -- [2]
 				},
-				[144993] = {
-					"Бешеный чертополоховый медведь", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[151145] = {
+					"Хати", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140643] = {
-					"Лютый йети-крепкорог", -- [1]
-					"", -- [2]
+				[157275] = {
+					"Ведомый голосами послушник", -- [1]
+					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
 				[157356] = {
 					"Экстрактор Тельсара", -- [1]
@@ -37427,8 +39127,8 @@ PlaterDB = {
 					"Лавоменталь", -- [1]
 					"Огненные Недра", -- [2]
 				},
-				[138849] = {
-					"Повелитель улья Викс'ик", -- [1]
+				[136802] = {
+					"Углекус", -- [1]
 					"", -- [2]
 				},
 				[130653] = {
@@ -37451,9 +39151,9 @@ PlaterDB = {
 					"Шаркун из племени Ледоклыков", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[145242] = {
-					"Нагазавр", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[135007] = {
+					"Страж сферы", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[136798] = {
 					"Костегрыз из племени Галечников", -- [1]
@@ -37463,9 +39163,9 @@ PlaterDB = {
 					"Гальваззт", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[151638] = {
-					"Обезумевший земляной яростень", -- [1]
-					"Логово Нелтариона – сценарий Сердца Азерот", -- [2]
+				[149591] = {
+					"Растарский стрелок", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[129758] = {
 					"Гренадер из братства Стальных Волн", -- [1]
@@ -37479,9 +39179,9 @@ PlaterDB = {
 					"Огненный великан", -- [1]
 					"Огненные Недра", -- [2]
 				},
-				[139355] = {
-					"Гуран Инеистый Клинок", -- [1]
-					"", -- [2]
+				[56876] = {
+					"Крик'тик-сапер", -- [1]
+					"Врата Заходящего Солнца", -- [2]
 				},
 				[134686] = {
 					"Взрослый кролуск", -- [1]
@@ -37499,9 +39199,9 @@ PlaterDB = {
 					"Клещ из Подгнилья", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[159312] = {
-					"Живая кровь", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[138842] = {
+					"Та'кил Усилитель", -- [1]
+					"", -- [2]
 				},
 				[136889] = {
 					"Шипастый колдун Так", -- [1]
@@ -37603,9 +39303,9 @@ PlaterDB = {
 					"Брутарыл", -- [1]
 					"", -- [2]
 				},
-				[135764] = {
-					"Взрывной тотем", -- [1]
-					"Гробница королей", -- [2]
+				[131670] = {
+					"Прядильщица лоз из ковена Мертвых Сердец", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[140113] = {
 					"Ядожал", -- [1]
@@ -37619,9 +39319,9 @@ PlaterDB = {
 					"Живая бомба", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[134739] = {
-					"Голем-чистильщик", -- [1]
-					"Гробница королей", -- [2]
+				[157256] = {
+					"Акир-шершень", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[138428] = {
 					"Мирмидон из клана Злобного Плавника", -- [1]
@@ -37643,9 +39343,9 @@ PlaterDB = {
 					"Цепкий ужас", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[131667] = {
-					"Оживленный голиаф", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[135761] = {
+					"Громовой тотем", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[24684] = {
 					"Рыцарь крови Солнечного Клинка", -- [1]
@@ -37671,21 +39371,21 @@ PlaterDB = {
 					"Акир-роевик", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[138831] = {
-					"Хорвульд Бич Морей", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[157253] = {
+					"Ка'зир", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[145850] = {
 					"Гилнеасский сапер", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[135247] = {
-					"Варигг", -- [1]
-					"", -- [2]
+				[152135] = {
+					"Искаженный Бездной чародей", -- [1]
+					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
 				},
-				[144970] = {
-					"Калдорай-лучница", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[139341] = {
+					"Темный чародей из племени Ледоклыков", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[150712] = {
 					"Трикси Искрожгучка", -- [1]
@@ -37703,9 +39403,9 @@ PlaterDB = {
 					"Акир - вожак роя", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[12259] = {
-					"Гееннас", -- [1]
-					"Огненные Недра", -- [2]
+				[140108] = {
+					"Скорпид-смертежал", -- [1]
+					"", -- [2]
 				},
 				[145851] = {
 					"Калдорай - наездник на гиппогрифе", -- [1]
@@ -37715,9 +39415,9 @@ PlaterDB = {
 					"Арнольдо", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[146756] = {
-					"Усиленная буря", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[138568] = {
+					"Шак'шугун Поработитель", -- [1]
+					"", -- [2]
 				},
 				[135706] = {
 					"Мародер из братства Трюмных Крыс", -- [1]
@@ -37731,29 +39431,29 @@ PlaterDB = {
 					"Йети-крепкорог", -- [1]
 					"", -- [2]
 				},
-				[140358] = {
-					"Зов Скорби", -- [1]
-					"", -- [2]
-				},
 				[132170] = {
 					"Полосатый паку", -- [1]
 					"Вечный дворец", -- [2]
+				},
+				[136264] = {
+					"Недоделанная мумия", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[122086] = {
 					"Сталешкур из клана Скользящего Плавника", -- [1]
 					"", -- [2]
 				},
-				[138822] = {
-					"Гарпунщица из дружины Кровавого Киля", -- [1]
+				[144963] = {
+					"Воплощение Кимбула", -- [1]
+					"Битва за Дазар'алор", -- [2]
+				},
+				[140357] = {
+					"Ядовитый разоритель", -- [1]
 					"", -- [2]
 				},
-				[134216] = {
-					"Темная заклинательница Зарра", -- [1]
-					"", -- [2]
-				},
-				[138432] = {
-					"Повелительница приливов Несса", -- [1]
-					"", -- [2]
+				[148667] = {
+					"Растарский каратель", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[146876] = {
 					"Мачиту Жестокий", -- [1]
@@ -37763,9 +39463,9 @@ PlaterDB = {
 					"Мозгоплет", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[148667] = {
-					"Растарский каратель", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[138432] = {
+					"Повелительница приливов Несса", -- [1]
+					"", -- [2]
 				},
 				[59460] = {
 					"Прыгунок", -- [1]
@@ -37775,9 +39475,9 @@ PlaterDB = {
 					"Послушница Бездны", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[107951] = {
-					"Пискля", -- [1]
-					"Святилище Штормов", -- [2]
+				[136005] = {
+					"Буйный гуляка", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[146365] = {
 					"Пылающий огнестраж", -- [1]
@@ -37795,21 +39495,21 @@ PlaterDB = {
 					"Велинария", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[140609] = {
-					"Жестокий мако", -- [1]
-					"SarasIsland", -- [2]
+				[148797] = {
+					"Чародей войска мертвых", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[139457] = {
 					"Каменный цийлинь", -- [1]
 					"", -- [2]
 				},
-				[126181] = {
-					"Рамут Черный", -- [1]
-					"", -- [2]
-				},
 				[160183] = {
 					"Фанатик Бездны", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
+				},
+				[126181] = {
+					"Рамут Черный", -- [1]
+					"", -- [2]
 				},
 				[146366] = {
 					"Раскаленная гончая", -- [1]
@@ -37831,12 +39531,12 @@ PlaterDB = {
 					"Акир-костекрушитель", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[151098] = {
-					"Темный отросток", -- [1]
-					"Горнило Штормов", -- [2]
+				[144957] = {
+					"Шали'и", -- [1]
+					"", -- [2]
 				},
-				[138560] = {
-					"Безликий ужас", -- [1]
+				[124581] = {
+					"Твердопанцирный крепкохват", -- [1]
 					"", -- [2]
 				},
 				[158774] = {
@@ -37919,13 +39619,13 @@ PlaterDB = {
 					"Снанг", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[133436] = {
-					"Огнелетчица Торговой компании", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[155953] = {
+					"К'Таффер", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
-				[17695] = {
-					"Убийца из клана Изувеченной Длани", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
+				[149556] = {
+					"Вечный каратель", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[139461] = {
 					"Каменный скалогрыз", -- [1]
@@ -37951,9 +39651,9 @@ PlaterDB = {
 					"Песчаный стрелок", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[146485] = {
-					"Невара Ночная Тень", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[136250] = {
+					"Проклинатель худу", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[149441] = {
 					"Замороженная баллиста", -- [1]
@@ -37967,9 +39667,9 @@ PlaterDB = {
 					"Мушкетер из братства Южных Морей", -- [1]
 					"", -- [2]
 				},
-				[59873] = {
-					"Оскверненная живая вода", -- [1]
-					"Храм Нефритовой Змеи", -- [2]
+				[132920] = {
+					"Темный змей", -- [1]
+					"", -- [2]
 				},
 				[146371] = {
 					"Шаман стихий из клана Черного Железа", -- [1]
@@ -37983,9 +39683,9 @@ PlaterDB = {
 					"Псарь Ангвольд", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[65310] = {
-					"Тренировочная репа", -- [1]
-					"Око Бури", -- [2]
+				[61216] = {
+					"Глинтрок-проклинатель", -- [1]
+					"Дворец Могу'шан", -- [2]
 				},
 				[11659] = {
 					"Разрушитель из недр", -- [1]
@@ -38015,9 +39715,9 @@ PlaterDB = {
 					"Скрытный убийца", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[17694] = {
-					"Темный маг из клана Призрачной Луны", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
+				[155689] = {
+					"Занш'ир-гладиатор", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[61445] = {
 					"Хайан Неудержимый", -- [1]
@@ -38051,9 +39751,9 @@ PlaterDB = {
 					"Анубисат-часовой", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[154663] = {
-					"Поглощающая гномов капля", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[148522] = {
+					"Ледяная глыба", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[129552] = {
 					"Монзуми", -- [1]
@@ -38131,9 +39831,9 @@ PlaterDB = {
 					"Лю Пламенное Сердце", -- [1]
 					"Храм Нефритовой Змеи", -- [2]
 				},
-				[153377] = {
-					"Жижа", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[163612] = {
+					"Порожденный Бездной аннигилятор", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[138444] = {
 					"Генерал Веспарак", -- [1]
@@ -38163,21 +39863,21 @@ PlaterDB = {
 					"Чернокнижник Солнечного Клинка", -- [1]
 					"Терраса Магистров", -- [2]
 				},
-				[140068] = {
-					"Рыжешкур-рычун", -- [1]
-					"", -- [2]
+				[24697] = {
+					"Сестра Мучений", -- [1]
+					"Терраса Магистров", -- [2]
 				},
-				[131112] = {
-					"Боец из братства Волнорезов", -- [1]
-					"Тол Дагор", -- [2]
+				[149535] = {
+					"Ледяной образ", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
-				[146889] = {
-					"Вестник смерти из клана Гнилой Плоти", -- [1]
-					"", -- [2]
+				[16594] = {
+					"Послушник из клана Призрачной Луны", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[145185] = {
-					"\"Гномогедд-0Н\"", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[159514] = {
+					"Кровь Ниалоты", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[130025] = {
 					"Громила из братства Стальных Волн", -- [1]
@@ -38191,13 +39891,13 @@ PlaterDB = {
 					"К'тир - призыватель Бездны", -- [1]
 					"Зал Сердца – сценарий", -- [2]
 				},
-				[16594] = {
-					"Послушник из клана Призрачной Луны", -- [1]
-					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
+				[146889] = {
+					"Вестник смерти из клана Гнилой Плоти", -- [1]
+					"", -- [2]
 				},
-				[161561] = {
-					"Пта Зараженный", -- [1]
-					"Чертоги Созидания", -- [2]
+				[134950] = {
+					"Ужасный паук", -- [1]
+					"", -- [2]
 				},
 				[138446] = {
 					"Призывательница пучин Зелисса", -- [1]
@@ -38207,13 +39907,13 @@ PlaterDB = {
 					"Окаменевший враг", -- [1]
 					"", -- [2]
 				},
+				[133666] = {
+					"Отвлекатор Головокружилки", -- [1]
+					"", -- [2]
+				},
 				[61398] = {
 					"Синь Мастер Боя", -- [1]
 					"Дворец Могу'шан", -- [2]
-				},
-				[152089] = {
-					"Тралл", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
 				},
 				[151752] = {
 					"Мелкое порождение Бездны", -- [1]
@@ -38239,17 +39939,17 @@ PlaterDB = {
 					"Мастер Снежный Вихрь", -- [1]
 					"Монастырь Шадо-Пан", -- [2]
 				},
-				[59547] = {
-					"Цзян", -- [1]
-					"Храм Нефритовой Змеи", -- [2]
+				[139804] = {
+					"Инспектор Торговой компании", -- [1]
+					"", -- [2]
 				},
 				[130026] = {
 					"Морской колдун из братства Трюмных Крыс", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[140827] = {
-					"Хихикающий чертополошник", -- [1]
-					"", -- [2]
+				[61338] = {
+					"Глинтрок-тихоступ", -- [1]
+					"Дворец Могу'шан", -- [2]
 				},
 				[152009] = {
 					"Неисправный хламобот", -- [1]
@@ -38295,9 +39995,9 @@ PlaterDB = {
 					"Пылающий огнестраж", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[139800] = {
-					"Ученик призывательницы штормов", -- [1]
-					"Святилище Штормов", -- [2]
+				[59546] = {
+					"Говорящая рыба", -- [1]
+					"Храм Нефритовой Змеи", -- [2]
 				},
 				[146893] = {
 					"Мистик из клана Гнилой Плоти", -- [1]
@@ -38327,17 +40027,17 @@ PlaterDB = {
 					"Разоритель из клана Изувеченной Длани", -- [1]
 					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
-				[134935] = {
-					"Мать Вишис", -- [1]
-					"", -- [2]
+				[157452] = {
+					"Кошмарный антиген", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[146894] = {
 					"Кабалист из клана Гнилой Плоти", -- [1]
 					"", -- [2]
 				},
-				[136470] = {
-					"Продавщица закусок", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[134423] = {
+					"Обитатель глубин", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[17938] = {
 					"Наблюдатель резервуара Кривого Клыка", -- [1]
@@ -38359,17 +40059,17 @@ PlaterDB = {
 					"Войско мертвых", -- [1]
 					"Горнило Штормов", -- [2]
 				},
-				[139026] = {
-					"Призыватель Затмения", -- [1]
-					"", -- [2]
+				[157449] = {
+					"Зловещая резчица душ", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[146895] = {
 					"Вандал из клана Гнилой Плоти", -- [1]
 					"", -- [2]
 				},
-				[149516] = {
-					"Чернолап", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[155657] = {
+					"Хаффер", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[130028] = {
 					"Жрица корпорации Эшвейнов", -- [1]
@@ -38387,13 +40087,13 @@ PlaterDB = {
 					"Токсикоид", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[61399] = {
-					"Глинтрок-разведчик", -- [1]
-					"Дворец Могу'шан", -- [2]
+				[157447] = {
+					"Фанатичный сектант", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[136976] = {
-					"Т'зала", -- [1]
-					"Гробница королей", -- [2]
+				[139023] = {
+					"Яростный Кровозев", -- [1]
+					"", -- [2]
 				},
 				[65414] = {
 					"Призрачный ша", -- [1]
@@ -38411,13 +40111,13 @@ PlaterDB = {
 					"Каменное чудище", -- [1]
 					"", -- [2]
 				},
-				[139019] = {
-					"Иглогрив", -- [1]
-					"", -- [2]
+				[157442] = {
+					"Взор безумия", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[135894] = {
-					"Элементаль огня", -- [1]
-					"Jorundall (Islands 7)", -- [2]
+				[158411] = {
+					"Нестабильный слуга", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[129517] = {
 					"Оживленный ящер", -- [1]
@@ -38435,13 +40135,13 @@ PlaterDB = {
 					"Бес Солнечного Клинка", -- [1]
 					"Терраса Магистров", -- [2]
 				},
-				[140297] = {
-					"Нок-арак", -- [1]
-					"", -- [2]
+				[17817] = {
+					"Большой крабстер", -- [1]
+					"Кривой Клык: Узилище", -- [2]
 				},
-				[143622] = {
-					"Дикий бес", -- [1]
-					"Сверкающие копи", -- [2]
+				[17465] = {
+					"Центурион клана Изувеченной Длани", -- [1]
+					"Цитадель Адского Пламени: Разрушенные залы", -- [2]
 				},
 				[131545] = {
 					"Леди Уэйкрест", -- [1]
@@ -38467,9 +40167,9 @@ PlaterDB = {
 					"Зёбедам", -- [1]
 					"Атал'Дазар", -- [2]
 				},
-				[131847] = {
-					"Гуляка из дома Уэйкрестов", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[130436] = {
+					"Отдыхающий работник", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[18994] = {
 					"Палач из рода Бесконечности", -- [1]
@@ -38479,9 +40179,9 @@ PlaterDB = {
 					"Владыка Матиас Шоу", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[147967] = {
-					"Морпех 7-го легиона", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[160249] = {
+					"Шипастое щупальце", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[21137] = {
 					"Убийца из рода Бесконечности", -- [1]
@@ -38495,17 +40195,17 @@ PlaterDB = {
 					"Детеныш кролуска", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[134916] = {
-					"Подвальный охотник", -- [1]
+				[139010] = {
+					"Свирепый острокоготь", -- [1]
 					"", -- [2]
 				},
-				[159224] = {
-					"Грит'акс Палач", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[17880] = {
+					"Темпорус", -- [1]
+					"Открытие Темного портала", -- [2]
 				},
-				[17816] = {
-					"Крабстер", -- [1]
-					"Кривой Клык: Узилище", -- [2]
+				[142336] = {
+					"Осьминожек", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[158158] = {
 					"Страж кузни Хуррул", -- [1]
@@ -38543,9 +40243,9 @@ PlaterDB = {
 					"Чумной ворон клана Гнилой Плоти", -- [1]
 					"", -- [2]
 				},
-				[127106] = {
-					"Офицер из братства Стальных Волн", -- [1]
-					"Вольная Гавань", -- [2]
+				[151798] = {
+					"Вексиона", -- [1]
+					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
 				},
 				[61387] = {
 					"Цийлинь-стражник", -- [1]
@@ -38671,13 +40371,13 @@ PlaterDB = {
 				["Unit - Show Energy"] = 11,
 				["Cast - Important Target [P]"] = 1,
 				["Cast - Castbar is Timer [P]"] = 2,
-				["Cast - Ultra Important"] = 11,
+				["Blink by Time Left"] = 1,
 				["Cast - Big Alert"] = 12,
 				["Cast - Alert + Timer [P]"] = 2,
 				["Cast - Small Alert"] = 11,
 				["Auto Set Skull"] = 11,
 				["Aura - Invalidate Unit"] = 1,
-				["Color Change"] = 1,
+				["Spiteful Affix"] = 3,
 				["Unit Power"] = 1,
 				["Unit - Main Target"] = 11,
 				["Aura - Blink Time Left"] = 13,
@@ -38687,8 +40387,8 @@ PlaterDB = {
 				["Cast - Frontal Cone"] = 11,
 				["Fixate"] = 11,
 				["Cast - Tank Interrupt"] = 12,
-				["Spiteful Affix"] = 3,
-				["Blink by Time Left"] = 1,
+				["Color Change"] = 1,
+				["Cast - Ultra Important"] = 11,
 				["Fixate On You"] = 11,
 			},
 			["aura_x_offset"] = 0,
@@ -41675,7 +43375,7 @@ PlaterDB = {
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --list of npcs and their colors, can be inserted:\n    --name of the unit\n    --name of the unit in lower case\n    --npcID of the unit\n    \n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    \n    envTable.NpcColors = {\n        \n        --examples, using the unit name in lower case, regular unit name and the unitID:\n        \n        [\"Thunderlord Windreader\"] = \"red\", --using regular mob name and color it as red\n        [\"thunderlord crag-leaper\"] = {1, 1, 0}, --using lower case and coloring it yellow\n        [75790] = \"#00FF00\", --using the ID of the unit and using green as color\n        \n        --insert the new mobs here:\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n    } --close custom color bracket\n    \nend\n\n\n\n\n",
 					},
 					["version"] = -1,
-					["Time"] = 1547392935,
+					["Name"] = "Color Automation [Plater]",
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -41701,7 +43401,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = "Interface\\AddOns\\Plater\\images\\color_bar",
-					["Name"] = "Color Automation [Plater]",
+					["Time"] = 1547392935,
 				}, -- [1]
 				{
 					["Enabled"] = false,
@@ -41722,7 +43422,7 @@ PlaterDB = {
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --settings\n    envTable.OnlyInOpenWorld = true;\n    envTable.ShowInCombat = true;\n    \n    --consts\n    envTable.REACTION_NEUTRAL = 4;\n    \n    --functions to hide and show the healthBar\n    function envTable.HideNameplate (unitFrame)\n        Plater.HideHealthBar (unitFrame)\n        Plater.DisableHighlight (unitFrame)\n        envTable.IsHidden = true\n    end\n    \n    function envTable.ShowNameplate (unitFrame)\n        Plater.ShowHealthBar (unitFrame)\n        Plater.EnableHighlight (unitFrame)\n        envTable.IsHidden = false\n    end\n    \nend\n\n\n\n\n",
 					},
 					["version"] = -1,
-					["Time"] = 1541606242,
+					["Name"] = "Hide Neutral Units [Plater]",
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -41748,7 +43448,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 1990989,
-					["Name"] = "Hide Neutral Units [Plater]",
+					["Time"] = 1541606242,
 				}, -- [2]
 				{
 					["Enabled"] = false,
@@ -41807,7 +43507,7 @@ PlaterDB = {
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    --Important: lines starting with double dashes are comments and are not part of the script\n    \n    --set this to true if you are not using threat colors in the health bar\n    envTable.ForceRefreshNameplateColor = true\n    \n    --if the unit does not have any of the following auras, it will be painted with the color listed below\n    --list of spells to track, can be the spell name (case-sensitive) or the spellID\n    envTable.TrackingAuras = {\n        --[\"Nightblade\"] = true, --this is an example using the spell name\n        --[195452] = true, --this is an example using the spellID\n        \n    }\n    \n    --which color the nameplate wil be changed\n    --color can be added as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}    \n    --you may also use /plater colors\n    envTable.NameplateColor = \"pink\"\n    \nend",
 					},
 					["version"] = -1,
-					["Time"] = 1554138845,
+					["Name"] = "Don't Have Aura [Plater]",
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -41833,7 +43533,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 136207,
-					["Name"] = "Don't Have Aura [Plater]",
+					["Time"] = 1554138845,
 				}, -- [4]
 				{
 					["Enabled"] = false,
@@ -41853,7 +43553,7 @@ PlaterDB = {
 						["Constructor"] = "--all gray text like this are comments and do not run as code\n--build the settings and basic functions for the hook\n\nfunction (self, unitId, unitFrame, envTable)\n    \n    --declare setting variables:\n    local textColor = \"orange\";\n    local textSize = 12;\n    \n    local showInRaid = true;\n    local showInDungeon = true;\n    local showInArena = false;\n    local showInBattleground = false;\n    local showInOpenWorld = true;\n    \n    envTable.UpdateInterval = 2; --each 2 updates in the nameplate it'll update the amount of targets\n    \n    local anchor = {\n        side = 6, --1 = topleft 2 = left 3 = bottomleft 4 = bottom 5 = bottom right 6 = right 7 = topright 8 = top\n        x = 4, --x offset\n        y = 0, --y offset\n    };\n    \n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------\n    \n    \n    --frames:\n    \n    --create the text that will show the amount of people targeting the unit\n    if (not  unitFrame.healthBar.TargetAmount) then\n        envTable.TargetAmount = Plater:CreateLabel (unitFrame.healthBar, \"\", textSize, textColor);\n        Plater.SetAnchor (envTable.TargetAmount, anchor);\n        unitFrame.healthBar.TargetAmount = envTable.TargetAmount\n    end\n    \n    --in case Plater wipes the envTable\n    envTable.TargetAmount = unitFrame.healthBar.TargetAmount\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --private variables (they will be used in the other scripts within this hook)\n    envTable.CanShow = false;\n    envTable.UpdateCooldown = 0;\n    envTable.InRaid = false;\n    envTable.InParty = false;\n    \n    ---------------------------------------------------------------------------------------------------------------------------------------------           \n    --functions\n    \n    --update the InRaid or InParty proprieties\n    function envTable.UpdateGroupType()\n        if (IsInRaid()) then\n            envTable.InRaid = true;\n            envTable.InParty = false;     \n            \n        elseif (IsInGroup()) then\n            envTable.InRaid = false;\n            envTable.InParty = true;   \n            \n        else\n            envTable.InRaid = false;            \n            envTable.InParty = false;\n        end\n    end\n    \n    --this function controls if the amount of targets can show following the settings in the top of this script\n    function envTable.CanShowTargetAmount()\n        \n        local _, instanceType, difficultyID, _, _, _, _, instanceMapID, instanceGroupSize = GetInstanceInfo()\n        \n        if (showInRaid and instanceType == \"raid\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInDungeon and instanceType == \"party\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInArena and instanceType == \"arena\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInBattleground and instanceType == \"pvp\") then\n            envTable.UpdateGroupType()\n            return true\n        end\n        \n        if (showInOpenWorld and instanceType == \"none\") then\n            envTable.UpdateGroupType()\n            if (envTable.InRaid or envTable.InParty) then\n                return true\n            end\n        end\n        \n        return false\n    end\n    \n    --get the amount of player targetting the unit in raid or party\n    function envTable.NumTargetsInRaid (unitFrame)\n        local amount = 0\n        for i = 1, GetNumGroupMembers() do\n            local unit = \"raid\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        return amount\n    end\n    \n    function envTable.NumTargetsInParty()\n        local amount = 0\n        for i = 1, GetNumGroupMembers() - 1 do\n            local unit = \"party\" .. i .. \"target\"\n            if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n                amount = amount + 1\n            end\n        end\n        \n        local unit = \"playertarget\"\n        if (UnitGUID (unit) == unitFrame.namePlateUnitGUID) then\n            amount = amount + 1\n        end        \n        \n        return amount\n    end\n    \nend",
 					},
 					["version"] = -1,
-					["Time"] = 1548278227,
+					["Name"] = "Players Targeting a Target [Plater]",
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -41879,7 +43579,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 1966587,
-					["Name"] = "Players Targeting a Target [Plater]",
+					["Time"] = 1548278227,
 				}, -- [5]
 				{
 					["Enabled"] = false,
@@ -41898,7 +43598,7 @@ PlaterDB = {
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --border color\n    local borderColor = \"yellow\"\n    \n    --size of the border\n    local borderSize = 1\n    \n    --transparency\n    local borderAlpha = 1\n    \n    --enabled (set to false it you only want to use the extra border in other scripts)\n    local isEnabled = true\n    \n    --export border (allow the border to be used by other scripts)\n    --other scripts can use:\n    --unitFrame.healthBar.extraBorder:Show()\n    --unitFrame.healthBar.extraBorder:SetVertexColor (r, g, b)\n    --unitFrame.healthBar.extraBorder:SetBorderSizes (borderSize)\n    local canExportBorder = true\n    \n    --do not add the border to personal bar\n    local noPersonalBar = true\n    \n    --private\n    do\n        \n        local newBorder = CreateFrame (\"frame\", nil, unitFrame.healthBar, \"NamePlateFullBorderTemplate\")\n        envTable.BorderFrame = newBorder\n        \n        newBorder:SetBorderSizes (borderSize, borderSize, borderSize, borderSize)\n        newBorder:UpdateSizes()\n        \n        local r, g, b = DetailsFramework:ParseColors (borderColor)\n        newBorder:SetVertexColor (r, g, b, borderAlpha)\n        \n        envTable.ShowOnPersonalBar = not noPersonalBar\n        \n        if (canExportBorder) then\n            unitFrame.healthBar.extraBorder = newBorder\n        end\n        \n        if (not isEnabled) then\n            envTable.IsEnabled = false\n        else\n            envTable.IsEnabled = true\n        end\n    end\n    \nend\n\n\n",
 					},
 					["version"] = -1,
-					["Time"] = 1547409079,
+					["Name"] = "Extra Border [Plater]",
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -41924,7 +43624,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 133689,
-					["Name"] = "Extra Border [Plater]",
+					["Time"] = 1547409079,
 				}, -- [6]
 				{
 					["Enabled"] = false,
@@ -41942,7 +43642,7 @@ PlaterDB = {
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --usage: color name e.g \"red\" \"yellow\"; color table e.g {1, 0, 0} {1, 1, 0}; hex string e.g. \"#FF0000\" \"FFFF00\"\n    \n    envTable.TargetColor = \"purple\"\n    --envTable.TargetColor = \"#FF00FF\"\n    --envTable.TargetColor = {252/255, 0/255, 254/255}\n    \n    function envTable.UpdateColor (unitFrame)\n        --do not change the color of the personal bar\n        if (not unitFrame.IsSelf) then\n            \n            --if this nameplate the current target of the player?\n            if (unitFrame.namePlateIsTarget) then\n                Plater.SetNameplateColor (unitFrame, envTable.TargetColor)  --rgb\n            else\n                --refresh the nameplate color\n                Plater.RefreshNameplateColor (unitFrame)\n            end\n        end\n    end\n    \nend\n\n\n\n\n",
 					},
 					["version"] = -1,
-					["Time"] = 1552354619,
+					["Name"] = "Current Target Color [Plater]",
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -41968,7 +43668,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 878211,
-					["Name"] = "Current Target Color [Plater]",
+					["Time"] = 1552354619,
 				}, -- [7]
 				{
 					["Enabled"] = false,
@@ -42223,7 +43923,7 @@ PlaterDB = {
 						["Constructor"] = "function (self, unitId, unitFrame, envTable)\n    \n    --execute detection, if true the script will handle the execute percent\n    --while false Plater will automatically trigger the execute range\n    --you only want to set this to true in case of Plater not detecting the execute range correctly\n    envTable.UseCustomExecutePercent = false\n    --execute percent, if not detecting automatic, this is the percent to active the execute range\n    --use from zero to one, 0.20 is equal to 20% of the unit life\n    envTable.ExecutePercent = 0.20\n    \n    --allow this script to change the nameplate color when the unit is in execute range\n    envTable.CanChangeColor = true\n    --change the health bar color to this color when the unit is in execute range\n    --color can be set as:\n    --color names: \"red\", \"yellow\"\n    --color hex: \"#FF0000\", \"#FFFF00\"\n    --color table: {1, 0, 0}, {1, 1, 0}\n    envTable.ExecuteColor = \"green\"\n    \n    --border color\n    envTable.CanChangeBorderColor = false\n    envTable.BorderColor = \"red\"\n    \n    --hide the default health divisor and the health execute indicator\n    envTable.HideHealthDivisor = false\n    --if not hidden, adjust the health divisor settings and the health execute indicator\n    envTable.HealthDivisorAlpha = 0.5\n    envTable.HealthDivisorColor = \"white\"\n    envTable.HealthExecuteIndicatorAlpha = 0.15\n    envTable.HealthExecuteIndicatorColor = \"darkred\"\n    \n    \n    --private (internal functions)\n    do\n        function envTable.UnitInExecuteRange (unitFrame)\n            --check if can change the execute color\n            if (envTable.CanChangeColor) then\n                Plater.SetNameplateColor (unitFrame, envTable.ExecuteColor)\n            end\n            \n            if (envTable.CanChangeBorderColor) then\n                Plater.SetBorderColor (unitFrame, envTable.BorderColor)\n            end\n            \n            if (envTable.HideHealthDivisor) then\n                unitFrame.healthBar.healthCutOff:Hide() \n                unitFrame.healthBar.executeRange:Hide()\n                \n            else\n                envTable.UpdateHealthDivisor (unitFrame)\n                \n            end\n        end\n        \n        function envTable.UpdateHealthDivisor (unitFrame)\n            local healthBar = unitFrame.healthBar\n            \n            healthBar.healthCutOff:Show()\n            healthBar.healthCutOff:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthDivisorColor))\n            healthBar.healthCutOff:SetAlpha (envTable.HealthDivisorAlpha)\n            \n            healthBar.executeRange:Show()\n            healthBar.executeRange:SetVertexColor (DetailsFramework:ParseColors (envTable.HealthExecuteIndicatorColor))\n            healthBar.executeRange:SetAlpha (envTable.HealthExecuteIndicatorAlpha)\n            \n            if (envTable.UseCustomExecutePercent) then\n                healthBar.healthCutOff:ClearAllPoints()\n                healthBar.executeRange:ClearAllPoints()\n                \n                healthBar.healthCutOff:SetSize (healthBar:GetHeight(), healthBar:GetHeight())\n                healthBar.healthCutOff:SetPoint (\"center\", healthBar, \"left\", healthBar:GetWidth() * envTable.ExecutePercent, 0)\n                \n                healthBar.executeRange:SetTexCoord (0, envTable.ExecutePercent, 0, 1)\n                healthBar.executeRange:SetHeight (healthBar:GetHeight())\n                healthBar.executeRange:SetPoint (\"left\", healthBar, \"left\", 0, 0)\n                healthBar.executeRange:SetPoint (\"right\", healthBar.healthCutOff, \"center\")\n            end\n            \n        end\n    end\n    \nend",
 					},
 					["version"] = -1,
-					["Time"] = 1547406548,
+					["Name"] = "Execute Range [Plater]",
 					["PlaterCore"] = 1,
 					["LoadConditions"] = {
 						["talent"] = {
@@ -42249,7 +43949,7 @@ PlaterDB = {
 					},
 					["url"] = "",
 					["Icon"] = 135358,
-					["Name"] = "Execute Range [Plater]",
+					["Time"] = 1547406548,
 				}, -- [10]
 				{
 					["Enabled"] = false,
@@ -42472,11 +44172,7 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["__TrashAt"] = 1628456312,
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --play flash animations\n    envTable.FullBarFlash:Play()\n    \n    --envTable.currentHeight = unitFrame.castBar:GetHeight()\n    \n    --restoring the default size (not required since it already restore in the hide script)\n    if (envTable.OriginalHeight) then\n        self:SetHeight (envTable.OriginalHeight)\n    end\n    \n    --increase the cast bar size\n    local height = self:GetHeight()\n    envTable.OriginalHeight = height\n    \n    self:SetHeight (height + envTable.CastBarHeightAdd)\n    \n    Plater.SetCastBarBorderColor (self, 1, .2, .2, 0.4)\n    \n    unitFrame:PlayFrameShake (envTable.FrameShake)\n    \n    --set the color of the cast bar to dark orange (only if can be interrupted)\n    --Plater auto set this color to default when a new cast starts, no need to reset this value at OnHide.    \n    if (envTable._CanInterrupt) then\n        if (scriptTable.config.useCastbarColor) then\n            self:SetStatusBarColor (Plater:ParseColors (envTable.CastbarColor))\n        end\n    end\n    \n    envTable.BackgroundFlash:Play()\n    \n    unitFrame.castBar.Spark:SetHeight(unitFrame.castBar:GetHeight())\n    \nend\n\n\n\n\n\n\n\n\n\n\n",
-					["SpellIds"] = {
-						350421, -- [1]
-						355787, -- [2]
-						348513, -- [3]
-					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["PlaterCore"] = 1,
 					["Options"] = {
 						{
@@ -42614,7 +44310,11 @@ PlaterDB = {
 						}, -- [12]
 					},
 					["version"] = -1,
-					["Name"] = "Cast - Alert + Timer [P]",
+					["SpellIds"] = {
+						350421, -- [1]
+						355787, -- [2]
+						348513, -- [3]
+					},
 					["NpcNames"] = {
 					},
 				}, -- [1]
@@ -42652,7 +44352,7 @@ PlaterDB = {
 					["source"] = "Гидротатар-Борейскаятундра",
 					["npcID"] = 0,
 				},
-				[2383] = {
+				[280398] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
 					["source"] = "Гидротатар-Борейскаятундра",
@@ -42664,7 +44364,7 @@ PlaterDB = {
 					["source"] = "Гидротатар-Борейскаятундра",
 					["npcID"] = 0,
 				},
-				[280398] = {
+				[2383] = {
 					["event"] = "SPELL_AURA_APPLIED",
 					["type"] = "BUFF",
 					["source"] = "Гидротатар-Борейскаятундра",
@@ -42677,8 +44377,8 @@ PlaterDB = {
 				["Players Targetting Amount"] = 4,
 				["Color Automation"] = 1,
 				["Bwonsamdi Reaping"] = 1,
-				["Blockade Encounter"] = 1,
 				["Jaina Encounter"] = 6,
+				["Blockade Encounter"] = 1,
 				["Execute Range"] = 1,
 				["Attacking Specific Unit"] = 1,
 				["Hide Neutral Units"] = 1,
@@ -43748,11 +45448,11 @@ PlaterDB = {
 				["Cast - Very Important"] = 2,
 				["Aura Border Color"] = 1,
 				["Color Change"] = 1,
-				["Aura - Debuff Alert"] = 3,
+				["Unit Power"] = 1,
 				["Cast - Frontal Cone"] = 2,
 				["Fixate"] = 3,
 				["Aura - Blink Time Left"] = 1,
-				["Unit Power"] = 1,
+				["Aura - Debuff Alert"] = 3,
 				["Cast - Big Alert"] = 5,
 				["Fixate On You"] = 2,
 			},
@@ -49232,9 +50932,9 @@ PlaterDB = {
 					"Халкиас", -- [1]
 					"Чертоги Покаяния", -- [2]
 				},
-				[13325] = {
-					"Опытный горный пехотинец", -- [1]
-					"Месть Коррака", -- [2]
+				[98362] = {
+					"Неспокойная душа", -- [1]
+					"Крепость Черной Ладьи", -- [2]
 				},
 				[138338] = {
 					"Оживленный страж", -- [1]
@@ -49244,9 +50944,9 @@ PlaterDB = {
 					"Гаул дан Фирок", -- [1]
 					"Ашран", -- [2]
 				},
-				[98362] = {
-					"Неспокойная душа", -- [1]
-					"Крепость Черной Ладьи", -- [2]
+				[13325] = {
+					"Опытный горный пехотинец", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[152159] = {
 					"Зоатроид", -- [1]
@@ -49388,13 +51088,13 @@ PlaterDB = {
 					"Разведчик из племени Галечников", -- [1]
 					"Skittering Hollow (Islands 5)", -- [2]
 				},
-				[99644] = {
-					"Страж Скверны - уничтожитель", -- [1]
-					"Казематы Стражей", -- [2]
-				},
 				[37545] = {
 					"Прислужник Шпиля", -- [1]
 					"Цитадель Ледяной Короны", -- [2]
+				},
+				[99644] = {
+					"Страж Скверны - уничтожитель", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[165471] = {
 					"Дуэлянт из замка Нафрия", -- [1]
@@ -49516,21 +51216,21 @@ PlaterDB = {
 					"Ланара Лунный Сумрак", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[37546] = {
-					"Бесноватое поганище", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
-				},
 				[137835] = {
 					"Злобный черный медведь", -- [1]
 					"Фронт Арати (Орда)", -- [2]
+				},
+				[37546] = {
+					"Бесноватое поганище", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[154727] = {
 					"Пророк Солнца Тенхамен", -- [1]
 					"Чертоги Созидания", -- [2]
 				},
-				[151144] = {
-					"Hati", -- [1]
-					"Сверкающие копи", -- [2]
+				[134764] = {
+					"Громолет", -- [1]
+					"Whispering Reef (Islands 10)", -- [2]
 				},
 				[145903] = {
 					"Рыцарь Черной наковальни", -- [1]
@@ -49596,9 +51296,9 @@ PlaterDB = {
 					"Зо'фекс", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[151658] = {
-					"Танк-долгоног", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[180323] = {
+					"Чудовищная аномалия судьбы", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[112956] = {
 					"Мерцающий манаспин", -- [1]
@@ -50252,17 +51952,17 @@ PlaterDB = {
 					"Аптекарь Фрай", -- [1]
 					"Крепость Темного Клыка", -- [2]
 				},
-				[173178] = {
-					"Голиаф из Каменного легиона", -- [1]
-					"Замок Нафрия", -- [2]
+				[85766] = {
+					"Проклятый острокоготь", -- [1]
+					"Ашран", -- [2]
 				},
 				[150143] = {
 					"Перемалыватель из племени Хламоедов", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[85766] = {
-					"Проклятый острокоготь", -- [1]
-					"Ашран", -- [2]
+				[173178] = {
+					"Голиаф из Каменного легиона", -- [1]
+					"Замок Нафрия", -- [2]
 				},
 				[134787] = {
 					"Краб-иглохват", -- [1]
@@ -50284,17 +51984,17 @@ PlaterDB = {
 					"Ядовитая гидра", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[161408] = {
-					"Злокачественный нарост", -- [1]
-					"Тол Дагор", -- [2]
+				[135241] = {
+					"Разоритель из братства Трюмных Крыс", -- [1]
+					"Осада Боралуса", -- [2]
 				},
 				[166524] = {
 					"Вестник смерти", -- [1]
 					"Театр Боли", -- [2]
 				},
-				[177787] = {
-					"Верный Утробе сокрушитель надежды", -- [1]
-					"Святилище Господства", -- [2]
+				[136838] = {
+					"Згордо Живодер", -- [1]
+					"", -- [2]
 				},
 				[134788] = {
 					"Иглохват-твердопанцирник", -- [1]
@@ -50304,9 +52004,9 @@ PlaterDB = {
 					"Оранжевый Зуб", -- [1]
 					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[96587] = {
-					"Скверноподданный заразитель", -- [1]
-					"Казематы Стражей", -- [2]
+				[168572] = {
+					"Гриб-штурмовик", -- [1]
+					"Чумные каскады", -- [2]
 				},
 				[152704] = {
 					"Ползучая порча", -- [1]
@@ -50316,17 +52016,17 @@ PlaterDB = {
 					"Проворный падальщик", -- [1]
 					"", -- [2]
 				},
-				[176605] = {
-					"Лёхабычара", -- [1]
+				[177787] = {
+					"Верный Утробе сокрушитель надежды", -- [1]
 					"Святилище Господства", -- [2]
 				},
 				[154240] = {
 					"Верный последователь Азшары", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[132743] = {
-					"Огнечешуйчатый волнолом", -- [1]
-					"The Rotting Mire (Islands 9)", -- [2]
+				[176605] = {
+					"Лёхабычара", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[134789] = {
 					"Огромный иглохват", -- [1]
@@ -50336,9 +52036,9 @@ PlaterDB = {
 					"Стражник из клана Болотных Теней", -- [1]
 					"Crestfall (Islands 11)", -- [2]
 				},
-				[157825] = {
-					"Обезумевший мучитель", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[161408] = {
+					"Злокачественный нарост", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[148610] = {
 					"Друид-древо", -- [1]
@@ -50360,9 +52060,9 @@ PlaterDB = {
 					"Малый зоатроид", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[139398] = {
-					"Убийца из клана Болотных Теней", -- [1]
-					"", -- [2]
+				[157825] = {
+					"Обезумевший мучитель", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[139397] = {
 					"Охотник из клана Болотных Теней", -- [1]
@@ -50376,9 +52076,9 @@ PlaterDB = {
 					"Йору'ча", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[136838] = {
-					"Згордо Живодер", -- [1]
-					"", -- [2]
+				[132743] = {
+					"Огнечешуйчатый волнолом", -- [1]
+					"The Rotting Mire (Islands 9)", -- [2]
 				},
 				[149635] = {
 					"Цветущий защитник", -- [1]
@@ -50388,8 +52088,8 @@ PlaterDB = {
 					"Пробудившийся ужас", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[132744] = {
-					"Ледяная гидра", -- [1]
+				[139398] = {
+					"Убийца из клана Болотных Теней", -- [1]
 					"", -- [2]
 				},
 				[65450] = {
@@ -50400,21 +52100,21 @@ PlaterDB = {
 					"Громила из картеля", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[135241] = {
-					"Разоритель из братства Трюмных Крыс", -- [1]
-					"Осада Боралуса", -- [2]
+				[136839] = {
+					"Мроган", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
 				[28826] = {
 					"Загробник ярости бурь", -- [1]
 					"Чертоги Молний", -- [2]
 				},
-				[136839] = {
-					"Мроган", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[132744] = {
+					"Ледяная гидра", -- [1]
+					"", -- [2]
 				},
-				[148614] = {
-					"Кул-тирасский канонир", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[140424] = {
+					"Косарог", -- [1]
+					"Snowblossom Village (Islands 3)", -- [2]
 				},
 				[141285] = {
 					"Кул-тирасский стрелок", -- [1]
@@ -50440,9 +52140,9 @@ PlaterDB = {
 					"Командир Броудсайд", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[132745] = {
-					"Ледочешуйчатый странник", -- [1]
-					"", -- [2]
+				[21212] = {
+					"Леди Вайш", -- [1]
+					"Пещеры Времени: годовщина", -- [2]
 				},
 				[134795] = {
 					"Скрытый отшельник", -- [1]
@@ -50452,13 +52152,13 @@ PlaterDB = {
 					"Магистр Хаторель", -- [1]
 					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
 				},
-				[174210] = {
-					"Чумной изрыгатель слизи", -- [1]
-					"Театр Боли", -- [2]
+				[83026] = {
+					"Осадный мастер Олугар", -- [1]
+					"Железные доки", -- [2]
 				},
-				[134793] = {
-					"Хребтосвет", -- [1]
-					"Un'gol Ruins (Islands 1)", -- [2]
+				[138888] = {
+					"Ворожей из дружины Кровавого Киля", -- [1]
+					"", -- [2]
 				},
 				[151685] = {
 					"Матриарх тухломехов", -- [1]
@@ -50468,9 +52168,9 @@ PlaterDB = {
 					"Зефир", -- [1]
 					"", -- [2]
 				},
-				[140424] = {
-					"Косарог", -- [1]
-					"Snowblossom Village (Islands 3)", -- [2]
+				[148614] = {
+					"Кул-тирасский канонир", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[169601] = {
 					"Диверсант из Каменного легиона", -- [1]
@@ -50480,9 +52180,9 @@ PlaterDB = {
 					"Гром'карский военачальник", -- [1]
 					"Железные доки", -- [2]
 				},
-				[134284] = {
-					"Падший вестник смерти", -- [1]
-					"Подгнилье", -- [2]
+				[175234] = {
+					"Тракт Ледоруб", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[180865] = {
 					"Оскверненный часовой", -- [1]
@@ -50492,9 +52192,9 @@ PlaterDB = {
 					"Темный ползун", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[104270] = {
-					"Голем-страж", -- [1]
-					"Квартал Звезд", -- [2]
+				[155273] = {
+					"Гарвал Покоритель", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[135818] = {
 					"Клубящийся солдат", -- [1]
@@ -50504,9 +52204,9 @@ PlaterDB = {
 					"Див'иан", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[12048] = {
-					"Часовой Альянса", -- [1]
-					"Месть Коррака", -- [2]
+				[151690] = {
+					"Углезуб", -- [1]
+					"Snowblossom Village (Islands 3)", -- [2]
 				},
 				[141284] = {
 					"Кул-тирасский смотритель приливов", -- [1]
@@ -50516,9 +52216,9 @@ PlaterDB = {
 					"Фенра Коварная", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[36658] = {
-					"Повелитель Плети Тираний", -- [1]
-					"Яма Сарона", -- [2]
+				[154758] = {
+					"Токсичное чудище", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[179840] = {
 					"Тазавешский хранитель порядка", -- [1]
@@ -50540,33 +52240,33 @@ PlaterDB = {
 					"Полярный охотник", -- [1]
 					"", -- [2]
 				},
-				[83026] = {
-					"Осадный мастер Олугар", -- [1]
-					"Железные доки", -- [2]
+				[174210] = {
+					"Чумной изрыгатель слизи", -- [1]
+					"Театр Боли", -- [2]
 				},
 				[152033] = {
 					"Непримечательное растение", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[175234] = {
-					"Тракт Ледоруб", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[134284] = {
+					"Падший вестник смерти", -- [1]
+					"Подгнилье", -- [2]
 				},
-				[179841] = {
-					"Опытный заклинатель искр", -- [1]
-					"Тайный рынок Тазавеш", -- [2]
+				[155271] = {
+					"Глубинный охотник", -- [1]
+					"Вечный дворец", -- [2]
 				},
-				[54318] = {
-					"Mietzekatze", -- [1]
-					"Два Пика", -- [2]
+				[151688] = {
+					"Дынедавитель", -- [1]
+					"Skittering Hollow (Islands 5)", -- [2]
 				},
 				[168580] = {
 					"Чумной бурильщик", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[11600] = {
-					"Шаман Железного рудника", -- [1]
-					"Альтеракская долина", -- [2]
+				[140427] = {
+					"Скальный козел - вожак стада", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
 				[136844] = {
 					"Воин из племени Песчаного Черепа", -- [1]
@@ -50584,9 +52284,9 @@ PlaterDB = {
 					"Волшебная стражница", -- [1]
 					"Око Бури", -- [2]
 				},
-				[179842] = {
-					"Охранитель коммерции", -- [1]
-					"Тайный рынок Тазавеш", -- [2]
+				[155272] = {
+					"Темноводный оракул", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[127048] = {
 					"Землекоп из племени Сухоусов", -- [1]
@@ -50616,13 +52316,13 @@ PlaterDB = {
 					"Верховный маг Тамуура", -- [1]
 					"", -- [2]
 				},
-				[155273] = {
-					"Гарвал Покоритель", -- [1]
-					"Вечный дворец", -- [2]
+				[104270] = {
+					"Голем-страж", -- [1]
+					"Квартал Звезд", -- [2]
 				},
-				[151690] = {
-					"Углезуб", -- [1]
-					"Snowblossom Village (Islands 3)", -- [2]
+				[12048] = {
+					"Часовой Альянса", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[152202] = {
 					"Рова Кровавый Удар", -- [1]
@@ -50636,21 +52336,21 @@ PlaterDB = {
 					"Кровопийца из племени Песчаного Черепа", -- [1]
 					"Molten Cay (Islands 6)", -- [2]
 				},
-				[148621] = {
-					"Джек'ква", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[177286] = {
+					"Слияние фантазмы", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[112973] = {
-					"Заклинатель из Сумеречной стражи", -- [1]
-					"Цитадель Ночи", -- [2]
+				[131729] = {
+					"Лико", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[84990] = {
 					"Одурманенный маг", -- [1]
 					"Вечное Цветение", -- [2]
 				},
-				[173191] = {
-					"Ловец душ В'лара", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[148621] = {
+					"Джек'ква", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[127049] = {
 					"Геодезист из племени Сухоусов", -- [1]
@@ -50660,9 +52360,9 @@ PlaterDB = {
 					"Рауль Стойкий", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[140430] = {
-					"Скальный козлик", -- [1]
-					"SarasIsland", -- [2]
+				[177285] = {
+					"Верный Утробе хранитель врат", -- [1]
+					"9.1 Battle of Ardenweald", -- [2]
 				},
 				[136847] = {
 					"Темная охотница из племени Песчаного Черепа", -- [1]
@@ -50688,13 +52388,13 @@ PlaterDB = {
 					"Клыкострах", -- [1]
 					"The Rotting Mire (Islands 9)", -- [2]
 				},
-				[131729] = {
-					"Лико", -- [1]
-					"SarasIsland", -- [2]
+				[112973] = {
+					"Заклинатель из Сумеречной стражи", -- [1]
+					"Цитадель Ночи", -- [2]
 				},
-				[140431] = {
-					"Скальный козел", -- [1]
-					"", -- [2]
+				[173191] = {
+					"Ловец душ В'лара", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[136848] = {
 					"Ворожей из племени Песчаного Черепа", -- [1]
@@ -50804,17 +52504,17 @@ PlaterDB = {
 					"Бугай из племени Хламоедов", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[167564] = {
-					"Мал'ендра", -- [1]
-					"Финальный сценарий ковенанта Малдраксус", -- [2]
-				},
 				[134804] = {
 					"Нестареющий руноспин", -- [1]
 					"Whispering Reef (Islands 10)", -- [2]
 				},
-				[54320] = {
-					"BanThalos", -- [1]
-					"Ашран", -- [2]
+				[167564] = {
+					"Мал'ендра", -- [1]
+					"Финальный сценарий ковенанта Малдраксус", -- [2]
+				},
+				[155791] = {
+					"Чудовищный ревун", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[30284] = {
 					"Костомол", -- [1]
@@ -50892,9 +52592,9 @@ PlaterDB = {
 					"Придворный зоркий стрелок", -- [1]
 					"Замок Нафрия", -- [2]
 				},
-				[98900] = {
-					"Змееуст-плутишка", -- [1]
-					"Крепость Черной Ладьи", -- [2]
+				[140438] = {
+					"Старый Жувака", -- [1]
+					"Snowblossom Village (Islands 3)", -- [2]
 				},
 				[140768] = {
 					"Гууру Разбиватель Гор", -- [1]
@@ -50916,9 +52616,9 @@ PlaterDB = {
 					"Прожорливый жуткий нетопырь", -- [1]
 					"Кровавые катакомбы", -- [2]
 				},
-				[140438] = {
-					"Старый Жувака", -- [1]
-					"Snowblossom Village (Islands 3)", -- [2]
+				[98900] = {
+					"Змееуст-плутишка", -- [1]
+					"Крепость Черной Ладьи", -- [2]
 				},
 				[132760] = {
 					"Равнинный ползун", -- [1]
@@ -50936,9 +52636,9 @@ PlaterDB = {
 					"Ониксовый опустошитель", -- [1]
 					"Ашран", -- [2]
 				},
-				[37813] = {
-					"Саурфанг Смертоносный", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
+				[104275] = {
+					"Имаку'туя", -- [1]
+					"Квартал Звезд", -- [2]
 				},
 				[164464] = {
 					"Зира Двурушница", -- [1]
@@ -51008,9 +52708,9 @@ PlaterDB = {
 					"Золотой Змей", -- [1]
 					"Гробница королей", -- [2]
 				},
-				[135834] = {
-					"Пагубное облако", -- [1]
-					"", -- [2]
+				[168594] = {
+					"Часовой чертогов", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[148631] = {
 					"Неразорвавшийся заряд", -- [1]
@@ -51060,17 +52760,17 @@ PlaterDB = {
 					"Токсичное чудище", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[31260] = {
-					"Имирьяр - заклинатель небес", -- [1]
-					"Яма Сарона", -- [2]
+				[54322] = {
+					"DumDum", -- [1]
+					"Каньон Суровых Ветров", -- [2]
 				},
 				[104277] = {
 					"Гончая Легиона", -- [1]
 					"Квартал Звезд", -- [2]
 				},
-				[54322] = {
-					"DumDum", -- [1]
-					"Каньон Суровых Ветров", -- [2]
+				[31260] = {
+					"Имирьяр - заклинатель небес", -- [1]
+					"Яма Сарона", -- [2]
 				},
 				[164501] = {
 					"Призывательница Туманов", -- [1]
@@ -51156,9 +52856,9 @@ PlaterDB = {
 					"Усиленная угасшая громада", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[122450] = {
-					"Разрушитель миров Кин'гарота", -- [1]
-					"Анторус, Пылающий Трон", -- [2]
+				[130640] = {
+					"Злобнокус-хвататель", -- [1]
+					"", -- [2]
 				},
 				[130896] = {
 					"Бочка черной пелены", -- [1]
@@ -51228,9 +52928,9 @@ PlaterDB = {
 					"Пожинатель мыслей", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[122963] = {
-					"Резан", -- [1]
-					"Атал'Дазар", -- [2]
+				[135329] = {
+					"Матрона Бриндл", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[164506] = {
 					"Древний капитан", -- [1]
@@ -51240,9 +52940,9 @@ PlaterDB = {
 					"Огромное щупальце", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[136865] = {
-					"Узан Разоритель Песков", -- [1]
-					"Molten Cay (Islands 6)", -- [2]
+				[173720] = {
+					"Жоробрюх Туманной Завесы", -- [1]
+					"Туманы Тирна Скитта", -- [2]
 				},
 				[170452] = {
 					"Сфера сущности", -- [1]
@@ -51380,21 +53080,21 @@ PlaterDB = {
 					"Огромный каменный цийлинь", -- [1]
 					"Казематы Стражей", -- [2]
 				},
-				[180379] = {
-					"Верный Утробе арбалетчик", -- [1]
-					"Святилище Господства", -- [2]
+				[139429] = {
+					"Каменный воин", -- [1]
+					"", -- [2]
 				},
 				[134822] = {
 					"Матриарх пластинчатых василисков", -- [1]
 					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[139429] = {
-					"Каменный воин", -- [1]
-					"", -- [2]
+				[180379] = {
+					"Верный Утробе арбалетчик", -- [1]
+					"Святилище Господства", -- [2]
 				},
-				[135846] = {
-					"Песочная змея", -- [1]
-					"Храм Сетралисс", -- [2]
+				[160416] = {
+					"Рассерженный дух бочки эля", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[171474] = {
 					"Пикантные пальчики", -- [1]
@@ -51480,13 +53180,13 @@ PlaterDB = {
 					"Склизкое щупальце", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[139432] = {
-					"Лу'си", -- [1]
-					"Crestfall (Islands 11)", -- [2]
-				},
 				[155812] = {
 					"Верный Утробе ритуалист", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
+				},
+				[139432] = {
+					"Лу'си", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
 				[139433] = {
 					"Сестра страдания", -- [1]
@@ -51504,17 +53204,17 @@ PlaterDB = {
 					"Мародер Драккари", -- [1]
 					"Гундрак", -- [2]
 				},
-				[173729] = {
-					"Воплощение гордыни", -- [1]
-					"Чумные каскады", -- [2]
+				[145064] = {
+					"Огонек", -- [1]
+					"", -- [2]
 				},
 				[140760] = {
 					"Земляной великан", -- [1]
 					"", -- [2]
 				},
-				[123480] = {
-					"Защитница Анторуса", -- [1]
-					"Анторус, Пылающий Трон", -- [2]
+				[140458] = {
+					"Колючешкурый бык", -- [1]
+					"", -- [2]
 				},
 				[168098] = {
 					"Усиленный Бессердечный-агент", -- [1]
@@ -51528,9 +53228,9 @@ PlaterDB = {
 					"Колючешкурая корова", -- [1]
 					"", -- [2]
 				},
-				[145064] = {
-					"Огонек", -- [1]
-					"", -- [2]
+				[173729] = {
+					"Воплощение гордыни", -- [1]
+					"Чумные каскады", -- [2]
 				},
 				[129367] = {
 					"Воин бури из братства Трюмных Крыс", -- [1]
@@ -51548,21 +53248,21 @@ PlaterDB = {
 					"Капля морской воды", -- [1]
 					"Око Азшары", -- [2]
 				},
-				[168099] = {
-					"Усиленный Бессердечный-копейщик", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[155814] = {
+					"Жуткая подменщица", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[139946] = {
 					"Хранитель Сердца", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[140458] = {
-					"Колючешкурый бык", -- [1]
-					"", -- [2]
+				[123480] = {
+					"Защитница Анторуса", -- [1]
+					"Анторус, Пылающий Трон", -- [2]
 				},
-				[89] = {
-					"Инфернал", -- [1]
-					"Каньон Суровых Ветров", -- [2]
+				[140970] = {
+					"Скальный разрыватель", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[170147] = {
 					"Нестабильное воспоминание", -- [1]
@@ -51572,9 +53272,9 @@ PlaterDB = {
 					"Изгнанный предвестник", -- [1]
 					"Ашран", -- [2]
 				},
-				[150696] = {
-					"Глубинный скат - хранитель стаи", -- [1]
-					"Храм Котмогу", -- [2]
+				[171171] = {
+					"Верный Утробе стрелок", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[134828] = {
 					"Воденыш", -- [1]
@@ -51616,13 +53316,13 @@ PlaterDB = {
 					"Усиленная угасшая тень", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[165030] = {
-					"Леди Инерва Дарквейн", -- [1]
-					"Castle Nathria Scenario", -- [2]
-				},
 				[107101] = {
 					"Ярость Скверны", -- [1]
 					"Казематы Стражей", -- [2]
+				},
+				[165030] = {
+					"Леди Инерва Дарквейн", -- [1]
+					"Castle Nathria Scenario", -- [2]
 				},
 				[145067] = {
 					"Тенеперый вороненок", -- [1]
@@ -51632,9 +53332,9 @@ PlaterDB = {
 					"Верный Утробе смакователь боли", -- [1]
 					"Святилище Господства", -- [2]
 				},
-				[158376] = {
-					"Эгос", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[178851] = {
+					"Горящая стигия", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[171173] = {
 					"Верный Утробе темный охотник", -- [1]
@@ -51688,9 +53388,9 @@ PlaterDB = {
 					"Ночной кошмар", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[140974] = {
-					"Старозоб", -- [1]
-					"", -- [2]
+				[157354] = {
+					"Вексиона", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[62005] = {
 					"Зверь", -- [1]
@@ -51700,17 +53400,17 @@ PlaterDB = {
 					"Нестабильная личинка", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[168104] = {
-					"Усиленный мастер плавильной печи", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[180389] = {
+					"Верный Утробе гневный страж", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[83812] = {
 					"Головорез из клана Молота Ашрана", -- [1]
 					"Ашран", -- [2]
 				},
-				[180389] = {
-					"Верный Утробе гневный страж", -- [1]
-					"Святилище Господства", -- [2]
+				[168104] = {
+					"Усиленный мастер плавильной печи", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[129369] = {
 					"Налетчик из братства Стальных Волн", -- [1]
@@ -51752,9 +53452,9 @@ PlaterDB = {
 					"Споровый образ", -- [1]
 					"Вечное Цветение", -- [2]
 				},
-				[153261] = {
-					"Экспериментальный робот", -- [1]
-					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
+				[140976] = {
+					"Червь-бурильщик", -- [1]
+					"", -- [2]
 				},
 				[79462] = {
 					"Слепящая солнечная вспышка", -- [1]
@@ -51812,13 +53512,13 @@ PlaterDB = {
 					"piecitos", -- [1]
 					"Два Пика", -- [2]
 				},
-				[71529] = {
-					"Devilsaur", -- [1]
-					"Альтеракская долина", -- [2]
+				[163501] = {
+					"Раскольница-налетчица", -- [1]
+					"Шпили Перерождения", -- [2]
 				},
-				[13426] = {
-					"Горный пехотинец-ветеран", -- [1]
-					"Месть Коррака", -- [2]
+				[136883] = {
+					"Заклинатель шипов из племени Острогривов", -- [1]
+					"", -- [2]
 				},
 				[137395] = {
 					"Опытный пехотинец", -- [1]
@@ -51832,9 +53532,9 @@ PlaterDB = {
 					"Сияющая сверхновая", -- [1]
 					"Небесный Путь", -- [2]
 				},
-				[163501] = {
-					"Раскольница-налетчица", -- [1]
-					"Шпили Перерождения", -- [2]
+				[71529] = {
+					"Devilsaur", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[139443] = {
 					"Хребтолом Кунтай", -- [1]
@@ -51940,17 +53640,17 @@ PlaterDB = {
 					"Аннигилятор Кин'гарота", -- [1]
 					"Анторус, Пылающий Трон", -- [2]
 				},
-				[146102] = {
-					"Живая бомба", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[50874] = {
+					"Tenok", -- [1]
+					"Ашран", -- [2]
 				},
 				[140982] = {
 					"Ледолом", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[130909] = {
-					"Смрадная личинка", -- [1]
-					"Подгнилье", -- [2]
+				[163506] = {
+					"Стальной коготь раскольников", -- [1]
+					"Шпили Перерождения", -- [2]
 				},
 				[133588] = {
 					"Автоматический взрывчаткострел", -- [1]
@@ -51992,9 +53692,9 @@ PlaterDB = {
 					"Бесшабашная подрывница", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[163506] = {
-					"Стальной коготь раскольников", -- [1]
-					"Шпили Перерождения", -- [2]
+				[130909] = {
+					"Смрадная личинка", -- [1]
+					"Подгнилье", -- [2]
 				},
 				[168113] = {
 					"Генерал Грашаал", -- [1]
@@ -52108,13 +53808,13 @@ PlaterDB = {
 					"Брутарыл", -- [1]
 					"", -- [2]
 				},
-				[171188] = {
-					"Чумная прислужница", -- [1]
-					"Чумные каскады", -- [2]
-				},
 				[136837] = {
 					"Ядомант Ант'су", -- [1]
 					"Un'gol Ruins (Islands 1)", -- [2]
+				},
+				[171188] = {
+					"Чумная прислужница", -- [1]
+					"Чумные каскады", -- [2]
 				},
 				[138428] = {
 					"Мирмидон из клана Злобного Плавника", -- [1]
@@ -52128,9 +53828,9 @@ PlaterDB = {
 					"Землетряс Агган", -- [1]
 					"", -- [2]
 				},
-				[83819] = {
-					"Камнебашня", -- [1]
-					"Ашран", -- [2]
+				[179891] = {
+					"Соггодон Ломатель", -- [1]
+					"Смертельная тризна", -- [2]
 				},
 				[74349] = {
 					"Подчинитель магмы из клана Кровавого Молота", -- [1]
@@ -52144,9 +53844,9 @@ PlaterDB = {
 					"Цепкий ужас", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[130400] = {
-					"Сокрушитель из братства Стальных Волн", -- [1]
-					"Вольная Гавань", -- [2]
+				[174773] = {
+					"Злопамятная тень", -- [1]
+					"Чертоги Покаяния", -- [2]
 				},
 				[138429] = {
 					"Заклинательница волн из клана Злобного Плавника", -- [1]
@@ -52176,9 +53876,9 @@ PlaterDB = {
 					"Камнерожденный-рассекатель", -- [1]
 					"Чертоги Покаяния", -- [2]
 				},
-				[174773] = {
-					"Злопамятная тень", -- [1]
-					"Чертоги Покаяния", -- [2]
+				[130400] = {
+					"Сокрушитель из братства Стальных Волн", -- [1]
+					"Вольная Гавань", -- [2]
 				},
 				[177095] = {
 					"Кира", -- [1]
@@ -52300,21 +54000,21 @@ PlaterDB = {
 					"Темнополз-охотник", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[13299] = {
-					"Лейтенант Лонадин", -- [1]
-					"Месть Коррака", -- [2]
+				[167611] = {
+					"Камнерожденная-потрошительница", -- [1]
+					"Чертоги Покаяния", -- [2]
 				},
 				[146112] = {
 					"Чернильная Шкура", -- [1]
 					"", -- [2]
 				},
-				[138434] = {
-					"Ведьма бурь из клана Злобного Плавника", -- [1]
-					"", -- [2]
+				[30625] = {
+					"Ониксфлэйм", -- [1]
+					"Ан'кахет: Старое Королевство", -- [2]
 				},
-				[167611] = {
-					"Камнерожденная-потрошительница", -- [1]
-					"Чертоги Покаяния", -- [2]
+				[13299] = {
+					"Лейтенант Лонадин", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[13331] = {
 					"Бывалый защитник", -- [1]
@@ -52464,9 +54164,9 @@ PlaterDB = {
 					"Скульд", -- [1]
 					"Ardenweald Covenant Chapter 2 Scenario", -- [2]
 				},
-				[139463] = {
-					"Каменный уничтожитель", -- [1]
-					"", -- [2]
+				[2630] = {
+					"Тотем оков земли", -- [1]
+					"Каньон Суровых Ветров", -- [2]
 				},
 				[138439] = {
 					"Королева змей Валла", -- [1]
@@ -52476,9 +54176,9 @@ PlaterDB = {
 					"Со'азми", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[2630] = {
-					"Тотем оков земли", -- [1]
-					"Каньон Суровых Ветров", -- [2]
+				[139463] = {
+					"Каменный уничтожитель", -- [1]
+					"", -- [2]
 				},
 				[131785] = {
 					"Жужжащий трутень", -- [1]
@@ -52504,9 +54204,9 @@ PlaterDB = {
 					"Геомант Торговой компании", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[104300] = {
-					"Владычица теней", -- [1]
-					"Квартал Звезд", -- [2]
+				[30178] = {
+					"Ан'кахарский паук", -- [1]
+					"Ан'кахет: Старое Королевство", -- [2]
 				},
 				[139464] = {
 					"Ревун клана Цзыань-Ти", -- [1]
@@ -52524,9 +54224,9 @@ PlaterDB = {
 					"Караульный с передовой", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[165059] = {
-					"Алый защитник", -- [1]
-					"Castle Nathria Scenario", -- [2]
+				[132299] = {
+					"Злой древень", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[146119] = {
 					"Огромный иглоспин", -- [1]
@@ -52536,29 +54236,29 @@ PlaterDB = {
 					"Глубинная певунья", -- [1]
 					"", -- [2]
 				},
-				[30178] = {
-					"Ан'кахарский паук", -- [1]
-					"Ан'кахет: Старое Королевство", -- [2]
+				[104300] = {
+					"Владычица теней", -- [1]
+					"Квартал Звезд", -- [2]
 				},
-				[180415] = {
-					"Верный Утробе секироносец", -- [1]
-					"Святилище Господства", -- [2]
+				[155845] = {
+					"Морская пучина", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[170690] = {
 					"Зараженный ужас", -- [1]
 					"Театр Боли", -- [2]
 				},
-				[132299] = {
-					"Злой древень", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[165059] = {
+					"Алый защитник", -- [1]
+					"Castle Nathria Scenario", -- [2]
 				},
 				[177856] = {
 					"Чудовищный вурдалак", -- [1]
 					"9.1 Andorhal - Kyrian Chapter Scenario", -- [2]
 				},
-				[139466] = {
-					"Кобальтовый камнестраж", -- [1]
-					"", -- [2]
+				[122984] = {
+					"Дазар'айский колосс", -- [1]
+					"Атал'Дазар", -- [2]
 				},
 				[133835] = {
 					"Дикий кровавый роевик", -- [1]
@@ -52572,17 +54272,17 @@ PlaterDB = {
 					"Кирийский темный претор", -- [1]
 					"Шпили Перерождения", -- [2]
 				},
-				[122984] = {
-					"Дазар'айский колосс", -- [1]
-					"Атал'Дазар", -- [2]
+				[139466] = {
+					"Кобальтовый камнестраж", -- [1]
+					"", -- [2]
 				},
 				[165060] = {
 					"Клетка с анимой", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[74356] = {
-					"Пленный шахтер", -- [1]
-					"Шлаковые шахты Кровавого Молота", -- [2]
+				[98926] = {
+					"Темная охотница", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[152009] = {
 					"Неисправный хламобот", -- [1]
@@ -52608,13 +54308,13 @@ PlaterDB = {
 					"Мелкое порождение Бездны", -- [1]
 					"Изумрудный Сон – сценарий Сердца Азерот", -- [2]
 				},
-				[165061] = {
-					"Алая убийца", -- [1]
-					"Castle Nathria Scenario", -- [2]
-				},
 				[11604] = {
 					"Геомант из племени Седоусов", -- [1]
 					"Месть Коррака", -- [2]
+				},
+				[165061] = {
+					"Алая убийца", -- [1]
+					"Castle Nathria Scenario", -- [2]
 				},
 				[178626] = {
 					"Крыса Утробы", -- [1]
@@ -52656,17 +54356,17 @@ PlaterDB = {
 					"Чащобный мерцающий мотылек", -- [1]
 					"Та Сторона", -- [2]
 				},
-				[138446] = {
-					"Призывательница пучин Зелисса", -- [1]
-					"", -- [2]
-				},
-				[167111] = {
-					"Иглобрюх-рогач", -- [1]
-					"Туманы Тирна Скитта", -- [2]
-				},
 				[28579] = {
 					"Берсерк из закаленной стали", -- [1]
 					"Чертоги Молний", -- [2]
+				},
+				[61245] = {
+					"Тотем конденсации", -- [1]
+					"Каньон Суровых Ветров", -- [2]
+				},
+				[138446] = {
+					"Призывательница пучин Зелисса", -- [1]
+					"", -- [2]
 				},
 				[151754] = {
 					"Блуждающее порождение Бездны", -- [1]
@@ -52688,13 +54388,13 @@ PlaterDB = {
 					"Верный Утробе стрелок", -- [1]
 					"Святилище Господства", -- [2]
 				},
-				[164553] = {
-					"Туманный союзник", -- [1]
-					"9.0 Ardenweald Covenant Finale Drust Scenario", -- [2]
+				[160458] = {
+					"Тулман Кремнескал", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
-				[61245] = {
-					"Тотем конденсации", -- [1]
-					"Каньон Суровых Ветров", -- [2]
+				[167111] = {
+					"Иглобрюх-рогач", -- [1]
+					"Туманы Тирна Скитта", -- [2]
 				},
 				[177601] = {
 					"Верный Утробе взыватель", -- [1]
@@ -52732,21 +54432,21 @@ PlaterDB = {
 					"Слияние душ", -- [1]
 					"Крепость Черной Ладьи", -- [2]
 				},
-				[37955] = {
-					"Кровавая королева Лана'тель", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
+				[139471] = {
+					"Буган Крушитель Плоти", -- [1]
+					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[160458] = {
-					"Тулман Кремнескал", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[164553] = {
+					"Туманный союзник", -- [1]
+					"9.0 Ardenweald Covenant Finale Drust Scenario", -- [2]
 				},
 				[164427] = {
 					"Возрожденный воин", -- [1]
 					"Смертельная тризна", -- [2]
 				},
-				[179399] = {
-					"Пьяный пират", -- [1]
-					"Тайный рынок Тазавеш", -- [2]
+				[6507] = {
+					"Raptor", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[153804] = {
 					"Настырный спинохруст", -- [1]
@@ -52776,9 +54476,9 @@ PlaterDB = {
 					"Ловчий Альтимор", -- [1]
 					"Замок Нафрия", -- [2]
 				},
-				[139476] = {
-					"Каменное чудище", -- [1]
-					"", -- [2]
+				[82039] = {
+					"Камнеспинный жальщик", -- [1]
+					"Вечное Цветение", -- [2]
 				},
 				[177600] = {
 					"Верный Утробе разбиватель миров", -- [1]
@@ -52788,9 +54488,9 @@ PlaterDB = {
 					"Токсикоид", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[6507] = {
-					"Raptor", -- [1]
-					"Месть Коррака", -- [2]
+				[179399] = {
+					"Пьяный пират", -- [1]
+					"Тайный рынок Тазавеш", -- [2]
 				},
 				[30179] = {
 					"Сумеречный апостол", -- [1]
@@ -52804,9 +54504,9 @@ PlaterDB = {
 					"Миллифисент Манашторм", -- [1]
 					"Та Сторона", -- [2]
 				},
-				[136402] = {
-					"Ур'зул", -- [1]
-					"Око Бури", -- [2]
+				[165067] = {
+					"Маргор", -- [1]
+					"Замок Нафрия", -- [2]
 				},
 				[132819] = {
 					"Волчонок-рыжешкур", -- [1]
@@ -52844,9 +54544,9 @@ PlaterDB = {
 					"Поросенок-грязнорыл", -- [1]
 					"", -- [2]
 				},
-				[82039] = {
-					"Камнеспинный жальщик", -- [1]
-					"Вечное Цветение", -- [2]
+				[139476] = {
+					"Каменное чудище", -- [1]
+					"", -- [2]
 				},
 				[135893] = {
 					"Пылающий страж", -- [1]
@@ -52864,9 +54564,9 @@ PlaterDB = {
 					"Нефритовый костегрыз", -- [1]
 					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[164557] = {
-					"Фрагмент Халкиаса", -- [1]
-					"Чертоги Покаяния", -- [2]
+				[135892] = {
+					"Высвобожденное пламя", -- [1]
+					"Molten Cay (Islands 6)", -- [2]
 				},
 				[136404] = {
 					"Желчегнус", -- [1]
@@ -52964,9 +54664,9 @@ PlaterDB = {
 					"Ослепительная искра", -- [1]
 					"Un'gol Ruins (Islands 1)", -- [2]
 				},
-				[28836] = {
-					"Рунодел клана Закаленных Бурей", -- [1]
-					"Чертоги Молний", -- [2]
+				[136407] = {
+					"Страж гнева", -- [1]
+					"Око Бури", -- [2]
 				},
 				[99956] = {
 					"Зараженный Скверной яростный боец", -- [1]
@@ -53176,17 +54876,17 @@ PlaterDB = {
 					"Большой элементаль огня", -- [1]
 					"Каньон Суровых Ветров", -- [2]
 				},
-				[155354] = {
-					"Непреклонная служительница Азшары", -- [1]
-					"Вечный дворец", -- [2]
+				[36807] = {
+					"Вестник смерти - ученик", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[12053] = {
 					"Страж из клана Северного Волка", -- [1]
 					"Альтеракская долина", -- [2]
 				},
-				[152282] = {
-					"Элитная стражница подземной крепости", -- [1]
-					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
+				[164567] = {
+					"Ингра Малох", -- [1]
+					"Туманы Тирна Скитта", -- [2]
 				},
 				[88698] = {
 					"Громила", -- [1]
@@ -53200,17 +54900,17 @@ PlaterDB = {
 					"Базарный боец", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[28837] = {
-					"Часовой клана Закаленных Бурей", -- [1]
-					"Чертоги Молний", -- [2]
+				[74366] = {
+					"Мастер горна Гон'ду", -- [1]
+					"Шлаковые шахты Кровавого Молота", -- [2]
 				},
 				[28581] = {
 					"Тактик клана Закаленных Бурей", -- [1]
 					"Чертоги Молний", -- [2]
 				},
-				[36807] = {
-					"Вестник смерти - ученик", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
+				[155354] = {
+					"Непреклонная служительница Азшары", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[139486] = {
 					"Неболом", -- [1]
@@ -53220,17 +54920,17 @@ PlaterDB = {
 					"Воплощение глубин", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[74366] = {
-					"Мастер горна Гон'ду", -- [1]
-					"Шлаковые шахты Кровавого Молота", -- [2]
+				[28837] = {
+					"Часовой клана Закаленных Бурей", -- [1]
+					"Чертоги Молний", -- [2]
 				},
 				[177877] = {
 					"Иссохший маг", -- [1]
 					"9.1 Andorhal - Kyrian Chapter Scenario", -- [2]
 				},
-				[28965] = {
-					"Титановый грозоносец", -- [1]
-					"Чертоги Молний", -- [2]
+				[170199] = {
+					"Обузданный призрак", -- [1]
+					"Замок Нафрия", -- [2]
 				},
 				[99704] = {
 					"Чернокнижник из клана Призрачной Луны", -- [1]
@@ -53304,9 +55004,9 @@ PlaterDB = {
 					"Канонир дома Эшвейнов", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[88956] = {
-					"Faptor", -- [1]
-					"Ущелье Песни Войны", -- [2]
+				[36296] = {
+					"Аптекарь Хаммел", -- [1]
+					"Крепость Темного Клыка", -- [2]
 				},
 				[155869] = {
 					"Ширакесс - темная чародейка", -- [1]
@@ -53320,9 +55020,9 @@ PlaterDB = {
 					"Часовой-ветеран", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[36296] = {
-					"Аптекарь Хаммел", -- [1]
-					"Крепость Темного Клыка", -- [2]
+				[88956] = {
+					"Faptor", -- [1]
+					"Ущелье Песни Войны", -- [2]
 				},
 				[178392] = {
 					"Страж ворот Зо'мазз", -- [1]
@@ -53392,9 +55092,9 @@ PlaterDB = {
 					"Прислужник картеля", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[50885] = {
-					"patrannache", -- [1]
-					"Месть Коррака", -- [2]
+				[81279] = {
+					"Гром'карская огненная лучница", -- [1]
+					"Железные доки", -- [2]
 				},
 				[138468] = {
 					"Обсидиановый заклинатель пламени", -- [1]
@@ -53456,13 +55156,13 @@ PlaterDB = {
 					"Защитник из племени Острогривов", -- [1]
 					"", -- [2]
 				},
-				[28582] = {
-					"Лекарь клана Закаленных Бурей", -- [1]
-					"Чертоги Молний", -- [2]
-				},
 				[138470] = {
 					"Обсидиановый дракон", -- [1]
 					"", -- [2]
+				},
+				[28582] = {
+					"Лекарь клана Закаленных Бурей", -- [1]
+					"Чертоги Молний", -- [2]
 				},
 				[53189] = {
 					"Оплавленный элементаль", -- [1]
@@ -53620,33 +55320,33 @@ PlaterDB = {
 					"Маркграфиня Син'дейн", -- [1]
 					"Финальный сценарий ковенанта Малдраксус", -- [2]
 				},
-				[38346] = {
-					"Devilsaur", -- [1]
-					"Альтеракская долина", -- [2]
+				[79467] = {
+					"Адепт Рассвета", -- [1]
+					"Небесный Путь", -- [2]
 				},
 				[75652] = {
 					"Дитя Бездны", -- [1]
 					"Некрополь Призрачной Луны", -- [2]
 				},
-				[150249] = {
-					"Демонтажница из банды Поршнеголовых", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[38346] = {
+					"Devilsaur", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[131821] = {
 					"Безликая дева", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[77700] = {
-					"Извлекатель душ из клана Призрачной Луны", -- [1]
-					"Некрополь Призрачной Луны", -- [2]
+				[150249] = {
+					"Демонтажница из банды Поршнеголовых", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[161510] = {
 					"Раздирающее разум щупальце", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[36811] = {
-					"Вестник смерти - помощник", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
+				[77700] = {
+					"Извлекатель душ из клана Призрачной Луны", -- [1]
+					"Некрополь Призрачной Луны", -- [2]
 				},
 				[162534] = {
 					"Анубисат-часовой", -- [1]
@@ -53700,9 +55400,9 @@ PlaterDB = {
 					"Сестра Маладия", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[177893] = {
-					"Выкованный в Утробе колосс", -- [1]
-					"Святилище Господства", -- [2]
+				[11603] = {
+					"Землекоп из племени Седоусов", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[177892] = {
 					"Кованный в Утробе голиаф", -- [1]
@@ -53724,9 +55424,9 @@ PlaterDB = {
 					"Железнопут-прядильщик", -- [1]
 					"", -- [2]
 				},
-				[11603] = {
-					"Землекоп из племени Седоусов", -- [1]
-					"Месть Коррака", -- [2]
+				[173798] = {
+					"Крыса необычных размеров", -- [1]
+					"Замок Нафрия", -- [2]
 				},
 				[82308] = {
 					"Pinky", -- [1]
@@ -53736,9 +55436,9 @@ PlaterDB = {
 					"Восставшая душа", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[173798] = {
-					"Крыса необычных размеров", -- [1]
-					"Замок Нафрия", -- [2]
+				[177893] = {
+					"Выкованный в Утробе колосс", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[74886] = {
 					"Костолом из клана Молота Ашрана", -- [1]
@@ -53756,21 +55456,21 @@ PlaterDB = {
 					"Вирулакс Заклинатель Чумы", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[179942] = {
-					"Око искателя смерти", -- [1]
-					"Святилище Господства", -- [2]
+				[157419] = {
+					"Искаженный Бездной дракончик", -- [1]
+					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
 				[131825] = {
 					"Сестра Брайар", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[172265] = {
-					"Частица неистовства", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[179942] = {
+					"Око искателя смерти", -- [1]
+					"Святилище Господства", -- [2]
 				},
-				[157419] = {
-					"Искаженный Бездной дракончик", -- [1]
-					"Твердыня Крыла Тьмы – сценарий", -- [2]
+				[132849] = {
+					"Медвежонок-серошкур", -- [1]
+					"Molten Cay (Islands 6)", -- [2]
 				},
 				[133361] = {
 					"Изнуренный слуга", -- [1]
@@ -53788,9 +55488,9 @@ PlaterDB = {
 					"Терзательница душ Глевианна", -- [1]
 					"Казематы Стражей", -- [2]
 				},
-				[139411] = {
-					"Многозуб", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[135254] = {
+					"Налетчик из братства Стальных Волн", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[168681] = {
 					"Раскольник-бунтарь", -- [1]
@@ -53804,9 +55504,9 @@ PlaterDB = {
 					"Сточная крыса", -- [1]
 					"Замок Нафрия", -- [2]
 				},
-				[160495] = {
-					"Маниакальный стражник душ", -- [1]
-					"Театр Боли", -- [2]
+				[13078] = {
+					"Уми Торсон", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[150254] = {
 					"Утильхаунд", -- [1]
@@ -53820,21 +55520,21 @@ PlaterDB = {
 					"Гурлак", -- [1]
 					"Verdant Wilds (Islands 8)", -- [2]
 				},
-				[13078] = {
-					"Уми Торсон", -- [1]
-					"Месть Коррака", -- [2]
+				[172265] = {
+					"Частица неистовства", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
-				[13526] = {
-					"Боец-ветеран", -- [1]
-					"Месть Коррака", -- [2]
+				[134389] = {
+					"Ядовитый змей", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[88708] = {
 					"Coco", -- [1]
 					"Месть Коррака", -- [2]
 				},
-				[164589] = {
-					"Регенерирующее дикое семя", -- [1]
-					"Остров Завоеваний", -- [2]
+				[13526] = {
+					"Боец-ветеран", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[137458] = {
 					"Гниющая спора", -- [1]
@@ -53844,9 +55544,9 @@ PlaterDB = {
 					"Фанатичка Бездны", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[152816] = {
-					"Буревик", -- [1]
-					"Вечный дворец", -- [2]
+				[164589] = {
+					"Регенерирующее дикое семя", -- [1]
+					"Остров Завоеваний", -- [2]
 				},
 				[134899] = {
 					"Ядоклык-скрытень", -- [1]
@@ -53856,25 +55556,25 @@ PlaterDB = {
 					"Pryynum", -- [1]
 					"Сверкающие копи", -- [2]
 				},
-				[168683] = {
-					"Горак Зар", -- [1]
-					"9.0 Ardenweald Covenant Finale Drust Scenario", -- [2]
+				[82310] = {
+					"Каменношкурое речное чудище", -- [1]
+					"Ашран", -- [2]
 				},
-				[135254] = {
-					"Налетчик из братства Стальных Волн", -- [1]
-					"Тол Дагор", -- [2]
+				[152816] = {
+					"Буревик", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[173802] = {
 					"Резной помощник", -- [1]
 					"Замок Нафрия", -- [2]
 				},
+				[160495] = {
+					"Маниакальный стражник душ", -- [1]
+					"Театр Боли", -- [2]
+				},
 				[179434] = {
 					"Верная Утробе призывательница сомнений", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
-				},
-				[131318] = {
-					"Старейшина Ликса", -- [1]
-					"Подгнилье", -- [2]
 				},
 				[179433] = {
 					"Эгида хранилища", -- [1]
@@ -53896,21 +55596,21 @@ PlaterDB = {
 					"Алая кабалистка", -- [1]
 					"Замок Нафрия", -- [2]
 				},
-				[98691] = {
-					"Восставший разведчик", -- [1]
-					"Крепость Черной Ладьи", -- [2]
+				[131318] = {
+					"Старейшина Ликса", -- [1]
+					"Подгнилье", -- [2]
 				},
 				[162030] = {
 					"Ведомый голосами ритуалист", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[124029] = {
-					"Дюнная вошь", -- [1]
-					"Каньон Суровых Ветров", -- [2]
+				[98691] = {
+					"Восставший разведчик", -- [1]
+					"Крепость Черной Ладьи", -- [2]
 				},
-				[134389] = {
-					"Ядовитый змей", -- [1]
-					"Храм Сетралисс", -- [2]
+				[138484] = {
+					"Обсидиановый пророк", -- [1]
+					"Havenswood (Islands 2)", -- [2]
 				},
 				[138996] = {
 					"Говорящий с землей Джува", -- [1]
@@ -53924,9 +55624,9 @@ PlaterDB = {
 					"Огнежар", -- [1]
 					"Crestfall (Islands 11)", -- [2]
 				},
-				[134390] = {
-					"Песочная змея", -- [1]
-					"Храм Сетралисс", -- [2]
+				[124029] = {
+					"Дюнная вошь", -- [1]
+					"Каньон Суровых Ветров", -- [2]
 				},
 				[160182] = {
 					"Послушник Бездны", -- [1]
@@ -53936,9 +55636,9 @@ PlaterDB = {
 					"Camille", -- [1]
 					"Каньон Суровых Ветров", -- [2]
 				},
-				[135926] = {
-					"Дымосерд", -- [1]
-					"Un'gol Ruins (Islands 1)", -- [2]
+				[442] = {
+					"Spinne", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[91781] = {
 					"Воин из клана Колец Ненависти", -- [1]
@@ -53952,9 +55652,9 @@ PlaterDB = {
 					"Пантарский знахарь", -- [1]
 					"Ашран", -- [2]
 				},
-				[442] = {
-					"Spinne", -- [1]
-					"Альтеракская долина", -- [2]
+				[135926] = {
+					"Дымосерд", -- [1]
+					"Un'gol Ruins (Islands 1)", -- [2]
 				},
 				[134903] = {
 					"Истощающий ужас", -- [1]
@@ -53992,9 +55692,9 @@ PlaterDB = {
 					"Барон Разгарон", -- [1]
 					"Un'gol Ruins (Islands 1)", -- [2]
 				},
-				[150773] = {
-					"Светящийся иглобрюх", -- [1]
-					"Вечный дворец", -- [2]
+				[163058] = {
+					"Туманная защитница", -- [1]
+					"Туманы Тирна Скитта", -- [2]
 				},
 				[102788] = {
 					"Злобный покоритель Скверны", -- [1]
@@ -54008,9 +55708,9 @@ PlaterDB = {
 					"Мирмидон из клана Колец Ненависти", -- [1]
 					"Око Азшары", -- [2]
 				},
-				[134904] = {
-					"Темнолов", -- [1]
-					"", -- [2]
+				[16875] = {
+					"Лоур", -- [1]
+					"Горнило Штормов", -- [2]
 				},
 				[138489] = {
 					"Тень Зула", -- [1]
@@ -54032,21 +55732,21 @@ PlaterDB = {
 					"Кул-тирасский пехотинец", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[162038] = {
-					"Благородный туманный танцор", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[170228] = {
+					"Костяная оболочка", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[163058] = {
-					"Туманная защитница", -- [1]
-					"Туманы Тирна Скитта", -- [2]
+				[150773] = {
+					"Светящийся иглобрюх", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[83689] = {
 					"Охотник из племени Острых Когтей", -- [1]
 					"Ашран", -- [2]
 				},
-				[79505] = {
-					"Солнечная вспышка", -- [1]
-					"Небесный Путь", -- [2]
+				[95885] = {
+					"Тиратон Салтерил", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[176879] = {
 					"Пустая Душа", -- [1]
@@ -54080,9 +55780,9 @@ PlaterDB = {
 					"Вексиона", -- [1]
 					"Восточные королевства – Гранатовый Редут – Сценарий Сердца Азерот", -- [2]
 				},
-				[176880] = {
-					"Истязатель кричащих душ", -- [1]
-					"Святилище Господства", -- [2]
+				[135930] = {
+					"Лавоскал", -- [1]
+					"Verdant Wilds (Islands 8)", -- [2]
 				},
 				[138493] = {
 					"Прислужник Зула", -- [1]
@@ -54112,9 +55812,9 @@ PlaterDB = {
 					"Верный Утробе кандальщик", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[135931] = {
-					"Камнегарь", -- [1]
-					"Verdant Wilds (Islands 8)", -- [2]
+				[152311] = {
+					"Занш'ир-мирмидон", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[165108] = {
 					"Иллюзорный клон", -- [1]
@@ -54124,9 +55824,9 @@ PlaterDB = {
 					"Мощная искра", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[139006] = {
-					"Фурболг из племени Дикой Глуши", -- [1]
-					"", -- [2]
+				[175861] = {
+					"Ледовый шип", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[166644] = {
 					"Изобретатель Зи'Мокс", -- [1]
@@ -54156,9 +55856,9 @@ PlaterDB = {
 					"Веретиан", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[170228] = {
-					"Костяная оболочка", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[162038] = {
+					"Благородный туманный танцор", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[152500] = {
 					"Угасшее слияние", -- [1]
@@ -54180,9 +55880,9 @@ PlaterDB = {
 					"Громила из клана Колец Ужаса", -- [1]
 					"Вечный дворец", -- [2]
 				},
-				[138503] = {
-					"Сумеречный надзиратель", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[79505] = {
+					"Солнечная вспышка", -- [1]
+					"Небесный Путь", -- [2]
 				},
 				[137474] = {
 					"Король Тималджи", -- [1]
@@ -54232,9 +55932,9 @@ PlaterDB = {
 					"Шлак", -- [1]
 					"Чертоги Молний", -- [2]
 				},
-				[175861] = {
-					"Ледовый шип", -- [1]
-					"Святилище Господства", -- [2]
+				[139006] = {
+					"Фурболг из племени Дикой Глуши", -- [1]
+					"", -- [2]
 				},
 				[147202] = {
 					"Оживший азеритовый осколыш", -- [1]
@@ -54252,13 +55952,13 @@ PlaterDB = {
 					"Молодой крепкорук", -- [1]
 					"", -- [2]
 				},
-				[162041] = {
-					"Чумазый гряземес", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[141566] = {
+					"Кишкодер из банды Резчиков", -- [1]
+					"Осада Боралуса", -- [2]
 				},
-				[95887] = {
-					"Смотрящий", -- [1]
-					"Казематы Стражей", -- [2]
+				[91792] = {
+					"Потревоженная бурей гидра", -- [1]
+					"Око Азшары", -- [2]
 				},
 				[91786] = {
 					"Песчаная улитка", -- [1]
@@ -54276,17 +55976,17 @@ PlaterDB = {
 					"Сумеречный дракончик", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[76177] = {
-					"Стражница душ Ниами", -- [1]
-					"Аукиндон", -- [2]
+				[131847] = {
+					"Гуляка из дома Уэйкрестов", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[84876] = {
 					"Разрушитель из клана Молота Ашрана", -- [1]
 					"Ашран", -- [2]
 				},
-				[137478] = {
-					"Королева Уаси", -- [1]
-					"Гробница королей", -- [2]
+				[182523] = {
+					"Заклинатель адского огня", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[126429] = {
 					"Твердопанцирный коралловый краб", -- [1]
@@ -54300,21 +56000,21 @@ PlaterDB = {
 					"Древний терзатель", -- [1]
 					"", -- [2]
 				},
-				[127106] = {
-					"Офицер из братства Стальных Волн", -- [1]
-					"Вольная Гавань", -- [2]
+				[155900] = {
+					"Зса'лисс", -- [1]
+					"Вечный дворец", -- [2]
 				},
-				[95885] = {
-					"Тиратон Салтерил", -- [1]
-					"Казематы Стражей", -- [2]
+				[91790] = {
+					"Ходульник Мак'раны", -- [1]
+					"Око Азшары", -- [2]
 				},
 				[130012] = {
 					"Опустошительница из братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[151812] = {
-					"Детектобот", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[143622] = {
+					"Дикий бес", -- [1]
+					"Сверкающие копи", -- [2]
 				},
 				[137473] = {
 					"Капитан стражи Ату", -- [1]
@@ -54368,9 +56068,9 @@ PlaterDB = {
 					"Кокон", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[138509] = {
-					"Чароплет Улура", -- [1]
-					"Snowblossom Village (Islands 3)", -- [2]
+				[95888] = {
+					"Кордана Оскверненная Песнь", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[140546] = {
 					"Королева стаи Вил'тилак", -- [1]
@@ -54380,9 +56080,9 @@ PlaterDB = {
 					"Владыка приливов Сунис", -- [1]
 					"Crestfall (Islands 11)", -- [2]
 				},
-				[152325] = {
-					"Ребекка Лафлин", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[131850] = {
+					"Обезумевший мастер выживания", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[174842] = {
 					"Задиристый официант", -- [1]
@@ -54404,9 +56104,9 @@ PlaterDB = {
 					"Докучливый бес", -- [1]
 					"Замок Нафрия", -- [2]
 				},
-				[139530] = {
-					"Земляной стенолом", -- [1]
-					"", -- [2]
+				[151815] = {
+					"Угасший отголосок", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[136964] = {
 					"Арбалетчица из Гнезда", -- [1]
@@ -54424,17 +56124,17 @@ PlaterDB = {
 					"Сумеречная чешуйчатая сестра", -- [1]
 					"Crestfall (Islands 11)", -- [2]
 				},
-				[139012] = {
-					"Дикий страж", -- [1]
-					"", -- [2]
+				[171772] = {
+					"Туманная защитница", -- [1]
+					"Туманы Тирна Скитта", -- [2]
 				},
 				[180474] = {
 					"Похитительница душ", -- [1]
 					"Святилище Господства", -- [2]
 				},
-				[91792] = {
-					"Потревоженная бурей гидра", -- [1]
-					"Око Азшары", -- [2]
+				[95887] = {
+					"Смотрящий", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[152833] = {
 					"Азеритовый гигант", -- [1]
@@ -54444,9 +56144,9 @@ PlaterDB = {
 					"pow", -- [1]
 					"Месть Коррака", -- [2]
 				},
-				[162047] = {
-					"Ненасытный громила", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[178427] = {
+					"Угасшее умертвие", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[137989] = {
 					"Бальзамировочный состав", -- [1]
@@ -54460,13 +56160,13 @@ PlaterDB = {
 					"Жуткая сфера", -- [1]
 					"Святилище Господства", -- [2]
 				},
-				[37970] = {
-					"Принц Валанар", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
+				[151816] = {
+					"Угасший падальщик", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[131847] = {
-					"Гуляка из дома Уэйкрестов", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[76177] = {
+					"Стражница душ Ниами", -- [1]
+					"Аукиндон", -- [2]
 				},
 				[152834] = {
 					"Азеритовый ползун", -- [1]
@@ -54476,9 +56176,9 @@ PlaterDB = {
 					"Дух Бездны", -- [1]
 					"Твердыня Крыла Тьмы – сценарий", -- [2]
 				},
-				[182523] = {
-					"Заклинатель адского огня", -- [1]
-					"Казематы Стражей", -- [2]
+				[137478] = {
+					"Королева Уаси", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[130436] = {
 					"Отдыхающий работник", -- [1]
@@ -54500,37 +56200,37 @@ PlaterDB = {
 					"Глубинный угорь", -- [1]
 					"Святилище Штормов", -- [2]
 				},
-				[177405] = {
-					"Сильвана Ветрокрылая", -- [1]
-					"9.1 Battle of Ardenweald", -- [2]
+				[152835] = {
+					"Кристаллизированный азерит", -- [1]
+					"Водоворот – Сердце Азерот", -- [2]
 				},
 				[157442] = {
 					"Взор безумия", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[162049] = {
-					"Частица сомнений", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[133384] = {
+					"Меректа", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[150276] = {
 					"Тяжелый хламобот", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[91790] = {
-					"Ходульник Мак'раны", -- [1]
-					"Око Азшары", -- [2]
+				[138503] = {
+					"Сумеречный надзиратель", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
 				[139015] = {
 					"Дикий лунный совух", -- [1]
 					"", -- [2]
 				},
-				[143622] = {
-					"Дикий бес", -- [1]
-					"Сверкающие копи", -- [2]
+				[151812] = {
+					"Детектобот", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
-				[152324] = {
-					"Альдвин Лафлин", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[131849] = {
+					"Обезумевший стрелок", -- [1]
+					"Усадьба Уэйкрестов", -- [2]
 				},
 				[152836] = {
 					"Азеритовый бурильщик", -- [1]
@@ -54552,17 +56252,17 @@ PlaterDB = {
 					"Генерал Драккарион", -- [1]
 					"Crestfall (Islands 11)", -- [2]
 				},
-				[95888] = {
-					"Кордана Оскверненная Песнь", -- [1]
-					"Казематы Стражей", -- [2]
+				[138509] = {
+					"Чароплет Улура", -- [1]
+					"Snowblossom Village (Islands 3)", -- [2]
 				},
 				[155908] = {
 					"Вестник смерти", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[131850] = {
-					"Обезумевший мастер выживания", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[152325] = {
+					"Ребекка Лафлин", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[177407] = {
 					"Бесформенная масса", -- [1]
@@ -54572,25 +56272,25 @@ PlaterDB = {
 					"Стенолом Ха'вик", -- [1]
 					"", -- [2]
 				},
-				[174336] = {
-					"Смотрительница псарни", -- [1]
-					"Замок Нафрия", -- [2]
+				[162051] = {
+					"Взбесившийся вурдалак", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[130011] = {
 					"Буканьер из братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[138505] = {
-					"Мутировавший смотритель кладки", -- [1]
-					"Molten Cay (Islands 6)", -- [2]
+				[95886] = {
+					"Вул'кан", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[139017] = {
 					"Буйногрив", -- [1]
 					"", -- [2]
 				},
-				[151814] = {
-					"Угасший фантом", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[139529] = {
+					"Муклай", -- [1]
+					"", -- [2]
 				},
 				[152326] = {
 					"Кайра Буше", -- [1]
@@ -54600,13 +56300,13 @@ PlaterDB = {
 					"Исказитель пространства Душар", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[157449] = {
-					"Зловещая резчица душ", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[132879] = {
+					"Кристальный великан", -- [1]
+					"SarasIsland", -- [2]
 				},
-				[162056] = {
-					"Скальный дух", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[137486] = {
+					"Королева Патлаа", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[97678] = {
 					"Аранасийская мать выводка", -- [1]
@@ -54616,21 +56316,21 @@ PlaterDB = {
 					"Алокрыл", -- [1]
 					"Havenswood (Islands 2)", -- [2]
 				},
-				[138515] = {
-					"Гибелион", -- [1]
-					"The Rotting Mire (Islands 9)", -- [2]
+				[128651] = {
+					"Хадал Черная Бездна", -- [1]
+					"Осада Боралуса", -- [2]
 				},
-				[151815] = {
-					"Угасший отголосок", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[139530] = {
+					"Земляной стенолом", -- [1]
+					"", -- [2]
 				},
-				[162057] = {
-					"Часовой чертогов", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[137487] = {
+					"Охотничий ящер", -- [1]
+					"Гробница королей", -- [2]
 				},
-				[152332] = {
-					"Лара Мур", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[96657] = {
+					"Иллиана Танцующая с Клинками", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[127879] = {
 					"Щитоносец из армии Зула", -- [1]
@@ -54652,9 +56352,9 @@ PlaterDB = {
 					"Иглогрив", -- [1]
 					"", -- [2]
 				},
-				[151816] = {
-					"Угасший падальщик", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[37970] = {
+					"Принц Валанар", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[178601] = {
 					"Слизнюченыш Кевина", -- [1]
@@ -54700,9 +56400,9 @@ PlaterDB = {
 					"Призыватель Затмения", -- [1]
 					"", -- [2]
 				},
-				[137485] = {
-					"Одержимый кровью шпион", -- [1]
-					"Гробница королей", -- [2]
+				[182530] = {
+					"Перехватчица оскверненной стали", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[103822] = {
 					"Древень", -- [1]
@@ -54728,13 +56428,13 @@ PlaterDB = {
 					"Снежная сфера", -- [1]
 					"", -- [2]
 				},
-				[132879] = {
-					"Кристальный великан", -- [1]
-					"SarasIsland", -- [2]
+				[157449] = {
+					"Зловещая резчица душ", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[137486] = {
-					"Королева Патлаа", -- [1]
-					"Гробница королей", -- [2]
+				[162056] = {
+					"Скальный дух", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[166663] = {
 					"Ипа", -- [1]
@@ -54756,17 +56456,17 @@ PlaterDB = {
 					"Капитан Ленси Ревшон", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[128651] = {
-					"Хадал Черная Бездна", -- [1]
-					"Осада Боралуса", -- [2]
+				[138515] = {
+					"Гибелион", -- [1]
+					"The Rotting Mire (Islands 9)", -- [2]
 				},
 				[157450] = {
 					"Зачарованный ритуалист", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[137487] = {
-					"Охотничий ящер", -- [1]
-					"Гробница королей", -- [2]
+				[162057] = {
+					"Часовой чертогов", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[99728] = {
 					"Мрачный страж", -- [1]
@@ -54784,17 +56484,17 @@ PlaterDB = {
 					"Бедрош", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[96657] = {
-					"Иллиана Танцующая с Клинками", -- [1]
-					"Казематы Стражей", -- [2]
+				[152332] = {
+					"Лара Мур", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[101008] = {
 					"Жалящая мошкара", -- [1]
 					"Крепость Черной Ладьи", -- [2]
 				},
-				[157451] = {
-					"Непреклонный каратель", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[136976] = {
+					"Т'зала", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[162058] = {
 					"\"Вентунакс\"", -- [1]
@@ -54812,21 +56512,21 @@ PlaterDB = {
 					"Маркграфиня Страдама", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[139536] = {
-					"Зара'тик - трутень", -- [1]
-					"SarasIsland", -- [2]
+				[180486] = {
+					"Грязесвист", -- [1]
+					"Тайный рынок Тазавеш", -- [2]
 				},
-				[152333] = {
-					"Темный следопыт Ленара", -- [1]
-					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
+				[168713] = {
+					"Призыватель ужаса Скульфир", -- [1]
+					"9.0 Ardenweald Covenant Finale Drust Scenario", -- [2]
 				},
-				[97171] = {
-					"Колдунья из клана Колец Ненависти", -- [1]
-					"Око Азшары", -- [2]
+				[132885] = {
+					"Элементаль воздуха", -- [1]
+					"", -- [2]
 				},
-				[29931] = {
-					"Люторог Драккари", -- [1]
-					"Гундрак", -- [2]
+				[157452] = {
+					"Кошмарный антиген", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[162059] = {
 					"Кин-Тара", -- [1]
@@ -54864,9 +56564,9 @@ PlaterDB = {
 					"\"Орифрион\"", -- [1]
 					"Шпили Перерождения", -- [2]
 				},
-				[155920] = {
-					"Азш'ари - штормовой клинок", -- [1]
-					"Вечный дворец", -- [2]
+				[176395] = {
+					"Перегруженный почтоменталь", -- [1]
+					"Тайный рынок Тазавеш", -- [2]
 				},
 				[91797] = {
 					"Король Волнобород", -- [1]
@@ -54900,9 +56600,9 @@ PlaterDB = {
 					"Заразная опухоль", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[75416] = {
-					"Хладнорылый вепрь", -- [1]
-					"FW Horde Garrison Level 3", -- [2]
+				[91796] = {
+					"Скрог-волнолом", -- [1]
+					"Око Азшары", -- [2]
 				},
 				[132530] = {
 					"Кул-тирасский боец авангарда", -- [1]
@@ -54920,9 +56620,9 @@ PlaterDB = {
 					"Серная борзая", -- [1]
 					"Molten Cay (Islands 6)", -- [2]
 				},
-				[132885] = {
-					"Элементаль воздуха", -- [1]
-					"", -- [2]
+				[97171] = {
+					"Колдунья из клана Колец Ненависти", -- [1]
+					"Око Азшары", -- [2]
 				},
 				[58959] = {
 					"Гиб'токо", -- [1]
@@ -54940,21 +56640,21 @@ PlaterDB = {
 					"Дух золота", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[176395] = {
-					"Перегруженный почтоменталь", -- [1]
-					"Тайный рынок Тазавеш", -- [2]
+				[155920] = {
+					"Азш'ари - штормовой клинок", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[168717] = {
 					"Раскольница-юстициарий", -- [1]
 					"Шпили Перерождения", -- [2]
 				},
-				[140564] = {
-					"Серный магмозев", -- [1]
-					"Molten Cay (Islands 6)", -- [2]
+				[98963] = {
+					"Пылающий бес", -- [1]
+					"Казематы Стражей", -- [2]
 				},
-				[126093] = {
-					"Саурок из клана Скользящего Плавника", -- [1]
-					"The Rotting Mire (Islands 9)", -- [2]
+				[153874] = {
+					"Верный Утробе часовой", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[128140] = {
 					"Порождение Света", -- [1]
@@ -54988,9 +56688,9 @@ PlaterDB = {
 					"Детеныш смертежала", -- [1]
 					"", -- [2]
 				},
-				[153874] = {
-					"Верный Утробе часовой", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[126093] = {
+					"Саурок из клана Скользящего Плавника", -- [1]
+					"The Rotting Mire (Islands 9)", -- [2]
 				},
 				[178956] = {
 					"Паникующий туманокрыл", -- [1]
@@ -55004,17 +56704,17 @@ PlaterDB = {
 					"Мать Вишис", -- [1]
 					"", -- [2]
 				},
-				[150292] = {
-					"Мехагонский кавалерист", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[178957] = {
+					"Усиленный тюремщик душ", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[131864] = {
 					"Горак Тул", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[126094] = {
-					"Волногон из клана Скользящего Плавника", -- [1]
-					"", -- [2]
+				[58960] = {
+					"Korromotos", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[76518] = {
 					"Костяной ритуал", -- [1]
@@ -55024,9 +56724,9 @@ PlaterDB = {
 					"Кур'талос Гребень Ворона", -- [1]
 					"Крепость Черной Ладьи", -- [2]
 				},
-				[178957] = {
-					"Усиленный тюремщик душ", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[150292] = {
+					"Мехагонский кавалерист", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[163089] = {
 					"Отвратительные отходы", -- [1]
@@ -55044,21 +56744,21 @@ PlaterDB = {
 					"Baby", -- [1]
 					"Месть Коррака", -- [2]
 				},
-				[152852] = {
-					"Пашмар Фанатичная", -- [1]
-					"Вечный дворец", -- [2]
+				[165137] = {
+					"Хранитель врат с \"Золрамуса\"", -- [1]
+					"Смертельная тризна", -- [2]
 				},
 				[97173] = {
 					"Неутомимая волна", -- [1]
 					"Око Азшары", -- [2]
 				},
-				[58960] = {
-					"Korromotos", -- [1]
-					"Альтеракская долина", -- [2]
+				[126094] = {
+					"Волногон из клана Скользящего Плавника", -- [1]
+					"", -- [2]
 				},
-				[150293] = {
-					"Мехагонский хищник", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[81305] = {
+					"Раздиратель Плоти Нок'Гар", -- [1]
+					"Железные доки", -- [2]
 				},
 				[81561] = {
 					"Whatpet", -- [1]
@@ -55260,9 +56960,9 @@ PlaterDB = {
 					"Лекарь Вечного Цветения", -- [1]
 					"Вечное Цветение", -- [2]
 				},
-				[155930] = {
-					"Избранный из Глубинного улья", -- [1]
-					"Сценарий Могу'шан", -- [2]
+				[69791] = {
+					"Nainumu", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[150139] = {
 					"К'ткс, охотник из Бездны", -- [1]
@@ -55480,9 +57180,9 @@ PlaterDB = {
 					"Потревоженный сгусток крови", -- [1]
 					"Сценарий в Ульдире", -- [2]
 				},
-				[134950] = {
-					"Ужасный паук", -- [1]
-					"", -- [2]
+				[171805] = {
+					"Писец-исследовательница", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[163836] = {
 					"Психофаг", -- [1]
@@ -55508,9 +57208,9 @@ PlaterDB = {
 					"Океанский призыватель волн", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[123286] = {
-					"Шулер из братства Южных Морей", -- [1]
-					"Molten Cay (Islands 6)", -- [2]
+				[127381] = {
+					"Ильный краб", -- [1]
+					"Тол Дагор", -- [2]
 				},
 				[151331] = {
 					"Тюремный часовой", -- [1]
@@ -55520,9 +57220,9 @@ PlaterDB = {
 					"Джонивера Дальногор", -- [1]
 					"Альтеракская долина", -- [2]
 				},
-				[127381] = {
-					"Ильный краб", -- [1]
-					"Тол Дагор", -- [2]
+				[123286] = {
+					"Шулер из братства Южных Морей", -- [1]
+					"Molten Cay (Islands 6)", -- [2]
 				},
 				[8213] = {
 					"Mutombo", -- [1]
@@ -55544,9 +57244,9 @@ PlaterDB = {
 					"Надзиратель из клана Кровавого Молота", -- [1]
 					"Шлаковые шахты Кровавого Молота", -- [2]
 				},
-				[177950] = {
-					"Тюрьма для душ", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[157475] = {
+					"Анаболический нарост", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[151333] = {
 					"Осколок часового", -- [1]
@@ -55556,13 +57256,13 @@ PlaterDB = {
 					"Старина Однозуб", -- [1]
 					"Crestfall (Islands 11)", -- [2]
 				},
-				[29742] = {
-					"Клубок змей", -- [1]
-					"Гундрак", -- [2]
+				[151845] = {
+					"Лейтенант Н'от", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
-				[157475] = {
-					"Анаболический нарост", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[177950] = {
+					"Тюрьма для душ", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[58964] = {
 					"Xorkek", -- [1]
@@ -55580,13 +57280,13 @@ PlaterDB = {
 					"Некромант с \"Золрамуса\"", -- [1]
 					"Смертельная тризна", -- [2]
 				},
-				[151845] = {
-					"Лейтенант Н'от", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[29742] = {
+					"Клубок змей", -- [1]
+					"Гундрак", -- [2]
 				},
-				[123287] = {
-					"Сорвиголова из братства Южных Морей", -- [1]
-					"Molten Cay (Islands 6)", -- [2]
+				[140072] = {
+					"Зверолов Лютый", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
 				[134617] = {
 					"Детеныш кролуска", -- [1]
@@ -55648,9 +57348,9 @@ PlaterDB = {
 					"Сторожевое древо", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[176929] = {
-					"Часть души Кел'Тузада", -- [1]
-					"Святилище Господства", -- [2]
+				[123288] = {
+					"Канонир из братства Южных Морей", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
 				[84878] = {
 					"Пиромант из клана Молота Ашрана", -- [1]
@@ -55700,9 +57400,9 @@ PlaterDB = {
 					"Oso", -- [1]
 					"Око Бури", -- [2]
 				},
-				[137517] = {
-					"Разрушительница из дома Эшвейнов", -- [1]
-					"Осада Боралуса", -- [2]
+				[153897] = {
+					"\"Блескотрон-7000\"", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[155432] = {
 					"Зачарованная посланница", -- [1]
@@ -55724,13 +57424,13 @@ PlaterDB = {
 					"Noa", -- [1]
 					"Месть Коррака", -- [2]
 				},
-				[153897] = {
-					"\"Блескотрон-7000\"", -- [1]
-					"Месть Коррака", -- [2]
+				[137517] = {
+					"Разрушительница из дома Эшвейнов", -- [1]
+					"Осада Боралуса", -- [2]
 				},
-				[16057] = {
-					"Гнилой червь", -- [1]
-					"Пещеры Времени: годовщина", -- [2]
+				[79268] = {
+					"Пехотинец Преграды Ветров", -- [1]
+					"Ашран", -- [2]
 				},
 				[146731] = {
 					"Тотем зомбирующего порошка", -- [1]
@@ -55772,13 +57472,13 @@ PlaterDB = {
 					"Посланница глубин", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[123290] = {
-					"Блестопанцирный трещот", -- [1]
-					"SarasIsland", -- [2]
-				},
 				[140078] = {
 					"Горилла-крепкорук", -- [1]
 					"Crestfall (Islands 11)", -- [2]
+				},
+				[123290] = {
+					"Блестопанцирный трещот", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[152875] = {
 					"Могучий крушитель", -- [1]
@@ -55944,9 +57644,9 @@ PlaterDB = {
 					"Местра", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[132917] = {
-					"Разведчик из племени Умгат", -- [1]
-					"Un'gol Ruins (Islands 1)", -- [2]
+				[137012] = {
+					"Охотник из Новоземья", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[75857] = {
 					"Нестабильный элементаль магмы", -- [1]
@@ -55992,9 +57692,9 @@ PlaterDB = {
 					"Страж из клана Кровавого Молота", -- [1]
 					"Шлаковые шахты Кровавого Молота", -- [2]
 				},
-				[162096] = {
-					"Искусный некромант", -- [1]
-					"Финальный сценарий ковенанта Малдраксус", -- [2]
+				[93349] = {
+					"Loup", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[131383] = {
 					"Заклинатель спор Занча", -- [1]
@@ -56012,9 +57712,9 @@ PlaterDB = {
 					"Гигант из клана Злобного Плавника", -- [1]
 					"", -- [2]
 				},
-				[93349] = {
-					"Loup", -- [1]
-					"Месть Коррака", -- [2]
+				[162096] = {
+					"Искусный некромант", -- [1]
+					"Финальный сценарий ковенанта Малдраксус", -- [2]
 				},
 				[133943] = {
 					"Прислужник Зула", -- [1]
@@ -56056,9 +57756,9 @@ PlaterDB = {
 					"Сшитый боец авангарда", -- [1]
 					"Смертельная тризна", -- [2]
 				},
-				[41948] = {
-					"Хроматический прообраз", -- [1]
-					"Пещеры Времени: годовщина", -- [2]
+				[50138] = {
+					"Spirit Beast", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[176538] = {
 					"Усиленный голиаф", -- [1]
@@ -56200,13 +57900,13 @@ PlaterDB = {
 					"Горный пехотинец из клана Грозовой Вершины", -- [1]
 					"Месть Коррака", -- [2]
 				},
-				[11675] = {
-					"Призывательница ветров из стаи Снежной Слепоты", -- [1]
-					"Альтеракская долина", -- [2]
-				},
 				[162102] = {
 					"Верховная надзирательница Бериллия", -- [1]
 					"Кровавые катакомбы", -- [2]
+				},
+				[11675] = {
+					"Призывательница ветров из стаи Снежной Слепоты", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[42717] = {
 					"Саблезуб", -- [1]
@@ -56264,9 +57964,9 @@ PlaterDB = {
 					"Заблудшая душа", -- [1]
 					"Подгнилье", -- [2]
 				},
-				[138558] = {
-					"Безликий", -- [1]
-					"", -- [2]
+				[163128] = {
+					"Чародей с \"Золрамуса\"", -- [1]
+					"Смертельная тризна", -- [2]
 				},
 				[133439] = {
 					"Наездница на грифоне из Стромгарда", -- [1]
@@ -56276,9 +57976,9 @@ PlaterDB = {
 					"Лорд Этелдрин Гребень Ворона", -- [1]
 					"Крепость Черной Ладьи", -- [2]
 				},
-				[163128] = {
-					"Чародей с \"Золрамуса\"", -- [1]
-					"Смертельная тризна", -- [2]
+				[138558] = {
+					"Безликий", -- [1]
+					"", -- [2]
 				},
 				[77741] = {
 					"Mäusefang", -- [1]
@@ -56288,9 +57988,9 @@ PlaterDB = {
 					"Заколдованный капитан", -- [1]
 					"Усадьба Уэйкрестов", -- [2]
 				},
-				[135999] = {
-					"Гелиодор", -- [1]
-					"Snowblossom Village (Islands 3)", -- [2]
+				[176949] = {
+					"Верный Утробе заклинатель углей", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[138890] = {
 					"Даргульф Искатель Духов", -- [1]
@@ -56384,17 +58084,17 @@ PlaterDB = {
 					"Хранитель склепа", -- [1]
 					"", -- [2]
 				},
-				[140609] = {
-					"Жестокий мако", -- [1]
-					"SarasIsland", -- [2]
-				},
 				[13147] = {
 					"Лейтенант Льюис", -- [1]
 					"Месть Коррака", -- [2]
 				},
-				[149311] = {
-					"Шандриса Оперенная Луна", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[140609] = {
+					"Жестокий мако", -- [1]
+					"SarasIsland", -- [2]
+				},
+				[137026] = {
+					"Гончая из Новоземья", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[155860] = {
 					"Ширакесс-развоплотитель", -- [1]
@@ -56508,17 +58208,17 @@ PlaterDB = {
 					"Ядоклык-отшельник", -- [1]
 					"", -- [2]
 				},
-				[152898] = {
-					"Угасший хор", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[161088] = {
+					"Rénfri-Sylvanas", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[136006] = {
 					"Буйная гуляка", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[161088] = {
-					"Rénfri-Sylvanas", -- [1]
-					"Храм Котмогу", -- [2]
+				[152898] = {
+					"Угасший хор", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[80816] = {
 					"Ахри'ок Дугру", -- [1]
@@ -56548,25 +58248,25 @@ PlaterDB = {
 					"Колосс из темной стали", -- [1]
 					"Святилище Господства", -- [2]
 				},
-				[111273] = {
-					"Черепаха", -- [1]
-					"Ущелье Песни Войны", -- [2]
+				[37217] = {
+					"Прелесть", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[10364] = {
 					"Яэлика Длинный Коготь", -- [1]
 					"Альтеракская долина", -- [2]
 				},
-				[138567] = {
-					"Шаттот Каратель", -- [1]
-					"", -- [2]
+				[37729] = {
+					"Грозный разоритель", -- [1]
+					"Яма Сарона", -- [2]
 				},
 				[139675] = {
 					"Искатель Глубин", -- [1]
 					"", -- [2]
 				},
-				[37729] = {
-					"Грозный разоритель", -- [1]
-					"Яма Сарона", -- [2]
+				[138567] = {
+					"Шаттот Каратель", -- [1]
+					"", -- [2]
 				},
 				[138556] = {
 					"Нечистый слизнюк", -- [1]
@@ -56632,17 +58332,17 @@ PlaterDB = {
 					"Гранатовый червь", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[136010] = {
-					"Граненый землелом", -- [1]
-					"Snowblossom Village (Islands 3)", -- [2]
+				[152390] = {
+					"Вышедший из-под контроля эксперимент", -- [1]
+					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
 				},
 				[172434] = {
 					"Рекрут из Грехопада", -- [1]
 					"Sinfall Scenario", -- [2]
 				},
-				[152390] = {
-					"Вышедший из-под контроля эксперимент", -- [1]
-					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
+				[136010] = {
+					"Граненый землелом", -- [1]
+					"Snowblossom Village (Islands 3)", -- [2]
 				},
 				[135932] = {
 					"Вулканар", -- [1]
@@ -56652,9 +58352,9 @@ PlaterDB = {
 					"Дракон из стаи Громовой Чешуи", -- [1]
 					"Jorundall (Islands 7)", -- [2]
 				},
-				[101549] = {
-					"Чародейский прислужник", -- [1]
-					"Крепость Черной Ладьи", -- [2]
+				[162116] = {
+					"Лианис Закат Луны", -- [1]
+					"Vision of Ysera Scenario", -- [2]
 				},
 				[133963] = {
 					"Подопытная крыса", -- [1]
@@ -56668,12 +58368,12 @@ PlaterDB = {
 					"Затерявшийся среди волн защитник", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[140106] = {
-					"Смертежал - страж кладки", -- [1]
-					"", -- [2]
-				},
 				[136011] = {
 					"Камнекров", -- [1]
+					"", -- [2]
+				},
+				[140106] = {
+					"Смертежал - страж кладки", -- [1]
 					"", -- [2]
 				},
 				[140070] = {
@@ -56696,14 +58396,6 @@ PlaterDB = {
 					"Странствующая вестница Света", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[140107] = {
-					"Разящий смертежал", -- [1]
-					"", -- [2]
-				},
-				[165189] = {
-					"Kendrick", -- [1]
-					"Битва за Гилнеас", -- [2]
-				},
 				[136012] = {
 					"Горус Несдвигаемый", -- [1]
 					"SarasIsland", -- [2]
@@ -56711,6 +58403,14 @@ PlaterDB = {
 				[140619] = {
 					"Береговой ярдозуб", -- [1]
 					"", -- [2]
+				},
+				[140107] = {
+					"Разящий смертежал", -- [1]
+					"", -- [2]
+				},
+				[165189] = {
+					"Kendrick", -- [1]
+					"Битва за Гилнеас", -- [2]
 				},
 				[148622] = {
 					"Проекция Кимбула", -- [1]
@@ -56756,9 +58456,9 @@ PlaterDB = {
 					"Докер Торговой компании", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[171333] = {
-					"Верный служитель из племени Атал'ай", -- [1]
-					"Та Сторона", -- [2]
+				[95920] = {
+					"Ожившая буря", -- [1]
+					"Око Азшары", -- [2]
 				},
 				[134990] = {
 					"Заряженная песчаная дьяволица", -- [1]
@@ -56892,9 +58592,9 @@ PlaterDB = {
 					"Демиург Телу", -- [1]
 					"Вечное Цветение", -- [2]
 				},
-				[151886] = {
-					"Отстраненная мысль", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[164171] = {
+					"Почтенный дуэлянт", -- [1]
+					"Revendreth Scenario", -- [2]
 				},
 				[13116] = {
 					"Хранитель душ Альянса", -- [1]
@@ -56932,13 +58632,13 @@ PlaterDB = {
 					"Ламинария", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[171339] = {
-					"Плененный свежеватель душ", -- [1]
-					"Sinfall Scenario", -- [2]
-				},
 				[146769] = {
 					"Друид-хищница", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
+				},
+				[171339] = {
+					"Плененный свежеватель душ", -- [1]
+					"Sinfall Scenario", -- [2]
 				},
 				[159633] = {
 					"Сектантка-палач", -- [1]
@@ -57144,9 +58844,9 @@ PlaterDB = {
 					"Оскверненный дух", -- [1]
 					"Некрополь Призрачной Луны", -- [2]
 				},
-				[135002] = {
-					"Демонический тиран", -- [1]
-					"Альтеракская долина", -- [2]
+				[139097] = {
+					"Песчаный стрелок", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[75506] = {
 					"Верная служительница из клана Призрачной Луны", -- [1]
@@ -57188,25 +58888,25 @@ PlaterDB = {
 					"Нииза Нокс", -- [1]
 					"Железные доки", -- [2]
 				},
-				[75452] = {
-					"Костебрюх", -- [1]
-					"Некрополь Призрачной Луны", -- [2]
+				[163157] = {
+					"Амарт", -- [1]
+					"Смертельная тризна", -- [2]
 				},
 				[149336] = {
 					"Базальтовый азерит", -- [1]
 					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[153943] = {
-					"Дециматор Шик'вот", -- [1]
-					"Жуткое видение Оргриммара", -- [2]
+				[162133] = {
+					"Генерал Кааль", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[13152] = {
 					"Командир Малгор", -- [1]
 					"Альтеракская долина", -- [2]
 				},
-				[163157] = {
-					"Амарт", -- [1]
-					"Смертельная тризна", -- [2]
+				[75452] = {
+					"Костебрюх", -- [1]
+					"Некрополь Призрачной Луны", -- [2]
 				},
 				[132741] = {
 					"Огненная гидра", -- [1]
@@ -57372,9 +59072,9 @@ PlaterDB = {
 					"Жестокий страж гнева", -- [1]
 					"Казематы Стражей", -- [2]
 				},
-				[102584] = {
-					"Злонравный осквернитель", -- [1]
-					"Казематы Стражей", -- [2]
+				[151901] = {
+					"Беспокойный дух", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
 				[136591] = {
 					"Oso", -- [1]
@@ -57512,17 +59212,17 @@ PlaterDB = {
 					"Канонир дома Эшвейнов", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[170845] = {
-					"Хезкет", -- [1]
-					"Финальный сценарий ковенанта Малдраксус", -- [2]
+				[138085] = {
+					"Жрец из Стальгорна", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[102094] = {
 					"Восставший мечник", -- [1]
 					"Крепость Черной Ладьи", -- [2]
 				},
-				[138085] = {
-					"Жрец из Стальгорна", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[170845] = {
+					"Хезкет", -- [1]
+					"Финальный сценарий ковенанта Малдраксус", -- [2]
 				},
 				[146251] = {
 					"Сестра Кэтрин", -- [1]
@@ -57532,17 +59232,17 @@ PlaterDB = {
 					"Подчинитель костей из клана Призрачной Луны", -- [1]
 					"Некрополь Призрачной Луны", -- [2]
 				},
-				[164191] = {
-					"Придворная аристократка", -- [1]
-					"Revendreth Scenario", -- [2]
+				[131431] = {
+					"Автоматический инспектор по безопасности", -- [1]
+					"", -- [2]
 				},
 				[13437] = {
 					"Командир звена Ромеон", -- [1]
 					"Альтеракская долина", -- [2]
 				},
-				[177500] = {
-					"Корсар-громила", -- [1]
-					"Тайный рынок Тазавеш", -- [2]
+				[173405] = {
+					"Вестник смерти Йитла", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[137784] = {
 					"Защитник Аратора", -- [1]
@@ -57692,9 +59392,9 @@ PlaterDB = {
 					"Грозный хладный дух", -- [1]
 					"Яма Сарона", -- [2]
 				},
-				[131436] = {
-					"Избранная кровавая матрона", -- [1]
-					"Подгнилье", -- [2]
+				[139626] = {
+					"Утопший матрос", -- [1]
+					"Святилище Штормов", -- [2]
 				},
 				[37098] = {
 					"Валь'кира-глашатай", -- [1]
@@ -57736,9 +59436,9 @@ PlaterDB = {
 					"Насыщательница душ", -- [1]
 					"Замок Нафрия", -- [2]
 				},
-				[137068] = {
-					"Кавалеристка с дороги Храброгласа", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[178018] = {
+					"Чудовищный вурдалак", -- [1]
+					"9.1 Andorhal - Kyrian Chapter Scenario", -- [2]
 				},
 				[11678] = {
 					"Душительница из стаи Снежной Слепоты", -- [1]
@@ -57764,9 +59464,9 @@ PlaterDB = {
 					"Волнокрут", -- [1]
 					"The Rotting Mire (Islands 9)", -- [2]
 				},
-				[144747] = {
-					"Воплощение Па'ку", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[165222] = {
+					"Костоправ с \"Золрамуса\"", -- [1]
+					"Смертельная тризна", -- [2]
 				},
 				[81638] = {
 					"Водяная капля", -- [1]
@@ -57808,21 +59508,21 @@ PlaterDB = {
 					"Изначальный элементаль огня", -- [1]
 					"Храм Котмогу", -- [2]
 				},
-				[154474] = {
-					"Шаманка стихий Турлога", -- [1]
-					"Альтеракская долина", -- [2]
+				[162664] = {
+					"Акир-роевик", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[145261] = {
-					"Роскошь", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[153451] = {
+					"Козарус Падший", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[105419] = {
 					"Ужасный василиск", -- [1]
 					"Битва за Гилнеас", -- [2]
 				},
-				[153451] = {
-					"Козарус Падший", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[145261] = {
+					"Роскошь", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[136047] = {
 					"Ледосерд", -- [1]
@@ -57932,9 +59632,9 @@ PlaterDB = {
 					"Азеритовое чудище", -- [1]
 					"", -- [2]
 				},
-				[156015] = {
-					"Ползучая духоплазма", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[13598] = {
+					"Эксперт по взрывчатым веществам из клана Грозовой Вершины", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[138098] = {
 					"Ветеран из Стальгорна", -- [1]
@@ -57944,21 +59644,9 @@ PlaterDB = {
 					"Фрагмент Троз'игала", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[13598] = {
-					"Эксперт по взрывчатым веществам из клана Грозовой Вершины", -- [1]
-					"Месть Коррака", -- [2]
-				},
-				[13438] = {
-					"Командир звена Макарч", -- [1]
-					"Альтеракская долина", -- [2]
-				},
 				[75976] = {
 					"Низкорожденный араккоа", -- [1]
 					"Небесный Путь", -- [2]
-				},
-				[37228] = {
-					"Воин Служителей Льда", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
 				},
 				[149360] = {
 					"Азеритовая глыба", -- [1]
@@ -57967,6 +59655,18 @@ PlaterDB = {
 				[131445] = {
 					"Надзиратель блока", -- [1]
 					"Тол Дагор", -- [2]
+				},
+				[140658] = {
+					"Жесткая Шкура", -- [1]
+					"", -- [2]
+				},
+				[13438] = {
+					"Командир звена Макарч", -- [1]
+					"Альтеракская долина", -- [2]
+				},
+				[147825] = {
+					"Медик 7-го легиона", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[79303] = {
 					"Когтекрыл-ветеран", -- [1]
@@ -57980,9 +59680,9 @@ PlaterDB = {
 					"Воскрешенный верховный маг", -- [1]
 					"Цитадель Ледяной Короны", -- [2]
 				},
-				[147825] = {
-					"Медик 7-го легиона", -- [1]
-					"Битва за Дазар'алор", -- [2]
+				[156015] = {
+					"Ползучая духоплазма", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[140147] = {
 					"Большой Урсу", -- [1]
@@ -58048,9 +59748,9 @@ PlaterDB = {
 					"Морпех 7-го легиона", -- [1]
 					"Битва за Дазар'алор", -- [2]
 				},
-				[144244] = {
-					"\"Платиновый лупцеватор\"", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[177004] = {
+					"Страдающее слияние", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[172899] = {
 					"Каратель из замка Нафрия", -- [1]
@@ -58060,9 +59760,9 @@ PlaterDB = {
 					"Владыка Небесного Пути", -- [1]
 					"Небесный Путь", -- [2]
 				},
-				[138103] = {
-					"Стромгардская арбалетчица", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[75210] = {
+					"Страж из клана Кровавого Молота", -- [1]
+					"Шлаковые шахты Кровавого Молота", -- [2]
 				},
 				[138102] = {
 					"Стромгардская жрица", -- [1]
@@ -58084,21 +59784,21 @@ PlaterDB = {
 					"Манта Южных морей", -- [1]
 					"Un'gol Ruins (Islands 1)", -- [2]
 				},
-				[37229] = {
-					"Колдунья Служителей Льда", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
+				[144757] = {
+					"Эдгард Темный Коготь", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[10367] = {
-					"Шри Десница Гнева", -- [1]
-					"Альтеракская долина", -- [2]
+				[28920] = {
+					"Великан из клана Закаленных Бурей", -- [1]
+					"Чертоги Молний", -- [2]
 				},
 				[137591] = {
 					"Тотем целительного прилива", -- [1]
 					"Гробница королей", -- [2]
 				},
-				[75210] = {
-					"Страж из клана Кровавого Молота", -- [1]
-					"Шлаковые шахты Кровавого Молота", -- [2]
+				[138103] = {
+					"Стромгардская арбалетчица", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[144246] = {
 					"КУ-ДЖ0", -- [1]
@@ -58164,17 +59864,17 @@ PlaterDB = {
 					"Стромгардский ветеран", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[129214] = {
-					"Платный разгонятель толпы", -- [1]
-					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
+				[75979] = {
+					"Эксгумированный дух", -- [1]
+					"Некрополь Призрачной Луны", -- [2]
 				},
 				[129470] = {
 					"Глубоководный краб", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[75979] = {
-					"Эксгумированный дух", -- [1]
-					"Некрополь Призрачной Луны", -- [2]
+				[129214] = {
+					"Платный разгонятель толпы", -- [1]
+					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
 				[144248] = {
 					"Главный машинист Искроточец", -- [1]
@@ -58508,21 +60208,21 @@ PlaterDB = {
 					"Священница с дороги Храброгласа", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[28920] = {
-					"Великан из клана Закаленных Бурей", -- [1]
-					"Чертоги Молний", -- [2]
+				[10367] = {
+					"Шри Десница Гнева", -- [1]
+					"Альтеракская долина", -- [2]
 				},
-				[144757] = {
-					"Эдгард Темный Коготь", -- [1]
-					"Фронты на Темных берегах (Орда)", -- [2]
+				[37229] = {
+					"Колдунья Служителей Льда", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[138628] = {
 					"Аматет-жрец", -- [1]
 					"", -- [2]
 				},
-				[177004] = {
-					"Страдающее слияние", -- [1]
-					"Святилище Господства", -- [2]
+				[144244] = {
+					"\"Платиновый лупцеватор\"", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[139652] = {
 					"Береговик из племени Холодного Сияния", -- [1]
@@ -58560,9 +60260,9 @@ PlaterDB = {
 					"Голиаф раскольников", -- [1]
 					"Шпили Перерождения", -- [2]
 				},
-				[140658] = {
-					"Жесткая Шкура", -- [1]
-					"", -- [2]
+				[37228] = {
+					"Воин Служителей Льда", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[144772] = {
 					"Леди Тамакин", -- [1]
@@ -58640,9 +60340,9 @@ PlaterDB = {
 					"Фальк", -- [1]
 					"Око Бури", -- [2]
 				},
-				[162664] = {
-					"Акир-роевик", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[154474] = {
+					"Шаманка стихий Турлога", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[138632] = {
 					"Страж Азуда", -- [1]
@@ -58660,17 +60360,17 @@ PlaterDB = {
 					"Старый Бубум", -- [1]
 					"Molten Cay (Islands 6)", -- [2]
 				},
-				[165222] = {
-					"Костоправ с \"Золрамуса\"", -- [1]
-					"Смертельная тризна", -- [2]
+				[144747] = {
+					"Воплощение Па'ку", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[157572] = {
 					"Верный Утробе призыватель огня", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[178018] = {
-					"Чудовищный вурдалак", -- [1]
-					"9.1 Andorhal - Kyrian Chapter Scenario", -- [2]
+				[137068] = {
+					"Кавалеристка с дороги Храброгласа", -- [1]
+					"Фронт Арати (Орда)", -- [2]
 				},
 				[162691] = {
 					"Чумокост", -- [1]
@@ -58688,9 +60388,9 @@ PlaterDB = {
 					"Ядовитый змей", -- [1]
 					"Храм Сетралисс", -- [2]
 				},
-				[139626] = {
-					"Утопший матрос", -- [1]
-					"Святилище Штормов", -- [2]
+				[131436] = {
+					"Избранная кровавая матрона", -- [1]
+					"Подгнилье", -- [2]
 				},
 				[132491] = {
 					"Кул-тирасский стрелок", -- [1]
@@ -58764,13 +60464,13 @@ PlaterDB = {
 					"Пылающий инфернал", -- [1]
 					"Казематы Стражей", -- [2]
 				},
-				[173405] = {
-					"Вестник смерти Йитла", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[177500] = {
+					"Корсар-громила", -- [1]
+					"Тайный рынок Тазавеш", -- [2]
 				},
-				[131431] = {
-					"Автоматический инспектор по безопасности", -- [1]
-					"", -- [2]
+				[164191] = {
+					"Придворная аристократка", -- [1]
+					"Revendreth Scenario", -- [2]
 				},
 				[171396] = {
 					"Кирийский голиаф", -- [1]
@@ -58860,9 +60560,9 @@ PlaterDB = {
 					"Локен", -- [1]
 					"Чертоги Молний", -- [2]
 				},
-				[151901] = {
-					"Беспокойный дух", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[102584] = {
+					"Злонравный осквернитель", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[140341] = {
 					"Облачный Резвун", -- [1]
@@ -58952,9 +60652,9 @@ PlaterDB = {
 					"Ползун-лютоклык", -- [1]
 					"", -- [2]
 				},
-				[162133] = {
-					"Генерал Кааль", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[153943] = {
+					"Дециматор Шик'вот", -- [1]
+					"Жуткое видение Оргриммара", -- [2]
 				},
 				[13216] = {
 					"Гаелден Кузнечный Молот", -- [1]
@@ -58988,9 +60688,9 @@ PlaterDB = {
 					"Лазутчица Дераксис", -- [1]
 					"Казематы Стражей", -- [2]
 				},
-				[139097] = {
-					"Песчаный стрелок", -- [1]
-					"Храм Сетралисс", -- [2]
+				[135002] = {
+					"Демонический тиран", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[76595] = {
 					"Саргерайская жрица душ", -- [1]
@@ -59132,9 +60832,9 @@ PlaterDB = {
 					"Истязатель Айелета", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[164171] = {
-					"Почтенный дуэлянт", -- [1]
-					"Revendreth Scenario", -- [2]
+				[151886] = {
+					"Отстраненная мысль", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
 				[29308] = {
 					"Принц Талдарам", -- [1]
@@ -59184,9 +60884,9 @@ PlaterDB = {
 					"Крушащий ужас", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[95920] = {
-					"Ожившая буря", -- [1]
-					"Око Азшары", -- [2]
+				[171333] = {
+					"Верный служитель из племени Атал'ай", -- [1]
+					"Та Сторона", -- [2]
 				},
 				[136283] = {
 					"Смертопоклонница из клана Черного Железа", -- [1]
@@ -59224,9 +60924,9 @@ PlaterDB = {
 					"Скелет-страж", -- [1]
 					"", -- [2]
 				},
-				[162116] = {
-					"Лианис Закат Луны", -- [1]
-					"Vision of Ysera Scenario", -- [2]
+				[101549] = {
+					"Чародейский прислужник", -- [1]
+					"Крепость Черной Ладьи", -- [2]
 				},
 				[139674] = {
 					"Глубинный ходок", -- [1]
@@ -59268,9 +60968,9 @@ PlaterDB = {
 					"Голодный пожиратель плоти", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[37217] = {
-					"Прелесть", -- [1]
-					"Цитадель Ледяной Короны", -- [2]
+				[111273] = {
+					"Черепаха", -- [1]
+					"Ущелье Песни Войны", -- [2]
 				},
 				[36961] = {
 					"Сержант с \"Усмирителя небес\"", -- [1]
@@ -59344,9 +61044,9 @@ PlaterDB = {
 					"Тотем бесконечного голода", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[137026] = {
-					"Гончая из Новоземья", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[149311] = {
+					"Шандриса Оперенная Луна", -- [1]
+					"Фронты на Темных берегах (Орда)", -- [2]
 				},
 				[146844] = {
 					"Ольфкриг Подчиненный", -- [1]
@@ -59416,9 +61116,9 @@ PlaterDB = {
 					"Гренадер из братства Стальных Волн", -- [1]
 					"Вольная Гавань", -- [2]
 				},
-				[176949] = {
-					"Верный Утробе заклинатель углей", -- [1]
-					"Святилище Господства", -- [2]
+				[135999] = {
+					"Гелиодор", -- [1]
+					"Snowblossom Village (Islands 3)", -- [2]
 				},
 				[139680] = {
 					"Ловец из темных глубин", -- [1]
@@ -59524,9 +61224,9 @@ PlaterDB = {
 					"Темный инквизитор Занеш", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[50138] = {
-					"Spirit Beast", -- [1]
-					"Альтеракская долина", -- [2]
+				[41948] = {
+					"Хроматический прообраз", -- [1]
+					"Пещеры Времени: годовщина", -- [2]
 				},
 				[38392] = {
 					"Валь'кира-защитница", -- [1]
@@ -59552,9 +61252,9 @@ PlaterDB = {
 					"Усиленный голиаф", -- [1]
 					"Святилище Господства", -- [2]
 				},
-				[137012] = {
-					"Охотник из Новоземья", -- [1]
-					"Фронт Арати (Орда)", -- [2]
+				[132917] = {
+					"Разведчик из племени Умгат", -- [1]
+					"Un'gol Ruins (Islands 1)", -- [2]
 				},
 				[152993] = {
 					"Гарона Полуорчиха", -- [1]
@@ -59640,9 +61340,9 @@ PlaterDB = {
 					"Кефолкис Эксгумированный", -- [1]
 					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[79268] = {
-					"Пехотинец Преграды Ветров", -- [1]
-					"Ашран", -- [2]
+				[16057] = {
+					"Гнилой червь", -- [1]
+					"Пещеры Времени: годовщина", -- [2]
 				},
 				[172447] = {
 					"Рекрут из Грехопада", -- [1]
@@ -59676,9 +61376,9 @@ PlaterDB = {
 					"\"Шокотрон X1\"", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[123288] = {
-					"Канонир из братства Южных Морей", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[176929] = {
+					"Часть души Кел'Тузада", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[29822] = {
 					"Огнепряд Драккари", -- [1]
@@ -59716,9 +61416,9 @@ PlaterDB = {
 					"Танк-паук", -- [1]
 					"Операция \"Мехагон\"", -- [2]
 				},
-				[140072] = {
-					"Зверолов Лютый", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[123287] = {
+					"Сорвиголова из братства Южных Морей", -- [1]
+					"Molten Cay (Islands 6)", -- [2]
 				},
 				[157605] = {
 					"Подземное щупальце", -- [1]
@@ -59752,9 +61452,9 @@ PlaterDB = {
 					"Имперский смотритель", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[171805] = {
-					"Писец-исследовательница", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[134950] = {
+					"Ужасный паук", -- [1]
+					"", -- [2]
 				},
 				[136879] = {
 					"Пожиратель лавы Мабуту", -- [1]
@@ -59832,9 +61532,9 @@ PlaterDB = {
 					"Порабощенный элементаль камня", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[69791] = {
-					"Nainumu", -- [1]
-					"Альтеракская долина", -- [2]
+				[155930] = {
+					"Избранный из Глубинного улья", -- [1]
+					"Сценарий Могу'шан", -- [2]
 				},
 				[151978] = {
 					"Водный долгоног", -- [1]
@@ -59912,13 +61612,13 @@ PlaterDB = {
 					"Имперский цензор", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[81305] = {
-					"Раздиратель Плоти Нок'Гар", -- [1]
-					"Железные доки", -- [2]
+				[150293] = {
+					"Мехагонский хищник", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
-				[165137] = {
-					"Хранитель врат с \"Золрамуса\"", -- [1]
-					"Смертельная тризна", -- [2]
+				[152852] = {
+					"Пашмар Фанатичная", -- [1]
+					"Вечный дворец", -- [2]
 				},
 				[130521] = {
 					"Палубный матрос из Вольной Гавани", -- [1]
@@ -59960,9 +61660,9 @@ PlaterDB = {
 					"Подавитель Кер", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[98963] = {
-					"Пылающий бес", -- [1]
-					"Казематы Стражей", -- [2]
+				[140564] = {
+					"Серный магмозев", -- [1]
+					"Molten Cay (Islands 6)", -- [2]
 				},
 				[139697] = {
 					"Верховный шаман Клаксикар", -- [1]
@@ -60016,25 +61716,25 @@ PlaterDB = {
 					"Разак Сковородкер", -- [1]
 					"", -- [2]
 				},
-				[157452] = {
-					"Кошмарный антиген", -- [1]
+				[29931] = {
+					"Люторог Драккари", -- [1]
+					"Гундрак", -- [2]
+				},
+				[152333] = {
+					"Темный следопыт Ленара", -- [1]
+					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
+				},
+				[139536] = {
+					"Зара'тик - трутень", -- [1]
+					"SarasIsland", -- [2]
+				},
+				[157451] = {
+					"Непреклонный каратель", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[168713] = {
-					"Призыватель ужаса Скульфир", -- [1]
-					"9.0 Ardenweald Covenant Finale Drust Scenario", -- [2]
-				},
-				[180486] = {
-					"Грязесвист", -- [1]
-					"Тайный рынок Тазавеш", -- [2]
-				},
-				[136976] = {
-					"Т'зала", -- [1]
-					"Гробница королей", -- [2]
-				},
-				[91796] = {
-					"Скрог-волнолом", -- [1]
-					"Око Азшары", -- [2]
+				[75416] = {
+					"Хладнорылый вепрь", -- [1]
+					"FW Horde Garrison Level 3", -- [2]
 				},
 				[177578] = {
 					"Артас Менетил", -- [1]
@@ -60064,25 +61764,25 @@ PlaterDB = {
 					"\"Ахиллит\"", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[182530] = {
-					"Перехватчица оскверненной стали", -- [1]
-					"Казематы Стражей", -- [2]
+				[137485] = {
+					"Одержимый кровью шпион", -- [1]
+					"Гробница королей", -- [2]
 				},
 				[173484] = {
 					"Сотворенное воплощение", -- [1]
 					"Замок Нафрия", -- [2]
 				},
-				[139529] = {
-					"Муклай", -- [1]
-					"", -- [2]
+				[151814] = {
+					"Угасший фантом", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[95886] = {
-					"Вул'кан", -- [1]
-					"Казематы Стражей", -- [2]
+				[138505] = {
+					"Мутировавший смотритель кладки", -- [1]
+					"Molten Cay (Islands 6)", -- [2]
 				},
-				[162051] = {
-					"Взбесившийся вурдалак", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[174336] = {
+					"Смотрительница псарни", -- [1]
+					"Замок Нафрия", -- [2]
 				},
 				[83687] = {
 					"Огрон-разрушитель", -- [1]
@@ -60100,9 +61800,9 @@ PlaterDB = {
 					"Взрывоопасный чумной бурильщик", -- [1]
 					"Чумные каскады", -- [2]
 				},
-				[131849] = {
-					"Обезумевший стрелок", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[152324] = {
+					"Альдвин Лафлин", -- [1]
+					"Жуткое видение Штормграда", -- [2]
 				},
 				[48634] = {
 					"Боевой штандарт гильдии", -- [1]
@@ -60116,21 +61816,21 @@ PlaterDB = {
 					"Гнимо", -- [1]
 					"Два Пика", -- [2]
 				},
-				[133384] = {
-					"Меректа", -- [1]
-					"Храм Сетралисс", -- [2]
+				[162049] = {
+					"Частица сомнений", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
-				[152835] = {
-					"Кристаллизированный азерит", -- [1]
-					"Водоворот – Сердце Азерот", -- [2]
+				[177405] = {
+					"Сильвана Ветрокрылая", -- [1]
+					"9.1 Battle of Ardenweald", -- [2]
 				},
 				[147892] = {
 					"Защитник дома Праудмуров", -- [1]
 					"Сценарий Тол Дагора", -- [2]
 				},
-				[178427] = {
-					"Угасшее умертвие", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[162047] = {
+					"Ненасытный громила", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[153011] = {
 					"Подчинитель Баритас", -- [1]
@@ -60176,17 +61876,17 @@ PlaterDB = {
 					"Манапард", -- [1]
 					"Квартал Звезд", -- [2]
 				},
-				[141566] = {
-					"Кишкодер из банды Резчиков", -- [1]
-					"Осада Боралуса", -- [2]
+				[162041] = {
+					"Чумазый гряземес", -- [1]
+					"Кровавые катакомбы", -- [2]
 				},
 				[146870] = {
 					"Чародейка Оназаи", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[171772] = {
-					"Туманная защитница", -- [1]
-					"Туманы Тирна Скитта", -- [2]
+				[139012] = {
+					"Дикий страж", -- [1]
+					"", -- [2]
 				},
 				[98533] = {
 					"Темная мать", -- [1]
@@ -60208,21 +61908,21 @@ PlaterDB = {
 					"Оживленная стигия", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[155900] = {
-					"Зса'лисс", -- [1]
-					"Вечный дворец", -- [2]
+				[127106] = {
+					"Офицер из братства Стальных Волн", -- [1]
+					"Вольная Гавань", -- [2]
 				},
 				[146871] = {
 					"Матриарх Нас'найя", -- [1]
 					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[152311] = {
-					"Занш'ир-мирмидон", -- [1]
-					"Вечный дворец", -- [2]
-				},
-				[135930] = {
-					"Лавоскал", -- [1]
+				[135931] = {
+					"Камнегарь", -- [1]
 					"Verdant Wilds (Islands 8)", -- [2]
+				},
+				[176880] = {
+					"Истязатель кричащих душ", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[76267] = {
 					"Солнечный ревнитель", -- [1]
@@ -60248,9 +61948,9 @@ PlaterDB = {
 					"Изгой Качота", -- [1]
 					"Snowblossom Village (Islands 3)", -- [2]
 				},
-				[16875] = {
-					"Лоур", -- [1]
-					"Горнило Штормов", -- [2]
+				[134904] = {
+					"Темнолов", -- [1]
+					"", -- [2]
 				},
 				[160181] = {
 					"Королевский чародей", -- [1]
@@ -60280,9 +61980,9 @@ PlaterDB = {
 					"Убийственная буря", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[123477] = {
-					"Страж ужаса из Анторуса", -- [1]
-					"Анторус, Пылающий Трон", -- [2]
+				[134390] = {
+					"Песочная змея", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[176562] = {
 					"Драчливый завсегдатай", -- [1]
@@ -60328,17 +62028,17 @@ PlaterDB = {
 					"Сейси", -- [1]
 					"Жуткое видение Оргриммара", -- [2]
 				},
-				[138484] = {
-					"Обсидиановый пророк", -- [1]
-					"Havenswood (Islands 2)", -- [2]
+				[168683] = {
+					"Горак Зар", -- [1]
+					"9.0 Ardenweald Covenant Finale Drust Scenario", -- [2]
 				},
 				[158136] = {
 					"Инквизитор Темнослов", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[82310] = {
-					"Каменношкурое речное чудище", -- [1]
-					"Ашран", -- [2]
+				[123477] = {
+					"Страж ужаса из Анторуса", -- [1]
+					"Анторус, Пылающий Трон", -- [2]
 				},
 				[146875] = {
 					"Валимок Зловредный", -- [1]
@@ -60360,13 +62060,13 @@ PlaterDB = {
 					"Лордеронский пехотинец", -- [1]
 					"Stratholme - Paladin Class Mount", -- [2]
 				},
-				[132849] = {
-					"Медвежонок-серошкур", -- [1]
-					"Molten Cay (Islands 6)", -- [2]
+				[139411] = {
+					"Многозуб", -- [1]
+					"Crestfall (Islands 11)", -- [2]
 				},
-				[79467] = {
-					"Адепт Рассвета", -- [1]
-					"Небесный Путь", -- [2]
+				[36811] = {
+					"Вестник смерти - помощник", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[179124] = {
 					"Тень судьбы", -- [1]
@@ -60496,9 +62196,9 @@ PlaterDB = {
 					"Проявление магии", -- [1]
 					"Квартал Звезд", -- [2]
 				},
-				[81279] = {
-					"Гром'карская огненная лучница", -- [1]
-					"Железные доки", -- [2]
+				[50885] = {
+					"patrannache", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[146880] = {
 					"Голвран Загадочный", -- [1]
@@ -60568,17 +62268,17 @@ PlaterDB = {
 					"Рунический старорог", -- [1]
 					"Та Сторона", -- [2]
 				},
-				[170199] = {
-					"Обузданный призрак", -- [1]
-					"Замок Нафрия", -- [2]
+				[28965] = {
+					"Титановый грозоносец", -- [1]
+					"Чертоги Молний", -- [2]
 				},
 				[176571] = {
 					"Верный Утробе охранник", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[164567] = {
-					"Ингра Малох", -- [1]
-					"Туманы Тирна Скитта", -- [2]
+				[152282] = {
+					"Элитная стражница подземной крепости", -- [1]
+					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
 				},
 				[160405] = {
 					"Рассерженный дух кресла из древня", -- [1]
@@ -60688,9 +62388,9 @@ PlaterDB = {
 					"Саргерайский защитник", -- [1]
 					"Аукиндон", -- [2]
 				},
-				[136407] = {
-					"Страж гнева", -- [1]
-					"Око Бури", -- [2]
+				[28836] = {
+					"Рунодел клана Закаленных Бурей", -- [1]
+					"Чертоги Молний", -- [2]
 				},
 				[54319] = {
 					"Lucidream", -- [1]
@@ -60744,9 +62444,9 @@ PlaterDB = {
 					"Пятнистый олененок", -- [1]
 					"Фронты на Темных берегах (Орда)", -- [2]
 				},
-				[135892] = {
-					"Высвобожденное пламя", -- [1]
-					"Molten Cay (Islands 6)", -- [2]
+				[164557] = {
+					"Фрагмент Халкиаса", -- [1]
+					"Чертоги Покаяния", -- [2]
 				},
 				[122088] = {
 					"Тихоступ из клана Скользящего Плавника", -- [1]
@@ -60756,9 +62456,9 @@ PlaterDB = {
 					"Верный Утробе проклятый", -- [1]
 					"Торгаст, Башня Проклятых", -- [2]
 				},
-				[165067] = {
-					"Маргор", -- [1]
-					"Замок Нафрия", -- [2]
+				[136402] = {
+					"Ур'зул", -- [1]
+					"Око Бури", -- [2]
 				},
 				[164362] = {
 					"Осклизлое лакомство", -- [1]
@@ -60776,9 +62476,9 @@ PlaterDB = {
 					"Боевой маг-ветеран", -- [1]
 					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
 				},
-				[139471] = {
-					"Буган Крушитель Плоти", -- [1]
-					"Snowblossom Village (Islands 3)", -- [2]
+				[37955] = {
+					"Кровавая королева Лана'тель", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[145865] = {
 					"Гилнеасский мушкетер", -- [1]
@@ -60836,17 +62536,17 @@ PlaterDB = {
 					"Гуназ", -- [1]
 					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
 				},
-				[98926] = {
-					"Темная охотница", -- [1]
-					"Казематы Стражей", -- [2]
+				[74356] = {
+					"Пленный шахтер", -- [1]
+					"Шлаковые шахты Кровавого Молота", -- [2]
 				},
 				[169925] = {
 					"Ворчливый официант", -- [1]
 					"Замок Нафрия", -- [2]
 				},
-				[155845] = {
-					"Морская пучина", -- [1]
-					"Вечный дворец", -- [2]
+				[180415] = {
+					"Верный Утробе секироносец", -- [1]
+					"Святилище Господства", -- [2]
 				},
 				[130622] = {
 					"Заклинатель штормов Оран", -- [1]
@@ -60924,9 +62624,9 @@ PlaterDB = {
 					"Неумирающий камнебес", -- [1]
 					"Чертоги Покаяния", -- [2]
 				},
-				[30625] = {
-					"Ониксфлэйм", -- [1]
-					"Ан'кахет: Старое Королевство", -- [2]
+				[138434] = {
+					"Ведьма бурь из клана Злобного Плавника", -- [1]
+					"", -- [2]
 				},
 				[177094] = {
 					"Сигни", -- [1]
@@ -60968,9 +62668,9 @@ PlaterDB = {
 					"Сумасшедший мастер ножа", -- [1]
 					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
-				[179891] = {
-					"Соггодон Ломатель", -- [1]
-					"Смертельная тризна", -- [2]
+				[83819] = {
+					"Камнебашня", -- [1]
+					"Ашран", -- [2]
 				},
 				[178631] = {
 					"Верный Утробе командир", -- [1]
@@ -61040,9 +62740,9 @@ PlaterDB = {
 					"Страж кузни Хуррул", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[50874] = {
-					"Tenok", -- [1]
-					"Ашран", -- [2]
+				[146102] = {
+					"Живая бомба", -- [1]
+					"Битва за Дазар'алор", -- [2]
 				},
 				[134612] = {
 					"Цепкие щупальца", -- [1]
@@ -61108,9 +62808,9 @@ PlaterDB = {
 					"LootTheDog", -- [1]
 					"Месть Коррака", -- [2]
 				},
-				[136883] = {
-					"Заклинатель шипов из племени Острогривов", -- [1]
-					"", -- [2]
+				[13426] = {
+					"Горный пехотинец-ветеран", -- [1]
+					"Месть Коррака", -- [2]
 				},
 				[180392] = {
 					"Горгоанский иссушитель душ", -- [1]
@@ -61132,9 +62832,9 @@ PlaterDB = {
 					"Работник фермы Новоземья", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[140976] = {
-					"Червь-бурильщик", -- [1]
-					"", -- [2]
+				[153261] = {
+					"Экспериментальный робот", -- [1]
+					"Осада Оргриммара – Сценарий \"Переворот\"", -- [2]
 				},
 				[140429] = {
 					"Поскакун Шустрый", -- [1]
@@ -61156,9 +62856,9 @@ PlaterDB = {
 					"Огнелетчица Торговой компании", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[157354] = {
-					"Вексиона", -- [1]
-					"Ни'алота, Пробуждающийся Город", -- [2]
+				[140974] = {
+					"Старозоб", -- [1]
+					"", -- [2]
 				},
 				[161745] = {
 					"Хепфис", -- [1]
@@ -61188,9 +62888,9 @@ PlaterDB = {
 					"Оживленный ящер", -- [1]
 					"Атал'Дазар", -- [2]
 				},
-				[178851] = {
-					"Горящая стигия", -- [1]
-					"Святилище Господства", -- [2]
+				[158376] = {
+					"Эгос", -- [1]
+					"Ни'алота, Пробуждающийся Город", -- [2]
 				},
 				[84984] = {
 					"Споровый образ", -- [1]
@@ -61216,21 +62916,21 @@ PlaterDB = {
 					"JeanJacques", -- [1]
 					"Ашран", -- [2]
 				},
-				[171171] = {
-					"Верный Утробе стрелок", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[150696] = {
+					"Глубинный скат - хранитель стаи", -- [1]
+					"Храм Котмогу", -- [2]
 				},
 				[136665] = {
 					"Наблюдатель корпорации Эшвейнов", -- [1]
 					"Тол Дагор", -- [2]
 				},
-				[140970] = {
-					"Скальный разрыватель", -- [1]
-					"SarasIsland", -- [2]
+				[89] = {
+					"Инфернал", -- [1]
+					"Каньон Суровых Ветров", -- [2]
 				},
-				[155814] = {
-					"Жуткая подменщица", -- [1]
-					"Вечный дворец", -- [2]
+				[168099] = {
+					"Усиленный Бессердечный-копейщик", -- [1]
+					"Торгаст, Башня Проклятых", -- [2]
 				},
 				[155813] = {
 					"Служитель суда", -- [1]
@@ -61272,9 +62972,9 @@ PlaterDB = {
 					"Калири - ужас небес", -- [1]
 					"Ашран", -- [2]
 				},
-				[160416] = {
-					"Рассерженный дух бочки эля", -- [1]
-					"Жуткое видение Штормграда", -- [2]
+				[135846] = {
+					"Песочная змея", -- [1]
+					"Храм Сетралисс", -- [2]
 				},
 				[36998] = {
 					"Заступник с \"Усмирителя небес\"", -- [1]
@@ -61328,13 +63028,13 @@ PlaterDB = {
 					"Шандриса Оперенная Луна", -- [1]
 					"9.1 Battle of Ardenweald", -- [2]
 				},
-				[173720] = {
-					"Жоробрюх Туманной Завесы", -- [1]
-					"Туманы Тирна Скитта", -- [2]
+				[136865] = {
+					"Узан Разоритель Песков", -- [1]
+					"Molten Cay (Islands 6)", -- [2]
 				},
-				[135329] = {
-					"Матрона Бриндл", -- [1]
-					"Усадьба Уэйкрестов", -- [2]
+				[122963] = {
+					"Резан", -- [1]
+					"Атал'Дазар", -- [2]
 				},
 				[164897] = {
 					"Туманник", -- [1]
@@ -61360,9 +63060,9 @@ PlaterDB = {
 					"Темный послушник", -- [1]
 					"Чертоги Созидания", -- [2]
 				},
-				[130640] = {
-					"Злобнокус-хвататель", -- [1]
-					"", -- [2]
+				[122450] = {
+					"Разрушитель миров Кин'гарота", -- [1]
+					"Анторус, Пылающий Трон", -- [2]
 				},
 				[36886] = {
 					"Упырь-душитель", -- [1]
@@ -61424,9 +63124,9 @@ PlaterDB = {
 					"Миския", -- [1]
 					"Revendreth Scenario", -- [2]
 				},
-				[168594] = {
-					"Часовой чертогов", -- [1]
-					"Кровавые катакомбы", -- [2]
+				[135834] = {
+					"Пагубное облако", -- [1]
+					"", -- [2]
 				},
 				[76376] = {
 					"Арканолог Небесного Пути", -- [1]
@@ -61468,9 +63168,9 @@ PlaterDB = {
 					"Тотем резонанса", -- [1]
 					"Каньон Суровых Ветров", -- [2]
 				},
-				[104275] = {
-					"Имаку'туя", -- [1]
-					"Квартал Звезд", -- [2]
+				[37813] = {
+					"Саурфанг Смертоносный", -- [1]
+					"Цитадель Ледяной Короны", -- [2]
 				},
 				[29829] = {
 					"Землетряс Драккари", -- [1]
@@ -61524,9 +63224,9 @@ PlaterDB = {
 					"Клешнедроб", -- [1]
 					"SarasIsland", -- [2]
 				},
-				[155791] = {
-					"Чудовищный ревун", -- [1]
-					"Вечный дворец", -- [2]
+				[54320] = {
+					"BanThalos", -- [1]
+					"Ашран", -- [2]
 				},
 				[13317] = {
 					"Шахтер Ледяного рудника", -- [1]
@@ -61572,17 +63272,17 @@ PlaterDB = {
 					"Крупный рунокопытный олень", -- [1]
 					"", -- [2]
 				},
-				[177286] = {
-					"Слияние фантазмы", -- [1]
-					"Торгаст, Башня Проклятых", -- [2]
+				[140431] = {
+					"Скальный козел", -- [1]
+					"", -- [2]
 				},
 				[141283] = {
 					"Кул-тирасский стражник", -- [1]
 					"Осада Боралуса", -- [2]
 				},
-				[177285] = {
-					"Верный Утробе хранитель врат", -- [1]
-					"9.1 Battle of Ardenweald", -- [2]
+				[140430] = {
+					"Скальный козлик", -- [1]
+					"SarasIsland", -- [2]
 				},
 				[168001] = {
 					"Усиленный охранник плавильной печи", -- [1]
@@ -61612,25 +63312,25 @@ PlaterDB = {
 					"Крушитель панцирей из племени Соленой Хмари", -- [1]
 					"Тайный рынок Тазавеш", -- [2]
 				},
-				[155272] = {
-					"Темноводный оракул", -- [1]
-					"Вечный дворец", -- [2]
+				[179842] = {
+					"Охранитель коммерции", -- [1]
+					"Тайный рынок Тазавеш", -- [2]
 				},
-				[140427] = {
-					"Скальный козел - вожак стада", -- [1]
-					"Crestfall (Islands 11)", -- [2]
+				[11600] = {
+					"Шаман Железного рудника", -- [1]
+					"Альтеракская долина", -- [2]
 				},
 				[76116] = {
 					"Неуловимый боец с шакрамом", -- [1]
 					"Небесный Путь", -- [2]
 				},
-				[151688] = {
-					"Дынедавитель", -- [1]
-					"Skittering Hollow (Islands 5)", -- [2]
+				[54318] = {
+					"Mietzekatze", -- [1]
+					"Два Пика", -- [2]
 				},
-				[155271] = {
-					"Глубинный охотник", -- [1]
-					"Вечный дворец", -- [2]
+				[179841] = {
+					"Опытный заклинатель искр", -- [1]
+					"Тайный рынок Тазавеш", -- [2]
 				},
 				[156641] = {
 					"Порабощенный оружейник", -- [1]
@@ -61644,17 +63344,17 @@ PlaterDB = {
 					"Hachiko", -- [1]
 					"Каньон Суровых Ветров", -- [2]
 				},
-				[154758] = {
-					"Токсичное чудище", -- [1]
-					"Операция \"Мехагон\"", -- [2]
+				[36658] = {
+					"Повелитель Плети Тираний", -- [1]
+					"Яма Сарона", -- [2]
 				},
-				[138888] = {
-					"Ворожей из дружины Кровавого Киля", -- [1]
+				[134793] = {
+					"Хребтосвет", -- [1]
+					"Un'gol Ruins (Islands 1)", -- [2]
+				},
+				[132745] = {
+					"Ледочешуйчатый странник", -- [1]
 					"", -- [2]
-				},
-				[21212] = {
-					"Леди Вайш", -- [1]
-					"Пещеры Времени: годовщина", -- [2]
 				},
 				[155618] = {
 					"Занш'ир-охотница", -- [1]
@@ -61684,9 +63384,9 @@ PlaterDB = {
 					"Сектант-мучитель", -- [1]
 					"Жуткое видение Штормграда", -- [2]
 				},
-				[168572] = {
-					"Гриб-штурмовик", -- [1]
-					"Чумные каскады", -- [2]
+				[96587] = {
+					"Скверноподданный заразитель", -- [1]
+					"Казематы Стражей", -- [2]
 				},
 				[155619] = {
 					"Занш'ир-гвардеец", -- [1]
@@ -61972,9 +63672,9 @@ PlaterDB = {
 					"Странствующая вестница Света", -- [1]
 					"Фронт Арати (Орда)", -- [2]
 				},
-				[180323] = {
-					"Чудовищная аномалия судьбы", -- [1]
-					"Святилище Господства", -- [2]
+				[151658] = {
+					"Танк-долгоног", -- [1]
+					"Операция \"Мехагон\"", -- [2]
 				},
 				[155628] = {
 					"Азш'ари-оракул", -- [1]
@@ -62000,9 +63700,9 @@ PlaterDB = {
 					"Краб-магнат", -- [1]
 					"ЗОЛОТАЯ ЖИЛА!!!", -- [2]
 				},
-				[134764] = {
-					"Громолет", -- [1]
-					"Whispering Reef (Islands 10)", -- [2]
+				[151144] = {
+					"Hati", -- [1]
+					"Сверкающие копи", -- [2]
 				},
 				[83717] = {
 					"Передовой боец Преграды Ветров", -- [1]
@@ -62392,10 +64092,10 @@ PlaterDB = {
 				["Jaina Encounter"] = 6,
 				["Reorder Nameplate"] = 4,
 				["Monk Statue"] = 2,
-				["Combo Points"] = 6,
+				["Extra Border"] = 2,
 				["Execute Range"] = 1,
 				["Target Color"] = 3,
-				["Extra Border"] = 2,
+				["Combo Points"] = 6,
 				["Aura Reorder"] = 3,
 			},
 			["minor_width_scale"] = 0.4900000095367432,
@@ -62427,7 +64127,7 @@ PlaterDB = {
 				["nameplateShowEnemyMinions"] = "0",
 				["nameplateShowFriendlyNPCs"] = "1",
 				["nameplateSelectedScale"] = "1",
-				["nameplateShowFriends"] = "0",
+				["nameplateShowFriends"] = "1",
 				["nameplateMotion"] = "1",
 				["nameplateMinScale"] = "1",
 				["nameplateOtherTopInset"] = "0.085",
@@ -62438,7 +64138,7 @@ PlaterDB = {
 				["nameplateOccludedAlphaMult"] = "0.4",
 				["nameplatePersonalShowAlways"] = "0",
 			},
-			["login_counter"] = 11895,
+			["login_counter"] = 11911,
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["friendlyplayer"] = {
@@ -63913,8 +65613,7 @@ PlaterDB = {
 					["Desc"] = "Time to die Spiteful affix",
 					["__TrashAt"] = 1612021821,
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    envTable.UpdateSpitefulWidget(unitFrame)\nend\n\n\n",
-					["SpellIds"] = {
-					},
+					["Name"] = "M+ Spiteful",
 					["PlaterCore"] = 1,
 					["Options"] = {
 						{
@@ -63975,7 +65674,8 @@ PlaterDB = {
 						}, -- [5]
 					},
 					["version"] = -1,
-					["Name"] = "M+ Spiteful",
+					["SpellIds"] = {
+					},
 					["NpcNames"] = {
 						"174773", -- [1]
 					},
@@ -63998,7 +65698,8 @@ PlaterDB = {
 					["Desc"] = "Time to die Spiteful affix",
 					["__TrashAt"] = 1616533321,
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    --insert code here\n    envTable.UpdateSpitefulWidget(unitFrame)\nend\n\n\n",
-					["Name"] = "M+ Spiteful",
+					["SpellIds"] = {
+					},
 					["PlaterCore"] = 1,
 					["Options"] = {
 						{
@@ -64104,8 +65805,7 @@ PlaterDB = {
 						}, -- [10]
 					},
 					["version"] = -1,
-					["SpellIds"] = {
-					},
+					["Name"] = "M+ Spiteful",
 					["NpcNames"] = {
 						"174773", -- [1]
 					},
@@ -64327,7 +66027,6 @@ PlaterDB = {
 					["Desc"] = "Highlight a very important cast applying several effects into the Cast Bar. Add spell in the Add Trigger field.",
 					["NpcNames"] = {
 					},
-					["Name"] = "Cast - Very Important [Plater]",
 					["SpellIds"] = {
 						321247, -- [1]
 						334522, -- [2]
@@ -64351,6 +66050,7 @@ PlaterDB = {
 						320197, -- [20]
 						329608, -- [21]
 					},
+					["Name"] = "Cast - Very Important [Plater]",
 					["PlaterCore"] = 1,
 					["version"] = -1,
 					["Options"] = {
@@ -64617,7 +66317,6 @@ PlaterDB = {
 					["Desc"] = "Flash, Bounce and Red Color the CastBar border when when an important cast is happening. Add spell in the Add Trigger field.",
 					["NpcNames"] = {
 					},
-					["Name"] = "Cast - Big Alert [Plater]",
 					["SpellIds"] = {
 						338353, -- [1]
 						334748, -- [2]
@@ -64678,6 +66377,7 @@ PlaterDB = {
 						270248, -- [57]
 						292926, -- [58]
 					},
+					["Name"] = "Cast - Big Alert [Plater]",
 					["PlaterCore"] = 1,
 					["version"] = -1,
 					["Options"] = {
@@ -64819,10 +66519,10 @@ PlaterDB = {
 					["Desc"] = "Cast alert for abilities which only the tank can interrupt.",
 					["NpcNames"] = {
 					},
-					["Name"] = "Cast - Tank Interrupt [P]",
 					["SpellIds"] = {
 						321828, -- [1]
 					},
+					["Name"] = "Cast - Tank Interrupt [P]",
 					["PlaterCore"] = 1,
 					["version"] = -1,
 					["Options"] = {
@@ -64964,12 +66664,12 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["NpcNames"] = {
 					},
-					["Name"] = "Cast - Alert + Timer [P]",
 					["SpellIds"] = {
 						350421, -- [1]
 						355571, -- [2]
 						355787, -- [3]
 					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["PlaterCore"] = 1,
 					["version"] = -1,
 					["Options"] = {
@@ -65323,12 +67023,12 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["NpcNames"] = {
 					},
-					["Name"] = "Cast - Alert + Timer [P]",
 					["SpellIds"] = {
 						350421, -- [1]
 						355787, -- [2]
 						348513, -- [3]
 					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["PlaterCore"] = 1,
 					["version"] = -1,
 					["Options"] = {
@@ -65477,13 +67177,13 @@ PlaterDB = {
 				["Explosion Affix M+"] = 11,
 				["Aura - Debuff Alert"] = 11,
 				["Fixate On You"] = 11,
-				["Cast - Ultra Important"] = 11,
-				["Cast - Castbar is Timer [P]"] = 2,
 				["Blink by Time Left"] = 1,
+				["Cast - Castbar is Timer [P]"] = 2,
+				["Cast - Ultra Important"] = 11,
 				["Cast - Big Alert"] = 12,
-				["Spiteful Affix"] = 3,
-				["Cast - Small Alert"] = 11,
 				["Auto Set Skull"] = 11,
+				["Cast - Small Alert"] = 11,
+				["Spiteful Affix"] = 3,
 				["Aura - Invalidate Unit"] = 1,
 				["Color Change"] = 1,
 				["Unit Power"] = 1,
@@ -65719,6 +67419,9 @@ PlaterDB = {
 		[319286] = {
 			["npcID"] = 164084,
 		},
+		[359203] = {
+			["npcID"] = 184059,
+		},
 		[320822] = {
 			["npcID"] = 165222,
 		},
@@ -65739,6 +67442,9 @@ PlaterDB = {
 			["encounterName"] = "Сильвана Ветрокрылая",
 			["encounterID"] = 2435,
 			["npcID"] = 175732,
+		},
+		[342317] = {
+			["npcID"] = 181005,
 		},
 		[316218] = {
 			["npcID"] = 161299,
@@ -65845,11 +67551,17 @@ PlaterDB = {
 		[332610] = {
 			["npcID"] = 156333,
 		},
+		[359733] = {
+			["npcID"] = 181349,
+		},
 		[341822] = {
 			["npcID"] = 166145,
 		},
 		[340799] = {
 			["npcID"] = 166139,
+		},
+		[359734] = {
+			["npcID"] = 185755,
 		},
 		[196563] = {
 			["encounterName"] = "Полководец Паржеш",
@@ -65964,6 +67676,9 @@ PlaterDB = {
 			["encounterName"] = "Генерал Кааль",
 			["encounterID"] = 2363,
 			["npcID"] = 162099,
+		},
+		[362308] = {
+			["npcID"] = 185755,
 		},
 		[342350] = {
 			["npcID"] = 174346,
@@ -66082,6 +67797,9 @@ PlaterDB = {
 		[330593] = {
 			["npcID"] = 168724,
 		},
+		[360228] = {
+			["npcID"] = 181839,
+		},
 		[321894] = {
 			["encounterName"] = "Налтор Криомант",
 			["encounterID"] = 2390,
@@ -66089,6 +67807,12 @@ PlaterDB = {
 		},
 		[318312] = {
 			["npcID"] = 163414,
+		},
+		[365905] = {
+			["npcID"] = 184860,
+		},
+		[360213] = {
+			["npcID"] = 181839,
 		},
 		[346459] = {
 			["encounterName"] = "Кел'Тузад",
@@ -66103,6 +67827,9 @@ PlaterDB = {
 			["encounterID"] = 1870,
 			["npcID"] = 104218,
 		},
+		[360076] = {
+			["npcID"] = 181839,
+		},
 		[350554] = {
 			["encounterName"] = "Писарь судьбы Ро-Кало",
 			["npcID"] = 175730,
@@ -66116,16 +67843,34 @@ PlaterDB = {
 			["npcID"] = 164517,
 			["encounterID"] = 2393,
 		},
+		[358314] = {
+			["npcID"] = 180162,
+		},
+		[364445] = {
+			["npcID"] = 180089,
+		},
 		[351067] = {
 			["encounterName"] = "Душа Нер'зула",
 			["npcID"] = 175729,
 			["encounterID"] = 2432,
 		},
+		[344411] = {
+			["npcID"] = 154330,
+		},
 		[358232] = {
 			["npcID"] = 180104,
 		},
+		[358171] = {
+			["npcID"] = 179070,
+		},
+		[336666] = {
+			["npcID"] = 158891,
+		},
 		[327016] = {
 			["npcID"] = 159156,
+		},
+		[359265] = {
+			["npcID"] = 185415,
 		},
 		[336228] = {
 			["npcID"] = 170694,
@@ -66133,14 +67878,36 @@ PlaterDB = {
 		[332646] = {
 			["npcID"] = 162872,
 		},
+		[331548] = {
+			["npcID"] = 167964,
+		},
 		[254920] = {
 			["npcID"] = 169206,
+		},
+		[196287] = {
+			["npcID"] = 91792,
+		},
+		[340759] = {
+			["npcID"] = 174732,
+		},
+		[225732] = {
+			["npcID"] = 98538,
+		},
+		[320300] = {
+			["encounterName"] = "Оскорбление претендентов",
+			["encounterID"] = 2391,
+			["npcID"] = 164461,
 		},
 		[354653] = {
 			["npcID"] = 179560,
 		},
 		[361306] = {
 			["npcID"] = 182152,
+		},
+		[351066] = {
+			["encounterName"] = "Душа Нер'зула",
+			["npcID"] = 175729,
+			["encounterID"] = 2432,
 		},
 		[323437] = {
 			["encounterName"] = "Лорд-камергер",
@@ -66173,6 +67940,11 @@ PlaterDB = {
 			["npcID"] = 175729,
 			["encounterID"] = 2432,
 		},
+		[209602] = {
+			["encounterName"] = "Советник Меландр",
+			["encounterID"] = 1870,
+			["npcID"] = 104218,
+		},
 		[358238] = {
 			["npcID"] = 178851,
 		},
@@ -66182,13 +67954,31 @@ PlaterDB = {
 		[330604] = {
 			["npcID"] = 168724,
 		},
+		[355127] = {
+			["encounterName"] = "Кел'Тузад",
+			["npcID"] = 176929,
+			["encounterID"] = 2422,
+		},
 		[358239] = {
 			["npcID"] = 178851,
+		},
+		[196587] = {
+			["encounterName"] = "Слияние душ",
+			["encounterID"] = 1832,
+			["npcID"] = 98542,
 		},
 		[351075] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
 			["npcID"] = 177154,
 			["encounterID"] = 2435,
+		},
+		[320293] = {
+			["encounterName"] = "Оскорбление претендентов",
+			["encounterID"] = 2391,
+			["npcID"] = 164461,
+		},
+		[328475] = {
+			["npcID"] = 164737,
 		},
 		[278919] = {
 			["npcID"] = 174730,
@@ -66206,36 +67996,82 @@ PlaterDB = {
 			["encounterID"] = 2435,
 			["npcID"] = 175732,
 		},
-		[357218] = {
-			["npcID"] = 176957,
+		[209378] = {
+			["npcID"] = 104275,
+		},
+		[349030] = {
+			["encounterName"] = "Око Тюремщика",
+			["npcID"] = 175725,
+			["encounterID"] = 2433,
 		},
 		[322931] = {
 			["npcID"] = 158752,
 		},
+		[167119] = {
+			["npcID"] = 173114,
+		},
+		[213685] = {
+			["encounterName"] = "Кордана Оскверненная Песнь",
+			["encounterID"] = 1818,
+			["npcID"] = 95888,
+		},
 		[357219] = {
 			["npcID"] = 176957,
+		},
+		[192985] = {
+			["encounterName"] = "Гнев Азшары",
+			["encounterID"] = 1814,
+			["npcID"] = 96028,
+		},
+		[284506] = {
+			["npcID"] = 144566,
+		},
+		[340279] = {
+			["npcID"] = 173714,
 		},
 		[346985] = {
 			["encounterName"] = "Таррагр",
 			["npcID"] = 175611,
 			["encounterID"] = 2423,
 		},
+		[214989] = {
+			["npcID"] = 100364,
+		},
 		[317304] = {
 			["npcID"] = 163084,
+		},
+		[196290] = {
+			["npcID"] = 91792,
 		},
 		[332657] = {
 			["npcID"] = 164587,
 		},
+		[164095] = {
+			["npcID"] = 80496,
+		},
 		[343916] = {
 			["npcID"] = 169102,
+		},
+		[71335] = {
+			["encounterName"] = "Битва на кораблях в Ледяной Короне",
+			["npcID"] = 36969,
+			["encounterID"] = 1099,
 		},
 		[320376] = {
 			["encounterName"] = "Трупошов",
 			["encounterID"] = 2389,
 			["npcID"] = 164578,
 		},
+		[199915] = {
+			["encounterName"] = "Инквизитор Истязарий",
+			["encounterID"] = 1850,
+			["npcID"] = 99651,
+		},
 		[272272] = {
 			["npcID"] = 169499,
+		},
+		[336660] = {
+			["npcID"] = 165981,
 		},
 		[344941] = {
 			["npcID"] = 162845,
@@ -66247,6 +68083,12 @@ PlaterDB = {
 		},
 		[202728] = {
 			["npcID"] = 99649,
+		},
+		[342904] = {
+			["npcID"] = 174383,
+		},
+		[340305] = {
+			["npcID"] = 173720,
 		},
 		[345454] = {
 			["npcID"] = 157833,
@@ -66274,6 +68116,9 @@ PlaterDB = {
 		[342897] = {
 			["npcID"] = 174130,
 		},
+		[330631] = {
+			["npcID"] = 180013,
+		},
 		[325498] = {
 			["npcID"] = 157212,
 		},
@@ -66285,6 +68130,9 @@ PlaterDB = {
 		},
 		[345457] = {
 			["npcID"] = 157833,
+		},
+		[196028] = {
+			["npcID"] = 97171,
 		},
 		[336246] = {
 			["npcID"] = 166292,
@@ -66300,6 +68148,11 @@ PlaterDB = {
 			["encounterID"] = 2384,
 			["npcID"] = 169498,
 		},
+		[353562] = {
+			["encounterName"] = "Раздиратель душ Дормацайн",
+			["encounterID"] = 2434,
+			["npcID"] = 179177,
+		},
 		[196078] = {
 			["encounterName"] = "Слияние душ",
 			["encounterID"] = 1832,
@@ -66307,6 +68160,15 @@ PlaterDB = {
 		},
 		[329083] = {
 			["npcID"] = 166042,
+		},
+		[325418] = {
+			["npcID"] = 167113,
+		},
+		[358747] = {
+			["npcID"] = 178824,
+		},
+		[295324] = {
+			["npcID"] = 144562,
 		},
 		[322943] = {
 			["encounterName"] = "Халкиас, запятнанный грехом голиаф",
@@ -66322,6 +68184,14 @@ PlaterDB = {
 		[351090] = {
 			["npcID"] = 176574,
 		},
+		[348428] = {
+			["encounterName"] = "Кел'Тузад",
+			["npcID"] = 176605,
+			["encounterID"] = 2422,
+		},
+		[364396] = {
+			["npcID"] = 184272,
+		},
 		[332156] = {
 			["npcID"] = 167963,
 		},
@@ -66331,27 +68201,31 @@ PlaterDB = {
 		[331133] = {
 			["npcID"] = 162402,
 		},
+		[193502] = {
+			["npcID"] = 98177,
+		},
 		[278935] = {
 			["npcID"] = 176179,
 		},
 		[336763] = {
 			["npcID"] = 169780,
 		},
-		[322491] = {
-			["encounterName"] = "Маркграфиня Страдама",
-			["encounterID"] = 2386,
-			["npcID"] = 164267,
+		[347404] = {
+			["npcID"] = 179283,
+		},
+		[330123] = {
+			["npcID"] = 169600,
 		},
 		[358769] = {
 			["npcID"] = 180782,
 		},
-		[351066] = {
-			["encounterName"] = "Душа Нер'зула",
-			["npcID"] = 175729,
-			["encounterID"] = 2432,
+		[177150] = {
+			["npcID"] = 81725,
 		},
-		[225732] = {
-			["npcID"] = 98538,
+		[357735] = {
+			["encounterName"] = "Кузнец боли Разнал",
+			["npcID"] = 179847,
+			["encounterID"] = 2430,
 		},
 		[199663] = {
 			["npcID"] = 98370,
@@ -66359,11 +68233,11 @@ PlaterDB = {
 		[358770] = {
 			["npcID"] = 176880,
 		},
-		[324483] = {
-			["npcID"] = 178977,
+		[359282] = {
+			["npcID"] = 185415,
 		},
-		[336666] = {
-			["npcID"] = 158891,
+		[214001] = {
+			["npcID"] = 102095,
 		},
 		[350071] = {
 			["encounterName"] = "Душа Нер'зула",
@@ -66376,25 +68250,30 @@ PlaterDB = {
 		[320390] = {
 			["npcID"] = 177140,
 		},
-		[328558] = {
-			["npcID"] = 159027,
+		[351109] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["npcID"] = 177787,
+			["encounterID"] = 2435,
 		},
-		[331548] = {
-			["npcID"] = 167964,
+		[329104] = {
+			["encounterName"] = "Лорд-камергер",
+			["npcID"] = 164218,
+			["encounterID"] = 2381,
 		},
-		[196287] = {
-			["npcID"] = 91792,
+		[351562] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["npcID"] = 177893,
 		},
-		[340759] = {
-			["npcID"] = 174732,
+		[331026] = {
+			["npcID"] = 160185,
 		},
-		[349030] = {
-			["encounterName"] = "Око Тюремщика",
-			["npcID"] = 175725,
-			["encounterID"] = 2433,
+		[357125] = {
+			["npcID"] = 176879,
 		},
-		[176124] = {
-			["npcID"] = 173114,
+		[198641] = {
+			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
+			["encounterID"] = 1835,
+			["npcID"] = 98965,
 		},
 		[358773] = {
 			["npcID"] = 179891,
@@ -66414,56 +68293,52 @@ PlaterDB = {
 		[357239] = {
 			["npcID"] = 180407,
 		},
-		[196587] = {
-			["encounterName"] = "Слияние душ",
-			["encounterID"] = 1832,
-			["npcID"] = 98542,
+		[340794] = {
+			["npcID"] = 166142,
 		},
-		[209602] = {
-			["encounterName"] = "Советник Меландр",
-			["encounterID"] = 1870,
-			["npcID"] = 104218,
+		[71326] = {
+			["npcID"] = 37502,
 		},
-		[355127] = {
-			["encounterName"] = "Кел'Тузад",
-			["npcID"] = 176929,
-			["encounterID"] = 2422,
+		[214771] = {
+			["encounterName"] = "Инквизитор Истязарий",
+			["encounterID"] = 1850,
+			["npcID"] = 99651,
 		},
 		[342911] = {
 			["npcID"] = 162123,
 		},
-		[199143] = {
-			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
-			["encounterID"] = 1835,
-			["npcID"] = 98970,
+		[198073] = {
+			["encounterName"] = "Хмуродроб Лютый",
+			["encounterID"] = 1834,
+			["npcID"] = 98949,
 		},
-		[209378] = {
-			["npcID"] = 104275,
+		[357259] = {
+			["npcID"] = 180392,
 		},
 		[330118] = {
 			["npcID"] = 159755,
 		},
-		[207815] = {
-			["encounterName"] = "Капитан патруля Гердо",
-			["encounterID"] = 1868,
-			["npcID"] = 104215,
+		[325395] = {
+			["encounterName"] = "Домина Отравленный Клинок",
+			["encounterID"] = 2385,
+			["npcID"] = 166813,
 		},
-		[328475] = {
-			["npcID"] = 164737,
+		[164819] = {
+			["npcID"] = 81725,
 		},
-		[167119] = {
-			["npcID"] = 173114,
+		[302399] = {
+			["npcID"] = 83687,
 		},
 		[295320] = {
 			["npcID"] = 144562,
 		},
-		[330631] = {
-			["npcID"] = 180013,
+		[324490] = {
+			["encounterName"] = "Склизгл",
+			["encounterID"] = 2382,
+			["npcID"] = 164255,
 		},
-		[192985] = {
-			["encounterName"] = "Гнев Азшары",
-			["encounterID"] = 1814,
-			["npcID"] = 96028,
+		[167439] = {
+			["npcID"] = 82310,
 		},
 		[329608] = {
 			["npcID"] = 155828,
@@ -66471,10 +68346,8 @@ PlaterDB = {
 		[191735] = {
 			["npcID"] = 98954,
 		},
-		[213685] = {
-			["encounterName"] = "Кордана Оскверненная Песнь",
-			["encounterID"] = 1818,
-			["npcID"] = 95888,
+		[323347] = {
+			["npcID"] = 165137,
 		},
 		[167683] = {
 			["npcID"] = 83687,
@@ -66482,11 +68355,13 @@ PlaterDB = {
 		[329609] = {
 			["npcID"] = 155828,
 		},
-		[284506] = {
-			["npcID"] = 144566,
+		[320788] = {
+			["encounterName"] = "Налтор Криомант",
+			["encounterID"] = 2390,
+			["npcID"] = 162693,
 		},
-		[340279] = {
-			["npcID"] = 173714,
+		[355212] = {
+			["npcID"] = 178630,
 		},
 		[197365] = {
 			["encounterName"] = "Гнев Азшары",
@@ -66505,54 +68380,58 @@ PlaterDB = {
 		[71592] = {
 			["npcID"] = 37125,
 		},
-		[270248] = {
-			["npcID"] = 154129,
+		[192504] = {
+			["encounterName"] = "Тиратон Салтерил",
+			["encounterID"] = 1815,
+			["npcID"] = 95885,
 		},
 		[321935] = {
 			["npcID"] = 164707,
 		},
-		[358171] = {
-			["npcID"] = 179070,
+		[328084] = {
+			["npcID"] = 172072,
 		},
 		[318865] = {
 			["npcID"] = 162849,
 		},
-		[196290] = {
-			["npcID"] = 91792,
+		[344403] = {
+			["npcID"] = 175012,
 		},
 		[319889] = {
 			["npcID"] = 157036,
 		},
-		[164095] = {
-			["npcID"] = 80496,
+		[207806] = {
+			["encounterName"] = "Капитан патруля Гердо",
+			["encounterID"] = 1868,
+			["npcID"] = 104215,
 		},
 		[327054] = {
 			["npcID"] = 158869,
 		},
-		[341895] = {
-			["npcID"] = 168647,
+		[202740] = {
+			["encounterName"] = "Тиратон Салтерил",
+			["encounterID"] = 1815,
+			["npcID"] = 95885,
 		},
-		[295324] = {
-			["npcID"] = 144562,
+		[340761] = {
+			["npcID"] = 166140,
 		},
-		[193018] = {
-			["encounterName"] = "Король Волнобород",
-			["encounterID"] = 1812,
-			["npcID"] = 91797,
+		[367502] = {
+			["npcID"] = 181059,
 		},
 		[357760] = {
 			["npcID"] = 177650,
 		},
-		[329104] = {
-			["encounterName"] = "Лорд-камергер",
-			["npcID"] = 164218,
-			["encounterID"] = 2381,
+		[350615] = {
+			["encounterName"] = "Раздиратель душ Дормацайн",
+			["npcID"] = 175727,
+			["encounterID"] = 2434,
 		},
 		[358784] = {
 			["npcID"] = 179891,
 		},
-		[336660] = {
-			["npcID"] = 165981,
+		[332705] = {
+			["npcID"] = 170490,
 		},
 		[329103] = {
 			["npcID"] = 165834,
@@ -66560,26 +68439,24 @@ PlaterDB = {
 		[319380] = {
 			["npcID"] = 160716,
 		},
-		[71335] = {
-			["encounterName"] = "Битва на кораблях в Ледяной Короне",
-			["npcID"] = 36969,
-			["encounterID"] = 1099,
+		[328462] = {
+			["npcID"] = 168845,
 		},
-		[351109] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["npcID"] = 177787,
-			["encounterID"] = 2435,
+		[193018] = {
+			["encounterName"] = "Король Волнобород",
+			["encounterID"] = 1812,
+			["npcID"] = 91797,
 		},
 		[351621] = {
 			["npcID"] = 176573,
 		},
-		[199915] = {
-			["encounterName"] = "Инквизитор Истязарий",
-			["encounterID"] = 1850,
-			["npcID"] = 99651,
+		[350467] = {
+			["encounterName"] = "Девять",
+			["npcID"] = 175726,
+			["encounterID"] = 2429,
 		},
-		[340305] = {
-			["npcID"] = 173720,
+		[338848] = {
+			["npcID"] = 167525,
 		},
 		[330640] = {
 			["npcID"] = 169823,
@@ -66590,25 +68467,25 @@ PlaterDB = {
 		[325523] = {
 			["npcID"] = 165515,
 		},
-		[196028] = {
-			["npcID"] = 97171,
+		[357631] = {
+			["npcID"] = 177982,
 		},
-		[353562] = {
-			["encounterName"] = "Раздиратель душ Дормацайн",
-			["encounterID"] = 2434,
-			["npcID"] = 179177,
+		[355072] = {
+			["npcID"] = 178628,
 		},
-		[295291] = {
-			["npcID"] = 144562,
+		[195332] = {
+			["encounterName"] = "Вул'кан",
+			["encounterID"] = 1816,
+			["npcID"] = 99233,
 		},
-		[214001] = {
-			["npcID"] = 102095,
+		[319383] = {
+			["npcID"] = 165706,
 		},
 		[346506] = {
 			["npcID"] = 171581,
 		},
-		[325418] = {
-			["npcID"] = 167113,
+		[336810] = {
+			["npcID"] = 160785,
 		},
 		[296355] = {
 			["npcID"] = 152612,
@@ -66619,38 +68496,34 @@ PlaterDB = {
 		[315802] = {
 			["npcID"] = 150959,
 		},
-		[193502] = {
-			["npcID"] = 98177,
+		[199172] = {
+			["npcID"] = 99728,
 		},
-		[348428] = {
-			["encounterName"] = "Кел'Тузад",
-			["npcID"] = 176605,
-			["encounterID"] = 2422,
+		[180670] = {
+			["npcID"] = 90215,
 		},
 		[341902] = {
 			["npcID"] = 174197,
 		},
-		[358747] = {
-			["npcID"] = 178824,
+		[192696] = {
+			["encounterName"] = "Гнев Азшары",
+			["encounterID"] = 1814,
+			["npcID"] = 96028,
 		},
-		[347404] = {
-			["npcID"] = 179283,
+		[326562] = {
+			["npcID"] = 166721,
 		},
-		[357735] = {
-			["encounterName"] = "Кузнец боли Разнал",
-			["npcID"] = 179847,
-			["encounterID"] = 2430,
+		[341839] = {
+			["npcID"] = 166144,
 		},
-		[177150] = {
-			["npcID"] = 81725,
+		[329635] = {
+			["npcID"] = 158256,
 		},
-		[326039] = {
-			["encounterName"] = "Верховная надзирательница Бериллия",
-			["encounterID"] = 2362,
-			["npcID"] = 162102,
+		[319898] = {
+			["npcID"] = 168022,
 		},
-		[353124] = {
-			["npcID"] = 178957,
+		[321399] = {
+			["npcID"] = 164128,
 		},
 		[329110] = {
 			["encounterName"] = "Доктор Икус",
@@ -66666,15 +68539,11 @@ PlaterDB = {
 		[330646] = {
 			["npcID"] = 169823,
 		},
-		[214771] = {
-			["encounterName"] = "Инквизитор Истязарий",
-			["encounterID"] = 1850,
-			["npcID"] = 99651,
+		[71595] = {
+			["npcID"] = 37122,
 		},
-		[323943] = {
-			["encounterName"] = "Девия, идеал Верности",
-			["npcID"] = 162061,
-			["encounterID"] = 2359,
+		[295283] = {
+			["npcID"] = 144562,
 		},
 		[344464] = {
 			["npcID"] = 166398,
@@ -66695,66 +68564,68 @@ PlaterDB = {
 		[336277] = {
 			["npcID"] = 172265,
 		},
-		[355212] = {
-			["npcID"] = 178630,
+		[363400] = {
+			["npcID"] = 178158,
 		},
-		[358748] = {
-			["npcID"] = 178824,
+		[195254] = {
+			["encounterName"] = "Слияние душ",
+			["encounterID"] = 1832,
+			["npcID"] = 98542,
 		},
-		[340794] = {
-			["npcID"] = 166142,
+		[328458] = {
+			["npcID"] = 168844,
 		},
 		[182532] = {
 			["npcID"] = 174183,
 		},
-		[351589] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["npcID"] = 177893,
+		[201733] = {
+			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
+			["encounterID"] = 1835,
+			["npcID"] = 98970,
 		},
-		[351562] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["npcID"] = 177893,
+		[340768] = {
+			["npcID"] = 166142,
 		},
-		[357125] = {
-			["npcID"] = 176879,
+		[191941] = {
+			["encounterName"] = "Тиратон Салтерил",
+			["encounterID"] = 1815,
+			["npcID"] = 95885,
 		},
-		[69387] = {
-			["npcID"] = 36811,
+		[357146] = {
+			["npcID"] = 177938,
 		},
 		[355214] = {
 			["npcID"] = 178630,
 		},
-		[343912] = {
-			["npcID"] = 169551,
+		[338864] = {
+			["npcID"] = 167526,
 		},
-		[71326] = {
-			["npcID"] = 37502,
+		[364426] = {
+			["npcID"] = 180088,
 		},
-		[302399] = {
-			["npcID"] = 83687,
+		[356680] = {
+			["npcID"] = 177133,
 		},
-		[164819] = {
-			["npcID"] = 81725,
+		[357626] = {
+			["npcID"] = 177422,
 		},
-		[325395] = {
-			["encounterName"] = "Домина Отравленный Клинок",
-			["encounterID"] = 2385,
-			["npcID"] = 166813,
+		[326409] = {
+			["npcID"] = 164557,
 		},
 		[327581] = {
 			["npcID"] = 168396,
 		},
-		[326046] = {
-			["npcID"] = 167111,
+		[340375] = {
+			["npcID"] = 168148,
 		},
-		[353682] = {
-			["npcID"] = 176880,
+		[325469] = {
+			["npcID"] = 166928,
 		},
-		[328094] = {
-			["npcID"] = 168627,
+		[331526] = {
+			["npcID"] = 160956,
 		},
-		[325535] = {
-			["npcID"] = 164562,
+		[360334] = {
+			["npcID"] = 183953,
 		},
 		[319906] = {
 			["npcID"] = 167022,
@@ -66762,11 +68633,11 @@ PlaterDB = {
 		[334747] = {
 			["npcID"] = 166302,
 		},
-		[316836] = {
-			["npcID"] = 158992,
+		[353682] = {
+			["npcID"] = 176880,
 		},
-		[326562] = {
-			["npcID"] = 166721,
+		[364429] = {
+			["npcID"] = 180085,
 		},
 		[344471] = {
 			["npcID"] = 170634,
@@ -66785,19 +68656,19 @@ PlaterDB = {
 			["npcID"] = 175731,
 			["encounterID"] = 2436,
 		},
-		[323347] = {
-			["npcID"] = 165137,
+		[357786] = {
+			["npcID"] = 177718,
 		},
-		[320788] = {
-			["encounterName"] = "Налтор Криомант",
-			["encounterID"] = 2390,
-			["npcID"] = 162693,
+		[338867] = {
+			["npcID"] = 167526,
 		},
-		[360850] = {
-			["npcID"] = 182149,
+		[193717] = {
+			["encounterName"] = "Леди Кольцо Ненависти",
+			["encounterID"] = 1811,
+			["npcID"] = 91789,
 		},
-		[332705] = {
-			["npcID"] = 170490,
+		[339713] = {
+			["npcID"] = 162586,
 		},
 		[192003] = {
 			["encounterName"] = "Змеикс",
@@ -66812,16 +68683,14 @@ PlaterDB = {
 			["npcID"] = 416,
 			["encounterID"] = 2434,
 		},
-		[350615] = {
-			["encounterName"] = "Раздиратель душ Дормацайн",
-			["npcID"] = 175727,
-			["encounterID"] = 2434,
+		[360850] = {
+			["npcID"] = 182149,
 		},
 		[344986] = {
 			["npcID"] = 158314,
 		},
-		[328084] = {
-			["npcID"] = 172072,
+		[189200] = {
+			["npcID"] = 156244,
 		},
 		[354198] = {
 			["encounterName"] = "Кел'Тузад",
@@ -66836,18 +68705,18 @@ PlaterDB = {
 		[322470] = {
 			["npcID"] = 166875,
 		},
-		[340761] = {
-			["npcID"] = 166140,
+		[207278] = {
+			["encounterName"] = "Капитан патруля Гердо",
+			["encounterID"] = 1868,
+			["npcID"] = 104215,
 		},
 		[69679] = {
 			["encounterName"] = "Битва на кораблях в Ледяной Короне",
 			["npcID"] = 36978,
 			["encounterID"] = 1099,
 		},
-		[192005] = {
-			["encounterName"] = "Змеикс",
-			["encounterID"] = 1813,
-			["npcID"] = 97260,
+		[196787] = {
+			["npcID"] = 99956,
 		},
 		[338847] = {
 			["npcID"] = 167525,
@@ -66855,14 +68724,16 @@ PlaterDB = {
 		[296372] = {
 			["npcID"] = 152612,
 		},
-		[170751] = {
-			["npcID"] = 156158,
+		[330676] = {
+			["npcID"] = 172388,
 		},
 		[356759] = {
 			["npcID"] = 177129,
 		},
-		[338848] = {
-			["npcID"] = 167525,
+		[192005] = {
+			["encounterName"] = "Змеикс",
+			["encounterID"] = 1813,
+			["npcID"] = 97260,
 		},
 		[347548] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
@@ -66878,16 +68749,14 @@ PlaterDB = {
 		[332708] = {
 			["npcID"] = 167532,
 		},
-		[195332] = {
-			["encounterName"] = "Вул'кан",
-			["encounterID"] = 1816,
-			["npcID"] = 99233,
+		[310703] = {
+			["npcID"] = 159459,
 		},
-		[344403] = {
-			["npcID"] = 175012,
+		[321807] = {
+			["npcID"] = 163619,
 		},
-		[338853] = {
-			["npcID"] = 167527,
+		[316855] = {
+			["npcID"] = 165267,
 		},
 		[336803] = {
 			["npcID"] = 173640,
@@ -66895,8 +68764,8 @@ PlaterDB = {
 		[318892] = {
 			["npcID"] = 164021,
 		},
-		[328462] = {
-			["npcID"] = 168845,
+		[338865] = {
+			["npcID"] = 173191,
 		},
 		[319916] = {
 			["npcID"] = 161410,
@@ -66907,10 +68776,8 @@ PlaterDB = {
 		[325034] = {
 			["npcID"] = 178467,
 		},
-		[350467] = {
-			["encounterName"] = "Девять",
-			["npcID"] = 175726,
-			["encounterID"] = 2429,
+		[211401] = {
+			["npcID"] = 104295,
 		},
 		[360857] = {
 			["npcID"] = 182149,
@@ -66927,8 +68794,8 @@ PlaterDB = {
 		[356764] = {
 			["npcID"] = 177878,
 		},
-		[199172] = {
-			["npcID"] = 99728,
+		[338853] = {
+			["npcID"] = 167527,
 		},
 		[325036] = {
 			["npcID"] = 178467,
@@ -66936,16 +68803,14 @@ PlaterDB = {
 		[118297] = {
 			["npcID"] = 61029,
 		},
-		[72350] = {
-			["encounterName"] = "Король-лич",
-			["npcID"] = 36597,
-			["encounterID"] = 1106,
+		[330678] = {
+			["npcID"] = 168862,
 		},
-		[357631] = {
-			["npcID"] = 177982,
+		[338863] = {
+			["npcID"] = 167526,
 		},
-		[355072] = {
-			["npcID"] = 178628,
+		[236537] = {
+			["npcID"] = 118065,
 		},
 		[325549] = {
 			["npcID"] = 168647,
@@ -66971,60 +68836,56 @@ PlaterDB = {
 		[333227] = {
 			["npcID"] = 169905,
 		},
-		[355737] = {
-			["npcID"] = 179446,
+		[71594] = {
+			["npcID"] = 37125,
+		},
+		[324394] = {
+			["npcID"] = 165197,
+		},
+		[347045] = {
+			["npcID"] = 176131,
+		},
+		[338872] = {
+			["npcID"] = 167526,
 		},
 		[325552] = {
 			["encounterName"] = "Домина Отравленный Клинок",
 			["encounterID"] = 2385,
 			["npcID"] = 164266,
 		},
-		[347045] = {
-			["npcID"] = 176131,
-		},
-		[336810] = {
-			["npcID"] = 160785,
-		},
-		[201733] = {
-			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
-			["encounterID"] = 1835,
-			["npcID"] = 98970,
-		},
-		[180670] = {
-			["npcID"] = 90215,
+		[329990] = {
+			["npcID"] = 158978,
 		},
 		[338858] = {
 			["npcID"] = 167526,
 		},
-		[192696] = {
-			["encounterName"] = "Гнев Азшары",
-			["encounterID"] = 1814,
-			["npcID"] = 96028,
+		[344875] = {
+			["npcID"] = 171317,
 		},
 		[192522] = {
 			["encounterName"] = "Вул'кан",
 			["encounterID"] = 1816,
 			["npcID"] = 95886,
 		},
-		[341839] = {
-			["npcID"] = 166144,
+		[362410] = {
+			["npcID"] = 181349,
 		},
 		[209410] = {
 			["npcID"] = 104247,
 		},
-		[356680] = {
-			["npcID"] = 177133,
+		[295698] = {
+			["npcID"] = 144531,
 		},
 		[348071] = {
 			["encounterName"] = "Кел'Тузад",
 			["npcID"] = 175559,
 			["encounterID"] = 2422,
 		},
-		[316855] = {
-			["npcID"] = 165267,
+		[197137] = {
+			["npcID"] = 100216,
 		},
-		[201139] = {
-			["npcID"] = 98810,
+		[213688] = {
+			["npcID"] = 107024,
 		},
 		[333231] = {
 			["encounterName"] = "Оскорбление претендентов",
@@ -67034,16 +68895,14 @@ PlaterDB = {
 		[358307] = {
 			["npcID"] = 179913,
 		},
-		[330676] = {
-			["npcID"] = 172388,
+		[200205] = {
+			["npcID"] = 101462,
 		},
 		[345002] = {
 			["npcID"] = 168977,
 		},
-		[195254] = {
-			["encounterName"] = "Слияние душ",
-			["encounterID"] = 1832,
-			["npcID"] = 98542,
+		[357107] = {
+			["npcID"] = 177144,
 		},
 		[288710] = {
 			["npcID"] = 157683,
@@ -67054,14 +68913,14 @@ PlaterDB = {
 		[322486] = {
 			["npcID"] = 164929,
 		},
-		[328458] = {
-			["npcID"] = 168844,
+		[337238] = {
+			["npcID"] = 170711,
 		},
 		[348074] = {
 			["npcID"] = 178041,
 		},
-		[321399] = {
-			["npcID"] = 164128,
+		[70965] = {
+			["npcID"] = 36725,
 		},
 		[345004] = {
 			["npcID"] = 175347,
@@ -67077,14 +68936,16 @@ PlaterDB = {
 		[356775] = {
 			["npcID"] = 177791,
 		},
-		[338864] = {
-			["npcID"] = 167526,
+		[359334] = {
+			["npcID"] = 181028,
 		},
-		[343470] = {
-			["npcID"] = 165919,
+		[368034] = {
+			["npcID"] = 183722,
 		},
-		[340768] = {
-			["npcID"] = 166142,
+		[320772] = {
+			["encounterName"] = "Налтор Криомант",
+			["encounterID"] = 2390,
+			["npcID"] = 162693,
 		},
 		[338353] = {
 			["npcID"] = 173016,
@@ -67095,28 +68956,32 @@ PlaterDB = {
 		[355753] = {
 			["npcID"] = 179894,
 		},
-		[191941] = {
-			["encounterName"] = "Тиратон Салтерил",
-			["encounterID"] = 1815,
-			["npcID"] = 95885,
+		[339391] = {
+			["npcID"] = 158259,
 		},
-		[189200] = {
-			["npcID"] = 156244,
+		[233473] = {
+			["npcID"] = 117042,
 		},
-		[330678] = {
-			["npcID"] = 168862,
+		[365477] = {
+			["npcID"] = 181797,
 		},
-		[242391] = {
-			["npcID"] = 156212,
+		[320966] = {
+			["encounterName"] = "Кин-Тара",
+			["npcID"] = 162059,
+			["encounterID"] = 2357,
 		},
 		[352172] = {
 			["npcID"] = 178102,
 		},
-		[334263] = {
-			["npcID"] = 168977,
+		[322818] = {
+			["encounterName"] = "Девия, идеал Верности",
+			["npcID"] = 162061,
+			["encounterID"] = 2359,
 		},
-		[338867] = {
-			["npcID"] = 167526,
+		[322491] = {
+			["encounterName"] = "Маркграфиня Страдама",
+			["encounterID"] = 2386,
+			["npcID"] = 164267,
 		},
 		[345520] = {
 			["npcID"] = 157833,
@@ -67126,26 +68991,26 @@ PlaterDB = {
 			["encounterID"] = 2365,
 			["npcID"] = 162317,
 		},
-		[357626] = {
-			["npcID"] = 177422,
+		[331718] = {
+			["npcID"] = 171772,
 		},
 		[338868] = {
 			["npcID"] = 167526,
 		},
-		[326409] = {
-			["npcID"] = 164557,
+		[347000] = {
+			["npcID"] = 172639,
 		},
-		[331526] = {
-			["npcID"] = 160956,
+		[330597] = {
+			["npcID"] = 172399,
 		},
-		[340404] = {
-			["npcID"] = 168147,
+		[334263] = {
+			["npcID"] = 168977,
 		},
 		[342963] = {
 			["npcID"] = 158259,
 		},
-		[351996] = {
-			["npcID"] = 178384,
+		[277907] = {
+			["npcID"] = 175672,
 		},
 		[358316] = {
 			["npcID"] = 180681,
@@ -67153,25 +69018,27 @@ PlaterDB = {
 		[338358] = {
 			["npcID"] = 165290,
 		},
-		[357786] = {
-			["npcID"] = 177718,
+		[344936] = {
+			["npcID"] = 175704,
 		},
-		[345523] = {
-			["npcID"] = 156203,
+		[333241] = {
+			["encounterName"] = "Оскорбление претендентов",
+			["encounterID"] = 2391,
+			["npcID"] = 170850,
 		},
 		[354223] = {
 			["npcID"] = 177514,
 		},
-		[200205] = {
-			["npcID"] = 101462,
+		[360876] = {
+			["npcID"] = 182357,
 		},
-		[193717] = {
-			["encounterName"] = "Леди Кольцо Ненависти",
-			["encounterID"] = 1811,
-			["npcID"] = 91789,
+		[324527] = {
+			["encounterName"] = "Склизгл",
+			["encounterID"] = 2382,
+			["npcID"] = 164255,
 		},
-		[339713] = {
-			["npcID"] = 162586,
+		[332706] = {
+			["npcID"] = 170490,
 		},
 		[356271] = {
 			["npcID"] = 180059,
@@ -67182,16 +69049,16 @@ PlaterDB = {
 		[196111] = {
 			["npcID"] = 91793,
 		},
-		[321807] = {
-			["npcID"] = 163619,
+		[329163] = {
+			["npcID"] = 168837,
 		},
-		[207278] = {
-			["encounterName"] = "Капитан патруля Гердо",
-			["encounterID"] = 1868,
-			["npcID"] = 104215,
+		[326032] = {
+			["npcID"] = 160455,
 		},
-		[196787] = {
-			["npcID"] = 99956,
+		[193712] = {
+			["encounterName"] = "Леди Кольцо Ненависти",
+			["encounterID"] = 1811,
+			["npcID"] = 91789,
 		},
 		[211464] = {
 			["npcID"] = 104278,
@@ -67211,20 +69078,22 @@ PlaterDB = {
 		[329151] = {
 			["npcID"] = 165834,
 		},
-		[70965] = {
-			["npcID"] = 36725,
+		[358845] = {
+			["npcID"] = 181133,
 		},
-		[344875] = {
-			["npcID"] = 171317,
+		[290106] = {
+			["npcID"] = 144570,
 		},
-		[211401] = {
-			["npcID"] = 104295,
+		[38033] = {
+			["npcID"] = 89025,
 		},
-		[197137] = {
-			["npcID"] = 100216,
+		[320804] = {
+			["encounterName"] = "Манаштормы",
+			["encounterID"] = 2394,
+			["npcID"] = 164561,
 		},
-		[338872] = {
-			["npcID"] = 167526,
+		[70189] = {
+			["npcID"] = 37544,
 		},
 		[319941] = {
 			["encounterName"] = "Эшелон",
@@ -67251,49 +69120,51 @@ PlaterDB = {
 		[302543] = {
 			["npcID"] = 155483,
 		},
-		[302398] = {
-			["npcID"] = 83687,
+		[320462] = {
+			["npcID"] = 165137,
 		},
 		[358836] = {
 			["npcID"] = 180664,
 		},
-		[344411] = {
-			["npcID"] = 154330,
+		[322433] = {
+			["npcID"] = 162057,
 		},
-		[71594] = {
-			["npcID"] = 37125,
+		[332084] = {
+			["npcID"] = 167965,
 		},
-		[354117] = {
-			["npcID"] = 179234,
+		[339904] = {
+			["npcID"] = 159155,
+		},
+		[340793] = {
+			["npcID"] = 166140,
+		},
+		[335817] = {
+			["encounterName"] = "Девия, идеал Верности",
+			["npcID"] = 162061,
+			["encounterID"] = 2359,
 		},
 		[201488] = {
 			["encounterName"] = "Инквизитор Истязарий",
 			["encounterID"] = 1850,
 			["npcID"] = 99657,
 		},
-		[339391] = {
-			["npcID"] = 158259,
+		[321999] = {
+			["npcID"] = 164705,
 		},
-		[337344] = {
-			["npcID"] = 159459,
-		},
-		[339392] = {
-			["npcID"] = 158259,
-		},
-		[233473] = {
-			["npcID"] = 117042,
+		[70053] = {
+			["npcID"] = 37126,
 		},
 		[355256] = {
 			["npcID"] = 178631,
 		},
-		[353721] = {
-			["npcID"] = 179135,
+		[339392] = {
+			["npcID"] = 158259,
 		},
-		[339904] = {
-			["npcID"] = 159155,
+		[358327] = {
+			["npcID"] = 179760,
 		},
-		[213688] = {
-			["npcID"] = 107024,
+		[339911] = {
+			["npcID"] = 159152,
 		},
 		[336834] = {
 			["npcID"] = 177295,
@@ -67304,34 +69175,38 @@ PlaterDB = {
 		[358328] = {
 			["npcID"] = 179760,
 		},
-		[295698] = {
-			["npcID"] = 144531,
+		[362934] = {
+			["npcID"] = 182215,
 		},
-		[357112] = {
-			["npcID"] = 177831,
+		[270613] = {
+			["npcID"] = 170662,
 		},
-		[347000] = {
-			["npcID"] = 172639,
+		[323544] = {
+			["encounterName"] = "Хаккар, Свежеватель Душ",
+			["encounterID"] = 2395,
+			["npcID"] = 165905,
 		},
 		[348094] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
 			["encounterID"] = 2435,
 			["npcID"] = 175732,
 		},
-		[330597] = {
-			["npcID"] = 172399,
+		[345044] = {
+			["npcID"] = 170028,
 		},
-		[357107] = {
-			["npcID"] = 177144,
+		[321834] = {
+			["encounterName"] = "Призывательница Туманов",
+			["npcID"] = 164501,
+			["encounterID"] = 2392,
 		},
-		[344936] = {
-			["npcID"] = 175704,
+		[197144] = {
+			["npcID"] = 100216,
 		},
 		[329672] = {
 			["npcID"] = 170941,
 		},
-		[332612] = {
-			["npcID"] = 170572,
+		[332239] = {
+			["npcID"] = 170418,
 		},
 		[326602] = {
 			["npcID"] = 169977,
@@ -67339,15 +69214,11 @@ PlaterDB = {
 		[294362] = {
 			["npcID"] = 155908,
 		},
-		[320772] = {
-			["encounterName"] = "Налтор Криомант",
-			["encounterID"] = 2390,
-			["npcID"] = 162693,
+		[344922] = {
+			["npcID"] = 168148,
 		},
-		[351680] = {
-			["encounterName"] = "Писарь судьбы Ро-Кало",
-			["npcID"] = 175730,
-			["encounterID"] = 2431,
+		[326392] = {
+			["npcID"] = 157212,
 		},
 		[211470] = {
 			["npcID"] = 104300,
@@ -67355,36 +69226,34 @@ PlaterDB = {
 		[329162] = {
 			["npcID"] = 165834,
 		},
-		[317905] = {
-			["npcID"] = 157444,
+		[347091] = {
+			["npcID"] = 176251,
 		},
-		[321999] = {
-			["npcID"] = 164705,
+		[330716] = {
+			["npcID"] = 167998,
 		},
 		[320463] = {
 			["npcID"] = 177140,
 		},
-		[329163] = {
-			["npcID"] = 168837,
+		[351680] = {
+			["encounterName"] = "Писарь судьбы Ро-Кало",
+			["npcID"] = 175730,
+			["encounterID"] = 2431,
 		},
-		[322818] = {
-			["encounterName"] = "Девия, идеал Верности",
-			["npcID"] = 162061,
-			["encounterID"] = 2359,
+		[332650] = {
+			["npcID"] = 164886,
 		},
-		[358845] = {
-			["npcID"] = 181133,
+		[317905] = {
+			["npcID"] = 157444,
 		},
-		[290106] = {
-			["npcID"] = 144570,
+		[348597] = {
+			["npcID"] = 167744,
 		},
 		[335305] = {
 			["npcID"] = 171799,
 		},
-		[335817] = {
-			["encounterName"] = "Девия, идеал Верности",
-			["npcID"] = 162061,
-			["encounterID"] = 2359,
+		[354240] = {
+			["npcID"] = 179433,
 		},
 		[334282] = {
 			["npcID"] = 154330,
@@ -67392,31 +69261,29 @@ PlaterDB = {
 		[320465] = {
 			["npcID"] = 177140,
 		},
-		[70053] = {
-			["npcID"] = 37126,
+		[299268] = {
+			["npcID"] = 144566,
 		},
-		[70189] = {
-			["npcID"] = 37544,
+		[325591] = {
+			["npcID"] = 166863,
 		},
-		[277907] = {
-			["npcID"] = 175672,
+		[214690] = {
+			["npcID"] = 107435,
 		},
-		[324527] = {
-			["encounterName"] = "Склизгл",
-			["encounterID"] = 2382,
-			["npcID"] = 164255,
+		[200105] = {
+			["npcID"] = 98368,
 		},
-		[332706] = {
-			["npcID"] = 170490,
+		[310249] = {
+			["npcID"] = 167717,
 		},
 		[354242] = {
 			["npcID"] = 179434,
 		},
-		[326032] = {
-			["npcID"] = 160455,
+		[327413] = {
+			["npcID"] = 168318,
 		},
-		[332239] = {
-			["npcID"] = 170418,
+		[331743] = {
+			["npcID"] = 166276,
 		},
 		[335308] = {
 			["npcID"] = 171799,
@@ -67435,10 +69302,8 @@ PlaterDB = {
 			["npcID"] = 165737,
 			["encounterID"] = 2381,
 		},
-		[320804] = {
-			["encounterName"] = "Манаштормы",
-			["encounterID"] = 2394,
-			["npcID"] = 164561,
+		[327130] = {
+			["npcID"] = 165872,
 		},
 		[319957] = {
 			["npcID"] = 165998,
@@ -67446,44 +69311,48 @@ PlaterDB = {
 		[304093] = {
 			["npcID"] = 155908,
 		},
-		[193712] = {
-			["encounterName"] = "Леди Кольцо Ненависти",
-			["encounterID"] = 1811,
-			["npcID"] = 91789,
+		[353741] = {
+			["npcID"] = 178958,
 		},
-		[319447] = {
-			["npcID"] = 157099,
+		[319224] = {
+			["npcID"] = 157725,
 		},
 		[356804] = {
 			["npcID"] = 178578,
 		},
-		[330532] = {
-			["npcID"] = 164510,
+		[357139] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 176532,
 		},
 		[329170] = {
 			["encounterName"] = "Лорд-камергер",
 			["npcID"] = 165737,
 			["encounterID"] = 2381,
 		},
-		[189469] = {
-			["npcID"] = 100364,
+		[319447] = {
+			["npcID"] = 157099,
 		},
-		[38033] = {
-			["npcID"] = 89025,
+		[272382] = {
+			["npcID"] = 155250,
 		},
-		[320462] = {
-			["npcID"] = 165137,
+		[196127] = {
+			["encounterName"] = "Змеикс",
+			["encounterID"] = 1813,
+			["npcID"] = 91790,
 		},
 		[329171] = {
 			["encounterName"] = "Лорд-камергер",
 			["npcID"] = 165737,
 			["encounterID"] = 2381,
 		},
-		[69923] = {
-			["npcID"] = 37016,
+		[328146] = {
+			["encounterName"] = "Чумокост",
+			["encounterID"] = 2387,
+			["npcID"] = 164702,
 		},
-		[332084] = {
-			["npcID"] = 167965,
+		[195109] = {
+			["npcID"] = 91783,
 		},
 		[199193] = {
 			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
@@ -67498,44 +69367,42 @@ PlaterDB = {
 		[356295] = {
 			["npcID"] = 170257,
 		},
-		[323544] = {
-			["encounterName"] = "Хаккар, Свежеватель Душ",
-			["encounterID"] = 2395,
-			["npcID"] = 165905,
+		[344546] = {
+			["npcID"] = 162880,
 		},
-		[344922] = {
-			["npcID"] = 168148,
+		[345552] = {
+			["npcID"] = 166279,
 		},
-		[325591] = {
-			["npcID"] = 166863,
+		[297966] = {
+			["npcID"] = 153382,
 		},
 		[72762] = {
 			["encounterName"] = "Король-лич",
 			["npcID"] = 36597,
 			["encounterID"] = 1106,
 		},
-		[353741] = {
-			["npcID"] = 178958,
+		[214688] = {
+			["npcID"] = 107435,
 		},
-		[355787] = {
-			["encounterName"] = "Кузнец боли Разнал",
-			["npcID"] = 176523,
-			["encounterID"] = 2430,
+		[327648] = {
+			["npcID"] = 168418,
 		},
-		[347091] = {
-			["npcID"] = 176251,
+		[197546] = {
+			["encounterName"] = "Иллисанна Гребень Ворона",
+			["encounterID"] = 1833,
+			["npcID"] = 98696,
 		},
 		[354250] = {
 			["npcID"] = 179434,
 		},
-		[327130] = {
-			["npcID"] = 165872,
+		[347090] = {
+			["npcID"] = 178263,
 		},
 		[200218] = {
 			["npcID"] = 101462,
 		},
-		[347090] = {
-			["npcID"] = 178263,
+		[328180] = {
+			["npcID"] = 168627,
 		},
 		[341969] = {
 			["npcID"] = 174210,
@@ -67546,14 +69413,16 @@ PlaterDB = {
 		[211477] = {
 			["npcID"] = 104277,
 		},
-		[345552] = {
-			["npcID"] = 166279,
+		[355787] = {
+			["encounterName"] = "Кузнец боли Разнал",
+			["npcID"] = 176523,
+			["encounterID"] = 2430,
 		},
 		[337876] = {
 			["npcID"] = 162874,
 		},
-		[330716] = {
-			["npcID"] = 167998,
+		[330479] = {
+			["npcID"] = 153382,
 		},
 		[70460] = {
 			["npcID"] = 37744,
@@ -67576,8 +69445,10 @@ PlaterDB = {
 		[358348] = {
 			["npcID"] = 179472,
 		},
-		[270613] = {
-			["npcID"] = 170662,
+		[197418] = {
+			["encounterName"] = "Иллисанна Гребень Ворона",
+			["encounterID"] = 1833,
+			["npcID"] = 98696,
 		},
 		[328667] = {
 			["npcID"] = 163126,
@@ -67585,16 +69456,14 @@ PlaterDB = {
 		[320991] = {
 			["npcID"] = 162038,
 		},
-		[323552] = {
-			["encounterName"] = "Верховный адъюдикатор Ализа",
-			["npcID"] = 165410,
-			["encounterID"] = 2403,
+		[339927] = {
+			["npcID"] = 173553,
 		},
-		[332605] = {
-			["npcID"] = 170572,
+		[337131] = {
+			["npcID"] = 162872,
 		},
-		[345044] = {
-			["npcID"] = 170028,
+		[283634] = {
+			["npcID"] = 144529,
 		},
 		[339415] = {
 			["encounterName"] = "Ксав Несломленный",
@@ -67609,22 +69478,22 @@ PlaterDB = {
 			["encounterID"] = 1816,
 			["npcID"] = 182150,
 		},
-		[196127] = {
-			["encounterName"] = "Змеикс",
-			["encounterID"] = 1813,
-			["npcID"] = 91790,
+		[359374] = {
+			["npcID"] = 181028,
 		},
-		[336859] = {
-			["npcID"] = 162873,
+		[332525] = {
+			["npcID"] = 171396,
 		},
-		[333787] = {
-			["npcID"] = 168934,
+		[323552] = {
+			["encounterName"] = "Верховный адъюдикатор Ализа",
+			["npcID"] = 165410,
+			["encounterID"] = 2403,
 		},
-		[358353] = {
-			["npcID"] = 179760,
+		[358624] = {
+			["npcID"] = 178997,
 		},
-		[310249] = {
-			["npcID"] = 167717,
+		[338406] = {
+			["npcID"] = 173051,
 		},
 		[207642] = {
 			["npcID"] = 175922,
@@ -67637,17 +69506,17 @@ PlaterDB = {
 		[336347] = {
 			["npcID"] = 160640,
 		},
-		[297966] = {
-			["npcID"] = 153382,
+		[336859] = {
+			["npcID"] = 162873,
 		},
-		[262145] = {
-			["npcID"] = 175670,
+		[353763] = {
+			["npcID"] = 177521,
 		},
-		[327648] = {
-			["npcID"] = 168418,
+		[356306] = {
+			["npcID"] = 182214,
 		},
-		[326392] = {
-			["npcID"] = 157212,
+		[72960] = {
+			["npcID"] = 37663,
 		},
 		[347095] = {
 			["npcID"] = 178263,
@@ -67655,28 +69524,32 @@ PlaterDB = {
 		[318949] = {
 			["npcID"] = 163894,
 		},
-		[331743] = {
-			["npcID"] = 166276,
+		[262145] = {
+			["npcID"] = 175670,
 		},
-		[316859] = {
-			["npcID"] = 170042,
+		[355294] = {
+			["encounterName"] = "Девять",
+			["npcID"] = 175726,
+			["encounterID"] = 2429,
 		},
-		[272382] = {
-			["npcID"] = 155250,
+		[196144] = {
+			["encounterName"] = "Змеикс",
+			["encounterID"] = 1813,
+			["npcID"] = 91790,
 		},
-		[324425] = {
-			["npcID"] = 170660,
+		[319997] = {
+			["npcID"] = 164510,
 		},
-		[191524] = {
-			["npcID"] = 96657,
+		[328429] = {
+			["npcID"] = 168022,
 		},
-		[299268] = {
-			["npcID"] = 144566,
+		[342519] = {
+			["npcID"] = 167851,
 		},
-		[197546] = {
-			["encounterName"] = "Иллисанна Гребень Ворона",
-			["encounterID"] = 1833,
-			["npcID"] = 98696,
+		[71617] = {
+			["encounterName"] = "Профессор Мерзоцид",
+			["npcID"] = 36678,
+			["encounterID"] = 1102,
 		},
 		[347609] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
@@ -67686,11 +69559,13 @@ PlaterDB = {
 		[352215] = {
 			["npcID"] = 180246,
 		},
-		[214690] = {
-			["npcID"] = 107435,
+		[355811] = {
+			["npcID"] = 177291,
 		},
-		[200105] = {
-			["npcID"] = 98368,
+		[361180] = {
+			["encounterName"] = "Вул'кан",
+			["encounterID"] = 1816,
+			["npcID"] = 182150,
 		},
 		[320999] = {
 			["npcID"] = 164852,
@@ -67701,8 +69576,10 @@ PlaterDB = {
 		[340446] = {
 			["npcID"] = 167898,
 		},
-		[336868] = {
-			["npcID"] = 162669,
+		[352752] = {
+			["encounterName"] = "Девять",
+			["encounterID"] = 2429,
+			["npcID"] = 178736,
 		},
 		[321000] = {
 			["npcID"] = 164834,
@@ -67710,11 +69587,11 @@ PlaterDB = {
 		[319465] = {
 			["npcID"] = 164184,
 		},
-		[327413] = {
-			["npcID"] = 168318,
+		[336888] = {
+			["npcID"] = 168233,
 		},
-		[338406] = {
-			["npcID"] = 173051,
+		[295425] = {
+			["npcID"] = 144580,
 		},
 		[323048] = {
 			["npcID"] = 160345,
@@ -67724,10 +69601,8 @@ PlaterDB = {
 			["npcID"] = 175730,
 			["encounterID"] = 2431,
 		},
-		[71617] = {
-			["encounterName"] = "Профессор Мерзоцид",
-			["npcID"] = 36678,
-			["encounterID"] = 1102,
+		[346604] = {
+			["npcID"] = 175792,
 		},
 		[195108] = {
 			["npcID"] = 91783,
@@ -67744,48 +69619,48 @@ PlaterDB = {
 		[338914] = {
 			["npcID"] = 177628,
 		},
-		[328170] = {
-			["npcID"] = 162057,
+		[240784] = {
+			["npcID"] = 118044,
 		},
 		[329703] = {
 			["npcID"] = 159106,
 		},
-		[319224] = {
-			["npcID"] = 157725,
+		[353769] = {
+			["npcID"] = 178403,
 		},
-		[195109] = {
-			["npcID"] = 91783,
+		[336868] = {
+			["npcID"] = 162669,
 		},
-		[317936] = {
-			["npcID"] = 163459,
+		[368085] = {
+			["npcID"] = 183722,
 		},
 		[191527] = {
 			["npcID"] = 96657,
 		},
-		[324589] = {
-			["encounterName"] = "Мордрета",
-			["encounterID"] = 2404,
-			["npcID"] = 166524,
+		[192050] = {
+			["encounterName"] = "Змеикс",
+			["encounterID"] = 1813,
+			["npcID"] = 91808,
 		},
 		[295929] = {
 			["npcID"] = 178148,
 		},
-		[202019] = {
-			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
-			["encounterID"] = 1835,
-			["npcID"] = 98970,
+		[357084] = {
+			["npcID"] = 180379,
 		},
 		[288765] = {
 			["npcID"] = 177637,
 		},
-		[344546] = {
-			["npcID"] = 162880,
+		[328170] = {
+			["npcID"] = 162057,
 		},
-		[323058] = {
-			["npcID"] = 165609,
+		[323821] = {
+			["encounterName"] = "Генерал Кааль",
+			["encounterID"] = 2363,
+			["npcID"] = 162099,
 		},
-		[328177] = {
-			["npcID"] = 168572,
+		[325119] = {
+			["npcID"] = 157212,
 		},
 		[352223] = {
 			["npcID"] = 176578,
@@ -67793,32 +69668,28 @@ PlaterDB = {
 		[50025] = {
 			["npcID"] = 27881,
 		},
-		[355294] = {
-			["encounterName"] = "Девять",
-			["npcID"] = 175726,
-			["encounterID"] = 2429,
+		[324589] = {
+			["encounterName"] = "Мордрета",
+			["encounterID"] = 2404,
+			["npcID"] = 166524,
 		},
 		[355806] = {
 			["npcID"] = 179891,
 		},
-		[352744] = {
-			["encounterName"] = "Девять",
-			["encounterID"] = 2429,
-			["npcID"] = 175726,
+		[324417] = {
+			["npcID"] = 162133,
 		},
 		[295420] = {
 			["npcID"] = 144580,
 		},
-		[208165] = {
-			["encounterName"] = "Таликса Пламя Гнева",
-			["encounterID"] = 1869,
-			["npcID"] = 104217,
+		[357083] = {
+			["npcID"] = 180864,
 		},
-		[353769] = {
-			["npcID"] = 178403,
+		[274968] = {
+			["npcID"] = 170414,
 		},
-		[214688] = {
-			["npcID"] = 107435,
+		[305136] = {
+			["npcID"] = 178144,
 		},
 		[324079] = {
 			["encounterName"] = "Мордрета",
@@ -67833,14 +69704,16 @@ PlaterDB = {
 			["npcID"] = 162059,
 			["encounterID"] = 2357,
 		},
-		[193069] = {
-			["npcID"] = 96587,
+		[347130] = {
+			["npcID"] = 176173,
 		},
-		[296454] = {
-			["npcID"] = 152656,
+		[277249] = {
+			["npcID"] = 158177,
 		},
-		[336888] = {
-			["npcID"] = 168233,
+		[202913] = {
+			["encounterName"] = "Тиратон Салтерил",
+			["encounterID"] = 1815,
+			["npcID"] = 95885,
 		},
 		[323057] = {
 			["encounterName"] = "Ингра Малох",
@@ -67852,14 +69725,14 @@ PlaterDB = {
 			["encounterID"] = 1869,
 			["npcID"] = 104217,
 		},
-		[334326] = {
-			["npcID"] = 171376,
+		[196516] = {
+			["npcID"] = 100250,
 		},
 		[328687] = {
 			["npcID"] = 166079,
 		},
-		[353763] = {
-			["npcID"] = 177521,
+		[323058] = {
+			["npcID"] = 165609,
 		},
 		[327664] = {
 			["encounterName"] = "Трупошов",
@@ -67872,14 +69745,14 @@ PlaterDB = {
 		[355299] = {
 			["npcID"] = 178661,
 		},
-		[355811] = {
-			["npcID"] = 177291,
+		[294401] = {
+			["npcID"] = 168102,
 		},
 		[335853] = {
 			["npcID"] = 170692,
 		},
-		[295425] = {
-			["npcID"] = 144580,
+		[328177] = {
+			["npcID"] = 168572,
 		},
 		[351206] = {
 			["npcID"] = 176575,
@@ -67887,41 +69760,39 @@ PlaterDB = {
 		[331248] = {
 			["npcID"] = 171745,
 		},
-		[330479] = {
-			["npcID"] = 153382,
+		[317962] = {
+			["npcID"] = 161310,
 		},
 		[348648] = {
 			["npcID"] = 176520,
 		},
-		[192050] = {
-			["encounterName"] = "Змеикс",
-			["encounterID"] = 1813,
-			["npcID"] = 91808,
+		[194611] = {
+			["npcID"] = 98926,
 		},
 		[205605] = {
 			["npcID"] = 166137,
 		},
-		[196144] = {
-			["encounterName"] = "Змеикс",
-			["encounterID"] = 1813,
-			["npcID"] = 91790,
+		[338852] = {
+			["npcID"] = 167527,
 		},
-		[337131] = {
-			["npcID"] = 162872,
+		[316779] = {
+			["npcID"] = 178043,
 		},
 		[322550] = {
 			["encounterName"] = "Тред'ова",
 			["npcID"] = 164517,
 			["encounterID"] = 2393,
 		},
-		[332525] = {
-			["npcID"] = 171396,
+		[79937] = {
+			["npcID"] = 84645,
 		},
 		[337903] = {
 			["npcID"] = 162874,
 		},
-		[328180] = {
-			["npcID"] = 168627,
+		[352744] = {
+			["encounterName"] = "Девять",
+			["encounterID"] = 2429,
+			["npcID"] = 175726,
 		},
 		[277517] = {
 			["npcID"] = 177862,
@@ -67929,11 +69800,13 @@ PlaterDB = {
 		[357862] = {
 			["npcID"] = 177903,
 		},
-		[358624] = {
-			["npcID"] = 178997,
+		[322281] = {
+			["npcID"] = 165315,
 		},
-		[346604] = {
-			["npcID"] = 175792,
+		[208165] = {
+			["encounterName"] = "Таликса Пламя Гнева",
+			["encounterID"] = 1869,
+			["npcID"] = 104217,
 		},
 		[340975] = {
 			["npcID"] = 159415,
@@ -67947,16 +69820,14 @@ PlaterDB = {
 		[346605] = {
 			["npcID"] = 175801,
 		},
-		[295942] = {
-			["npcID"] = 162845,
+		[193069] = {
+			["npcID"] = 96587,
 		},
 		[275984] = {
 			["npcID"] = 173018,
 		},
-		[352752] = {
-			["encounterName"] = "Девять",
-			["encounterID"] = 2429,
-			["npcID"] = 178736,
+		[69958] = {
+			["npcID"] = 37016,
 		},
 		[334324] = {
 			["npcID"] = 171376,
@@ -67966,11 +69837,13 @@ PlaterDB = {
 			["encounterID"] = 2361,
 			["npcID"] = 162103,
 		},
-		[176696] = {
-			["npcID"] = 85752,
+		[340467] = {
+			["encounterName"] = "Раздиратель душ Дормацайн",
+			["npcID"] = 173756,
+			["encounterID"] = 2434,
 		},
-		[72960] = {
-			["npcID"] = 37663,
+		[357591] = {
+			["npcID"] = 177984,
 		},
 		[346607] = {
 			["npcID"] = 175857,
@@ -67978,80 +69851,82 @@ PlaterDB = {
 		[357354] = {
 			["npcID"] = 180427,
 		},
-		[338936] = {
-			["npcID"] = 172390,
+		[271841] = {
+			["npcID"] = 157002,
 		},
 		[72259] = {
 			["encounterName"] = "Король-лич",
 			["npcID"] = 36597,
 			["encounterID"] = 1106,
 		},
-		[319997] = {
-			["npcID"] = 164510,
+		[334326] = {
+			["npcID"] = 171376,
 		},
-		[325119] = {
-			["npcID"] = 157212,
+		[321891] = {
+			["encounterName"] = "Призывательница Туманов",
+			["npcID"] = 165251,
+			["encounterID"] = 2392,
 		},
 		[212773] = {
 			["npcID"] = 107073,
 		},
-		[354801] = {
-			["npcID"] = 179580,
+		[339900] = {
+			["npcID"] = 159155,
 		},
-		[328429] = {
-			["npcID"] = 168022,
+		[328651] = {
+			["npcID"] = 167493,
 		},
 		[357356] = {
 			["npcID"] = 178369,
 		},
-		[345079] = {
-			["npcID"] = 170031,
+		[354142] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 175732,
 		},
-		[329727] = {
-			["npcID"] = 159151,
+		[357217] = {
+			["npcID"] = 180389,
 		},
 		[340469] = {
 			["npcID"] = 167439,
 		},
-		[340474] = {
-			["npcID"] = 167439,
+		[324103] = {
+			["npcID"] = 162133,
 		},
-		[361180] = {
-			["encounterName"] = "Вул'кан",
-			["encounterID"] = 1816,
-			["npcID"] = 182150,
+		[225573] = {
+			["npcID"] = 98370,
 		},
-		[336893] = {
-			["npcID"] = 162873,
+		[212784] = {
+			["npcID"] = 105715,
 		},
 		[334329] = {
 			["npcID"] = 171376,
 		},
-		[345076] = {
-			["npcID"] = 170037,
+		[176696] = {
+			["npcID"] = 85752,
 		},
 		[197422] = {
 			["encounterName"] = "Кордана Оскверненная Песнь",
 			["encounterID"] = 1818,
 			["npcID"] = 95888,
 		},
-		[240784] = {
-			["npcID"] = 118044,
+		[357369] = {
+			["npcID"] = 178294,
 		},
 		[358894] = {
 			["npcID"] = 179892,
 		},
-		[345077] = {
-			["npcID"] = 170044,
+		[338936] = {
+			["npcID"] = 172390,
 		},
 		[357871] = {
 			["npcID"] = 177903,
 		},
-		[79938] = {
-			["npcID"] = 84645,
+		[331223] = {
+			["npcID"] = 162763,
 		},
-		[295438] = {
-			["npcID"] = 144580,
+		[354801] = {
+			["npcID"] = 179580,
 		},
 		[324608] = {
 			["encounterName"] = "\"Орифрион\"",
@@ -68067,44 +69942,46 @@ PlaterDB = {
 		[222499] = {
 			["npcID"] = 162829,
 		},
-		[324609] = {
-			["npcID"] = 166396,
+		[345079] = {
+			["npcID"] = 170031,
 		},
 		[71621] = {
 			["encounterName"] = "Профессор Мерзоцид",
 			["npcID"] = 36678,
 			["encounterID"] = 1102,
 		},
-		[79937] = {
-			["npcID"] = 84645,
+		[329727] = {
+			["npcID"] = 159151,
 		},
 		[352756] = {
 			["encounterName"] = "Девять",
 			["encounterID"] = 2429,
 			["npcID"] = 178738,
 		},
-		[69958] = {
-			["npcID"] = 37016,
+		[338939] = {
+			["npcID"] = 167055,
 		},
 		[72133] = {
 			["encounterName"] = "Король-лич",
 			["npcID"] = 36597,
 			["encounterID"] = 1106,
 		},
-		[347130] = {
-			["npcID"] = 176173,
+		[200248] = {
+			["npcID"] = 98280,
 		},
 		[326146] = {
 			["npcID"] = 157558,
 		},
-		[320517] = {
-			["npcID"] = 163894,
+		[336893] = {
+			["npcID"] = 162873,
 		},
-		[71296] = {
-			["npcID"] = 38125,
+		[320230] = {
+			["encounterName"] = "Дилер Зи'екса",
+			["encounterID"] = 2400,
+			["npcID"] = 164450,
 		},
-		[339966] = {
-			["npcID"] = 164861,
+		[337920] = {
+			["npcID"] = 162874,
 		},
 		[317959] = {
 			["npcID"] = 163458,
@@ -68115,8 +69992,10 @@ PlaterDB = {
 		[353782] = {
 			["npcID"] = 178403,
 		},
-		[317962] = {
-			["npcID"] = 161310,
+		[348160] = {
+			["encounterName"] = "Доктор Икус",
+			["encounterID"] = 2384,
+			["npcID"] = 164967,
 		},
 		[356853] = {
 			["npcID"] = 179254,
@@ -68124,11 +70003,13 @@ PlaterDB = {
 		[328707] = {
 			["npcID"] = 168992,
 		},
-		[357084] = {
-			["npcID"] = 180379,
+		[337255] = {
+			["encounterName"] = "Тред'ова",
+			["npcID"] = 164517,
+			["encounterID"] = 2393,
 		},
-		[194611] = {
-			["npcID"] = 98926,
+		[339966] = {
+			["npcID"] = 164861,
 		},
 		[320008] = {
 			["encounterName"] = "Манаштормы",
@@ -68138,37 +70019,39 @@ PlaterDB = {
 		[330755] = {
 			["npcID"] = 169859,
 		},
-		[332234] = {
-			["npcID"] = 167967,
+		[324323] = {
+			["npcID"] = 165919,
 		},
 		[350202] = {
 			["encounterName"] = "Девять",
 			["npcID"] = 177095,
 			["encounterID"] = 2429,
 		},
-		[324103] = {
-			["npcID"] = 162133,
+		[360949] = {
+			["npcID"] = 184268,
 		},
 		[351226] = {
 			["npcID"] = 178071,
 		},
-		[317963] = {
-			["npcID"] = 163458,
+		[321764] = {
+			["npcID"] = 164861,
 		},
 		[333827] = {
 			["npcID"] = 167533,
 		},
-		[225573] = {
-			["npcID"] = 98370,
+		[317963] = {
+			["npcID"] = 163458,
 		},
-		[339911] = {
-			["npcID"] = 159152,
+		[320838] = {
+			["npcID"] = 160356,
 		},
-		[357083] = {
-			["npcID"] = 180864,
+		[347645] = {
+			["npcID"] = 164905,
 		},
-		[357369] = {
-			["npcID"] = 178294,
+		[343556] = {
+			["encounterName"] = "Трупошов",
+			["encounterID"] = 2389,
+			["npcID"] = 162689,
 		},
 		[338434] = {
 			["npcID"] = 162875,
@@ -68179,8 +70062,8 @@ PlaterDB = {
 		[69576] = {
 			["npcID"] = 36805,
 		},
-		[305136] = {
-			["npcID"] = 178144,
+		[326021] = {
+			["npcID"] = 172312,
 		},
 		[196916] = {
 			["npcID"] = 98538,
@@ -68191,44 +70074,42 @@ PlaterDB = {
 		[329224] = {
 			["npcID"] = 168022,
 		},
-		[339900] = {
-			["npcID"] = 159155,
+		[350421] = {
+			["encounterName"] = "Писарь судьбы Ро-Кало",
+			["npcID"] = 175730,
+			["encounterID"] = 2431,
 		},
-		[277249] = {
-			["npcID"] = 158177,
+		[341771] = {
+			["npcID"] = 170882,
 		},
-		[202913] = {
-			["encounterName"] = "Тиратон Салтерил",
-			["encounterID"] = 1815,
-			["npcID"] = 95885,
+		[277040] = {
+			["npcID"] = 154015,
 		},
-		[196516] = {
-			["npcID"] = 100250,
+		[332509] = {
+			["npcID"] = 164555,
 		},
-		[348160] = {
-			["encounterName"] = "Доктор Икус",
-			["encounterID"] = 2384,
-			["npcID"] = 164967,
+		[284703] = {
+			["npcID"] = 150746,
 		},
-		[331223] = {
-			["npcID"] = 162763,
+		[338962] = {
+			["npcID"] = 166499,
 		},
-		[316779] = {
-			["npcID"] = 178043,
+		[347143] = {
+			["npcID"] = 176173,
 		},
 		[321038] = {
 			["npcID"] = 162039,
 		},
-		[310026] = {
-			["npcID"] = 170080,
-		},
-		[343556] = {
+		[326574] = {
 			["encounterName"] = "Трупошов",
 			["encounterID"] = 2389,
 			["npcID"] = 162689,
 		},
-		[271841] = {
-			["npcID"] = 157002,
+		[320512] = {
+			["npcID"] = 163892,
+		},
+		[343058] = {
+			["npcID"] = 161355,
 		},
 		[331274] = {
 			["npcID"] = 167923,
@@ -68238,28 +70119,26 @@ PlaterDB = {
 			["npcID"] = 37116,
 			["encounterID"] = 1099,
 		},
-		[322281] = {
-			["npcID"] = 165315,
+		[320517] = {
+			["npcID"] = 163894,
 		},
-		[337920] = {
-			["npcID"] = 162874,
+		[341977] = {
+			["npcID"] = 170690,
 		},
 		[331275] = {
 			["npcID"] = 167533,
 		},
-		[343046] = {
-			["npcID"] = 169041,
+		[352259] = {
+			["npcID"] = 179433,
 		},
-		[357591] = {
-			["npcID"] = 177984,
+		[277043] = {
+			["npcID"] = 154018,
 		},
 		[320529] = {
 			["npcID"] = 168886,
 		},
-		[337255] = {
-			["encounterName"] = "Тред'ова",
-			["npcID"] = 164517,
-			["encounterID"] = 2393,
+		[319002] = {
+			["npcID"] = 163460,
 		},
 		[319506] = {
 			["npcID"] = 164232,
@@ -68269,47 +70148,51 @@ PlaterDB = {
 			["npcID"] = 164185,
 			["encounterID"] = 2380,
 		},
-		[320512] = {
-			["npcID"] = 163892,
+		[292903] = {
+			["npcID"] = 177735,
 		},
 		[318995] = {
 			["npcID"] = 155945,
 		},
-		[352259] = {
-			["npcID"] = 179433,
+		[362494] = {
+			["encounterName"] = "Кел'Тузад",
+			["npcID"] = 175559,
+			["encounterID"] = 2422,
 		},
 		[320019] = {
 			["npcID"] = 167022,
 		},
-		[335720] = {
-			["npcID"] = 176131,
+		[324046] = {
+			["encounterName"] = "\"Орифрион\"",
+			["npcID"] = 162060,
+			["encounterID"] = 2358,
 		},
-		[212784] = {
-			["npcID"] = 105715,
+		[321043] = {
+			["npcID"] = 158867,
 		},
-		[320838] = {
-			["npcID"] = 160356,
+		[330611] = {
+			["npcID"] = 165989,
 		},
 		[324114] = {
 			["npcID"] = 161896,
 		},
-		[347143] = {
-			["npcID"] = 176173,
+		[338955] = {
+			["npcID"] = 163660,
 		},
-		[357217] = {
-			["npcID"] = 180389,
+		[333729] = {
+			["npcID"] = 168949,
 		},
-		[336911] = {
-			["npcID"] = 178820,
+		[358921] = {
+			["npcID"] = 178613,
 		},
-		[338653] = {
-			["npcID"] = 173044,
+		[193951] = {
+			["npcID"] = 97677,
 		},
-		[316954] = {
-			["npcID"] = 160845,
+		[347153] = {
+			["npcID"] = 171849,
 		},
-		[277043] = {
-			["npcID"] = 154018,
+		[183108] = {
+			["npcID"] = 106547,
 		},
 		[333839] = {
 			["npcID"] = 167534,
@@ -68323,27 +70206,25 @@ PlaterDB = {
 		[318999] = {
 			["npcID"] = 170711,
 		},
-		[292903] = {
-			["npcID"] = 177735,
+		[332313] = {
+			["encounterName"] = "Домина Отравленный Клинок",
+			["encounterID"] = 2385,
+			["npcID"] = 164266,
 		},
 		[317976] = {
 			["npcID"] = 178089,
 		},
-		[200248] = {
-			["npcID"] = 98280,
+		[336911] = {
+			["npcID"] = 178820,
 		},
-		[350732] = {
-			["encounterName"] = "Стражница Предвечных",
-			["npcID"] = 175731,
-			["encounterID"] = 2436,
+		[340308] = {
+			["npcID"] = 162797,
 		},
-		[338962] = {
-			["npcID"] = 166499,
+		[348024] = {
+			["npcID"] = 176520,
 		},
-		[320230] = {
-			["encounterName"] = "Дилер Зи'екса",
-			["encounterID"] = 2400,
-			["npcID"] = 164450,
+		[200256] = {
+			["npcID"] = 101549,
 		},
 		[69963] = {
 			["npcID"] = 37021,
@@ -68351,43 +70232,43 @@ PlaterDB = {
 		[185152] = {
 			["npcID"] = 157820,
 		},
-		[196157] = {
-			["encounterName"] = "Инквизитор Истязарий",
-			["npcID"] = 99645,
-			["encounterID"] = 1850,
+		[319010] = {
+			["npcID"] = 161917,
 		},
-		[326171] = {
-			["encounterName"] = "Мве'зала",
-			["encounterID"] = 2396,
-			["npcID"] = 166608,
+		[338957] = {
+			["npcID"] = 165998,
 		},
-		[298025] = {
-			["npcID"] = 158160,
+		[351762] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 176533,
 		},
-		[319002] = {
-			["npcID"] = 163460,
+		[325143] = {
+			["npcID"] = 157212,
 		},
 		[323608] = {
 			["encounterName"] = "Мордрета",
 			["encounterID"] = 2404,
 			["npcID"] = 165946,
 		},
-		[324323] = {
-			["npcID"] = 165919,
+		[331479] = {
+			["npcID"] = 167923,
 		},
-		[343055] = {
-			["npcID"] = 161355,
+		[363525] = {
+			["npcID"] = 183652,
 		},
-		[321764] = {
-			["npcID"] = 164861,
+		[331108] = {
+			["npcID"] = 162402,
 		},
 		[193597] = {
 			["encounterName"] = "Леди Кольцо Ненависти",
 			["encounterID"] = 1811,
 			["npcID"] = 91789,
 		},
-		[277040] = {
-			["npcID"] = 154015,
+		[350732] = {
+			["encounterName"] = "Стражница Предвечных",
+			["npcID"] = 175731,
+			["encounterID"] = 2436,
 		},
 		[343056] = {
 			["npcID"] = 172025,
@@ -68398,23 +70279,27 @@ PlaterDB = {
 		[333845] = {
 			["npcID"] = 167534,
 		},
-		[358921] = {
-			["npcID"] = 178613,
+		[277041] = {
+			["npcID"] = 154020,
 		},
 		[343057] = {
 			["npcID"] = 161355,
 		},
-		[162638] = {
-			["npcID"] = 80499,
+		[350687] = {
+			["encounterName"] = "Девять",
+			["npcID"] = 175726,
+			["encounterID"] = 2429,
 		},
 		[321564] = {
 			["npcID"] = 165829,
 		},
-		[285232] = {
-			["npcID"] = 144580,
+		[355732] = {
+			["npcID"] = 179446,
 		},
-		[343058] = {
-			["npcID"] = 161355,
+		[196157] = {
+			["encounterName"] = "Инквизитор Истязарий",
+			["npcID"] = 99645,
+			["encounterID"] = 1850,
 		},
 		[331288] = {
 			["npcID"] = 167532,
@@ -68422,46 +70307,44 @@ PlaterDB = {
 		[329753] = {
 			["npcID"] = 156134,
 		},
-		[340500] = {
-			["npcID"] = 167078,
+		[326171] = {
+			["encounterName"] = "Мве'зала",
+			["encounterID"] = 2396,
+			["npcID"] = 166608,
 		},
-		[347153] = {
-			["npcID"] = 171849,
+		[298025] = {
+			["npcID"] = 158160,
 		},
-		[183108] = {
-			["npcID"] = 106547,
+		[162638] = {
+			["npcID"] = 80499,
 		},
 		[352271] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
 			["encounterID"] = 2435,
 			["npcID"] = 175732,
 		},
-		[332313] = {
-			["encounterName"] = "Домина Отравленный Клинок",
-			["encounterID"] = 2385,
-			["npcID"] = 164266,
+		[285232] = {
+			["npcID"] = 144580,
 		},
-		[323064] = {
-			["encounterName"] = "Хаккар, Свежеватель Душ",
-			["encounterID"] = 2395,
-			["npcID"] = 164558,
+		[340500] = {
+			["npcID"] = 167078,
 		},
-		[350421] = {
-			["encounterName"] = "Писарь судьбы Ро-Кало",
-			["npcID"] = 175730,
-			["encounterID"] = 2431,
+		[346513] = {
+			["npcID"] = 171581,
 		},
-		[330037] = {
-			["npcID"] = 168361,
+		[69968] = {
+			["npcID"] = 37027,
 		},
 		[317985] = {
 			["npcID"] = 163520,
 		},
-		[341771] = {
-			["npcID"] = 170882,
+		[320358] = {
+			["encounterName"] = "Трупошов",
+			["encounterID"] = 2389,
+			["npcID"] = 162689,
 		},
-		[332509] = {
-			["npcID"] = 164555,
+		[347163] = {
+			["npcID"] = 176198,
 		},
 		[292910] = {
 			["npcID"] = 175834,
@@ -68472,28 +70355,26 @@ PlaterDB = {
 		[343062] = {
 			["npcID"] = 169042,
 		},
-		[319010] = {
-			["npcID"] = 161917,
+		[235308] = {
+			["npcID"] = 116410,
 		},
-		[351762] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 176533,
+		[357396] = {
+			["npcID"] = 180070,
 		},
 		[330269] = {
 			["npcID"] = 169600,
 		},
-		[333729] = {
-			["npcID"] = 168949,
-		},
-		[277481] = {
-			["npcID"] = 154011,
-		},
-		[341977] = {
-			["npcID"] = 170690,
+		[329706] = {
+			["npcID"] = 175882,
 		},
 		[338857] = {
 			["npcID"] = 167527,
+		},
+		[163671] = {
+			["npcID"] = 88782,
+		},
+		[328740] = {
+			["npcID"] = 168992,
 		},
 		[330782] = {
 			["npcID"] = 172395,
@@ -68501,27 +70382,25 @@ PlaterDB = {
 		[345623] = {
 			["npcID"] = 165824,
 		},
-		[348024] = {
-			["npcID"] = 176520,
+		[341544] = {
+			["npcID"] = 166146,
 		},
-		[350687] = {
-			["encounterName"] = "Девять",
-			["npcID"] = 175726,
-			["encounterID"] = 2429,
+		[336418] = {
+			["npcID"] = 169286,
 		},
-		[334162] = {
-			["npcID"] = 166908,
+		[193093] = {
+			["encounterName"] = "Король Волнобород",
+			["encounterID"] = 1812,
+			["npcID"] = 91797,
 		},
-		[355732] = {
-			["npcID"] = 179446,
+		[319022] = {
+			["npcID"] = 158259,
 		},
-		[336804] = {
-			["npcID"] = 177295,
+		[333861] = {
+			["npcID"] = 167536,
 		},
-		[355055] = {
-			["encounterName"] = "Кел'Тузад",
-			["encounterID"] = 2422,
-			["npcID"] = 176929,
+		[346157] = {
+			["npcID"] = 175699,
 		},
 		[330784] = {
 			["npcID"] = 160495,
@@ -68531,25 +70410,29 @@ PlaterDB = {
 			["encounterID"] = 2394,
 			["npcID"] = 164555,
 		},
-		[347163] = {
-			["npcID"] = 176198,
+		[341709] = {
+			["encounterName"] = "Призывательница Туманов",
+			["npcID"] = 164501,
+			["encounterID"] = 2392,
 		},
-		[356885] = {
-			["npcID"] = 177833,
+		[212031] = {
+			["npcID"] = 105705,
 		},
 		[355349] = {
 			["npcID"] = 177646,
 		},
-		[328740] = {
-			["npcID"] = 168992,
+		[191900] = {
+			["encounterName"] = "Полководец Паржеш",
+			["encounterID"] = 1810,
+			["npcID"] = 91784,
 		},
-		[351091] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 177787,
+		[327891] = {
+			["encounterName"] = "Мве'зала",
+			["encounterID"] = 2396,
+			["npcID"] = 169506,
 		},
-		[67280] = {
-			["npcID"] = 34924,
+		[356885] = {
+			["npcID"] = 177833,
 		},
 		[330786] = {
 			["npcID"] = 169861,
@@ -68557,8 +70440,8 @@ PlaterDB = {
 		[345627] = {
 			["npcID"] = 159174,
 		},
-		[193951] = {
-			["npcID"] = 97677,
+		[336947] = {
+			["npcID"] = 162853,
 		},
 		[330275] = {
 			["npcID"] = 169600,
@@ -68566,58 +70449,54 @@ PlaterDB = {
 		[69967] = {
 			["npcID"] = 37021,
 		},
-		[356888] = {
-			["npcID"] = 177833,
+		[323640] = {
+			["npcID"] = 168192,
 		},
 		[331811] = {
 			["npcID"] = 165687,
 		},
-		[320358] = {
-			["encounterName"] = "Трупошов",
-			["encounterID"] = 2389,
-			["npcID"] = 162689,
+		[342054] = {
+			["npcID"] = 166138,
 		},
 		[355352] = {
 			["encounterName"] = "Стражница Предвечных",
 			["npcID"] = 175731,
 			["encounterID"] = 2436,
 		},
-		[336418] = {
-			["npcID"] = 169286,
+		[353328] = {
+			["npcID"] = 178964,
+		},
+		[32637] = {
+			["npcID"] = 167749,
+		},
+		[340512] = {
+			["npcID"] = 167078,
+		},
+		[332836] = {
+			["npcID"] = 169927,
+		},
+		[320576] = {
+			["npcID"] = 168886,
+		},
+		[334542] = {
+			["npcID"] = 171422,
+		},
+		[61353] = {
+			["npcID"] = 96779,
+		},
+		[343072] = {
+			["npcID"] = 172025,
+		},
+		[358082] = {
+			["npcID"] = 179608,
 		},
 		[69712] = {
 			["encounterName"] = "Синдрагоса",
 			["npcID"] = 36853,
 			["encounterID"] = 1105,
 		},
-		[340512] = {
-			["npcID"] = 167078,
-		},
-		[193093] = {
-			["encounterName"] = "Король Волнобород",
-			["encounterID"] = 1812,
-			["npcID"] = 91797,
-		},
-		[340308] = {
-			["npcID"] = 162797,
-		},
-		[357915] = {
-			["npcID"] = 177903,
-		},
-		[325163] = {
-			["npcID"] = 171772,
-		},
-		[343072] = {
-			["npcID"] = 172025,
-		},
-		[332329] = {
-			["npcID"] = 170486,
-		},
-		[333861] = {
-			["npcID"] = 167536,
-		},
-		[292926] = {
-			["npcID"] = 151127,
+		[325183] = {
+			["npcID"] = 174941,
 		},
 		[357402] = {
 			["npcID"] = 180070,
@@ -68638,14 +70517,16 @@ PlaterDB = {
 			["encounterID"] = 1815,
 			["npcID"] = 107101,
 		},
-		[319022] = {
-			["npcID"] = 158259,
+		[325163] = {
+			["npcID"] = 171772,
 		},
-		[331479] = {
-			["npcID"] = 167923,
+		[328400] = {
+			["npcID"] = 164737,
 		},
-		[331108] = {
-			["npcID"] = 162402,
+		[213576] = {
+			["encounterName"] = "Кордана Оскверненная Песнь",
+			["encounterID"] = 1818,
+			["npcID"] = 95888,
 		},
 		[330793] = {
 			["npcID"] = 179911,
@@ -68653,32 +70534,36 @@ PlaterDB = {
 		[331305] = {
 			["npcID"] = 161599,
 		},
-		[342054] = {
-			["npcID"] = 166138,
+		[69882] = {
+			["npcID"] = 37027,
 		},
 		[277060] = {
 			["npcID"] = 154020,
 		},
-		[163671] = {
-			["npcID"] = 88782,
+		[209477] = {
+			["npcID"] = 105703,
 		},
-		[333875] = {
-			["npcID"] = 168942,
+		[326712] = {
+			["npcID"] = 167956,
 		},
-		[346157] = {
-			["npcID"] = 175699,
+		[327233] = {
+			["npcID"] = 168393,
 		},
 		[334377] = {
 			["npcID"] = 171805,
 		},
-		[329706] = {
-			["npcID"] = 175882,
+		[351939] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["npcID"] = 177891,
+			["encounterID"] = 2435,
 		},
-		[334381] = {
-			["npcID"] = 171384,
+		[71254] = {
+			["encounterName"] = "Леди Смертный Шепот",
+			["npcID"] = 36855,
+			["encounterID"] = 1100,
 		},
-		[212031] = {
-			["npcID"] = 105705,
+		[292926] = {
+			["npcID"] = 151127,
 		},
 		[340519] = {
 			["npcID"] = 161857,
@@ -68692,20 +70577,20 @@ PlaterDB = {
 		[356384] = {
 			["npcID"] = 178907,
 		},
-		[69970] = {
-			["npcID"] = 37016,
+		[356303] = {
+			["npcID"] = 170257,
 		},
-		[241717] = {
-			["npcID"] = 118065,
+		[69975] = {
+			["npcID"] = 37144,
 		},
-		[341544] = {
-			["npcID"] = 166146,
+		[357920] = {
+			["npcID"] = 179684,
 		},
-		[164446] = {
-			["npcID"] = 88109,
+		[319406] = {
+			["npcID"] = 170434,
 		},
-		[323640] = {
-			["npcID"] = 168192,
+		[328773] = {
+			["npcID"] = 159460,
 		},
 		[343080] = {
 			["npcID"] = 169042,
@@ -68716,10 +70601,8 @@ PlaterDB = {
 		[356386] = {
 			["npcID"] = 178907,
 		},
-		[324146] = {
-			["encounterName"] = "\"Вентунакс\"",
-			["npcID"] = 162058,
-			["encounterID"] = 2356,
+		[334381] = {
+			["npcID"] = 171384,
 		},
 		[345128] = {
 			["npcID"] = 173637,
@@ -68743,17 +70626,17 @@ PlaterDB = {
 		[325171] = {
 			["npcID"] = 157212,
 		},
-		[157534] = {
-			["npcID"] = 89025,
+		[359102] = {
+			["npcID"] = 176533,
 		},
 		[303678] = {
 			["npcID"] = 157340,
 		},
-		[336947] = {
-			["npcID"] = 162853,
+		[359459] = {
+			["npcID"] = 184060,
 		},
-		[326712] = {
-			["npcID"] = 167956,
+		[355887] = {
+			["npcID"] = 178786,
 		},
 		[193611] = {
 			["encounterName"] = "Леди Кольцо Ненависти",
@@ -68768,14 +70651,16 @@ PlaterDB = {
 			["npcID"] = 164517,
 			["encounterID"] = 2393,
 		},
-		[315454] = {
-			["npcID"] = 165313,
+		[325694] = {
+			["npcID"] = 160359,
 		},
-		[357418] = {
-			["npcID"] = 178443,
+		[351285] = {
+			["npcID"] = 178006,
 		},
-		[325844] = {
-			["npcID"] = 169974,
+		[320208] = {
+			["encounterName"] = "Трупошов",
+			["encounterID"] = 2389,
+			["npcID"] = 164578,
 		},
 		[328756] = {
 			["encounterName"] = "Ингра Малох",
@@ -68785,30 +70670,28 @@ PlaterDB = {
 		[357926] = {
 			["npcID"] = 177336,
 		},
-		[351285] = {
-			["npcID"] = 178006,
+		[298073] = {
+			["npcID"] = 156241,
 		},
-		[292942] = {
-			["npcID"] = 151128,
+		[310765] = {
+			["npcID"] = 159677,
 		},
 		[212547] = {
 			["encounterName"] = "Тиратон Салтерил",
 			["encounterID"] = 1815,
 			["npcID"] = 107101,
 		},
-		[331316] = {
-			["npcID"] = 167538,
+		[157534] = {
+			["npcID"] = 89025,
 		},
-		[340016] = {
-			["npcID"] = 171184,
+		[333875] = {
+			["npcID"] = 168942,
 		},
-		[341709] = {
-			["encounterName"] = "Призывательница Туманов",
-			["npcID"] = 164501,
-			["encounterID"] = 2392,
+		[225096] = {
+			["npcID"] = 106656,
 		},
-		[209477] = {
-			["npcID"] = 105703,
+		[334899] = {
+			["npcID"] = 174802,
 		},
 		[351787] = {
 			["encounterName"] = "Раздиратель душ Дормацайн",
@@ -68818,28 +70701,28 @@ PlaterDB = {
 		[319547] = {
 			["npcID"] = 160716,
 		},
-		[320576] = {
-			["npcID"] = 168886,
+		[164448] = {
+			["npcID"] = 88109,
 		},
 		[320571] = {
 			["npcID"] = 163128,
 		},
-		[335412] = {
-			["npcID"] = 178660,
+		[314942] = {
+			["npcID"] = 166869,
 		},
-		[329783] = {
-			["npcID"] = 178144,
+		[315454] = {
+			["npcID"] = 165313,
 		},
-		[191900] = {
-			["encounterName"] = "Полководец Паржеш",
-			["encounterID"] = 1810,
-			["npcID"] = 91784,
+		[325701] = {
+			["npcID"] = 165529,
 		},
 		[69972] = {
 			["npcID"] = 37148,
 		},
-		[234631] = {
-			["npcID"] = 118065,
+		[197974] = {
+			["encounterName"] = "Иллисанна Гребень Ворона",
+			["encounterID"] = 1833,
+			["npcID"] = 100485,
 		},
 		[342066] = {
 			["npcID"] = 166138,
@@ -68860,8 +70743,8 @@ PlaterDB = {
 		[235578] = {
 			["npcID"] = 118698,
 		},
-		[325183] = {
-			["npcID"] = 174941,
+		[335047] = {
+			["npcID"] = 166721,
 		},
 		[176727] = {
 			["npcID"] = 83812,
@@ -68877,48 +70760,46 @@ PlaterDB = {
 			["encounterID"] = 2391,
 			["npcID"] = 164451,
 		},
-		[338490] = {
-			["npcID"] = 162875,
+		[331333] = {
+			["npcID"] = 168857,
 		},
 		[296523] = {
 			["npcID"] = 152708,
 		},
-		[196175] = {
-			["npcID"] = 95947,
+		[172193] = {
+			["npcID"] = 172589,
 		},
-		[71253] = {
-			["npcID"] = 37134,
+		[317894] = {
+			["npcID"] = 160823,
 		},
-		[353328] = {
-			["npcID"] = 178964,
+		[164446] = {
+			["npcID"] = 88109,
 		},
 		[197454] = {
 			["encounterName"] = "Кордана Оскверненная Песнь",
 			["encounterID"] = 1818,
 			["npcID"] = 100351,
 		},
-		[325694] = {
-			["npcID"] = 160359,
+		[292942] = {
+			["npcID"] = 151128,
 		},
-		[356913] = {
-			["npcID"] = 177833,
+		[73079] = {
+			["npcID"] = 37023,
 		},
-		[357423] = {
-			["npcID"] = 178443,
+		[196175] = {
+			["npcID"] = 95947,
 		},
 		[225089] = {
 			["npcID"] = 100216,
 		},
-		[213576] = {
-			["encounterName"] = "Кордана Оскверненная Песнь",
-			["encounterID"] = 1818,
-			["npcID"] = 95888,
+		[273766] = {
+			["npcID"] = 177539,
 		},
-		[334542] = {
-			["npcID"] = 171422,
+		[227913] = {
+			["npcID"] = 102788,
 		},
-		[357938] = {
-			["npcID"] = 177336,
+		[329569] = {
+			["npcID"] = 158160,
 		},
 		[323137] = {
 			["encounterName"] = "Ингра Малох",
@@ -68928,11 +70809,11 @@ PlaterDB = {
 		[325696] = {
 			["npcID"] = 172080,
 		},
-		[320067] = {
-			["npcID"] = 178944,
+		[356913] = {
+			["npcID"] = 177833,
 		},
-		[358082] = {
-			["npcID"] = 179608,
+		[330822] = {
+			["npcID"] = 169859,
 		},
 		[323138] = {
 			["encounterName"] = "Ингра Малох",
@@ -68950,13 +70831,11 @@ PlaterDB = {
 		[69974] = {
 			["npcID"] = 37144,
 		},
-		[327233] = {
-			["npcID"] = 168393,
+		[357938] = {
+			["npcID"] = 177336,
 		},
-		[71254] = {
-			["encounterName"] = "Леди Смертный Шепот",
-			["npcID"] = 36855,
-			["encounterID"] = 1100,
+		[351678] = {
+			["npcID"] = 178271,
 		},
 		[320069] = {
 			["encounterName"] = "Оскорбление претендентов",
@@ -68966,11 +70845,11 @@ PlaterDB = {
 		[330816] = {
 			["npcID"] = 169861,
 		},
-		[328400] = {
-			["npcID"] = 164737,
+		[323786] = {
+			["npcID"] = 163524,
 		},
-		[200784] = {
-			["npcID"] = 98792,
+		[358073] = {
+			["npcID"] = 178886,
 		},
 		[358963] = {
 			["npcID"] = 180864,
@@ -68978,43 +70857,41 @@ PlaterDB = {
 		[355381] = {
 			["npcID"] = 177646,
 		},
-		[61353] = {
-			["npcID"] = 96779,
+		[346186] = {
+			["npcID"] = 167323,
 		},
 		[325700] = {
 			["npcID"] = 165529,
 		},
-		[325701] = {
-			["npcID"] = 165529,
+		[225100] = {
+			["npcID"] = 104270,
 		},
 		[357429] = {
 			["npcID"] = 178824,
 		},
+		[337982] = {
+			["npcID"] = 162872,
+		},
+		[200784] = {
+			["npcID"] = 98792,
+		},
+		[351931] = {
+			["npcID"] = 176598,
+		},
 		[328772] = {
 			["npcID"] = 159460,
 		},
-		[319560] = {
-			["npcID"] = 172704,
+		[333294] = {
+			["npcID"] = 169893,
+		},
+		[346813] = {
+			["npcID"] = 152905,
+		},
+		[340160] = {
+			["npcID"] = 173655,
 		},
 		[339008] = {
 			["npcID"] = 161704,
-		},
-		[69975] = {
-			["npcID"] = 37144,
-		},
-		[351939] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["npcID"] = 177891,
-			["encounterID"] = 2435,
-		},
-		[331333] = {
-			["npcID"] = 168857,
-		},
-		[330822] = {
-			["npcID"] = 169859,
-		},
-		[328773] = {
-			["npcID"] = 159460,
 		},
 		[357943] = {
 			["npcID"] = 180013,
@@ -69022,8 +70899,8 @@ PlaterDB = {
 		[358455] = {
 			["npcID"] = 178899,
 		},
-		[166242] = {
-			["npcID"] = 162874,
+		[358967] = {
+			["npcID"] = 179446,
 		},
 		[339009] = {
 			["npcID"] = 161704,
@@ -69046,8 +70923,8 @@ PlaterDB = {
 		[331846] = {
 			["npcID"] = 167964,
 		},
-		[356303] = {
-			["npcID"] = 170257,
+		[322370] = {
+			["npcID"] = 156473,
 		},
 		[164452] = {
 			["npcID"] = 88109,
@@ -69067,8 +70944,10 @@ PlaterDB = {
 		[218954] = {
 			["npcID"] = 172071,
 		},
-		[225096] = {
-			["npcID"] = 106656,
+		[352843] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 176533,
 		},
 		[358971] = {
 			["npcID"] = 179890,
@@ -69086,35 +70965,33 @@ PlaterDB = {
 		[167012] = {
 			["npcID"] = 170694,
 		},
+		[357286] = {
+			["npcID"] = 180392,
+		},
+		[362566] = {
+			["encounterName"] = "Кел'Тузад",
+			["npcID"] = 175559,
+			["encounterID"] = 2422,
+		},
 		[323150] = {
 			["encounterName"] = "Лорд-камергер",
 			["npcID"] = 165737,
 			["encounterID"] = 2381,
 		},
-		[359102] = {
-			["npcID"] = 176533,
-		},
-		[351808] = {
-			["npcID"] = 176577,
-		},
 		[356414] = {
 			["npcID"] = 179892,
 		},
-		[273766] = {
-			["npcID"] = 177539,
+		[332165] = {
+			["npcID"] = 170414,
 		},
-		[197974] = {
-			["encounterName"] = "Иллисанна Гребень Ворона",
-			["encounterID"] = 1833,
-			["npcID"] = 100485,
+		[176796] = {
+			["npcID"] = 83803,
 		},
-		[320081] = {
-			["npcID"] = 178944,
+		[346811] = {
+			["npcID"] = 177735,
 		},
-		[320208] = {
-			["encounterName"] = "Трупошов",
-			["encounterID"] = 2389,
-			["npcID"] = 164578,
+		[368712] = {
+			["npcID"] = 184058,
 		},
 		[352833] = {
 			["encounterName"] = "Стражница Предвечных",
@@ -69127,8 +71004,8 @@ PlaterDB = {
 		[321105] = {
 			["npcID"] = 168591,
 		},
-		[357439] = {
-			["npcID"] = 178653,
+		[358980] = {
+			["npcID"] = 180864,
 		},
 		[356928] = {
 			["npcID"] = 178786,
@@ -69138,14 +71015,14 @@ PlaterDB = {
 			["encounterID"] = 1818,
 			["npcID"] = 95888,
 		},
-		[310765] = {
-			["npcID"] = 159677,
+		[355910] = {
+			["npcID"] = 178666,
 		},
-		[317894] = {
-			["npcID"] = 160823,
+		[296019] = {
+			["npcID"] = 151128,
 		},
-		[274968] = {
-			["npcID"] = 170414,
+		[361023] = {
+			["npcID"] = 181005,
 		},
 		[357441] = {
 			["npcID"] = 177980,
@@ -69153,79 +71030,87 @@ PlaterDB = {
 		[357953] = {
 			["npcID"] = 180013,
 		},
-		[337995] = {
-			["npcID"] = 170048,
+		[141427] = {
+			["npcID"] = 183258,
+		},
+		[361024] = {
+			["npcID"] = 181007,
 		},
 		[320596] = {
 			["encounterName"] = "Чумокост",
 			["encounterID"] = 2387,
 			["npcID"] = 162691,
 		},
-		[227913] = {
-			["npcID"] = 102788,
-		},
-		[322370] = {
-			["npcID"] = 156473,
+		[320081] = {
+			["npcID"] = 178944,
 		},
 		[337996] = {
 			["npcID"] = 170048,
 		},
-		[335047] = {
-			["npcID"] = 166721,
+		[357439] = {
+			["npcID"] = 178653,
 		},
 		[334926] = {
 			["npcID"] = 168878,
 		},
-		[73079] = {
-			["npcID"] = 37023,
-		},
-		[172193] = {
-			["npcID"] = 172589,
-		},
-		[326227] = {
-			["npcID"] = 157558,
-		},
-		[334023] = {
-			["npcID"] = 167536,
-		},
-		[357286] = {
-			["npcID"] = 180392,
-		},
-		[346186] = {
-			["npcID"] = 167323,
-		},
-		[358980] = {
-			["npcID"] = 180864,
-		},
-		[225100] = {
-			["npcID"] = 104270,
-		},
-		[325205] = {
-			["npcID"] = 166936,
-		},
-		[332165] = {
-			["npcID"] = 170414,
-		},
-		[158830] = {
-			["npcID"] = 85771,
+		[330435] = {
+			["npcID"] = 165830,
 		},
 		[358983] = {
 			["npcID"] = 180865,
 		},
-		[275568] = {
-			["npcID"] = 168442,
+		[326227] = {
+			["npcID"] = 157558,
 		},
-		[323786] = {
-			["npcID"] = 163524,
+		[336958] = {
+			["npcID"] = 162853,
+		},
+		[358067] = {
+			["npcID"] = 178877,
+		},
+		[350280] = {
+			["encounterName"] = "Таррагр",
+			["npcID"] = 175611,
+			["encounterID"] = 2423,
+		},
+		[361027] = {
+			["npcID"] = 181093,
+		},
+		[157348] = {
+			["npcID"] = 77942,
+		},
+		[325205] = {
+			["npcID"] = 166936,
+		},
+		[195473] = {
+			["npcID"] = 91786,
+		},
+		[193682] = {
+			["encounterName"] = "Леди Кольцо Ненависти",
+			["encounterID"] = 1811,
+			["npcID"] = 91789,
+		},
+		[315079] = {
+			["npcID"] = 161388,
+		},
+		[362569] = {
+			["encounterName"] = "Кел'Тузад",
+			["npcID"] = 175559,
+			["encounterID"] = 2422,
+		},
+		[320196] = {
+			["npcID"] = 175605,
 		},
 		[358982] = {
 			["npcID"] = 180865,
 		},
-		[358073] = {
-			["npcID"] = 178886,
+		[354904] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 176532,
 		},
-		[338002] = {
-			["npcID"] = 170079,
+		[267997] = {
+			["npcID"] = 135816,
 		},
 		[362565] = {
 			["encounterName"] = "Кел'Тузад",
@@ -69240,15 +71125,11 @@ PlaterDB = {
 		[351307] = {
 			["npcID"] = 176572,
 		},
-		[352843] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 176533,
+		[322978] = {
+			["npcID"] = 159174,
 		},
-		[362566] = {
-			["encounterName"] = "Кел'Тузад",
-			["npcID"] = 175559,
-			["encounterID"] = 2422,
+		[158830] = {
+			["npcID"] = 85771,
 		},
 		[210261] = {
 			["npcID"] = 104251,
@@ -69264,22 +71145,24 @@ PlaterDB = {
 		[338003] = {
 			["npcID"] = 165414,
 		},
-		[335445] = {
-			["npcID"] = 180032,
+		[347741] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 175732,
 		},
 		[343121] = {
 			["npcID"] = 169043,
 		},
-		[290411] = {
-			["npcID"] = 144536,
+		[335445] = {
+			["npcID"] = 180032,
 		},
 		[362568] = {
 			["encounterName"] = "Кел'Тузад",
 			["npcID"] = 175559,
 			["encounterID"] = 2422,
 		},
-		[351931] = {
-			["npcID"] = 176598,
+		[297166] = {
+			["npcID"] = 152875,
 		},
 		[316511] = {
 			["npcID"] = 159458,
@@ -69287,10 +71170,8 @@ PlaterDB = {
 		[319070] = {
 			["npcID"] = 163891,
 		},
-		[362569] = {
-			["encounterName"] = "Кел'Тузад",
-			["npcID"] = 175559,
-			["encounterID"] = 2422,
+		[338005] = {
+			["npcID"] = 165415,
 		},
 		[340564] = {
 			["npcID"] = 169206,
@@ -69298,19 +71179,19 @@ PlaterDB = {
 		[209495] = {
 			["npcID"] = 104270,
 		},
-		[338005] = {
-			["npcID"] = 165415,
+		[328287] = {
+			["npcID"] = 165265,
 		},
-		[346813] = {
-			["npcID"] = 152905,
+		[326847] = {
+			["npcID"] = 167876,
 		},
 		[356941] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
 			["encounterID"] = 2435,
 			["npcID"] = 178081,
 		},
-		[340160] = {
-			["npcID"] = 173655,
+		[340581] = {
+			["npcID"] = 166279,
 		},
 		[323166] = {
 			["encounterName"] = "Хаккар, Свежеватель Душ",
@@ -69328,19 +71209,17 @@ PlaterDB = {
 		[357454] = {
 			["npcID"] = 178653,
 		},
-		[332377] = {
-			["npcID"] = 170513,
+		[209033] = {
+			["npcID"] = 111563,
 		},
 		[356431] = {
 			["npcID"] = 180113,
 		},
-		[356430] = {
-			["npcID"] = 178958,
+		[315076] = {
+			["npcID"] = 161388,
 		},
-		[350803] = {
-			["encounterName"] = "Око Тюремщика",
-			["npcID"] = 175725,
-			["encounterID"] = 2433,
+		[329838] = {
+			["npcID"] = 159027,
 		},
 		[327262] = {
 			["npcID"] = 167524,
@@ -69353,8 +71232,8 @@ PlaterDB = {
 			["npcID"] = 175559,
 			["encounterID"] = 2422,
 		},
-		[328287] = {
-			["npcID"] = 165265,
+		[329325] = {
+			["npcID"] = 175834,
 		},
 		[329310] = {
 			["npcID"] = 158813,
@@ -69370,17 +71249,17 @@ PlaterDB = {
 		[328799] = {
 			["npcID"] = 172397,
 		},
+		[290411] = {
+			["npcID"] = 144536,
+		},
 		[338011] = {
 			["npcID"] = 166318,
-		},
-		[323682] = {
-			["npcID"] = 163501,
 		},
 		[328288] = {
 			["npcID"] = 168718,
 		},
-		[176796] = {
-			["npcID"] = 83803,
+		[321216] = {
+			["npcID"] = 164886,
 		},
 		[321124] = {
 			["npcID"] = 156815,
@@ -69395,60 +71274,60 @@ PlaterDB = {
 			["encounterID"] = 2435,
 			["npcID"] = 176532,
 		},
-		[346811] = {
-			["npcID"] = 177735,
+		[240763] = {
+			["npcID"] = 118044,
 		},
-		[324987] = {
-			["npcID"] = 166301,
+		[332272] = {
+			["npcID"] = 180028,
 		},
-		[295985] = {
-			["npcID"] = 159755,
+		[358573] = {
+			["npcID"] = 179423,
 		},
-		[336958] = {
-			["npcID"] = 162853,
+		[79856] = {
+			["npcID"] = 84468,
 		},
 		[341084] = {
 			["npcID"] = 174732,
 		},
-		[336383] = {
-			["npcID"] = 179768,
+		[345267] = {
+			["npcID"] = 162937,
 		},
 		[95826] = {
 			["npcID"] = 172997,
 		},
-		[328411] = {
-			["npcID"] = 160640,
+		[354405] = {
+			["encounterName"] = "Таррагр",
+			["npcID"] = 175611,
+			["encounterID"] = 2423,
 		},
-		[290423] = {
-			["npcID"] = 144536,
+		[321141] = {
+			["npcID"] = 169987,
 		},
 		[206685] = {
 			["npcID"] = 104493,
 		},
-		[355929] = {
-			["npcID"] = 177803,
+		[295985] = {
+			["npcID"] = 159755,
 		},
-		[354904] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 176532,
+		[316527] = {
+			["npcID"] = 158992,
 		},
-		[315079] = {
-			["npcID"] = 161388,
+		[350828] = {
+			["encounterName"] = "Око Тюремщика",
+			["npcID"] = 175725,
+			["encounterID"] = 2433,
 		},
 		[294517] = {
 			["npcID"] = 177553,
 		},
-		[193682] = {
-			["encounterName"] = "Леди Кольцо Ненависти",
-			["encounterID"] = 1811,
-			["npcID"] = 91789,
+		[283775] = {
+			["npcID"] = 150744,
 		},
 		[356951] = {
 			["npcID"] = 177004,
 		},
-		[157348] = {
-			["npcID"] = 77942,
+		[329401] = {
+			["npcID"] = 167464,
 		},
 		[325223] = {
 			["npcID"] = 166304,
@@ -69461,39 +71340,39 @@ PlaterDB = {
 			["encounterID"] = 2422,
 			["npcID"] = 175559,
 		},
-		[200291] = {
-			["npcID"] = 98691,
+		[357979] = {
+			["npcID"] = 178897,
 		},
-		[347741] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 175732,
+		[351835] = {
+			["npcID"] = 179894,
 		},
 		[323689] = {
 			["npcID"] = 158642,
 		},
-		[240763] = {
-			["npcID"] = 118044,
+		[322236] = {
+			["encounterName"] = "Маркграфиня Страдама",
+			["encounterID"] = 2386,
+			["npcID"] = 165430,
 		},
 		[355418] = {
 			["npcID"] = 178527,
 		},
-		[195473] = {
-			["npcID"] = 91786,
+		[349805] = {
+			["npcID"] = 180473,
 		},
 		[352348] = {
 			["encounterName"] = "Кел'Тузад",
 			["encounterID"] = 2422,
 			["npcID"] = 175559,
 		},
-		[357979] = {
-			["npcID"] = 178897,
+		[343105] = {
+			["npcID"] = 170208,
 		},
 		[336996] = {
 			["npcID"] = 162744,
 		},
-		[320196] = {
-			["npcID"] = 175605,
+		[355947] = {
+			["npcID"] = 177805,
 		},
 		[346208] = {
 			["npcID"] = 177899,
@@ -69501,37 +71380,37 @@ PlaterDB = {
 		[356955] = {
 			["npcID"] = 176880,
 		},
-		[283775] = {
-			["npcID"] = 150744,
+		[200291] = {
+			["npcID"] = 98691,
 		},
 		[327274] = {
 			["npcID"] = 167524,
 		},
-		[339046] = {
-			["npcID"] = 175830,
+		[339905] = {
+			["npcID"] = 159155,
 		},
 		[356956] = {
 			["npcID"] = 177551,
 		},
-		[267997] = {
-			["npcID"] = 135816,
+		[329929] = {
+			["npcID"] = 157083,
 		},
 		[329322] = {
 			["npcID"] = 176574,
 		},
-		[337513] = {
-			["npcID"] = 158259,
+		[356010] = {
+			["npcID"] = 178041,
 		},
-		[340581] = {
-			["npcID"] = 166279,
+		[324205] = {
+			["encounterName"] = "\"Вентунакс\"",
+			["npcID"] = 162058,
+			["encounterID"] = 2356,
 		},
-		[198245] = {
-			["encounterName"] = "Хмуродроб Лютый",
-			["encounterID"] = 1834,
-			["npcID"] = 98949,
+		[339046] = {
+			["npcID"] = 175830,
 		},
-		[325232] = {
-			["npcID"] = 170663,
+		[332377] = {
+			["npcID"] = 170513,
 		},
 		[333929] = {
 			["npcID"] = 172388,
@@ -69542,39 +71421,37 @@ PlaterDB = {
 		[318577] = {
 			["npcID"] = 163460,
 		},
-		[297166] = {
-			["npcID"] = 152875,
+		[321565] = {
+			["npcID"] = 165829,
 		},
-		[358496] = {
-			["npcID"] = 179805,
+		[342349] = {
+			["npcID"] = 174346,
 		},
-		[326847] = {
-			["npcID"] = 167876,
+		[70116] = {
+			["npcID"] = 37230,
 		},
 		[300155] = {
 			["npcID"] = 164929,
 		},
-		[329325] = {
-			["npcID"] = 175834,
+		[337513] = {
+			["npcID"] = 158259,
 		},
-		[192617] = {
-			["encounterName"] = "Гнев Азшары",
-			["encounterID"] = 1814,
-			["npcID"] = 96028,
+		[333931] = {
+			["npcID"] = 172388,
 		},
 		[320114] = {
 			["encounterName"] = "Ксав Несломленный",
 			["encounterID"] = 2366,
 			["npcID"] = 162329,
 		},
-		[321652] = {
-			["npcID"] = 164886,
+		[225917] = {
+			["npcID"] = 98677,
 		},
-		[329326] = {
-			["npcID"] = 155831,
+		[325232] = {
+			["npcID"] = 170663,
 		},
-		[329838] = {
-			["npcID"] = 159027,
+		[358496] = {
+			["npcID"] = 179805,
 		},
 		[195944] = {
 			["npcID"] = 91796,
@@ -69582,14 +71459,18 @@ PlaterDB = {
 		[310392] = {
 			["npcID"] = 159190,
 		},
-		[209033] = {
-			["npcID"] = 111563,
+		[290438] = {
+			["npcID"] = 144536,
 		},
-		[315076] = {
-			["npcID"] = 161388,
+		[320120] = {
+			["encounterName"] = "Оскорбление претендентов",
+			["encounterID"] = 2391,
+			["npcID"] = 164463,
 		},
-		[357987] = {
-			["npcID"] = 178757,
+		[323538] = {
+			["encounterName"] = "Верховный адъюдикатор Ализа",
+			["npcID"] = 165410,
+			["encounterID"] = 2403,
 		},
 		[258634] = {
 			["npcID"] = 154129,
@@ -69600,33 +71481,33 @@ PlaterDB = {
 		[191595] = {
 			["npcID"] = 96587,
 		},
-		[331379] = {
-			["npcID"] = 167965,
+		[294533] = {
+			["npcID"] = 151817,
 		},
 		[70498] = {
 			["encounterName"] = "Король-лич",
 			["npcID"] = 36597,
 			["encounterID"] = 1106,
 		},
-		[321141] = {
-			["npcID"] = 169987,
+		[357987] = {
+			["npcID"] = 178757,
 		},
-		[354405] = {
-			["encounterName"] = "Таррагр",
-			["npcID"] = 175611,
-			["encounterID"] = 2423,
+		[182384] = {
+			["npcID"] = 89025,
 		},
-		[211299] = {
-			["npcID"] = 105715,
+		[340655] = {
+			["npcID"] = 172077,
 		},
-		[321216] = {
-			["npcID"] = 164886,
+		[327481] = {
+			["encounterName"] = "Кин-Тара",
+			["npcID"] = 162059,
+			["encounterID"] = 2357,
 		},
 		[331377] = {
 			["npcID"] = 157683,
 		},
-		[337520] = {
-			["npcID"] = 159412,
+		[345772] = {
+			["npcID"] = 175579,
 		},
 		[354918] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
@@ -69644,25 +71525,25 @@ PlaterDB = {
 		[342125] = {
 			["npcID"] = 167538,
 		},
-		[320120] = {
-			["encounterName"] = "Оскорбление претендентов",
-			["encounterID"] = 2391,
-			["npcID"] = 164463,
+		[211299] = {
+			["npcID"] = 105715,
+		},
+		[193164] = {
+			["npcID"] = 96657,
 		},
 		[272016] = {
 			["npcID"] = 154014,
 		},
-		[294533] = {
-			["npcID"] = 151817,
-		},
 		[270481] = {
 			["npcID"] = 135002,
 		},
-		[358573] = {
-			["npcID"] = 179423,
+		[336499] = {
+			["encounterName"] = "Призывательница Туманов",
+			["npcID"] = 164501,
+			["encounterID"] = 2392,
 		},
-		[357479] = {
-			["npcID"] = 178653,
+		[330868] = {
+			["npcID"] = 160495,
 		},
 		[335474] = {
 			["npcID"] = 169502,
@@ -69672,45 +71553,43 @@ PlaterDB = {
 			["encounterID"] = 1816,
 			["npcID"] = 95886,
 		},
-		[79856] = {
-			["npcID"] = 84468,
+		[342189] = {
+			["npcID"] = 174175,
 		},
-		[345267] = {
-			["npcID"] = 162937,
+		[329395] = {
+			["npcID"] = 159104,
 		},
 		[355945] = {
 			["npcID"] = 179940,
 		},
+		[166766] = {
+			["npcID"] = 176198,
+		},
 		[340593] = {
 			["npcID"] = 172050,
 		},
-		[350828] = {
-			["encounterName"] = "Око Тюремщика",
-			["npcID"] = 175725,
-			["encounterID"] = 2433,
+		[319994] = {
+			["npcID"] = 172390,
 		},
 		[343664] = {
 			["npcID"] = 162452,
 		},
-		[349805] = {
-			["npcID"] = 180473,
-		},
-		[327481] = {
-			["encounterName"] = "Кин-Тара",
-			["npcID"] = 162059,
-			["encounterID"] = 2357,
+		[342139] = {
+			["npcID"] = 167538,
 		},
 		[322171] = {
 			["npcID"] = 172675,
 		},
+		[354666] = {
+			["npcID"] = 179580,
+		},
 		[59638] = {
 			["npcID"] = 31216,
 		},
-		[355947] = {
-			["npcID"] = 177805,
-		},
-		[352834] = {
-			["npcID"] = 176959,
+		[327646] = {
+			["encounterName"] = "Мве'зала",
+			["encounterID"] = 2396,
+			["npcID"] = 166608,
 		},
 		[356971] = {
 			["npcID"] = 180087,
@@ -69720,16 +71599,16 @@ PlaterDB = {
 			["encounterID"] = 2387,
 			["npcID"] = 162691,
 		},
-		[166766] = {
-			["npcID"] = 176198,
+		[317943] = {
+			["npcID"] = 163457,
 		},
 		[204905] = {
 			["encounterName"] = "Инквизитор Истязарий",
 			["encounterID"] = 1850,
 			["npcID"] = 99676,
 		},
-		[356014] = {
-			["npcID"] = 177356,
+		[209027] = {
+			["npcID"] = 111563,
 		},
 		[334967] = {
 			["npcID"] = 171343,
@@ -69739,13 +71618,13 @@ PlaterDB = {
 			["encounterID"] = 2404,
 			["npcID"] = 165946,
 		},
-		[304946] = {
-			["npcID"] = 179280,
+		[331379] = {
+			["npcID"] = 167965,
 		},
-		[322236] = {
-			["encounterName"] = "Маркграфиня Страдама",
-			["encounterID"] = 2386,
-			["npcID"] = 165430,
+		[350541] = {
+			["encounterName"] = "Девять",
+			["npcID"] = 175726,
+			["encounterID"] = 2429,
 		},
 		[196206] = {
 			["encounterName"] = "Инквизитор Истязарий",
@@ -69755,33 +71634,33 @@ PlaterDB = {
 		[355950] = {
 			["npcID"] = 178029,
 		},
-		[69989] = {
-			["npcID"] = 37144,
+		[320478] = {
+			["npcID"] = 180379,
 		},
 		[354927] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
 			["encounterID"] = 2435,
 			["npcID"] = 178081,
 		},
-		[330875] = {
-			["npcID"] = 169893,
+		[69989] = {
+			["npcID"] = 37144,
 		},
 		[329340] = {
 			["npcID"] = 165410,
 		},
-		[329929] = {
-			["npcID"] = 157083,
+		[319669] = {
+			["encounterName"] = "Кул'тарок",
+			["npcID"] = 162309,
+			["encounterID"] = 2364,
 		},
-		[327646] = {
-			["encounterName"] = "Мве'зала",
-			["encounterID"] = 2396,
-			["npcID"] = 166608,
+		[357479] = {
+			["npcID"] = 178653,
 		},
-		[354666] = {
-			["npcID"] = 179580,
+		[335143] = {
+			["npcID"] = 165222,
 		},
-		[294526] = {
-			["npcID"] = 151817,
+		[336556] = {
+			["npcID"] = 179913,
 		},
 		[342135] = {
 			["npcID"] = 167532,
@@ -69789,19 +71668,19 @@ PlaterDB = {
 		[328318] = {
 			["npcID"] = 166875,
 		},
-		[356010] = {
-			["npcID"] = 178041,
+		[320657] = {
+			["npcID"] = 175605,
 		},
 		[337530] = {
 			["npcID"] = 158259,
 		},
-		[196208] = {
-			["encounterName"] = "Инквизитор Истязарий",
-			["npcID"] = 99704,
-			["encounterID"] = 1850,
+		[325258] = {
+			["encounterName"] = "Мве'зала",
+			["encounterID"] = 2396,
+			["npcID"] = 166608,
 		},
-		[70116] = {
-			["npcID"] = 37230,
+		[353443] = {
+			["npcID"] = 179080,
 		},
 		[210537] = {
 			["npcID"] = 159495,
@@ -69809,10 +71688,8 @@ PlaterDB = {
 		[327296] = {
 			["npcID"] = 158870,
 		},
-		[321669] = {
-			["encounterName"] = "Призывательница Туманов",
-			["npcID"] = 165108,
-			["encounterID"] = 2392,
+		[304946] = {
+			["npcID"] = 179280,
 		},
 		[320132] = {
 			["encounterName"] = "Манаштормы",
@@ -69835,21 +71712,21 @@ PlaterDB = {
 			["encounterID"] = 2435,
 			["npcID"] = 178081,
 		},
-		[337021] = {
-			["npcID"] = 169286,
+		[359538] = {
+			["npcID"] = 184058,
+		},
+		[176515] = {
+			["npcID"] = 83694,
+		},
+		[321669] = {
+			["encounterName"] = "Призывательница Туманов",
+			["npcID"] = 165108,
+			["encounterID"] = 2392,
 		},
 		[354933] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
 			["encounterID"] = 2435,
 			["npcID"] = 176533,
-		},
-		[342139] = {
-			["npcID"] = 167538,
-		},
-		[328322] = {
-			["encounterName"] = "Эшелон",
-			["npcID"] = 164363,
-			["encounterID"] = 2380,
 		},
 		[353398] = {
 			["encounterName"] = "Писарь судьбы Ро-Кало",
@@ -69865,13 +71742,11 @@ PlaterDB = {
 		[356981] = {
 			["npcID"] = 177529,
 		},
-		[225917] = {
-			["npcID"] = 98677,
+		[263344] = {
+			["npcID"] = 168111,
 		},
-		[195187] = {
-			["encounterName"] = "Вул'кан",
-			["encounterID"] = 1816,
-			["npcID"] = 99233,
+		[329396] = {
+			["npcID"] = 161634,
 		},
 		[194675] = {
 			["npcID"] = 98963,
@@ -69889,39 +71764,39 @@ PlaterDB = {
 			["encounterID"] = 2362,
 			["npcID"] = 162102,
 		},
+		[330387] = {
+			["npcID"] = 159178,
+		},
 		[158854] = {
 			["npcID"] = 85771,
 		},
-		[179091] = {
-			["npcID"] = 88783,
-		},
-		[340655] = {
-			["npcID"] = 172077,
+		[322736] = {
+			["encounterName"] = "Хаккар, Свежеватель Душ",
+			["encounterID"] = 2395,
+			["npcID"] = 164558,
 		},
 		[329862] = {
 			["npcID"] = 177427,
 		},
-		[358519] = {
-			["npcID"] = 179853,
+		[323720] = {
+			["npcID"] = 181203,
 		},
 		[356984] = {
 			["npcID"] = 178402,
 		},
-		[345772] = {
-			["npcID"] = 175579,
+		[334653] = {
+			["npcID"] = 165076,
 		},
-		[193164] = {
-			["npcID"] = 96657,
+		[330875] = {
+			["npcID"] = 169893,
 		},
 		[352379] = {
 			["encounterName"] = "Кел'Тузад",
 			["npcID"] = 176929,
 			["encounterID"] = 2422,
 		},
-		[354938] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 176533,
+		[363126] = {
+			["npcID"] = 181027,
 		},
 		[357497] = {
 			["npcID"] = 177980,
@@ -69935,14 +71810,14 @@ PlaterDB = {
 		[355450] = {
 			["npcID"] = 180598,
 		},
-		[342189] = {
-			["npcID"] = 174175,
+		[320028] = {
+			["npcID"] = 167458,
 		},
 		[355963] = {
 			["npcID"] = 152594,
 		},
-		[329395] = {
-			["npcID"] = 159104,
+		[339601] = {
+			["npcID"] = 159503,
 		},
 		[320141] = {
 			["encounterName"] = "Манаштормы",
@@ -69965,19 +71840,17 @@ PlaterDB = {
 			["npcID"] = 175725,
 			["encounterID"] = 2433,
 		},
-		[325258] = {
-			["encounterName"] = "Мве'зала",
-			["encounterID"] = 2396,
-			["npcID"] = 166608,
+		[294526] = {
+			["npcID"] = 151817,
 		},
 		[335495] = {
 			["npcID"] = 180032,
 		},
-		[357499] = {
-			["npcID"] = 177980,
+		[358970] = {
+			["npcID"] = 179891,
 		},
-		[335143] = {
-			["npcID"] = 165222,
+		[328860] = {
+			["npcID"] = 165549,
 		},
 		[320655] = {
 			["encounterName"] = "Чумокост",
@@ -69990,28 +71863,30 @@ PlaterDB = {
 		[346243] = {
 			["npcID"] = 168233,
 		},
-		[320144] = {
-			["encounterName"] = "Манаштормы",
-			["encounterID"] = 2394,
-			["npcID"] = 164555,
+		[176512] = {
+			["npcID"] = 83692,
 		},
 		[176768] = {
 			["npcID"] = 83790,
 		},
-		[320478] = {
-			["npcID"] = 180379,
+		[339042] = {
+			["npcID"] = 170941,
+		},
+		[347283] = {
+			["encounterName"] = "Таррагр",
+			["npcID"] = 175611,
+			["encounterID"] = 2423,
 		},
 		[338147] = {
 			["npcID"] = 169885,
 		},
-		[322743] = {
-			["npcID"] = 178967,
+		[355456] = {
+			["npcID"] = 178958,
 		},
-		[320657] = {
-			["npcID"] = 175605,
-		},
-		[209027] = {
-			["npcID"] = 111563,
+		[328322] = {
+			["encounterName"] = "Эшелон",
+			["npcID"] = 164363,
+			["encounterID"] = 2380,
 		},
 		[350339] = {
 			["encounterName"] = "Девять",
@@ -70021,14 +71896,14 @@ PlaterDB = {
 		[322193] = {
 			["npcID"] = 157054,
 		},
-		[358271] = {
-			["npcID"] = 179914,
-		},
-		[355456] = {
-			["npcID"] = 178958,
+		[320696] = {
+			["npcID"] = 163121,
 		},
 		[332430] = {
 			["npcID"] = 179914,
+		},
+		[329905] = {
+			["npcID"] = 157118,
 		},
 		[334476] = {
 			["encounterName"] = "Трупошов",
@@ -70044,16 +71919,14 @@ PlaterDB = {
 		[358529] = {
 			["npcID"] = 179853,
 		},
-		[176514] = {
-			["npcID"] = 83694,
+		[361088] = {
+			["npcID"] = 181027,
 		},
 		[345224] = {
 			["npcID"] = 170039,
 		},
-		[319669] = {
-			["encounterName"] = "Кул'тарок",
-			["npcID"] = 162309,
-			["encounterID"] = 2364,
+		[351912] = {
+			["npcID"] = 178366,
 		},
 		[350342] = {
 			["encounterName"] = "Девять",
@@ -70066,23 +71939,25 @@ PlaterDB = {
 		[345225] = {
 			["npcID"] = 170033,
 		},
-		[340619] = {
-			["npcID"] = 172071,
+		[325802] = {
+			["npcID"] = 166936,
 		},
 		[194682] = {
 			["npcID"] = 98963,
 		},
-		[176515] = {
-			["npcID"] = 83694,
+		[328338] = {
+			["npcID"] = 167493,
 		},
-		[250208] = {
-			["npcID"] = 170122,
+		[353603] = {
+			["encounterName"] = "Писарь судьбы Ро-Кало",
+			["npcID"] = 175730,
+			["encounterID"] = 2431,
 		},
 		[319127] = {
 			["npcID"] = 170248,
 		},
-		[336556] = {
-			["npcID"] = 179913,
+		[285335] = {
+			["npcID"] = 177131,
 		},
 		[330386] = {
 			["npcID"] = 158976,
@@ -70090,14 +71965,14 @@ PlaterDB = {
 		[335505] = {
 			["npcID"] = 179029,
 		},
-		[330388] = {
-			["npcID"] = 159178,
+		[217210] = {
+			["npcID"] = 106514,
 		},
 		[346251] = {
 			["npcID"] = 168233,
 		},
-		[330387] = {
-			["npcID"] = 159178,
+		[250208] = {
+			["npcID"] = 170122,
 		},
 		[322711] = {
 			["encounterName"] = "Халкиас, запятнанный грехом голиаф",
@@ -70120,14 +71995,14 @@ PlaterDB = {
 			["encounterID"] = 2435,
 			["npcID"] = 175732,
 		},
+		[331412] = {
+			["npcID"] = 177130,
+		},
+		[329383] = {
+			["npcID"] = 167331,
+		},
 		[358023] = {
 			["npcID"] = 180474,
-		},
-		[353443] = {
-			["npcID"] = 179080,
-		},
-		[263344] = {
-			["npcID"] = 168111,
 		},
 		[353418] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
@@ -70137,14 +72012,18 @@ PlaterDB = {
 		[321178] = {
 			["npcID"] = 162047,
 		},
-		[275983] = {
-			["npcID"] = 157820,
-		},
 		[346255] = {
 			["npcID"] = 173637,
 		},
-		[330391] = {
-			["npcID"] = 159178,
+		[334485] = {
+			["encounterName"] = "\"Вентунакс\"",
+			["npcID"] = 162058,
+			["encounterID"] = 2356,
+		},
+		[320170] = {
+			["encounterName"] = "Амарт Жнец",
+			["encounterID"] = 2388,
+			["npcID"] = 162692,
 		},
 		[331414] = {
 			["npcID"] = 157754,
@@ -70152,10 +72031,8 @@ PlaterDB = {
 		[319644] = {
 			["npcID"] = 172045,
 		},
-		[334485] = {
-			["encounterName"] = "\"Вентунакс\"",
-			["npcID"] = 162058,
-			["encounterID"] = 2356,
+		[330391] = {
+			["npcID"] = 159178,
 		},
 		[328856] = {
 			["npcID"] = 165549,
@@ -70166,16 +72043,16 @@ PlaterDB = {
 		[331927] = {
 			["npcID"] = 167962,
 		},
-		[330697] = {
-			["npcID"] = 170690,
+		[197251] = {
+			["encounterName"] = "Кордана Оскверненная Песнь",
+			["encounterID"] = 1818,
+			["npcID"] = 95888,
 		},
-		[193152] = {
-			["encounterName"] = "Король Волнобород",
-			["encounterID"] = 1812,
-			["npcID"] = 91797,
+		[325782] = {
+			["npcID"] = 164038,
 		},
-		[320028] = {
-			["npcID"] = 167458,
+		[342675] = {
+			["npcID"] = 170882,
 		},
 		[333975] = {
 			["npcID"] = 165998,
@@ -70188,10 +72065,8 @@ PlaterDB = {
 		[357516] = {
 			["npcID"] = 177137,
 		},
-		[322736] = {
-			["encounterName"] = "Хаккар, Свежеватель Душ",
-			["encounterID"] = 2395,
-			["npcID"] = 164558,
+		[331418] = {
+			["npcID"] = 170160,
 		},
 		[358540] = {
 			["npcID"] = 177974,
@@ -70201,41 +72076,43 @@ PlaterDB = {
 			["encounterID"] = 2389,
 			["npcID"] = 162689,
 		},
+		[192138] = {
+			["encounterName"] = "Полководец Паржеш",
+			["encounterID"] = 1810,
+			["npcID"] = 97269,
+		},
 		[353935] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
 			["encounterID"] = 2435,
 			["npcID"] = 175732,
 		},
-		[331418] = {
-			["npcID"] = 170160,
-		},
-		[345236] = {
-			["npcID"] = 170157,
+		[3396] = {
+			["npcID"] = 2350,
 		},
 		[69869] = {
 			["npcID"] = 37026,
 		},
-		[347283] = {
-			["encounterName"] = "Таррагр",
-			["npcID"] = 175611,
-			["encounterID"] = 2423,
+		[345236] = {
+			["npcID"] = 170157,
 		},
 		[197502] = {
 			["encounterName"] = "Полководец Паржеш",
 			["encounterID"] = 1810,
 			["npcID"] = 97269,
 		},
-		[325782] = {
-			["npcID"] = 164038,
+		[358041] = {
+			["npcID"] = 180160,
 		},
-		[356924] = {
-			["npcID"] = 179890,
+		[337556] = {
+			["npcID"] = 162853,
 		},
-		[358970] = {
-			["npcID"] = 179891,
+		[197250] = {
+			["encounterName"] = "Кордана Оскверненная Песнь",
+			["encounterID"] = 1818,
+			["npcID"] = 95888,
 		},
-		[340683] = {
-			["npcID"] = 172079,
+		[330403] = {
+			["npcID"] = 168153,
 		},
 		[319650] = {
 			["encounterName"] = "Криксис Ненасытный",
@@ -70245,11 +72122,13 @@ PlaterDB = {
 		[330397] = {
 			["npcID"] = 160345,
 		},
-		[339042] = {
-			["npcID"] = 170941,
+		[206459] = {
+			["encounterName"] = "Кордана Оскверненная Песнь",
+			["encounterID"] = 1818,
+			["npcID"] = 104293,
 		},
-		[31707] = {
-			["npcID"] = 78116,
+		[275983] = {
+			["npcID"] = 157820,
 		},
 		[342168] = {
 			["npcID"] = 156331,
@@ -70259,13 +72138,13 @@ PlaterDB = {
 			["npcID"] = 37972,
 			["encounterID"] = 1095,
 		},
-		[206459] = {
-			["encounterName"] = "Кордана Оскверненная Песнь",
-			["encounterID"] = 1818,
-			["npcID"] = 104293,
+		[157331] = {
+			["encounterName"] = "Раздиратель душ Дормацайн",
+			["npcID"] = 77942,
+			["encounterID"] = 2434,
 		},
-		[337556] = {
-			["npcID"] = 162853,
+		[340683] = {
+			["npcID"] = 172079,
 		},
 		[317605] = {
 			["npcID"] = 167534,
@@ -70273,24 +72152,24 @@ PlaterDB = {
 		[334493] = {
 			["npcID"] = 164862,
 		},
-		[320696] = {
-			["npcID"] = 163121,
+		[350865] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 177154,
 		},
 		[329376] = {
 			["npcID"] = 179913,
 		},
-		[353603] = {
-			["encounterName"] = "Писарь судьбы Ро-Кало",
-			["npcID"] = 175730,
-			["encounterID"] = 2431,
+		[358548] = {
+			["npcID"] = 180664,
 		},
 		[72429] = {
 			["encounterName"] = "Король-лич",
 			["npcID"] = 38579,
 			["encounterID"] = 1106,
 		},
-		[3396] = {
-			["npcID"] = 2350,
+		[330697] = {
+			["npcID"] = 170690,
 		},
 		[323236] = {
 			["encounterName"] = "Лорд-камергер",
@@ -70303,24 +72182,24 @@ PlaterDB = {
 		[316072] = {
 			["npcID"] = 169367,
 		},
-		[351912] = {
-			["npcID"] = 178366,
+		[330388] = {
+			["npcID"] = 159178,
+		},
+		[357011] = {
+			["npcID"] = 177514,
+		},
+		[348313] = {
+			["encounterName"] = "Таррагр",
+			["npcID"] = 175611,
+			["encounterID"] = 2423,
+		},
+		[79854] = {
+			["npcID"] = 84468,
 		},
 		[347668] = {
 			["encounterName"] = "Таррагр",
 			["npcID"] = 175611,
 			["encounterID"] = 2423,
-		},
-		[358548] = {
-			["npcID"] = 180664,
-		},
-		[330403] = {
-			["npcID"] = 168153,
-		},
-		[197250] = {
-			["encounterName"] = "Кордана Оскверненная Песнь",
-			["encounterID"] = 1818,
-			["npcID"] = 95888,
 		},
 		[327332] = {
 			["npcID"] = 163459,
@@ -70341,11 +72220,13 @@ PlaterDB = {
 		[358038] = {
 			["npcID"] = 179802,
 		},
-		[329383] = {
-			["npcID"] = 167331,
+		[31707] = {
+			["npcID"] = 78116,
 		},
-		[325802] = {
-			["npcID"] = 166936,
+		[193152] = {
+			["encounterName"] = "Король Волнобород",
+			["encounterID"] = 1812,
+			["npcID"] = 91797,
 		},
 		[328869] = {
 			["npcID"] = 157122,
@@ -70353,19 +72234,17 @@ PlaterDB = {
 		[358039] = {
 			["npcID"] = 178002,
 		},
-		[358041] = {
-			["npcID"] = 180160,
+		[338846] = {
+			["npcID"] = 167525,
 		},
-		[320170] = {
-			["encounterName"] = "Амарт Жнец",
-			["encounterID"] = 2388,
-			["npcID"] = 162692,
+		[6358] = {
+			["npcID"] = 1863,
 		},
 		[324776] = {
 			["npcID"] = 166275,
 		},
-		[217210] = {
-			["npcID"] = 106514,
+		[356924] = {
+			["npcID"] = 179890,
 		},
 		[224374] = {
 			["encounterName"] = "Таликса Пламя Гнева",
@@ -70394,18 +72273,16 @@ PlaterDB = {
 		[330919] = {
 			["npcID"] = 169912,
 		},
-		[197251] = {
-			["encounterName"] = "Кордана Оскверненная Песнь",
-			["encounterID"] = 1818,
-			["npcID"] = 95888,
+		[176514] = {
+			["npcID"] = 83694,
 		},
 		[224375] = {
 			["encounterName"] = "Таликса Пламя Гнева",
 			["encounterID"] = 1869,
 			["npcID"] = 112668,
 		},
-		[6358] = {
-			["npcID"] = 1863,
+		[340619] = {
+			["npcID"] = 172071,
 		},
 		[192135] = {
 			["encounterName"] = "Полководец Паржеш",
@@ -70415,10 +72292,8 @@ PlaterDB = {
 		[333479] = {
 			["npcID"] = 163620,
 		},
-		[348313] = {
-			["encounterName"] = "Таррагр",
-			["npcID"] = 175611,
-			["encounterID"] = 2423,
+		[358271] = {
+			["npcID"] = 179914,
 		},
 		[330409] = {
 			["npcID"] = 160375,
@@ -70426,32 +72301,32 @@ PlaterDB = {
 		[326827] = {
 			["npcID"] = 162040,
 		},
-		[357011] = {
-			["npcID"] = 177514,
+		[320614] = {
+			["encounterName"] = "Чумокост",
+			["encounterID"] = 2387,
+			["npcID"] = 164702,
 		},
-		[79854] = {
-			["npcID"] = 84468,
+		[336383] = {
+			["npcID"] = 179768,
 		},
-		[350865] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 177154,
+		[322743] = {
+			["npcID"] = 178967,
 		},
-		[157331] = {
-			["encounterName"] = "Раздиратель душ Дормацайн",
-			["npcID"] = 77942,
-			["encounterID"] = 2434,
+		[320144] = {
+			["encounterName"] = "Манаштормы",
+			["encounterID"] = 2394,
+			["npcID"] = 164555,
 		},
 		[335528] = {
 			["npcID"] = 159755,
 		},
-		[192138] = {
-			["encounterName"] = "Полководец Паржеш",
-			["encounterID"] = 1810,
-			["npcID"] = 97269,
+		[350816] = {
+			["encounterName"] = "Око Тюремщика",
+			["npcID"] = 176531,
+			["encounterID"] = 2433,
 		},
-		[338846] = {
-			["npcID"] = 167525,
+		[357499] = {
+			["npcID"] = 177980,
 		},
 		[326829] = {
 			["npcID"] = 167876,
@@ -70461,8 +72336,10 @@ PlaterDB = {
 			["encounterID"] = 2435,
 			["npcID"] = 175732,
 		},
-		[328860] = {
-			["npcID"] = 165549,
+		[354938] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 176533,
 		},
 		[328365] = {
 			["npcID"] = 167493,
@@ -70473,8 +72350,8 @@ PlaterDB = {
 		[358047] = {
 			["npcID"] = 179931,
 		},
-		[342675] = {
-			["npcID"] = 170882,
+		[358519] = {
+			["npcID"] = 179853,
 		},
 		[326319] = {
 			["npcID"] = 164921,
@@ -70482,11 +72359,13 @@ PlaterDB = {
 		[335019] = {
 			["npcID"] = 156434,
 		},
-		[339601] = {
-			["npcID"] = 159503,
+		[195187] = {
+			["encounterName"] = "Вул'кан",
+			["encounterID"] = 1816,
+			["npcID"] = 99233,
 		},
-		[334653] = {
-			["npcID"] = 165076,
+		[356014] = {
+			["npcID"] = 177356,
 		},
 		[340649] = {
 			["npcID"] = 180096,
@@ -70494,17 +72373,17 @@ PlaterDB = {
 		[330926] = {
 			["npcID"] = 172395,
 		},
-		[331412] = {
-			["npcID"] = 177130,
+		[352834] = {
+			["npcID"] = 176959,
 		},
-		[329905] = {
-			["npcID"] = 157118,
+		[337021] = {
+			["npcID"] = 169286,
 		},
 		[334509] = {
 			["npcID"] = 163083,
 		},
-		[328338] = {
-			["npcID"] = 167493,
+		[345207] = {
+			["npcID"] = 170031,
 		},
 		[329392] = {
 			["npcID"] = 166993,
@@ -70512,10 +72391,10 @@ PlaterDB = {
 		[329904] = {
 			["npcID"] = 157118,
 		},
-		[320614] = {
-			["encounterName"] = "Чумокост",
-			["encounterID"] = 2387,
-			["npcID"] = 164702,
+		[196208] = {
+			["encounterName"] = "Инквизитор Истязарий",
+			["npcID"] = 99704,
+			["encounterID"] = 1850,
 		},
 		[341163] = {
 			["npcID"] = 171396,
@@ -70529,18 +72408,18 @@ PlaterDB = {
 		[330417] = {
 			["npcID"] = 169696,
 		},
-		[350816] = {
-			["encounterName"] = "Око Тюремщика",
-			["npcID"] = 176531,
-			["encounterID"] = 2433,
+		[359587] = {
+			["npcID"] = 180052,
 		},
 		[333488] = {
 			["encounterName"] = "Амарт Жнец",
 			["encounterID"] = 2388,
 			["npcID"] = 163157,
 		},
-		[176512] = {
-			["npcID"] = 83692,
+		[352355] = {
+			["encounterName"] = "Кел'Тузад",
+			["npcID"] = 176929,
+			["encounterID"] = 2422,
 		},
 		[338606] = {
 			["npcID"] = 167731,
@@ -70560,8 +72439,8 @@ PlaterDB = {
 		[326837] = {
 			["npcID"] = 162040,
 		},
-		[329396] = {
-			["npcID"] = 161634,
+		[179091] = {
+			["npcID"] = 88783,
 		},
 		[329908] = {
 			["npcID"] = 157017,
@@ -70588,16 +72467,14 @@ PlaterDB = {
 		[322745] = {
 			["npcID"] = 170205,
 		},
-		[285335] = {
-			["npcID"] = 177131,
+		[321652] = {
+			["npcID"] = 164886,
 		},
-		[350541] = {
-			["encounterName"] = "Девять",
-			["npcID"] = 175726,
-			["encounterID"] = 2429,
+		[337520] = {
+			["npcID"] = 159412,
 		},
-		[345207] = {
-			["npcID"] = 170031,
+		[290423] = {
+			["npcID"] = 144536,
 		},
 		[339122] = {
 			["npcID"] = 167525,
@@ -70605,20 +72482,24 @@ PlaterDB = {
 		[337587] = {
 			["npcID"] = 162880,
 		},
-		[317943] = {
-			["npcID"] = 163457,
+		[329326] = {
+			["npcID"] = 155831,
 		},
 		[330423] = {
 			["npcID"] = 168572,
 		},
-		[342349] = {
-			["npcID"] = 174346,
+		[192617] = {
+			["encounterName"] = "Гнев Азшары",
+			["encounterID"] = 1814,
+			["npcID"] = 96028,
 		},
 		[358058] = {
 			["npcID"] = 178002,
 		},
-		[319994] = {
-			["npcID"] = 172390,
+		[198245] = {
+			["encounterName"] = "Хмуродроб Лютый",
+			["encounterID"] = 1834,
+			["npcID"] = 98949,
 		},
 		[350894] = {
 			["encounterName"] = "Душа Нер'зула",
@@ -70628,32 +72509,30 @@ PlaterDB = {
 		[335030] = {
 			["npcID"] = 156779,
 		},
-		[329401] = {
-			["npcID"] = 167464,
+		[368294] = {
+			["npcID"] = 185752,
 		},
 		[239736] = {
 			["npcID"] = 117042,
 		},
-		[321565] = {
-			["npcID"] = 165829,
+		[324987] = {
+			["npcID"] = 166301,
 		},
 		[68981] = {
 			["encounterName"] = "Король-лич",
 			["npcID"] = 36597,
 			["encounterID"] = 1106,
 		},
-		[323538] = {
-			["encounterName"] = "Верховный адъюдикатор Ализа",
-			["npcID"] = 165410,
-			["encounterID"] = 2403,
+		[368295] = {
+			["npcID"] = 183953,
 		},
-		[330868] = {
-			["npcID"] = 160495,
+		[355929] = {
+			["npcID"] = 177803,
 		},
-		[336499] = {
-			["encounterName"] = "Призывательница Туманов",
-			["npcID"] = 164501,
-			["encounterID"] = 2392,
+		[350803] = {
+			["encounterName"] = "Око Тюремщика",
+			["npcID"] = 175725,
+			["encounterID"] = 2433,
 		},
 		[318656] = {
 			["npcID"] = 164029,
@@ -70678,11 +72557,11 @@ PlaterDB = {
 		[329916] = {
 			["npcID"] = 171173,
 		},
-		[290438] = {
-			["npcID"] = 144536,
+		[338002] = {
+			["npcID"] = 170079,
 		},
-		[182384] = {
-			["npcID"] = 89025,
+		[328411] = {
+			["npcID"] = 160640,
 		},
 		[353969] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
@@ -70692,10 +72571,8 @@ PlaterDB = {
 		[329917] = {
 			["npcID"] = 168578,
 		},
-		[352355] = {
-			["encounterName"] = "Кел'Тузад",
-			["npcID"] = 176929,
-			["encounterID"] = 2422,
+		[323682] = {
+			["npcID"] = 163501,
 		},
 		[71029] = {
 			["npcID"] = 36724,
@@ -70706,8 +72583,8 @@ PlaterDB = {
 		[185493] = {
 			["npcID"] = 157016,
 		},
-		[333931] = {
-			["npcID"] = 172388,
+		[356430] = {
+			["npcID"] = 178958,
 		},
 		[343224] = {
 			["npcID"] = 175819,
@@ -70715,10 +72592,8 @@ PlaterDB = {
 		[79857] = {
 			["npcID"] = 84468,
 		},
-		[324205] = {
-			["encounterName"] = "\"Вентунакс\"",
-			["npcID"] = 162058,
-			["encounterID"] = 2356,
+		[184381] = {
+			["npcID"] = 159190,
 		},
 		[346807] = {
 			["npcID"] = 177873,
@@ -70738,25 +72613,29 @@ PlaterDB = {
 			["encounterID"] = 2360,
 			["npcID"] = 162100,
 		},
-		[316527] = {
-			["npcID"] = 158992,
+		[328791] = {
+			["encounterName"] = "Лорд-камергер",
+			["npcID"] = 164218,
+			["encounterID"] = 2381,
 		},
 		[322756] = {
 			["npcID"] = 165137,
 		},
-		[358067] = {
-			["npcID"] = 178877,
+		[149416] = {
+			["npcID"] = 183257,
 		},
-		[351835] = {
-			["npcID"] = 179894,
+		[275568] = {
+			["npcID"] = 168442,
 		},
 		[57984] = {
 			["encounterName"] = "Раздиратель душ Дормацайн",
 			["npcID"] = 95061,
 			["encounterID"] = 2434,
 		},
-		[339905] = {
-			["npcID"] = 159155,
+		[350283] = {
+			["encounterName"] = "Девять",
+			["npcID"] = 177094,
+			["encounterID"] = 2429,
 		},
 		[356021] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
@@ -70774,8 +72653,8 @@ PlaterDB = {
 		[315082] = {
 			["npcID"] = 158259,
 		},
-		[330435] = {
-			["npcID"] = 165830,
+		[356817] = {
+			["npcID"] = 178877,
 		},
 		[320200] = {
 			["encounterName"] = "Трупошов",
@@ -70792,14 +72671,14 @@ PlaterDB = {
 			["encounterID"] = 2435,
 			["npcID"] = 179963,
 		},
-		[184381] = {
-			["npcID"] = 159190,
+		[337995] = {
+			["npcID"] = 170048,
 		},
 		[177564] = {
 			["npcID"] = 177586,
 		},
-		[322978] = {
-			["npcID"] = 159174,
+		[334023] = {
+			["npcID"] = 167536,
 		},
 		[178076] = {
 			["npcID"] = 80489,
@@ -70819,13 +72698,13 @@ PlaterDB = {
 		[354490] = {
 			["npcID"] = 179526,
 		},
-		[356817] = {
-			["npcID"] = 178877,
+		[354367] = {
+			["encounterName"] = "Писарь судьбы Ро-Кало",
+			["encounterID"] = 2431,
+			["npcID"] = 175730,
 		},
-		[328791] = {
-			["encounterName"] = "Лорд-камергер",
-			["npcID"] = 164218,
-			["encounterID"] = 2381,
+		[351808] = {
+			["npcID"] = 176577,
 		},
 		[329415] = {
 			["npcID"] = 159657,
@@ -70839,24 +72718,22 @@ PlaterDB = {
 		[320716] = {
 			["npcID"] = 161397,
 		},
-		[350283] = {
-			["encounterName"] = "Девять",
-			["npcID"] = 177094,
-			["encounterID"] = 2429,
+		[209741] = {
+			["encounterName"] = "Советник Меландр",
+			["encounterID"] = 1870,
+			["npcID"] = 105754,
 		},
-		[358327] = {
-			["npcID"] = 179760,
+		[166242] = {
+			["npcID"] = 162874,
 		},
 		[334534] = {
 			["npcID"] = 171805,
 		},
-		[355910] = {
-			["npcID"] = 178666,
+		[357423] = {
+			["npcID"] = 178443,
 		},
-		[350280] = {
-			["encounterName"] = "Таррагр",
-			["npcID"] = 175611,
-			["encounterID"] = 2423,
+		[319560] = {
+			["npcID"] = 172704,
 		},
 		[327882] = {
 			["npcID"] = 168153,
@@ -70869,8 +72746,8 @@ PlaterDB = {
 		[330953] = {
 			["npcID"] = 172399,
 		},
-		[329569] = {
-			["npcID"] = 158160,
+		[69973] = {
+			["npcID"] = 37148,
 		},
 		[329930] = {
 			["npcID"] = 157083,
@@ -70878,14 +72755,14 @@ PlaterDB = {
 		[200084] = {
 			["npcID"] = 98366,
 		},
-		[333294] = {
-			["npcID"] = 169893,
+		[338490] = {
+			["npcID"] = 162875,
 		},
-		[332272] = {
-			["npcID"] = 180028,
+		[71253] = {
+			["npcID"] = 37134,
 		},
-		[351678] = {
-			["npcID"] = 178271,
+		[329783] = {
+			["npcID"] = 178144,
 		},
 		[340678] = {
 			["npcID"] = 172079,
@@ -70904,32 +72781,28 @@ PlaterDB = {
 		[334538] = {
 			["npcID"] = 171422,
 		},
-		[354367] = {
-			["encounterName"] = "Писарь судьбы Ро-Кало",
-			["encounterID"] = 2431,
-			["npcID"] = 175730,
+		[320067] = {
+			["npcID"] = 178944,
 		},
 		[349891] = {
 			["encounterName"] = "Душа Нер'зула",
 			["encounterID"] = 2432,
 			["npcID"] = 177268,
 		},
-		[298073] = {
-			["npcID"] = 156241,
+		[331316] = {
+			["npcID"] = 167538,
 		},
-		[343105] = {
-			["npcID"] = 170208,
+		[357418] = {
+			["npcID"] = 178443,
 		},
-		[209741] = {
-			["encounterName"] = "Советник Меландр",
-			["encounterID"] = 1870,
-			["npcID"] = 105754,
+		[69970] = {
+			["npcID"] = 37016,
 		},
 		[329422] = {
 			["npcID"] = 157571,
 		},
-		[358967] = {
-			["npcID"] = 179446,
+		[335412] = {
+			["npcID"] = 178660,
 		},
 		[340681] = {
 			["npcID"] = 165720,
@@ -70937,23 +72810,25 @@ PlaterDB = {
 		[330958] = {
 			["npcID"] = 172395,
 		},
-		[319406] = {
-			["npcID"] = 170434,
+		[241717] = {
+			["npcID"] = 118065,
 		},
-		[296019] = {
-			["npcID"] = 151128,
+		[340016] = {
+			["npcID"] = 171184,
 		},
 		[346823] = {
 			["npcID"] = 176252,
 		},
-		[337982] = {
-			["npcID"] = 162872,
+		[325844] = {
+			["npcID"] = 169974,
 		},
 		[356035] = {
 			["npcID"] = 178757,
 		},
-		[69882] = {
-			["npcID"] = 37027,
+		[324146] = {
+			["encounterName"] = "\"Вентунакс\"",
+			["npcID"] = 162058,
+			["encounterID"] = 2356,
 		},
 		[338636] = {
 			["npcID"] = 167731,
@@ -70964,8 +72839,8 @@ PlaterDB = {
 		[329425] = {
 			["npcID"] = 157824,
 		},
-		[164448] = {
-			["npcID"] = 88109,
+		[357915] = {
+			["npcID"] = 177903,
 		},
 		[338637] = {
 			["npcID"] = 173134,
@@ -70975,13 +72850,11 @@ PlaterDB = {
 			["npcID"] = 176523,
 			["encounterID"] = 2430,
 		},
-		[355887] = {
-			["npcID"] = 178786,
+		[332329] = {
+			["npcID"] = 170486,
 		},
-		[327891] = {
-			["encounterName"] = "Мве'зала",
-			["encounterID"] = 2396,
-			["npcID"] = 169506,
+		[234631] = {
+			["npcID"] = 118065,
 		},
 		[338638] = {
 			["npcID"] = 173134,
@@ -70992,8 +72865,8 @@ PlaterDB = {
 		[358085] = {
 			["npcID"] = 179859,
 		},
-		[346513] = {
-			["npcID"] = 171581,
+		[360644] = {
+			["npcID"] = 181339,
 		},
 		[338639] = {
 			["npcID"] = 173134,
@@ -71007,16 +72880,16 @@ PlaterDB = {
 		[358598] = {
 			["npcID"] = 178897,
 		},
-		[314942] = {
-			["npcID"] = 166869,
+		[356888] = {
+			["npcID"] = 177833,
 		},
 		[320729] = {
 			["encounterName"] = "Ксав Несломленный",
 			["encounterID"] = 2366,
 			["npcID"] = 162329,
 		},
-		[334899] = {
-			["npcID"] = 174802,
+		[67280] = {
+			["npcID"] = 34924,
 		},
 		[350411] = {
 			["encounterName"] = "Раздиратель душ Дормацайн",
@@ -71035,11 +72908,15 @@ PlaterDB = {
 		[305378] = {
 			["npcID"] = 177862,
 		},
-		[69973] = {
-			["npcID"] = 37148,
+		[351091] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["encounterID"] = 2435,
+			["npcID"] = 177787,
 		},
-		[357920] = {
-			["npcID"] = 179684,
+		[355055] = {
+			["encounterName"] = "Кел'Тузад",
+			["encounterID"] = 2422,
+			["npcID"] = 176929,
 		},
 		[196508] = {
 			["encounterName"] = "Инквизитор Истязарий",
@@ -71052,8 +72929,8 @@ PlaterDB = {
 		[277233] = {
 			["npcID"] = 179440,
 		},
-		[32637] = {
-			["npcID"] = 167749,
+		[334162] = {
+			["npcID"] = 166908,
 		},
 		[329432] = {
 			["npcID"] = 177861,
@@ -71067,14 +72944,14 @@ PlaterDB = {
 		[322780] = {
 			["npcID"] = 156560,
 		},
-		[69968] = {
-			["npcID"] = 37027,
+		[277481] = {
+			["npcID"] = 154011,
 		},
 		[323804] = {
 			["npcID"] = 163524,
 		},
-		[332836] = {
-			["npcID"] = 169927,
+		[338357] = {
+			["npcID"] = 172981,
 		},
 		[330969] = {
 			["npcID"] = 177437,
@@ -71096,14 +72973,14 @@ PlaterDB = {
 			["encounterID"] = 2388,
 			["npcID"] = 163157,
 		},
-		[200256] = {
-			["npcID"] = 101549,
+		[343055] = {
+			["npcID"] = 161355,
 		},
 		[203163] = {
 			["npcID"] = 102788,
 		},
-		[357396] = {
-			["npcID"] = 180070,
+		[359629] = {
+			["npcID"] = 178913,
 		},
 		[284402] = {
 			["npcID"] = 144566,
@@ -71116,41 +72993,39 @@ PlaterDB = {
 		[328413] = {
 			["npcID"] = 157463,
 		},
-		[330611] = {
-			["npcID"] = 165989,
+		[316954] = {
+			["npcID"] = 160845,
 		},
 		[321249] = {
 			["npcID"] = 162051,
 		},
-		[338957] = {
-			["npcID"] = 165998,
+		[335720] = {
+			["npcID"] = 176131,
 		},
 		[328414] = {
 			["npcID"] = 165270,
 		},
-		[338357] = {
-			["npcID"] = 172981,
+		[330037] = {
+			["npcID"] = 168361,
 		},
 		[358096] = {
 			["npcID"] = 177425,
 		},
-		[324046] = {
-			["encounterName"] = "\"Орифрион\"",
-			["npcID"] = 162060,
-			["encounterID"] = 2358,
+		[323064] = {
+			["encounterName"] = "Хаккар, Свежеватель Душ",
+			["encounterID"] = 2395,
+			["npcID"] = 164558,
 		},
 		[322274] = {
 			["encounterName"] = "Налтор Криомант",
 			["encounterID"] = 2390,
 			["npcID"] = 164815,
 		},
-		[235308] = {
-			["npcID"] = 116410,
+		[338653] = {
+			["npcID"] = 173044,
 		},
-		[326574] = {
-			["encounterName"] = "Трупошов",
-			["encounterID"] = 2389,
-			["npcID"] = 162689,
+		[343046] = {
+			["npcID"] = 169041,
 		},
 		[323810] = {
 			["encounterName"] = "Генерал Кааль",
@@ -71190,8 +73065,8 @@ PlaterDB = {
 			["encounterID"] = 1816,
 			["npcID"] = 182523,
 		},
-		[277041] = {
-			["npcID"] = 154020,
+		[310026] = {
+			["npcID"] = 170080,
 		},
 		[193443] = {
 			["encounterName"] = "Смотрящий",
@@ -71201,8 +73076,8 @@ PlaterDB = {
 		[340189] = {
 			["npcID"] = 173655,
 		},
-		[325143] = {
-			["npcID"] = 157212,
+		[340474] = {
+			["npcID"] = 167439,
 		},
 		[355542] = {
 			["npcID"] = 177917,
@@ -71210,27 +73085,27 @@ PlaterDB = {
 		[284409] = {
 			["npcID"] = 144566,
 		},
-		[326021] = {
-			["npcID"] = 172312,
+		[72262] = {
+			["encounterName"] = "Король-лич",
+			["npcID"] = 36597,
+			["encounterID"] = 1106,
 		},
 		[207261] = {
 			["encounterName"] = "Капитан патруля Гердо",
 			["encounterID"] = 1868,
 			["npcID"] = 104215,
 		},
-		[338955] = {
-			["npcID"] = 163660,
+		[79938] = {
+			["npcID"] = 84645,
 		},
 		[321256] = {
 			["npcID"] = 156815,
 		},
-		[321043] = {
-			["npcID"] = 158867,
+		[345077] = {
+			["npcID"] = 170044,
 		},
-		[362494] = {
-			["encounterName"] = "Кел'Тузад",
-			["npcID"] = 175559,
-			["encounterID"] = 2422,
+		[345076] = {
+			["npcID"] = 170037,
 		},
 		[339168] = {
 			["npcID"] = 166393,
@@ -71247,19 +73122,17 @@ PlaterDB = {
 		[250505] = {
 			["npcID"] = 179440,
 		},
-		[321891] = {
-			["encounterName"] = "Призывательница Туманов",
-			["npcID"] = 165251,
-			["encounterID"] = 2392,
+		[324609] = {
+			["npcID"] = 166396,
 		},
-		[328651] = {
-			["npcID"] = 167493,
+		[295438] = {
+			["npcID"] = 144580,
 		},
 		[357081] = {
 			["npcID"] = 176956,
 		},
-		[284703] = {
-			["npcID"] = 150746,
+		[321025] = {
+			["npcID"] = 157754,
 		},
 		[354011] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
@@ -71274,13 +73147,11 @@ PlaterDB = {
 		[357082] = {
 			["npcID"] = 178733,
 		},
-		[354142] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 175732,
+		[322557] = {
+			["npcID"] = 164920,
 		},
-		[338852] = {
-			["npcID"] = 167527,
+		[296454] = {
+			["npcID"] = 152656,
 		},
 		[325866] = {
 			["npcID"] = 165979,
@@ -71288,8 +73159,8 @@ PlaterDB = {
 		[340707] = {
 			["npcID"] = 172084,
 		},
-		[324417] = {
-			["npcID"] = 162133,
+		[71296] = {
+			["npcID"] = 38125,
 		},
 		[202658] = {
 			["npcID"] = 102584,
@@ -71302,10 +73173,8 @@ PlaterDB = {
 		[334567] = {
 			["npcID"] = 171448,
 		},
-		[72262] = {
-			["encounterName"] = "Король-лич",
-			["npcID"] = 36597,
-			["encounterID"] = 1106,
+		[295942] = {
+			["npcID"] = 162845,
 		},
 		[323309] = {
 			["npcID"] = 161890,
@@ -71321,13 +73190,11 @@ PlaterDB = {
 		[345315] = {
 			["npcID"] = 162849,
 		},
-		[323821] = {
-			["encounterName"] = "Генерал Кааль",
-			["encounterID"] = 2363,
-			["npcID"] = 162099,
+		[332234] = {
+			["npcID"] = 167967,
 		},
-		[338939] = {
-			["npcID"] = 167055,
+		[317936] = {
+			["npcID"] = 163459,
 		},
 		[357086] = {
 			["npcID"] = 180392,
@@ -71346,11 +73213,13 @@ PlaterDB = {
 		[357087] = {
 			["npcID"] = 178731,
 		},
-		[342519] = {
-			["npcID"] = 167851,
+		[323059] = {
+			["encounterName"] = "Ингра Малох",
+			["npcID"] = 164804,
+			["encounterID"] = 2397,
 		},
-		[321025] = {
-			["npcID"] = 157754,
+		[331237] = {
+			["npcID"] = 162763,
 		},
 		[358623] = {
 			["npcID"] = 179552,
@@ -71382,16 +73251,16 @@ PlaterDB = {
 			["encounterID"] = 1850,
 			["npcID"] = 102583,
 		},
-		[322557] = {
-			["npcID"] = 164920,
+		[202019] = {
+			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
+			["encounterID"] = 1835,
+			["npcID"] = 98970,
 		},
 		[332526] = {
 			["npcID"] = 171396,
 		},
-		[340467] = {
-			["encounterName"] = "Раздиратель душ Дормацайн",
-			["npcID"] = 173756,
-			["encounterID"] = 2434,
+		[191524] = {
+			["npcID"] = 96657,
 		},
 		[203685] = {
 			["encounterName"] = "Инквизитор Истязарий",
@@ -71415,15 +73284,11 @@ PlaterDB = {
 		[338157] = {
 			["npcID"] = 165047,
 		},
-		[197418] = {
-			["encounterName"] = "Иллисанна Гребень Ворона",
-			["encounterID"] = 1833,
-			["npcID"] = 98696,
+		[316859] = {
+			["npcID"] = 170042,
 		},
-		[323059] = {
-			["encounterName"] = "Ингра Малох",
-			["npcID"] = 164804,
-			["encounterID"] = 2397,
+		[356304] = {
+			["npcID"] = 170257,
 		},
 		[358116] = {
 			["npcID"] = 180627,
@@ -71431,13 +73296,11 @@ PlaterDB = {
 		[325876] = {
 			["npcID"] = 165414,
 		},
-		[357139] = {
-			["encounterName"] = "Сильвана Ветрокрылая",
-			["encounterID"] = 2435,
-			["npcID"] = 176532,
+		[330574] = {
+			["npcID"] = 172395,
 		},
-		[294401] = {
-			["npcID"] = 168102,
+		[358353] = {
+			["npcID"] = 179760,
 		},
 		[351976] = {
 			["npcID"] = 176598,
@@ -71450,14 +73313,14 @@ PlaterDB = {
 			["npcID"] = 164185,
 			["encounterID"] = 2380,
 		},
-		[331237] = {
-			["npcID"] = 162763,
+		[324425] = {
+			["npcID"] = 170660,
 		},
 		[337648] = {
 			["npcID"] = 158924,
 		},
-		[339927] = {
-			["npcID"] = 173553,
+		[333787] = {
+			["npcID"] = 168934,
 		},
 		[361189] = {
 			["npcID"] = 182152,
@@ -71479,11 +73342,11 @@ PlaterDB = {
 		[176821] = {
 			["npcID"] = 83754,
 		},
-		[330574] = {
-			["npcID"] = 172395,
+		[332605] = {
+			["npcID"] = 170572,
 		},
-		[348597] = {
-			["npcID"] = 167744,
+		[189469] = {
+			["npcID"] = 100364,
 		},
 		[355050] = {
 			["npcID"] = 176535,
@@ -71500,17 +73363,17 @@ PlaterDB = {
 		[346863] = {
 			["npcID"] = 158406,
 		},
-		[356304] = {
-			["npcID"] = 170257,
+		[69923] = {
+			["npcID"] = 37016,
 		},
-		[283634] = {
-			["npcID"] = 144529,
+		[270246] = {
+			["npcID"] = 176577,
 		},
 		[276754] = {
 			["npcID"] = 177982,
 		},
-		[358314] = {
-			["npcID"] = 180162,
+		[330532] = {
+			["npcID"] = 164510,
 		},
 		[214692] = {
 			["npcID"] = 107435,
@@ -71526,28 +73389,26 @@ PlaterDB = {
 		[340724] = {
 			["npcID"] = 170643,
 		},
-		[340793] = {
-			["npcID"] = 166140,
+		[335783] = {
+			["npcID"] = 155812,
 		},
 		[162750] = {
 			["npcID"] = 80496,
 		},
-		[321834] = {
-			["encounterName"] = "Призывательница Туманов",
-			["npcID"] = 164501,
-			["encounterID"] = 2392,
+		[347073] = {
+			["npcID"] = 177187,
 		},
 		[346866] = {
 			["npcID"] = 174175,
 		},
-		[270246] = {
-			["npcID"] = 176577,
+		[338856] = {
+			["npcID"] = 167527,
 		},
 		[79872] = {
 			["npcID"] = 177586,
 		},
-		[332650] = {
-			["npcID"] = 164886,
+		[332671] = {
+			["npcID"] = 170480,
 		},
 		[357102] = {
 			["encounterName"] = "Сильвана Ветрокрылая",
@@ -71557,31 +73418,31 @@ PlaterDB = {
 		[326909] = {
 			["npcID"] = 169042,
 		},
-		[328146] = {
-			["encounterName"] = "Чумокост",
-			["encounterID"] = 2387,
-			["npcID"] = 164702,
+		[357112] = {
+			["npcID"] = 177831,
 		},
 		[358638] = {
 			["npcID"] = 178997,
 		},
-		[335783] = {
-			["npcID"] = 155812,
+		[353721] = {
+			["npcID"] = 179135,
 		},
-		[197144] = {
-			["npcID"] = 100216,
+		[70196] = {
+			["npcID"] = 37126,
 		},
-		[322433] = {
-			["npcID"] = 162057,
+		[332612] = {
+			["npcID"] = 170572,
 		},
-		[338856] = {
-			["npcID"] = 167527,
+		[209676] = {
+			["encounterName"] = "Советник Меландр",
+			["encounterID"] = 1870,
+			["npcID"] = 104218,
 		},
 		[326399] = {
 			["npcID"] = 155251,
 		},
-		[332671] = {
-			["npcID"] = 170480,
+		[337344] = {
+			["npcID"] = 159459,
 		},
 		[356081] = {
 			["npcID"] = 177390,
@@ -71589,8 +73450,8 @@ PlaterDB = {
 		[334076] = {
 			["npcID"] = 168942,
 		},
-		[354240] = {
-			["npcID"] = 179433,
+		[354117] = {
+			["npcID"] = 179234,
 		},
 		[320771] = {
 			["encounterName"] = "Налтор Криомант",
@@ -71605,8 +73466,8 @@ PlaterDB = {
 		[350453] = {
 			["npcID"] = 179894,
 		},
-		[347073] = {
-			["npcID"] = 177187,
+		[345523] = {
+			["npcID"] = 156203,
 		},
 		[355571] = {
 			["encounterName"] = "Кузнец боли Разнал",
@@ -71616,8 +73477,8 @@ PlaterDB = {
 		[162753] = {
 			["npcID"] = 80496,
 		},
-		[70196] = {
-			["npcID"] = 37126,
+		[48280] = {
+			["npcID"] = 77789,
 		},
 		[330496] = {
 			["npcID"] = 155250,
@@ -71625,11 +73486,13 @@ PlaterDB = {
 		[357619] = {
 			["npcID"] = 177445,
 		},
-		[331718] = {
-			["npcID"] = 171772,
+		[207881] = {
+			["encounterName"] = "Таликса Пламя Гнева",
+			["encounterID"] = 1869,
+			["npcID"] = 104217,
 		},
-		[337238] = {
-			["npcID"] = 170711,
+		[302398] = {
+			["npcID"] = 83687,
 		},
 		[357108] = {
 			["npcID"] = 177144,
@@ -71640,19 +73503,17 @@ PlaterDB = {
 		[162754] = {
 			["npcID"] = 80496,
 		},
-		[48280] = {
-			["npcID"] = 77789,
+		[340404] = {
+			["npcID"] = 168147,
 		},
 		[355062] = {
 			["npcID"] = 178623,
 		},
-		[329990] = {
-			["npcID"] = 158978,
+		[359668] = {
+			["npcID"] = 180051,
 		},
-		[209676] = {
-			["encounterName"] = "Советник Меландр",
-			["encounterID"] = 1870,
-			["npcID"] = 104218,
+		[234401] = {
+			["npcID"] = 117933,
 		},
 		[198833] = {
 			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
@@ -71665,10 +73526,8 @@ PlaterDB = {
 		[294165] = {
 			["npcID"] = 178190,
 		},
-		[320966] = {
-			["encounterName"] = "Кин-Тара",
-			["npcID"] = 162059,
-			["encounterID"] = 2357,
+		[357280] = {
+			["npcID"] = 180387,
 		},
 		[193716] = {
 			["encounterName"] = "Леди Кольцо Ненависти",
@@ -71678,8 +73537,8 @@ PlaterDB = {
 		[330500] = {
 			["npcID"] = 155251,
 		},
-		[324394] = {
-			["npcID"] = 165197,
+		[343470] = {
+			["npcID"] = 165919,
 		},
 		[356088] = {
 			["npcID"] = 177390,
@@ -71690,29 +73549,25 @@ PlaterDB = {
 		[205231] = {
 			["npcID"] = 103673,
 		},
-		[341760] = {
-			["npcID"] = 172958,
-		},
-		[234401] = {
-			["npcID"] = 117933,
-		},
-		[71303] = {
-			["npcID"] = 38125,
-		},
-		[207881] = {
-			["encounterName"] = "Таликса Пламя Гнева",
-			["encounterID"] = 1869,
-			["npcID"] = 104217,
-		},
-		[333241] = {
-			["encounterName"] = "Оскорбление претендентов",
-			["encounterID"] = 2391,
-			["npcID"] = 170850,
-		},
 		[356090] = {
 			["encounterName"] = "Стражница Предвечных",
 			["npcID"] = 175731,
 			["encounterID"] = 2436,
+		},
+		[341760] = {
+			["npcID"] = 172958,
+		},
+		[71303] = {
+			["npcID"] = 38125,
+		},
+		[355069] = {
+			["npcID"] = 178661,
+		},
+		[242391] = {
+			["npcID"] = 156212,
+		},
+		[351996] = {
+			["npcID"] = 178384,
 		},
 		[356602] = {
 			["npcID"] = 180164,
@@ -71726,23 +73581,23 @@ PlaterDB = {
 		[325386] = {
 			["npcID"] = 167115,
 		},
-		[236537] = {
-			["npcID"] = 118065,
+		[355737] = {
+			["npcID"] = 179446,
 		},
 		[357115] = {
 			["npcID"] = 177915,
 		},
-		[325469] = {
-			["npcID"] = 166928,
-		},
-		[338865] = {
-			["npcID"] = 173191,
+		[336804] = {
+			["npcID"] = 177295,
 		},
 		[333641] = {
 			["npcID"] = 169905,
 		},
-		[355069] = {
-			["npcID"] = 178661,
+		[295304] = {
+			["npcID"] = 144562,
+		},
+		[201139] = {
+			["npcID"] = 98810,
 		},
 		[294171] = {
 			["npcID"] = 150959,
@@ -71750,14 +73605,14 @@ PlaterDB = {
 		[339717] = {
 			["npcID"] = 159496,
 		},
-		[338863] = {
-			["npcID"] = 167526,
+		[325535] = {
+			["npcID"] = 164562,
 		},
 		[355070] = {
 			["npcID"] = 178625,
 		},
-		[357146] = {
-			["npcID"] = 177938,
+		[358725] = {
+			["npcID"] = 180231,
 		},
 		[272167] = {
 			["npcID"] = 136404,
@@ -71768,14 +73623,14 @@ PlaterDB = {
 		[310037] = {
 			["npcID"] = 165677,
 		},
-		[295304] = {
-			["npcID"] = 144562,
+		[326046] = {
+			["npcID"] = 167111,
 		},
-		[357280] = {
-			["npcID"] = 180387,
+		[316836] = {
+			["npcID"] = 158992,
 		},
-		[358725] = {
-			["npcID"] = 180231,
+		[328094] = {
+			["npcID"] = 168627,
 		},
 		[70409] = {
 			["npcID"] = 37664,
@@ -71783,8 +73638,8 @@ PlaterDB = {
 		[173762] = {
 			["npcID"] = 155216,
 		},
-		[295283] = {
-			["npcID"] = 144562,
+		[340796] = {
+			["npcID"] = 166139,
 		},
 		[313621] = {
 			["npcID"] = 177637,
@@ -71794,14 +73649,16 @@ PlaterDB = {
 			["npcID"] = 163077,
 			["encounterID"] = 2357,
 		},
-		[340796] = {
-			["npcID"] = 166139,
-		},
 		[295311] = {
 			["npcID"] = 144562,
 		},
-		[310703] = {
-			["npcID"] = 159459,
+		[72350] = {
+			["encounterName"] = "Король-лич",
+			["npcID"] = 36597,
+			["encounterID"] = 1106,
+		},
+		[170751] = {
+			["npcID"] = 156158,
 		},
 		[355074] = {
 			["npcID"] = 178628,
@@ -71811,8 +73668,10 @@ PlaterDB = {
 			["encounterID"] = 2394,
 			["npcID"] = 164556,
 		},
-		[329635] = {
-			["npcID"] = 158256,
+		[326039] = {
+			["encounterName"] = "Верховная надзирательница Бериллия",
+			["encounterID"] = 2362,
+			["npcID"] = 162102,
 		},
 		[350469] = {
 			["encounterName"] = "Душа Нер'зула",
@@ -71828,45 +73687,44 @@ PlaterDB = {
 		[356099] = {
 			["npcID"] = 177395,
 		},
-		[167439] = {
-			["npcID"] = 82310,
+		[340874] = {
+			["npcID"] = 174381,
 		},
 		[357123] = {
 			["npcID"] = 180779,
 		},
-		[340874] = {
-			["npcID"] = 174381,
+		[357172] = {
+			["npcID"] = 178575,
 		},
 		[356100] = {
 			["npcID"] = 177395,
 		},
-		[340375] = {
-			["npcID"] = 168148,
+		[343912] = {
+			["npcID"] = 169551,
 		},
 		[357124] = {
 			["npcID"] = 180780,
 		},
-		[357172] = {
-			["npcID"] = 178575,
+		[358748] = {
+			["npcID"] = 178824,
 		},
-		[207806] = {
-			["encounterName"] = "Капитан патруля Гердо",
-			["encounterID"] = 1868,
-			["npcID"] = 104215,
+		[351589] = {
+			["encounterName"] = "Сильвана Ветрокрылая",
+			["npcID"] = 177893,
 		},
 		[284968] = {
 			["npcID"] = 150746,
 		},
-		[198073] = {
-			["encounterName"] = "Хмуродроб Лютый",
-			["encounterID"] = 1834,
-			["npcID"] = 98949,
+		[69387] = {
+			["npcID"] = 36811,
 		},
-		[331026] = {
-			["npcID"] = 160185,
+		[365825] = {
+			["npcID"] = 182649,
 		},
-		[319898] = {
-			["npcID"] = 168022,
+		[323943] = {
+			["encounterName"] = "Девия, идеал Верности",
+			["npcID"] = 162061,
+			["encounterID"] = 2359,
 		},
 		[352520] = {
 			["encounterName"] = "Око Тюремщика",
@@ -71876,14 +73734,14 @@ PlaterDB = {
 		[69899] = {
 			["npcID"] = 37030,
 		},
-		[357259] = {
-			["npcID"] = 180392,
+		[353124] = {
+			["npcID"] = 178957,
 		},
 		[162763] = {
 			["npcID"] = 80492,
 		},
-		[71595] = {
-			["npcID"] = 37122,
+		[341895] = {
+			["npcID"] = 168647,
 		},
 		[196027] = {
 			["npcID"] = 97171,
@@ -71902,11 +73760,11 @@ PlaterDB = {
 		[357128] = {
 			["npcID"] = 176879,
 		},
-		[330123] = {
-			["npcID"] = 169600,
+		[270248] = {
+			["npcID"] = 154129,
 		},
-		[319383] = {
-			["npcID"] = 165706,
+		[295291] = {
+			["npcID"] = 144562,
 		},
 		[191678] = {
 			["npcID"] = 96480,
@@ -71926,41 +73784,39 @@ PlaterDB = {
 		[219569] = {
 			["npcID"] = 102778,
 		},
-		[192504] = {
-			["encounterName"] = "Тиратон Салтерил",
-			["encounterID"] = 1815,
-			["npcID"] = 95885,
-		},
-		[342904] = {
-			["npcID"] = 174383,
-		},
-		[202740] = {
-			["encounterName"] = "Тиратон Салтерил",
-			["encounterID"] = 1815,
-			["npcID"] = 95885,
-		},
 		[195046] = {
 			["npcID"] = 95861,
 		},
 		[197105] = {
 			["npcID"] = 97171,
 		},
-		[324490] = {
-			["encounterName"] = "Склизгл",
-			["encounterID"] = 2382,
-			["npcID"] = 164255,
+		[176124] = {
+			["npcID"] = 173114,
 		},
 		[330573] = {
 			["npcID"] = 155251,
 		},
-		[214989] = {
-			["npcID"] = 100364,
+		[365831] = {
+			["npcID"] = 182357,
+		},
+		[199143] = {
+			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
+			["encounterID"] = 1835,
+			["npcID"] = 98970,
+		},
+		[361313] = {
+			["npcID"] = 182666,
+		},
+		[207815] = {
+			["encounterName"] = "Капитан патруля Гердо",
+			["encounterID"] = 1868,
+			["npcID"] = 104215,
 		},
 		[328986] = {
 			["npcID"] = 169159,
 		},
-		[361313] = {
-			["npcID"] = 182666,
+		[324483] = {
+			["npcID"] = 178977,
 		},
 		[319775] = {
 			["npcID"] = 166872,
@@ -71974,15 +73830,11 @@ PlaterDB = {
 		[352016] = {
 			["npcID"] = 176578,
 		},
-		[198641] = {
-			["encounterName"] = "Лорд Кур'талос Гребень Ворона",
-			["encounterID"] = 1835,
-			["npcID"] = 98965,
+		[328558] = {
+			["npcID"] = 159027,
 		},
-		[320293] = {
-			["encounterName"] = "Оскорбление претендентов",
-			["encounterID"] = 2391,
-			["npcID"] = 164461,
+		[357218] = {
+			["npcID"] = 176957,
 		},
 		[339223] = {
 			["npcID"] = 158259,
@@ -72015,10 +73867,8 @@ PlaterDB = {
 		[337178] = {
 			["npcID"] = 170838,
 		},
-		[320300] = {
-			["encounterName"] = "Оскорбление претендентов",
-			["encounterID"] = 2391,
-			["npcID"] = 164461,
+		[360775] = {
+			["npcID"] = 185511,
 		},
 	},
 }
