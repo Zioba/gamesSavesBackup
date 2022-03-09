@@ -21,16 +21,7 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["h"] = 20,
-					["w"] = 296,
-					["y"] = -231.6668548583984,
-					["x"] = -5.52386474609375,
-					["point"] = "CENTER",
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -52,7 +43,16 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["h"] = 20,
+					["w"] = 296,
+					["y"] = -231.6668548583984,
+					["x"] = -5.52386474609375,
+					["point"] = "CENTER",
+				},
+			},
 		},
 		["Latency"] = {
 		},

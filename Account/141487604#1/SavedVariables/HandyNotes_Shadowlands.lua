@@ -14,11 +14,12 @@ HandyNotes_ShadowlandsDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["icon_display_mawsworn_cache"] = false,
+			["icon_display_puzzle_caches"] = false,
+			["icon_display_nest_materials"] = true,
 			["icon_display_korthia_dailies"] = true,
+			["icon_display_mawsworn_cache"] = false,
 			["icon_display_treasures"] = true,
 			["icon_display_invasive_mawshroom"] = false,
-			["icon_display_nest_materials"] = true,
 		},
 	},
 }
