@@ -21,10 +21,10 @@ SkadaPerCharDB = {
 		["overhealing"] = 0,
 		["mobtaken"] = 0,
 		["name"] = "Всего",
-		["starttime"] = 1647036367,
+		["starttime"] = 1647184586,
 		["damagetaken"] = 0,
 		["mobhdone"] = 0,
-		["last_action"] = 1647036367,
+		["last_action"] = 1647184586,
 		["mobdone"] = 0,
 	},
 }
