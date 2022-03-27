@@ -47,6 +47,7 @@ SkadaDB = {
 			["windows"] = {
 				{
 					["barslocked"] = true,
+					["set"] = "total",
 					["y"] = 44.69819641113281,
 					["point"] = "BOTTOMRIGHT",
 					["mode"] = "Урон",
