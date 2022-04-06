@@ -2,8 +2,8 @@
 HandyNotes_ShadowlandsDB = {
 	["char"] = {
 		["Царева - Ревущий фьорд"] = {
-			["1543_coord_36506740"] = true,
 			["1543_coord_39014119"] = true,
+			["1543_coord_36506740"] = true,
 		},
 	},
 	["profileKeys"] = {
